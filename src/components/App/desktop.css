@@ -1,0 +1,39 @@
+.App {
+  --drawer-width: 0px;
+  --router-width: 0px;
+
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+
+  grid-template-areas:
+    'groups header router'
+    'groups map router';
+
+  grid-template-columns: var(--drawer-width) 1fr var(--router-width);
+  grid-template-rows: var(--header-height) 1fr;
+}
+
+.App > .Drawer {
+  display: none;
+}
+
+.App > .Router {
+  display: none;
+}
+
+.App.drawer {
+  --drawer-width: 240px;
+}
+
+.App.router {
+  --router-width: 300px;
+}
+
+.App.drawer > .Drawer {
+  display: block;
+}
+
+.App.router > .Router {
+  display: block;
+}

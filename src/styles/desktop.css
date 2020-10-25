@@ -1,0 +1,19 @@
+@media only screen and (min-width: 961px),
+  only screen and (min-device-width: 961px) {
+  html {
+    --header-height: 40px;
+  }
+
+  #modals {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #00000059;
+    backdrop-filter: blur(10px);
+  }
+}

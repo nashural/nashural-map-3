@@ -1,0 +1,758 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "name": "Где отдохнуть?",
+    "creator": "YChebotaev's YMapsML to GeoJSON converter",
+    "id": "hotel"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 0,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.040429,
+          56.906502
+        ]
+      },
+      "properties": {
+        "group": "hotel",
+        "iconCaption": "Гостиница «Сплав»",
+        "previewSrc": "//nashural.ru/assets/uploads/mk-suhoy-log.jpg",
+        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-ostanovitsya-v-suhom-logu/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.031527,
+          56.904285
+        ]
+      },
+      "properties": {
+        "group": "hotel",
+        "iconCaption": "Гостевой дом «Провинция»",
+        "previewSrc": "//nashural.ru/assets/uploads/mk-suhoy-log.jpg",
+        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-ostanovitsya-v-suhom-logu/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.019508,
+          56.901907
+        ]
+      },
+      "properties": {
+        "group": "hotel",
+        "iconCaption": "Мини-гостиница «Парк Отель»",
+        "previewSrc": "//nashural.ru/assets/uploads/mk-suhoy-log.jpg",
+        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-ostanovitsya-v-suhom-logu/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.555083,
+          58.06751
+        ]
+      },
+      "properties": {
+        "group": "hotel",
+        "iconCaption": "Гостевой дом «Салда»",
+        "previewSrc": "//nashural.ru/assets/uploads/gostinitsa-zavodskaya-vsalda-logo.jpg",
+        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-ostanovitsya-v-nizhnej-i-verhnej-salde/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.561605,
+          58.048993
+        ]
+      },
+      "properties": {
+        "group": "hotel",
+        "iconCaption": "Гостиница «Престиж»",
+        "previewSrc": "//nashural.ru/assets/uploads/gostinitsa-zavodskaya-vsalda-logo.jpg",
+        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-ostanovitsya-v-nizhnej-i-verhnej-salde/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.561605,
+          58.052945
+        ]
+      },
+      "properties": {
+        "group": "hotel",
+        "iconCaption": "Гостиница «Весна»",
+        "previewSrc": "//nashural.ru/assets/uploads/gostinitsa-zavodskaya-vsalda-logo.jpg",
+        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-ostanovitsya-v-nizhnej-i-verhnej-salde/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.584673,
+          58.058598
+        ]
+      },
+      "properties": {
+        "group": "hotel",
+        "iconCaption": "Гостиница «Урал»",
+        "previewSrc": "//nashural.ru/assets/uploads/gostinitsa-zavodskaya-vsalda-logo.jpg",
+        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-ostanovitsya-v-nizhnej-i-verhnej-salde/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.550358,
+          58.049664
+        ]
+      },
+      "properties": {
+        "group": "hotel",
+        "iconCaption": "Гостиница «Центральная»",
+        "previewSrc": "//nashural.ru/assets/uploads/gostinitsa-zavodskaya-vsalda-logo.jpg",
+        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-ostanovitsya-v-nizhnej-i-verhnej-salde/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.555999,
+          58.046644
+        ]
+      },
+      "properties": {
+        "group": "hotel",
+        "iconCaption": "Гостиница «Турецкий Берег»",
+        "previewSrc": "//nashural.ru/assets/uploads/gostinitsa-zavodskaya-vsalda-logo.jpg",
+        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-ostanovitsya-v-nizhnej-i-verhnej-salde/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.551909,
+          58.043913
+        ]
+      },
+      "properties": {
+        "group": "hotel",
+        "iconCaption": "Гостиница «Заводская»",
+        "previewSrc": "//nashural.ru/assets/uploads/gostinitsa-zavodskaya-vsalda03.jpg",
+        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gostinitsa-zavodskaya-v-verhnej-salde/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.279475,
+          56.647652
+        ]
+      },
+      "properties": {
+        "group": "hotel",
+        "iconCaption": "Санаторий «Нижние Серги»",
+        "previewSrc": "//nashural.ru/assets/uploads/niznie-sergy-logo.jpg",
+        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-ostanovitsya-v-nizhnih-sergah/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.239168,
+          56.621177
+        ]
+      },
+      "properties": {
+        "group": "hotel",
+        "iconCaption": "База отдыха «Новая Ельня»",
+        "previewSrc": "//nashural.ru/assets/uploads/niznie-sergy-logo.jpg",
+        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-ostanovitsya-v-nizhnih-sergah/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.285665,
+          56.639857
+        ]
+      },
+      "properties": {
+        "group": "hotel",
+        "iconCaption": "Гостиница «У дяди Вовы»",
+        "previewSrc": "//nashural.ru/assets/uploads/niznie-sergy-logo.jpg",
+        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-ostanovitsya-v-nizhnih-sergah/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.228963,
+          56.522977
+        ]
+      },
+      "properties": {
+        "group": "hotel",
+        "iconCaption": "Гостиница «Datcha House»",
+        "previewSrc": "//nashural.ru/assets/uploads/niznie-sergy-logo.jpg",
+        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-ostanovitsya-v-nizhnih-sergah/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.778112,
+          56.64499
+        ]
+      },
+      "properties": {
+        "group": "hotel",
+        "iconCaption": "Дом на улице Ачитская",
+        "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
+        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-ostanovitsya-v-krasnoufimske/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.747982,
+          56.599236
+        ]
+      },
+      "properties": {
+        "group": "hotel",
+        "iconCaption": "Коттедж на улице Пушкина",
+        "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
+        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-ostanovitsya-v-krasnoufimske/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.744928,
+          56.617076
+        ]
+      },
+      "properties": {
+        "group": "hotel",
+        "iconCaption": "Спортивно-оздоровительный комплекс (лыжная база)",
+        "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
+        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-ostanovitsya-v-krasnoufimske/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.773818,
+          56.616977
+        ]
+      },
+      "properties": {
+        "group": "hotel",
+        "iconCaption": "Гостиница «Родина»",
+        "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
+        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-ostanovitsya-v-krasnoufimske/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.84907,
+          56.561788
+        ]
+      },
+      "properties": {
+        "group": "hotel",
+        "iconCaption": "Гостиница «На горке»",
+        "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
+        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-ostanovitsya-v-krasnoufimske/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.807047,
+          56.604459
+        ]
+      },
+      "properties": {
+        "group": "hotel",
+        "iconCaption": "Гостиница «Ковчег»",
+        "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
+        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-ostanovitsya-v-krasnoufimske/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.767188,
+          56.641397
+        ]
+      },
+      "properties": {
+        "group": "hotel",
+        "iconCaption": "Гостиница «На Волжской»",
+        "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
+        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-ostanovitsya-v-krasnoufimske/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.779953,
+          56.648033
+        ]
+      },
+      "properties": {
+        "group": "hotel",
+        "iconCaption": "Мини-гостиница «Алина»",
+        "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
+        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-ostanovitsya-v-krasnoufimske/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.05416,
+          56.865663
+        ]
+      },
+      "properties": {
+        "group": "hotel",
+        "iconCaption": "Гостиница ЖКХ МУП",
+        "previewSrc": "//nashural.ru/assets/uploads/kamishlov-logo.jpg",
+        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-ostanovitsya-v-biserti/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.039769,
+          56.830118
+        ]
+      },
+      "properties": {
+        "group": "hotel",
+        "iconCaption": "Кафе-гостиница «Капучино»",
+        "previewSrc": "//nashural.ru/assets/uploads/kamishlov-logo.jpg",
+        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-ostanovitsya-v-biserti/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.797253,
+          56.832731
+        ]
+      },
+      "properties": {
+        "group": "hotel",
+        "iconCaption": "Кафе-гостиница «Три медведя»",
+        "previewSrc": "//nashural.ru/assets/uploads/kamishlov-logo.jpg",
+        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-ostanovitsya-v-biserti/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.705991,
+          56.926966
+        ]
+      },
+      "properties": {
+        "group": "hotel",
+        "iconCaption": "Отель-кафе «Уральский Гриль»",
+        "previewSrc": "//nashural.ru/assets/uploads/kamishlov-logo.jpg",
+        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-ostanovitsya-v-kamyshlove/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.735393,
+          56.849728
+        ]
+      },
+      "properties": {
+        "group": "hotel",
+        "iconCaption": "Гостиница «Спутник Авто»",
+        "previewSrc": "//nashural.ru/assets/uploads/kamishlov-logo.jpg",
+        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-ostanovitsya-v-kamyshlove/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.73162,
+          56.835564
+        ]
+      },
+      "properties": {
+        "group": "hotel",
+        "iconCaption": "Отель-ресторан «Ленский»",
+        "previewSrc": "//nashural.ru/assets/uploads/kamishlov-logo.jpg",
+        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-ostanovitsya-v-kamyshlove/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.702416,
+          56.842103
+        ]
+      },
+      "properties": {
+        "group": "hotel",
+        "iconCaption": "Гостиница «Панорама»",
+        "previewSrc": "//nashural.ru/assets/uploads/kamishlov-logo.jpg",
+        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-ostanovitsya-v-kamyshlove/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 29,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.717103,
+          56.844097
+        ]
+      },
+      "properties": {
+        "group": "hotel",
+        "iconCaption": "Мини-отель «Аврора»",
+        "previewSrc": "//nashural.ru/assets/uploads/kamishlov-logo.jpg",
+        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-ostanovitsya-v-kamyshlove/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 30,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.654185,
+          56.86553
+        ]
+      },
+      "properties": {
+        "group": "hotel",
+        "iconCaption": "Мотель «Каспий»",
+        "previewSrc": "//nashural.ru/assets/uploads/kamishlov-logo.jpg",
+        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-ostanovitsya-v-kamyshlove/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 31,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.698185,
+          56.847198
+        ]
+      },
+      "properties": {
+        "group": "hotel",
+        "iconCaption": "Гостиница на Урицкого",
+        "previewSrc": "//nashural.ru/assets/uploads/kamishlov-logo.jpg",
+        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-ostanovitsya-v-kamyshlove/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 32,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.9284,
+          57.370001
+        ]
+      },
+      "properties": {
+        "group": "hotel",
+        "iconCaption": "Санаторий «Юбилейный»",
+        "previewSrc": "//nashural.ru/assets/uploads/verhniy-tagil-logo.jpg",
+        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-ostanovitsya-v-verhnem-tagile"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 33,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.935452,
+          57.373549
+        ]
+      },
+      "properties": {
+        "group": "hotel",
+        "iconCaption": "Гостевой дом «Восьмерка»",
+        "previewSrc": "//nashural.ru/assets/uploads/verhniy-tagil-logo.jpg",
+        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-ostanovitsya-v-verhnem-tagile"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 34,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.959329,
+          57.376674
+        ]
+      },
+      "properties": {
+        "group": "hotel",
+        "iconCaption": "Гостевой дом «Знаменский»",
+        "previewSrc": "//nashural.ru/assets/uploads/verhniy-tagil-logo.jpg",
+        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-ostanovitsya-v-verhnem-tagile"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 35,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.530487,
+          56.419189
+        ]
+      },
+      "properties": {
+        "group": "hotel",
+        "iconCaption": "Гостиница «Артинская»",
+        "previewSrc": "//nashural.ru/assets/uploads/turnir-kosarey-arty-logo.jpg",
+        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-ostanovitsya-v-arti/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 36,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.553888,
+          56.395048
+        ]
+      },
+      "properties": {
+        "group": "hotel",
+        "iconCaption": "Гостиница, хостел, квартиры посуточно",
+        "previewSrc": "//nashural.ru/assets/uploads/turnir-kosarey-arty-logo.jpg",
+        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-ostanovitsya-v-arti/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 37,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.809886,
+          56.960319
+        ]
+      },
+      "properties": {
+        "group": "hotel",
+        "iconCaption": "Гостиница «Магистраль»",
+        "previewSrc": "//nashural.ru/assets/uploads/bilimbay-logotip.jpg",
+        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-ostanovitsya-v-bilimbae/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 38,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.858041,
+          56.983044
+        ]
+      },
+      "properties": {
+        "group": "hotel",
+        "iconCaption": "База отдыха «Светофор»",
+        "previewSrc": "//nashural.ru/assets/uploads/bilimbay-logotip.jpg",
+        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-ostanovitsya-v-bilimbae/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 39,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          61.393867,
+          57.359653
+        ]
+      },
+      "properties": {
+        "group": "hotel",
+        "iconCaption": "Гостиница «Гавань»",
+        "previewSrc": "//nashural.ru/assets/uploads/rezh-mk-logo.jpg",
+        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-ostanovitsya-v-rezhe/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 40,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          61.338037,
+          57.360012
+        ]
+      },
+      "properties": {
+        "group": "hotel",
+        "iconCaption": "Гостиничный комплекс «Баден-Баден Изумрудный берег»",
+        "previewSrc": "//nashural.ru/assets/uploads/rezh-mk-logo.jpg",
+        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-ostanovitsya-v-rezhe/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 41,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          61.366208,
+          57.366706
+        ]
+      },
+      "properties": {
+        "group": "hotel",
+        "iconCaption": "Общежитие стадиона «Сатурн»",
+        "previewSrc": "//nashural.ru/assets/uploads/rezh-mk-logo.jpg",
+        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-ostanovitsya-v-rezhe/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 42,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          61.367474,
+          57.372103
+        ]
+      },
+      "properties": {
+        "group": "hotel",
+        "iconCaption": "Общежитие СК «Россия»",
+        "previewSrc": "//nashural.ru/assets/uploads/rezh-mk-logo.jpg",
+        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-ostanovitsya-v-rezhe/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 43,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.675233,
+          58.093087
+        ]
+      },
+      "properties": {
+        "group": "hotel",
+        "iconCaption": "База отдыха «Дальний Хутор»",
+        "previewSrc": "//nashural.ru/assets/uploads/dalniy-hutor-logo.jpg",
+        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/baza-otdyha-dalnij-hutor-v-nizhnej-salde/"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1232 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "name": "Музеи",
+    "creator": "YChebotaev's YMapsML to GeoJSON converter",
+    "id": "museums"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 0,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.719349,
+          58.071391
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Музей истории Нижнесалдинского завода",
+        "previewSrc": "//nashural.ru/assets/uploads/20181207_092749-e1550067537794.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/muzej-istorii-trudovoj-i-boevoj-slavy-nizhnesaldinskogo-metallurgicheskogo-zavoda/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.12329,
+          56.440283
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Михайловский краеведческий музей",
+        "previewSrc": "//nashural.ru/assets/uploads/muzey-mihailovsk01.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/mihajlovskij-kraevedcheskij-muzej/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.307811,
+          56.664995
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Музей «Демидов-центр»",
+        "previewSrc": "//nashural.ru/assets/uploads/demidov-tsentr-nsergy14.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/muzey-demidov-tsentr-v-nizhnih-sergah/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          61.410552,
+          57.370332
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Музей истории школы №1",
+        "previewSrc": "//nashural.ru/assets/uploads/muzey-shkoly1-01.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/muzej-istorii-shkoly-1/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          61.392285,
+          57.374455
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Режевской исторический музей",
+        "previewSrc": "//nashural.ru/assets/uploads/muzey-history-rezh14.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rezhevskoy-istoricheskiy-muzey/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          61.386039,
+          57.361921
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Режевская художественная Галерея",
+        "previewSrc": "//nashural.ru/assets/uploads/hudozhestvennaya-galereya-rezh04.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rezhevskaya-hudozhestvennaya-galereya/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.8177,
+          56.964721
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Музей Фонда «Строганофф»",
+        "previewSrc": "//nashural.ru/assets/uploads/48367765_2125333777547943_5879207412384137216_o-e1545153534672.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/muzej-fonda-stroganoff-i-nachalo-sovetskoj-kosmonavtiki/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.93136449999997,
+          56.9159420677582
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Уральский минералогический музей Пелепенко",
+        "previewSrc": "//nashural.ru/assets/uploads/muzey-kamnya-pelepenko04.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/muzei-pelepenko/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.547379,
+          57.037294
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Коуровская обсерватория",
+        "previewSrc": "//nashural.ru/assets/uploads/observatotiya-2.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/kourovskaya-observatoriya/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.941119,
+          56.895906
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Музей трудовой и боевой славы",
+        "previewSrc": "//nashural.ru/assets/uploads/muzey-ovd-pervouralsk01.jpg",
+        "articleHref": "//nashural.ru/article/travel/muzej-trudovoj-i-boevoj-slavy-otdel-mvd-rossii-po-g-pervouralsku/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.762593,
+          56.615643
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Музей «Красноуфимская земская больница»",
+        "previewSrc": "//nashural.ru/assets/uploads/muzey-kranoufimsk-bolnitza05.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/krasnoufimskaya-zemskaya-bolnitsa/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.825723,
+          56.713972
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Музей села Александровское",
+        "previewSrc": "//nashural.ru/assets/uploads/50695575_2270230479708175_48876221022339072_o-e1550845371451.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/muzej-sela-aleksandrovskoe/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.533858,
+          56.417808
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Артинский исторический музей",
+        "previewSrc": "//nashural.ru/assets/uploads/artinskiy-muzey11.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/artinskiy-istoricheskiy-muzey/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.054348,
+          56.861787
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Музей истории Бисертского городского округа",
+        "previewSrc": "//nashural.ru/assets/uploads/muzey-bisert16.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/muzej-istorii-bisertskogo-gorodskogo-okruga/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.95391,
+          57.376824
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Верхнетагильский историко-краеведческий музей",
+        "previewSrc": "//nashural.ru/assets/uploads/muzey-vtagil01.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/verhnetagilskij-istoriko-kraevedcheskij-muzej/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.74393422753896,
+          62.00184458921171
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Варьеганский этнографический парк-музей",
+        "previewSrc": "//o.nashural.ru/mesta-reg/hmao-yanao/hmao002.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/varegan.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          65.01415849999997,
+          60.08875402522205
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Этностойбище Силава",
+        "previewSrc": "//o.nashural.ru/mesta-reg/hmao-yanao/hmao014.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/etnostoibishe-silava.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.40851490475463,
+          61.23660915265113
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Историко-культурный центр «Старый Сургут»",
+        "previewSrc": "//o.nashural.ru/mesta-reg/hmao-yanao/hmao015.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/ihc-stariy-surgut.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.40851490475463,
+          61.23660915265113
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Этнографический музей «Торум Маа»",
+        "previewSrc": "//o.nashural.ru/mesta-reg/hmao-yanao/hmao016.jpg",
+        "articleHref": "//nashural.ru/progulki-po-stolicam/hanty-mansiysk/muzey-torum-maa.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69.12544199999992,
+          61.02395606270241
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Мемориальный кабинет-музей Ю. Шесталова"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          65.35346100000002,
+          55.434625069281765
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Дом-музей декабристов (г. Курган)",
+        "previewSrc": "//o.nashural.ru/mesta-reg/kurganskaya-obl/kurgan003.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/kurgan-dom-dekabristov.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          65.41124765344233,
+          55.46126220309227
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Курганский авиационный музей",
+        "previewSrc": "//o.nashural.ru/mesta-reg/kurganskaya-obl/kurgan004.jpg",
+        "articleHref": "//nashural.ru/Kak_ya_provel_leto_2012/kurgan-avia.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.35484349999994,
+          51.79384633076869
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Саракташский краеведческий музей",
+        "previewSrc": "//o.nashural.ru/mesta-reg/orenb-obl/orenburg008.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/krasnaya-gora.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.633903696200335,
+          53.86188239476859
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Литературный музей-заповедник С.Т. Аксакова",
+        "previewSrc": "//o.nashural.ru/mesta-reg/orenb-obl/orenburg012.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/muzei-aksakova-orenb.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.5636524999999,
+          51.20989357257573
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Музей «Т.Г. Шевченко в Орской крепости»",
+        "previewSrc": "//o.nashural.ru/mesta-reg/orenb-obl/orenburg028.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/orsk-kraevedcheskiy-muzey.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.472366000000015,
+          51.23594307255823
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Орский краеведческий музей",
+        "previewSrc": "//o.nashural.ru/mesta-reg/orenb-obl/orenburg028.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/orsk-kraevedcheskiy-muzey.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.46756,
+          51.243674072578116
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Городской выставочный зал",
+        "previewSrc": "//o.nashural.ru/mesta-reg/orenb-obl/orenburg028.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/orsk-kraevedcheskiy-muzey.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.68194699999999,
+          58.572633565891934
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Ильинский районный краеведческий музей",
+        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm018.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/ilyinskiy.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.095833,
+          58.216667
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Лагерь политзаключенных «Створ»",
+        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm027.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/stvor.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 29,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.784893999999994,
+          57.99407109916201
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Дом-музей В.Каменского (п.Троица)",
+        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm029.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/muzei-kamenskogo.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 30,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.7974885,
+          58.098847566452406
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Музей каски (г. Лысьва)",
+        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm030.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/musei-kaski.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 31,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.5543325,
+          58.839490065562224
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Музей Кизеловского угольного бассейна",
+        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm031.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/muzey-kuba-gubaha.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 32,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.749617499999864,
+          58.081036566467816
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Музей «Коммунальная квартира»",
+        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm032.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/muzei-kommunalki.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 33,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.828601500000005,
+          59.408178064860365
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Музей ОАО «Уралкалий»",
+        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm033.jpg",
+        "articleHref": "//nashural.ru/Konkursi/nashi-muzei/muzey-uralkaliy.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 34,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.10480199999998,
+          57.97887706660253
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Музей истории Пермского района",
+        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm034.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/muzey-istoriy-permskogo-rayona.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 35,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.857617,
+          58.310597
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Этнографический парк истории реки Чусовой",
+        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm035.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/muzei-chusovoi.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 36,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.429167,
+          58.263056
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Музей политических репрессий «Пермь-36»",
+        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm036.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/perm-36.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 37,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.261111,
+          58.261111
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Архитектурно-этнографический музей «Хохловка»",
+        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm038.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/hohlovka.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 38,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.327498999999875,
+          57.94014906662518
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Нытвенский Музей ложки",
+        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm042.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/muzei-lozki.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 39,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.40174449999999,
+          59.88515306865617
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Музей деревянной скульптуры (Пармайлово)",
+        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm047.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/parmailovo.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 40,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.338889,
+          58.5
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Музей Пермской ГРЭС",
+        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm048.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/permskaya-gres.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 41,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.23468049999998,
+          58.01640956654631
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Пермская художественная галерея",
+        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm049.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/perm-skulptura.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 42,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.0857845,
+          56.761985067965924
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Архитектурно-этнографический комплекс «Сайгатка»",
+        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm074.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/saygatka.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 43,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.994816642883265,
+          57.99297152886437
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Страусиная ферма в Усть-Качке",
+        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm079.jpg",
+        "articleHref": "//nashural.ru/Mesta/strausinaya-ferma.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 44,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.15962599999999,
+          56.766055567946204
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Федеральный центр подготовки по зимним видам спорта «Снежинка»",
+        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm076.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/snejinka.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 45,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.665705,
+          59.710669
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Усть-Боровской сользавод",
+        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm086.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/ust-borovskoi.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 46,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.480091499999915,
+          60.40172506355165
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Чердынский краеведческий музей имени А.С. Пушкина",
+        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm092.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/cherdinskiy-muzey.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 47,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          66.7913148016052,
+          57.24042189319539
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Дом-музей Распутина (с. Покровское)",
+        "previewSrc": "//o.nashural.ru/mesta-reg/tumen-obl/tyumen006.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/muzey-rasputina.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 48,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.28643350000003,
+          58.2130445663175
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Тобольская фабрика художественных косторезных изделий",
+        "previewSrc": "//o.nashural.ru/mesta-reg/tumen-obl/tyumen008.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/tobolsk-kostorez-fabrika.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 49,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          61.70336349999986,
+          57.85770206671843
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Дом-музей Чайковского (Алапаевск)",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk004.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/dom-muzdei-chaikovskogo.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 50,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.94692911213443,
+          57.899605876029234
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Башня на Лисьей горе (Нижний Тагил)",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk011.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/ntagil-storojevaya-bashnya.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 51,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.94692911213443,
+          57.899605876029234
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Башня на Лисьей горе (Нижний Тагил)",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk011.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/ntagil-storojevaya-bashnya.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.947222,
+          57.903889
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Музей-усадьба «Демидовская дача» (г. Нижний Тагил)",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk037.jpg",
+        "articleHref": "//nashural.ru/Spravka/demidovskaya-dacha.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 53,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.806189,
+          56.496900068247776
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Дом-музей П.П. Бажова (г. Сысерть)",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk041.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/dom-bajova-sysert.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 54,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          61.893734499999965,
+          56.41013606832512
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Колокольный завод «Пятков и Ко»",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk043.jpg",
+        "articleHref": "//nashural.ru/Krasota/pyatkov.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.06233499999999,
+          57.67468056694901
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Ирбитский музей ИЗО",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk046.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/irbit-v-gosti-k-rubensu.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 56,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.08897691534416,
+          57.66462101004374
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Ирбитский мотоциклетный завод",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk047.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/irbit-zavod-ural.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 57,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.08863359259027,
+          57.66317207121632
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Ирбитский музей мотоциклов",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk048.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/irbit-gmm.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 58,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.230620499999965,
+          56.4901570682304
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Музейный комплекс «Северская домна»",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk056.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/severskaya-domna.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 59,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.93480500000003,
+          56.80465268288071
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Краеведческий музей «Демидов-Центр»",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk061.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/demidov-center-revda.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 60,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.20691399999988,
+          59.766121564383056
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Краснотурьинский краеведческий музей",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk063.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/museum-krasnoturinsk.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 61,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.20869249999998,
+          59.766801064415944
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Краснотурьинский краеведческий музей (Выставочный центр)",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk063.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/museum-krasnoturinsk.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 62,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.57343550000001,
+          56.965660050749065
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Музей военной техники «Боевая слава Урала»",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk078.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/muzei-boevaya-slava.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 63,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.09698699999989,
+          57.926163066650204
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Музей «УралВагонЗавода»",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk079.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/uralvagonzavod.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 64,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.907622,
+          57.92114
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Музей горной техники Высокогорского рудника",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk080.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/muzey-gornoy-tehniky-vysokogorskogo-rudnika.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 65,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.22319867332454,
+          57.489844622353985
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Невьянский историко-архитектурный музей",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk082.jpg",
+        "articleHref": "//nashural.ru/Konkursi/nashi-muzei/nevyansk-gos-muzey.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 66,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.788986499999986,
+          56.49510156821308
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Сысертский фарфоровый завод",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk130.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/sysert-farfor-zavod.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 67,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.810231499999894,
+          56.49514106824327
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Сысертский краеведческий музей",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk131.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/kraeved-muzey-sysert.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.67053899999992,
+          55.17248056952721
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Златоустовский краеведческий музей",
+        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab016.jpg",
+        "articleHref": "//nashural.ru/Konkursi/nashi-muzei/zlatoust-kraevedcheskiy-muzey.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 69,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          61.40557199999994,
+          55.16769906954446
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Музей занимательной науки «Экспериментус»",
+        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab035.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/eksperimentus.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 70,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.22267023830679,
+          54.835775291689345
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Музей С.А. Герасимова (с. Кундравы)",
+        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab036.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/muzei_gerasimova.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 71,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.15978319141876,
+          55.01530233087942
+        ]
+      },
+      "properties": {
+        "group": "museums",
+        "iconCaption": "Музей Ильменского государственного заповедника",
+        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab037.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/muzey-ilmenskiy-zapovednik.htm"
+      }
+    }
+  ]
+}

@@ -1,0 +1,469 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "name": "Уральский характер",
+    "creator": "YChebotaev's YMapsML to GeoJSON converter",
+    "id": "bio"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 0,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          61.998544,
+          56.941133
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Головина Надежда Никитична",
+        "previewSrc": "//nashural.ru/assets/uploads/golovina-logo.jpg",
+        "articleHref": "//nashural.ru/culture/ural-characters/golovina-nadezhda/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.736423,
+          58.088548
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Бортнов Петр Степанович",
+        "previewSrc": "//nashural.ru/assets/uploads/bpsb1.jpg",
+        "articleHref": "//nashural.ru/culture/artists/saldinskoe-detstvo-uralskogo-hudozhnika-p-s-bortnova-1918-1913-g-g/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.715204,
+          58.07281
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Род Соловьёвых",
+        "previewSrc": "//nashural.ru/assets/uploads/solovyevy.jpg",
+        "articleHref": "//nashural.ru/culture/ural-characters/rod-solovyovyh/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          61.420219,
+          57.363164
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Феоктистова Галина Николаевна",
+        "previewSrc": "//nashural.ru/assets/uploads/blokada-leningrada-rezh01.jpg",
+        "articleHref": "//nashural.ru/culture/world-war/blokadnyj-leningrad-vospominaniya-zhitelnits-rezha/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          61.395756,
+          57.36145
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Нестеренко Ольга Васильевна",
+        "previewSrc": "//nashural.ru/assets/uploads/blokada-leningrada-rezh02.jpg",
+        "articleHref": "//nashural.ru/culture/world-war/blokadnyj-leningrad-vospominaniya-zhitelnits-rezha/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          61.398068,
+          57.359214
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Тамара Русакова",
+        "previewSrc": "//nashural.ru/assets/uploads/rusakova02.jpg",
+        "articleHref": "//nashural.ru/culture/ural-characters/tamara-rusakova/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.946784,
+          56.896832
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Захарченко Игорь",
+        "previewSrc": "//o.nashural.ru/ural_characters/zaharchenko/2.jpg",
+        "articleHref": "//nashural.ru/culture/ural-characters/zaharchenko/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.81195,
+          56.966692
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "«Пугачевский полковник» Дементий Верхоланцев",
+        "previewSrc": "//nashural.ru/assets/uploads/b00001865.jpg",
+        "articleHref": "//nashural.ru/culture/ural-characters/pugachevskij-polkovnik-dementij-verholantsev/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.601422,
+          56.462297
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Якимов Евсей Дмитриевич",
+        "previewSrc": "//nashural.ru/assets/uploads/yakimov.jpg",
+        "articleHref": "//nashural.ru/culture/artists/yakimov-evsey/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.766103,
+          56.620887
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Алевтина Игнатьевна Трофимова",
+        "previewSrc": "//nashural.ru/assets/uploads/trofimova-logo.jpg",
+        "articleHref": "//nashural.ru/culture/artists/uskolzayushhaya-krasota/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.133674,
+          56.410062
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Татьяна Мешавкина",
+        "previewSrc": "//nashural.ru/assets/uploads/meshavkina.jpg",
+        "articleHref": "//nashural.ru/culture/ural-characters/tatyana-meshavkina/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.587719,
+          56.325389
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Народный ансамбль «Ныжыл сем»",
+        "previewSrc": "//nashural.ru/assets/uploads/mary-arti02.jpg",
+        "articleHref": "//nashural.ru/culture/ural-characters/narodnyj-ansambl-nyzhyl-sem-i-vyshivka-so-smyslom/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.552679,
+          56.428412
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Сергей Леонтьев",
+        "previewSrc": "//nashural.ru/assets/uploads/arty-pechniky01.jpg",
+        "articleHref": "//nashural.ru/culture/ural-characters/russkaya-pech-i-artinskie-pechniki/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.513073,
+          56.427118
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Петр Другов",
+        "previewSrc": "//nashural.ru/assets/uploads/arty-pechniky02.jpg",
+        "articleHref": "//nashural.ru/culture/ural-characters/russkaya-pech-i-artinskie-pechniki/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.549814,
+          56.421207
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Художник и поэт Татьяна Кулешова",
+        "previewSrc": "//nashural.ru/assets/uploads/tatiana-kuleshova07.jpg",
+        "articleHref": "//nashural.ru/culture/artists/tatyana-kuleshova/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.554567,
+          56.451179
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Милая Пристань: семья Шевалдиных",
+        "previewSrc": "//nashural.ru/assets/uploads/milaya-pristan01.jpg",
+        "articleHref": "//nashural.ru/culture/ural-characters/milaya-pristan-semya-shevaldinyh/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.052052,
+          56.849994
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Александр Русинов",
+        "previewSrc": "//nashural.ru/assets/uploads/Aleksandr-Ivanovich-Rusinov-e1551353633648.jpg",
+        "articleHref": "//nashural.ru/culture/ural-characters/aleksandr-rusinov/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.81749,
+          56.703291
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Патриот из Соснового Бора: Валентин Семенович Волков",
+        "previewSrc": "//nashural.ru/assets/uploads/sosnoviy-bor02.jpg",
+        "articleHref": "//nashural.ru/article/istoriya-urala/patriot-iz-sosnovogo-bora-valentin-semenovich-volkov/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.611597,
+          56.818357
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Летчик и камнерез: Уткин Александр Васильевич",
+        "previewSrc": "//nashural.ru/assets/uploads/alexander-utkin01.jpg",
+        "articleHref": "//nashural.ru/culture/ural-characters/utkin-aleksandr/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.732549,
+          56.837644
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Камышловские авиаторы",
+        "previewSrc": "//nashural.ru/assets/uploads/avia-kamyshlov01.jpg",
+        "articleHref": "//nashural.ru/culture/ural-characters/kamyshlovskie-aviatory/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.711435,
+          56.841522
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Павел Бучельников",
+        "previewSrc": "//nashural.ru/assets/uploads/buchelnikov01.jpg",
+        "articleHref": "//nashural.ru/culture/ural-characters/pavel-buchelnikov/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.586767,
+          56.816374
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Альберт Николаевич Макарян",
+        "previewSrc": "//nashural.ru/assets/uploads/IMG_5856-e1551179858812.jpg",
+        "articleHref": "//nashural.ru/culture/ural-characters/albert-nikolaevich-makaryan/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.950626,
+          57.377936
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Владимир Анатольевич Громковский",
+        "previewSrc": "//nashural.ru/assets/uploads/gromkovskij.jpg",
+        "articleHref": "//nashural.ru/culture/ural-characters/vladimir-gromkovskij/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.928997,
+          57.375432
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Михаил Григорьевич Алексеев",
+        "previewSrc": "//nashural.ru/assets/uploads/Alekseev.jpg",
+        "articleHref": "//nashural.ru/culture/ural-characters/mihail-alekseev/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.947021,
+          57.372001
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Александр Иванович Винокуров",
+        "previewSrc": "//nashural.ru/assets/uploads/vinokurov.jpg",
+        "articleHref": "//nashural.ru/culture/ural-characters/aleksandr-vinokurov/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.772992,
+          56.638501
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Юрий Дружинин",
+        "previewSrc": "//nashural.ru/assets/uploads/IMG_7921-e1551182239789.jpg",
+        "articleHref": "//nashural.ru/culture/ural-characters/yurij-druzhinin/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.709305,
+          58.071825
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Нина Степановна Гусева",
+        "previewSrc": "//nashural.ru/assets/uploads/nsalda-babushka10.jpg",
+        "articleHref": "//nashural.ru/culture/ural-characters/nizhnesaldintsy-v-gody-velikoj-otechestvennoj-vojny/"
+      }
+    }
+  ]
+}

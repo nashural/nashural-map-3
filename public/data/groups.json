@@ -1,0 +1,130 @@
+{
+  "groups": [
+    {
+      "id": "architecture",
+      "name": "Архитектура",
+      "iconHref": "/map/icons/architecture.png",
+      "className": "architecture_link",
+      "count": 77
+    },
+    {
+      "id": "towns",
+      "name": "Города и села",
+      "iconHref": "/map/icons/towns.png",
+      "className": "towns_link",
+      "count": 171
+    },
+    {
+      "id": "mountains",
+      "name": "Горы и скалы",
+      "iconHref": "/map/icons/mountains.png",
+      "className": "mountains_link",
+      "count": 109
+    },
+    {
+      "id": "mistika",
+      "name": "Мистические места",
+      "iconHref": "/map/icons/mistika.png",
+      "className": "mistika_link",
+      "count": 7
+    },
+    {
+      "id": "museums",
+      "name": "Музеи",
+      "iconHref": "/map/icons/museums.png",
+      "className": "museums_link",
+      "count": 72
+    },
+    {
+      "id": "rivers",
+      "name": "Озера и реки",
+      "iconHref": "/map/icons/rivers.png",
+      "className": "rivers_link",
+      "count": 103
+    },
+    {
+      "id": "monuments",
+      "name": "Памятники и арт-объекты",
+      "iconHref": "/map/icons/monuments.png",
+      "className": "monuments_link",
+      "count": 30
+    },
+    {
+      "id": "parks",
+      "name": "Парки и ущелья",
+      "iconHref": "/map/icons/parks.png",
+      "className": "parks_link",
+      "count": 26
+    },
+    {
+      "id": "caves",
+      "name": "Пещеры",
+      "iconHref": "/map/icons/caves.png",
+      "className": "caves_link",
+      "count": 42
+    },
+    {
+      "id": "carusel",
+      "name": "Развлечения",
+      "iconHref": "/map/icons/carusel.png",
+      "className": "carusel_link",
+      "count": 36
+    },
+    {
+      "id": "religions",
+      "name": "Религия",
+      "iconHref": "/map/icons/religions.png",
+      "className": "religions_link",
+      "count": 67
+    },
+    {
+      "id": "mines",
+      "name": "Промышленный туризм",
+      "iconHref": "/map/icons/mines.png",
+      "className": "mines_link",
+      "count": 13
+    },
+    {
+      "id": "waterfalls",
+      "name": "Водопады и фонтаны",
+      "iconHref": "/map/icons/waterfalls.png",
+      "className": "waterfalls_link",
+      "count": 12
+    },
+    {
+      "id": "thermae",
+      "name": "Источники",
+      "iconHref": "/map/icons/thermae.png",
+      "className": "thermae_link",
+      "count": 36
+    },
+    {
+      "id": "remeslo",
+      "name": "Уральские сувениры",
+      "iconHref": "/map/icons/remeslo.png",
+      "className": "remeslo_link",
+      "count": 45
+    },
+    {
+      "id": "bio",
+      "name": "Уральский характер",
+      "iconHref": "/map/icons/bio.png",
+      "className": "bio_link",
+      "count": 27
+    },
+    {
+      "id": "hotel",
+      "name": "Где отдохнуть?",
+      "iconHref": "/map/icons/hotel.png",
+      "className": "hotel_link",
+      "count": 44
+    },
+    {
+      "id": "restaurant",
+      "name": "Где поесть?",
+      "iconHref": "/map/icons/restaurant.png",
+      "className": "restaurant_link",
+      "count": 99
+    }
+  ]
+}

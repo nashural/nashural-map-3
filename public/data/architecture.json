@@ -1,0 +1,1319 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "name": "Архитектура",
+    "creator": "YChebotaev's YMapsML to GeoJSON converter",
+    "id": "architecture"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 0,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.712162,
+          58.0788
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "«Хитрый» дом",
+        "previewSrc": "//nashural.ru/assets/uploads/DSC_5757-e1551209996198.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/top-17-dostoprimechatelnostej-nizhnej-saldy/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.715073,
+          58.072104
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Здание двухклассного училища",
+        "previewSrc": "//nashural.ru/assets/uploads/DSC_5767-e1551209921310.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/top-17-dostoprimechatelnostej-nizhnej-saldy/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.713681,
+          58.071861
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Здание краеведческого музея",
+        "previewSrc": "//nashural.ru/assets/uploads/DSC_5751-e1551210085664.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/top-17-dostoprimechatelnostej-nizhnej-saldy/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.715073,
+          58.071218
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Дворец культуры Нижней Салды",
+        "previewSrc": "//nashural.ru/assets/uploads/DSC_5785-e1551210290833.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/top-17-dostoprimechatelnostej-nizhnej-saldy/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.717676,
+          58.07153
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Первая плотина",
+        "previewSrc": "//nashural.ru/assets/uploads/DSC_5827-e1551210630749.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/top-17-dostoprimechatelnostej-nizhnej-saldy/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.715702,
+          58.070328
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Парк металлургов",
+        "previewSrc": "//nashural.ru/assets/uploads/DSC_5794-e1551210511590.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/top-17-dostoprimechatelnostej-nizhnej-saldy/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.719248,
+          58.071312
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Здание заводоуправления",
+        "previewSrc": "//nashural.ru/assets/uploads/DSC_5829-e1551210786197.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/top-17-dostoprimechatelnostej-nizhnej-saldy/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.720512,
+          58.074972
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Нижне-Салдинская домна",
+        "previewSrc": "//nashural.ru/assets/uploads/mk-nizhniya-salda24.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/top-17-dostoprimechatelnostej-nizhnej-saldy/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.725243,
+          58.075005
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Здание первого двухклассного нижнесалдинского училища",
+        "previewSrc": "//nashural.ru/assets/uploads/DSC_5843-e1551210974775.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/top-17-dostoprimechatelnostej-nizhnej-saldy/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.714516,
+          58.084477
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Улица Металлургов",
+        "previewSrc": "//nashural.ru/assets/uploads/zavodskaya-nsalda03.jpg",
+        "articleHref": "//nashural.ru/article/istoriya-urala/ulitsy-zavodskaya-i-metallurgov-v-nizhnej-salde/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.716591,
+          58.083311
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Улица Заводская",
+        "previewSrc": "//nashural.ru/assets/uploads/zavodskaya-nsalda01.jpg",
+        "articleHref": "//nashural.ru/article/istoriya-urala/ulitsy-zavodskaya-i-metallurgov-v-nizhnej-salde/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.711138,
+          58.080577
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Нижняя Салда: Говорящие наличники",
+        "previewSrc": "//nashural.ru/assets/uploads/DSC_5915-e1551382555590.jpg",
+        "articleHref": "//nashural.ru/article/istoriya-urala/nizhnyaya-salda-govoryashhie-nalichniki/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.8244,
+          56.96495
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Билимбаевский завод",
+        "previewSrc": "//nashural.ru/assets/uploads/Bilimbaevskij-chugunoplavilnyj-zavod-1068x801.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/bilimbaevskij-zavod/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.62599,
+          56.503723
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Железнодорожные виадуки",
+        "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk25.jpg",
+        "articleHref": "//nashural.ru/article/travel/krasnoufimsk-dostoprimechatelnosti-i-marshrut-vyhodnogo-dnya/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.522823,
+          56.498443
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Железнодорожные виадуки",
+        "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk25.jpg",
+        "articleHref": "//nashural.ru/article/travel/krasnoufimsk-dostoprimechatelnosti-i-marshrut-vyhodnogo-dnya/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.757828,
+          56.598284
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Здание железнодорожного вокзала",
+        "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk19-696x494.jpg",
+        "articleHref": "//nashural.ru/article/travel/krasnoufimsk-dostoprimechatelnosti-i-marshrut-vyhodnogo-dnya/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.768419,
+          56.617502
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Здание винного завода Поклевских-Козелл",
+        "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk13-696x392.jpg",
+        "articleHref": "//nashural.ru/article/travel/krasnoufimsk-dostoprimechatelnosti-i-marshrut-vyhodnogo-dnya/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.772453,
+          56.618973
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Земская управа",
+        "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk09-696x380.jpg",
+        "articleHref": "//nashural.ru/article/travel/krasnoufimsk-dostoprimechatelnosti-i-marshrut-vyhodnogo-dnya/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.771958,
+          56.62237
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Часовня Иосифа Псалмопевца",
+        "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk04.jpg",
+        "articleHref": "//nashural.ru/article/travel/krasnoufimsk-dostoprimechatelnosti-i-marshrut-vyhodnogo-dnya/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.771608,
+          56.630912
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Казачья изба",
+        "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk01.jpg",
+        "articleHref": "//nashural.ru/article/travel/krasnoufimsk-dostoprimechatelnosti-i-marshrut-vyhodnogo-dnya/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.563065,
+          56.448815
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Мост через реку Уфа",
+        "previewSrc": "//nashural.ru/assets/uploads/pristan-arty07.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/reka-ufa/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.063242,
+          56.863154
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Сердце Бисерти – заводская плотина",
+        "previewSrc": "//nashural.ru/assets/uploads/bisert-prud-plotina01.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/serdtse-biserti-zavodskaya-plotina/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.692462,
+          56.847075
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Верхняя базарная площадь",
+        "previewSrc": "//nashural.ru/assets/uploads/history-kamyshlov02.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/arhitektura-kamyshlova-part1/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.697798,
+          56.846159
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Складские помещения и особняк купчихи Воронковой",
+        "previewSrc": "//nashural.ru/assets/uploads/kamyshlov-archi28.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/arhitektura-kamyshlova-part1/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.69849,
+          56.846071
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Складские помещения и особняк купчихи Воронковой",
+        "previewSrc": "//nashural.ru/assets/uploads/kamyshlov-archi02.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/arhitektura-kamyshlova-part1/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.69991,
+          56.846396
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Дом купца Сизикова",
+        "previewSrc": "//nashural.ru/assets/uploads/kamyshlov-archi03.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/arhitektura-kamyshlova-part1/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.699838,
+          56.845908
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Дом купца Ковригина",
+        "previewSrc": "//nashural.ru/assets/uploads/kamyshlov-archi04.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/arhitektura-kamyshlova-part1/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.699353,
+          56.846386
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Торговое здание купца Попова",
+        "previewSrc": "//nashural.ru/assets/uploads/kamyshlov-archi05.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/arhitektura-kamyshlova-part1/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.702227,
+          56.846125
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Дом купца Титова",
+        "previewSrc": "//nashural.ru/assets/uploads/kamyshlov-archi32.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/arhitektura-kamyshlova-part1/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 29,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.701428,
+          56.84583
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Городской особняк купца Козырицкого",
+        "previewSrc": "//nashural.ru/assets/uploads/kamyshlov-archi06.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/arhitektura-kamyshlova-part1/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 30,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.701994,
+          56.845677
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Дом купца Бойцова",
+        "previewSrc": "//nashural.ru/assets/uploads/kamyshlov-archi07.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/arhitektura-kamyshlova-part2/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 31,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.702685,
+          56.8461
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Дома купца Мещерякова",
+        "previewSrc": "//nashural.ru/assets/uploads/kamyshlov-archi09.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/arhitektura-kamyshlova-part2/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 32,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.703161,
+          56.846056
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Магазин Ивана Бойцова",
+        "previewSrc": "//nashural.ru/assets/uploads/kamyshlov-archi11.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/arhitektura-kamyshlova-part2/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 33,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.703781,
+          56.845987
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Дом купцов Выборовых",
+        "previewSrc": "//nashural.ru/assets/uploads/kamyshlov-archi12.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/arhitektura-kamyshlova-part2/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 34,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.704653,
+          56.845854
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Дом купчихи Страховой",
+        "previewSrc": "//nashural.ru/assets/uploads/kamyshlov-archi13.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/arhitektura-kamyshlova-part2/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 35,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.704653,
+          56.845854
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Жилой дом купца Выборова",
+        "previewSrc": "//nashural.ru/assets/uploads/kamyshlov-archi14.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/arhitektura-kamyshlova-part2/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 36,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.705443,
+          56.845515
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Здание торгового назначения",
+        "previewSrc": "//nashural.ru/assets/uploads/kamyshlov-archi15.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/arhitektura-kamyshlova-part2/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 37,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.706063,
+          56.845263
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Торговое здание купчихи Кутьиной",
+        "previewSrc": "//nashural.ru/assets/uploads/kamyshlov-archi16.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/arhitektura-kamyshlova-part2/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 38,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.705488,
+          56.844171
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Доходный дом Дямбовского",
+        "previewSrc": "//nashural.ru/assets/uploads/kamyshlov-archi18.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/arhitektura-kamyshlova-part3/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 39,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.705883,
+          56.843944
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Торговая лавка",
+        "previewSrc": "//nashural.ru/assets/uploads/kamyshlov-archi19.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/arhitektura-kamyshlova-part3/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 40,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.706755,
+          56.845012
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Торговое здание",
+        "previewSrc": "//nashural.ru/assets/uploads/kamyshlov-archi20.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/arhitektura-kamyshlova-part3/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 41,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.706081,
+          56.843851
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Торговая лавка",
+        "previewSrc": "//nashural.ru/assets/uploads/kamyshlov-archi21.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/arhitektura-kamyshlova-part3/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 42,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.707222,
+          56.844904
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Продуктовый магазин Вайнерта",
+        "previewSrc": "//nashural.ru/assets/uploads/kamyshlov-archi22.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/arhitektura-kamyshlova-part3/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 43,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.706566,
+          56.843619
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Магазин купца Мещерякова",
+        "previewSrc": "//nashural.ru/assets/uploads/kamyshlov-archi23.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/arhitektura-kamyshlova-part3/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 44,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.708066,
+          56.844436
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Городской особняк купца Заспанова",
+        "previewSrc": "//nashural.ru/assets/uploads/kamyshlov-archi24.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/arhitektura-kamyshlova-part3/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 45,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.70936,
+          56.843979
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Усадьба купца Терентьева",
+        "previewSrc": "//nashural.ru/assets/uploads/kamyshlov-archi25.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/arhitektura-kamyshlova-part3/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 46,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.699027,
+          56.847681
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Водокачка в Камышлове",
+        "previewSrc": "//nashural.ru/assets/uploads/vodokachka-kamyshlov.jpg",
+        "articleHref": "//nashural.ru/article/istoriya-urala/vodokachka-v-kamyshlove/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 47,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.699088,
+          56.848085
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Здание Земской управы",
+        "previewSrc": "//nashural.ru/assets/uploads/arhi-kamyshlov01.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/arhitekturnye-izyuminki-kamyshlova/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 48,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.699928,
+          56.847625
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Здание городской управы",
+        "previewSrc": "//nashural.ru/assets/uploads/arhi-kamyshlov02.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/arhitekturnye-izyuminki-kamyshlova/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 49,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.699767,
+          56.847995
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Старое здание земской управы",
+        "previewSrc": "//nashural.ru/assets/uploads/arhi-kamyshlov03.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/arhitekturnye-izyuminki-kamyshlova/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 50,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.933539,
+          57.372767
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Городской Дворец культуры",
+        "previewSrc": "//nashural.ru/assets/uploads/dvorec-kultury02.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/gorodskoj-dvorets-kultury-v-verhnem-tagile/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 51,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.973112,
+          57.368247
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Сигнальный колокол",
+        "previewSrc": "//nashural.ru/assets/uploads/signalniy-stolb-vtagil01.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/signalnyj-kolokol-v-verhnem-tagile/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.964453,
+          57.378852
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Верхнетагильский господский дом",
+        "previewSrc": "//nashural.ru/assets/uploads/gospodskiy-dom03.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/verhnetagilskiy-gospodskiy-dom/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 53,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.963771,
+          57.378116
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Плотина в Верхнем Тагиле",
+        "previewSrc": "//nashural.ru/assets/uploads/plotinka-vtagil01.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/plotina-v-verhnem-tagile/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 54,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.959753,
+          57.377236
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Школа №12",
+        "previewSrc": "//nashural.ru/assets/uploads/shkola12-vtagil03.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/shkola-12-starejshaya-v-verhnem-tagile/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.964466,
+          57.377985
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Контора Верхнетагильского завода",
+        "previewSrc": "//nashural.ru/assets/uploads/kontora-vtz01.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/kontora-verhnetagilskogo-zavoda/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 56,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.41779449999989,
+          61.23690202282264
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Набережная Ивана Кайдалова",
+        "previewSrc": "//o.nashural.ru/mesta-reg/hmao-yanao/hmao005.jpg",
+        "articleHref": "//nashural.ru/Spravka/naberejnaya-kaidalova.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 57,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.40999927815844,
+          53.98108408407012
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Белорецкий пешеходный мост",
+        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya006.jpg",
+        "articleHref": "//nashural.ru/Sobitiya/most-beloreck.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 58,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.3968939106538,
+          54.10752332128226
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Деевский особняк",
+        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya018.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/deevskiy-osobnyak.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 59,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.416944,
+          54.580833
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Мавзолей Хусейн-бека",
+        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya030.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/mavzolei-urala.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 60,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.218697,
+          54.605351
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Мавзолей Тура-хана",
+        "previewSrc": "//upload.wikimedia.org/wikipedia/commons/thumb/1/17/%D0%A2%D1%83%D1%80%D0%B0%D1%85%D0%B0%D0%BD.jpg/250px-%D0%A2%D1%83%D1%80%D0%B0%D1%85%D0%B0%D0%BD.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/mavzolei-urala.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 61,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.528889,
+          52.321944
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Мавзолей Бэндэбике",
+        "previewSrc": "//upload.wikimedia.org/wikipedia/commons/thumb/1/17/%D0%A2%D1%83%D1%80%D0%B0%D1%85%D0%B0%D0%BD.jpg/250px-%D0%A2%D1%83%D1%80%D0%B0%D1%85%D0%B0%D0%BD.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/mavzolei-urala.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 62,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          65.35133199999999,
+          55.43540606928381
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Пожарная каланча в Кургане",
+        "previewSrc": "//o.nashural.ru/mesta-reg/kurganskaya-obl/kurgan011.jpg",
+        "articleHref": "//nashural.ru/progulki-po-stolicam/kurgan/pozharnaya-kalancha.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 63,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.715833,
+          56.817778
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Дидинский тоннель",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk039.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/didinskiy-tonnel.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 64,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.4595,
+          57.396167
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Дом кузнеца С.И. Кириллова (с. Кунара)",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk040.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/kunara.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 65,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.658611,
+          58.010556
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Коноваловский завод",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk058.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/konovalovskiy-zavod.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 66,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.71588329251484,
+          57.00984056738528
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Усадьба Поклевских-Козелл (г. Талица)",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk136.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/usadba-poklevskiy-kozell-talica.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 67,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.53488524195864,
+          55.706698284190495
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Демидовская усадьба",
+        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab013.jpg",
+        "articleHref": "//nashural.ru/Konkursi/uralskaya-zima-2013/demidov.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          61.043333,
+          53.375
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Мавзолей Кесене",
+        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab029.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/mavzoley-kesene.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 69,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.712076921112,
+          55.98627142149732
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Мендаркин полуостров",
+        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab033.jpg",
+        "articleHref": "//nashural.ru/Mesta/mendarkin-pv.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 70,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.004722,
+          53.032778
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Николаевская крепость",
+        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab040.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/nikolaevskaya-i-naslednickaya-kreposti.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 71,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.331111,
+          52.158611
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Наследницкая крепость",
+        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab040.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/nikolaevskaya-i-naslednickaya-kreposti.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 72,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.134861,
+          55.281944
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Урочище Пороги",
+        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab079.jpg",
+        "articleHref": "//nashural.ru/Mesta/porogi.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 73,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.20949466498775,
+          54.7583597310368
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Усадьба князей Белосельских-Белозерских",
+        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab080.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/usadba-katav-ivanovsk.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 74,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.02926164196173,
+          55.0400532721946
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Усадьба купца И. Алпатова",
+        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab081.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/usadba-alpatova-satka.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 75,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.169167,
+          55.285
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Французский замок (Французская горка)",
+        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab085.jpg",
+        "articleHref": "//nashural.ru/Mesta/french-castle.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 76,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.072248,
+          56.908193
+        ]
+      },
+      "properties": {
+        "group": "architecture",
+        "iconCaption": "Сибирская бумажная фабрика",
+        "previewSrc": "//nashural.ru/assets/uploads/fabrika-1-2.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/dostoprimechatelnosti-suholozhya-part3/"
+      }
+    }
+  ]
+}
