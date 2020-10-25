@@ -22,11 +22,23 @@ export const App: FC<AppProps> = () => {
   const dispatch = useDispatch()
 
   useEffect(() => {
+    let t2: any
+    let t3: any
     const t = setTimeout(() => {
-      // dispatch(toggleDrawer({ on: false }))
+      dispatch(toggleDrawer({ on: false }))
       dispatch(toggleRouter({ on: true }))
+      t2 = setTimeout(() => {
+        dispatch(toggleRouter({ on: false }))
+      }, 2 * 1000)
+      t3 = setTimeout(() => {
+        dispatch(toggleDrawer({ on: true }))
+      }, 4 * 1000)
     }, 5 * 1000)
-    return () => clearTimeout(t)
+    return () => {
+      clearTimeout(t)
+      clearTimeout(t2)
+      clearTimeout(t3)
+    }
   }, [dispatch])
 
   const drawerOpened = useSelector(drawerOpenedSelector)

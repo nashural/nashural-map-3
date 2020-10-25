@@ -10,7 +10,9 @@
     'groups header router'
     'groups map router';
 
-  grid-template-columns: var(--drawer-width) 1fr var(--router-width);
+  grid-template-columns:
+    var(--drawer-width) calc(100vw - var(--drawer-width) - var(--router-width))
+    var(--router-width);
   grid-template-rows: var(--header-height) 1fr;
 }
 
@@ -23,11 +25,11 @@
 }
 
 .App.drawer {
-  --drawer-width: 240px;
+  --drawer-width: 240px; /* Sync with src/components/Map/Map.tsx:70 */
 }
 
 .App.router {
-  --router-width: 300px;
+  --router-width: 300px; /* Sync with src/components/Map/Map.tsx:73 */
 }
 
 .App.drawer > .Drawer {

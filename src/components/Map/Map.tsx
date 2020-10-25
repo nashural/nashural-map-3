@@ -9,6 +9,8 @@ import { changeBounds, mapStateSelector } from '../../store/map'
 import { allFeaturesSelector } from '../../store/groups'
 import { toggleModal } from '../../store/modal'
 import { routesSelector } from '../../store/router'
+import { drawerOpenedSelector } from '../../store/drawer'
+import { routerOpenedSelector } from '../../store/router'
 
 import { MapProps } from './typings.d'
 import { GeoJSONCoordinates } from '../../typings.d'
@@ -23,9 +25,11 @@ export const Map: FC<MapProps> = withYMaps(({ ymaps }) => {
   const { center, zoom } = useSelector(mapStateSelector)
   const features = useSelector(allFeaturesSelector)
   const routes = useSelector(routesSelector)
-  const [{ width, height }, setBounds] = useState({ width: -1, height: -1 })
+  const [bounds, setBounds] = useState({ width: -1, height: -1 })
   const [map, setMap] = useState(null)
   const [prevRoute, setPrevRoute] = useState(null)
+  const drawerOpened = useSelector(drawerOpenedSelector)
+  const routerOpened = useSelector(routerOpenedSelector)
 
   const handlePlacemarkClick = useCallback((e: any) => {
     const { iconCaption, previewSrc, articleHref } = e.get('target').properties.getAll()
@@ -61,8 +65,18 @@ export const Map: FC<MapProps> = withYMaps(({ ymaps }) => {
   }, [dispatch])
 
   const handleResize = useCallback((contentRect: any) => {
-    setBounds(contentRect.bounds)
-  }, [])
+    let width = window.innerWidth
+    if (drawerOpened) {
+      width -= 240 // Sync with src/components/App/desktop.css:26
+    }
+    if (routerOpened) {
+      width -= 300 // Sync with src/components/App/desktop.css:30
+    }
+    setBounds({
+      ...contentRect.client,
+      width
+    })
+  }, [drawerOpened, routerOpened])
 
   useEffect(() => {
     if (map) {
@@ -85,12 +99,12 @@ export const Map: FC<MapProps> = withYMaps(({ ymaps }) => {
   }, [ymaps, map, routes, prevRoute])
 
   return (
-    <Measure onResize={handleResize}>{(measureRef: any) => {
+    <Measure client onResize={handleResize}>{({ measureRef }: any) => {
       return (
         <div className="Map" ref={measureRef}>
           <YMap
-            width={width}
-            height={height}
+            width={bounds.width}
+            height={bounds.height}
             state={{ center, zoom }}
             load="geoObject.addon.editor"
             // @ts-ignore

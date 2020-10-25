@@ -22,6 +22,7 @@ const routerSlice = createSlice({
     initRoutes(state, action) {
       const { routes } = action.payload
       state.routes = routes
+      state.open = true
     },
     reorderRoutes(state, action) {
       const { fromIdx, toIdx } = action.payload
@@ -42,8 +43,7 @@ const routerSlice = createSlice({
       // @ts-ignore
       state.routes[index].coordinates = coordinates
     }
-  },
-  
+  }
 })
 
 export const {
