@@ -1,25 +1,20 @@
-Интерактивная карта Нашего Урала
-================================
+# Интерактивная карта Нашего Урала
 
-Установка
----------
+## Установка
 
 ```shell
 npm install
 ```
 
-Запуск и использование
-----------------------
+## Запуск и использование
 
 ```shell
 npm start
 ```
 
-Принципы и правила компонентов
-==============================
+# Принципы и правила компонентов
 
-Структура проекта
------------------
+## Структура проекта
 
 ```
 /public
@@ -36,7 +31,7 @@ npm start
   /modals           Модальные окна
   /store
     /index.ts       Сам стор
-    /*.ts           Слайсы для стора
+      /slices/*.ts  Слайсы для стора
   /styles           Глобальные стили проекта
     /desktop.css    Стили, специфичные для десктопных устройств
     /mobile.css     Стили, специфичные для мобильных устройств
@@ -45,8 +40,7 @@ npm start
   /typings.d.ts     Общие типы проекта
 ```
 
-Файловая структура компонентов
-------------------------------
+## Файловая структура компонентов
 
 Все переиспользуемые компоненты лежат плоско в `src/components/*`.
 
@@ -70,8 +64,7 @@ npm start
   /typings.d.ts Типы титульного и под-компонентов
 ```
 
-Код компонента
---------------
+## Код компонента
 
 Компоненты реализуются в функциональной парадигме.
 
@@ -123,7 +116,7 @@ import { useSelector } from 'react-redux'
 ```javascript
 import { useDispatch } from '../../hooks/useDispatch'
 import { Group as GroupItem } from './Group'
-import { fetchGroups, allGroupsSelector } from '../../store/groups';
+import { fetchGroups, allGroupsSelector } from '../../store/slices/groups'
 ```
 
 ### 3. Импорты типов
@@ -139,7 +132,7 @@ import { GroupsProps } from './typings.d'
 В под-компонентах также необходимо импортировать `./desctop.css`.
 
 ```javascript
-import "./desktop.css"
+import './desktop.css'
 ```
 
 ### Минимальный шаблон компонента
@@ -163,7 +156,8 @@ export interface MyComponentProps {}
 #### `desktop.css`
 
 ```css
-.MyComponent {}
+.MyComponent {
+}
 ```
 
 #### `MyComponent.tsx`
@@ -176,14 +170,11 @@ import { MyComponentProps } from './typings.d'
 import './desktop.css'
 
 export const MyComponent: FC<MyComponentProps> = () => {
-  return (
-    <div className="MyComponent">{null}</div>
-  )
+  return <div className='MyComponent'>{null}</div>
 }
 ```
 
-Файловая структура redux-стора
-------------------------------
+## Файловая структура redux-стора
 
 В приложении используется `@reduxjs/toolkit`.
 
@@ -194,8 +185,9 @@ export const MyComponent: FC<MyComponentProps> = () => {
 ```
 /src/store
   /index.ts       Сам стор
-  /drawer.ts      Слайс левой боковой панели
   /typings.d.ts   Типы всех слайсов
+  /slice
+    /drawer.ts    Слайс левой боковой панели
 ```
 
 Каждый слайс должен быть зарегистрирован:
@@ -203,7 +195,7 @@ export const MyComponent: FC<MyComponentProps> = () => {
 ```typescript
 import { configureStore } from '@reduxjs/toolkit'
 
-import drawer from './drawer'
+import drawer from './slices/drawer'
 
 export const store = configureStore({
   reducer: {
@@ -212,18 +204,27 @@ export const store = configureStore({
 })
 ```
 
-Код слайсов
------------
+## Код слайсов
 
-Слайс называется так же, как и файл где он хранится с добавлением суффикса `*Slice`: в файле `my.ts` найдется `mySlice`.
+Слайс называется так же, как и файл где он хранится с добавлением суффикса `*Slice`: в файле `slices/my.ts` найдется `mySlice`.
 
 Экшены и селекторы экспортируются из того же файла, где определен слайс.
 
 Селектор называется с добавлением суффикса `*Selector`: `mySelector`.
 
-`default`-экспорт — сам слайс.
+`default`-экспорт — редьюсер слайса:
+
+```typescript
+export default drawerSlice.reducer
+```
 
 `initialState` определяется отдельной переменной, сразу же перед блоком `createSlice` (это нужно для верной типизации):
+
+```typescript
+const initialState: DrawerState = {
+  open: true
+}
+```
 
 ### Минимальный шаблон слайса
 
@@ -234,7 +235,7 @@ export const store = configureStore({
 ```typescript
 import { configureStore } from '@reduxjs/toolkit'
 
-import drawer from './drawer'
+import drawer from './slices/drawer'
 
 export const store = configureStore({
   reducer: {
@@ -243,7 +244,7 @@ export const store = configureStore({
 })
 ```
 
-#### `store/drawer.ts`
+#### `store/slices/drawer.ts`
 
 ```typescript
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
@@ -260,15 +261,15 @@ const drawerSlice = createSlice({
   name: 'drawer',
   initialState,
   reducers: {
-    toggleDrawer(state, action: PayloadAction<ToggleDrawerPayload>) {
+    toggleDrawer (state, action: PayloadAction<ToggleDrawerPayload>) {
       const { on } = action.payload
       if (on) {
         state.open = true
       } else {
         state.open = false
       }
-    },
-  },
+    }
+  }
 })
 
 export const { toggleDrawer } = drawerSlice.actions
@@ -294,8 +295,7 @@ export interface ToggleDrawerPayload {
 }
 ```
 
-Модальные окна
---------------
+## Модальные окна
 
 Модальные окна имеют имя.
 
@@ -350,7 +350,13 @@ export { Example } from 'example'
 import React, { FC, useCallback } from 'react'
 
 import { useModal } from '../../hooks/useModal'
-import { Modal, ModalHeader, ModalBody, ModalFooter, ModalButtons } from '../modal'
+import {
+  Modal,
+  ModalHeader,
+  ModalBody,
+  ModalFooter,
+  ModalButtons
+} from '../modal'
 
 import { ExampleProps } from './typings.d'
 
@@ -381,8 +387,7 @@ export const Example: FC<ExampleProps> = () => {
 export interface ExampleProps {}
 ```
 
-Документация `create-react-app`:
-================================
+# Документация `create-react-app`:
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
