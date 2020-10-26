@@ -25,9 +25,8 @@ const modalSlice = createSlice({
       const { on, name, props } = action.payload
       if (on) {
         state.opened.push(name)
-        // @ts-ignore
         state.props[name] = props
-        (document.getElementById('modals') as HTMLElement).style.display = 'flex'
+        ;(document.getElementById('modals') as HTMLElement).style.display = 'flex'
       } else {
         const idx = state.opened.indexOf(name)
         state.opened.splice(idx, 1)
