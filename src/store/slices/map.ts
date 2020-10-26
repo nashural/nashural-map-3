@@ -1,6 +1,6 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
 
-import { MapState, ChangeBoundsPayload } from '../typings'
+import { RootState, MapState, ChangeBoundsPayload } from '../typings'
 
 const DEFAULT_ZOOM: number = 3
 const DEFAULT_LAT: number = 63.815612726572821
@@ -38,14 +38,12 @@ const createInitialMapState = (): MapState => {
   }
 }
 
-// @ts-ignore
-export const mapStateSelector = state => ({
+export const mapStateSelector = (state: RootState) => ({
   center: state.map.center,
   zoom: state.map.zoom
 })
 
-// @ts-ignore
-export const placeSelector = state => state.map.place
+export const placeSelector = (state: RootState) => state.map.place
 
 const mapSlice = createSlice({
   name: 'map',
