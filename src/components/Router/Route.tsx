@@ -1,8 +1,9 @@
 import React, { FC, useCallback, useMemo } from 'react'
-import { useDispatch, useSelector } from 'react-redux'
+import { useSelector } from 'react-redux'
 import { Draggable } from 'react-beautiful-dnd'
 import AsyncSelect from 'react-select/async'
 
+import { useDispatch } from '../../hooks/useDispatch'
 import { removeRoute, routeSetCoordinates } from '../../store/router'
 import { allFeaturesSelector, groupNamesByKeySelector } from '../../store/groups'
 import { search, geocode } from '../../api'

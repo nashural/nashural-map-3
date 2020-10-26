@@ -1,6 +1,7 @@
 import React, { FC, useCallback } from 'react'
-import { useDispatch, useSelector } from 'react-redux'
+import { useSelector } from 'react-redux'
 
+import { useDispatch } from '../../hooks/useDispatch'
 import { Badge } from './Badge'
 
 import { GroupProps } from './typings'

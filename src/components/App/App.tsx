@@ -13,7 +13,7 @@ import { AppProps } from './typings'
 import "./desktop.css"
 
 // DEBUG:
-import { useDispatch } from 'react-redux'
+import { useDispatch } from '../../hooks/useDispatch'
 import { useEffect } from 'react'
 import { toggleDrawer } from '../../store/drawer'
 import { toggleRouter } from '../../store/router'

@@ -1,6 +1,7 @@
 import { useMemo, useCallback } from 'react'
-import { useSelector, useDispatch } from 'react-redux'
+import { useSelector } from 'react-redux'
 
+import { useDispatch } from './useDispatch'
 import { modalOpenedByName, modalPropsByName, toggleModal } from '../store/modal'
 
 export const useModal = (name: string): [boolean, any, Function] => {

@@ -1,7 +1,8 @@
 import React, { FC, useCallback } from 'react'
-import { useSelector, useDispatch } from 'react-redux'
+import { useSelector } from 'react-redux'
 import { DragDropContext, Droppable } from 'react-beautiful-dnd'
 
+import { useDispatch } from '../../hooks/useDispatch'
 import { RouterHeader } from './RouterHeader'
 import { Routes } from './Routes'
 import { Route } from './Route'

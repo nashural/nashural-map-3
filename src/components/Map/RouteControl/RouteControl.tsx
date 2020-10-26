@@ -1,7 +1,7 @@
 import React, { FC, useCallback } from 'react'
 import { ListBox } from 'react-yandex-maps'
-import { useDispatch } from 'react-redux'
 
+import { useDispatch } from '../../../hooks/useDispatch'
 import { Route } from './Route'
 import { initRoutes } from '../../../store/router'
 

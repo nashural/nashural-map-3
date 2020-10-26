@@ -1,8 +1,9 @@
 import React, { FC, useEffect } from 'react'
-import { useDispatch, useSelector } from 'react-redux'
+import { useSelector } from 'react-redux'
 
 // import { Error } from '../Error'
 // import { Spinner } from '../Spinner'
+import { useDispatch } from '../../hooks/useDispatch'
 import { Group as GroupItem } from './Group'
 
 import { GroupsProps } from './typings.d'

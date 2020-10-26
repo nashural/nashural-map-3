@@ -1,8 +1,9 @@
 import React, { FC, useCallback, useState, useEffect } from 'react'
-import { useDispatch, useSelector } from 'react-redux'
+import { useSelector } from 'react-redux'
 import { Map as YMap, ZoomControl, TypeSelector, GeolocationControl, Placemark, withYMaps } from 'react-yandex-maps'
 import Measure from 'react-measure'
 
+import { useDispatch } from '../../hooks/useDispatch'
 import { RegionControl } from './RegionControl'
 import { RouteControl } from './RouteControl'
 import { changeBounds, mapStateSelector } from '../../store/map'
