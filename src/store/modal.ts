@@ -1,7 +1,8 @@
+import { createSlice, createSelector, PayloadAction } from '@reduxjs/toolkit'
 
-import { createSlice, createSelector } from '@reduxjs/toolkit'
+import { ModalState, RootState, ToggleModalPayload } from './typings.d'
 
-export const modalOpenedByName = (name: string) => (state: any) => state.modal.opened.includes(name)
+export const modalOpenedByName = (name: string) => (state: RootState): boolean => state.modal.opened.includes(name)
 
 export const modalPropsByName = (name: string) => createSelector(
   modalOpenedByName(name),
@@ -11,27 +12,25 @@ export const modalPropsByName = (name: string) => createSelector(
   }
 )
 
+const initialState: ModalState = {
+  opened: [],
+  props: {}
+}
+
 const modalSlice = createSlice({
   name: 'modal',
-  initialState: {
-    opened: [],
-    props: {}
-  },
+  initialState,
   reducers: {
-    toggleModal(state, action) {
+    toggleModal(state, action: PayloadAction<ToggleModalPayload>) {
       const { on, name, props } = action.payload
       if (on) {
-        // @ts-ignore
         state.opened.push(name)
         // @ts-ignore
         state.props[name] = props
-        // @ts-ignore
-        document.getElementById('modals').style.display = 'flex'
+        (document.getElementById('modals') as HTMLElement).style.display = 'flex'
       } else {
-        // @ts-ignore
         const idx = state.opened.indexOf(name)
         state.opened.splice(idx, 1)
-        // @ts-ignore
         delete state.props[name]
 
         for (let props of Object.values(state.opened)) {
@@ -39,8 +38,7 @@ const modalSlice = createSlice({
             return
           }
         }
-        // @ts-ignore
-        document.getElementById('modals').style.display = 'none'
+        (document.getElementById('modals') as HTMLElement).style.display = 'none'
       }
     }
   }

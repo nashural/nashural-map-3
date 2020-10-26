@@ -1,17 +1,30 @@
-import { createSlice } from '@reduxjs/toolkit'
+import { createSlice, PayloadAction } from '@reduxjs/toolkit'
 
-export const routesSelector = (state: any) => state.router.routes
+import {
+  RootState,
+  RouterState,
+  ToggleRouterPayload,
+  InitRoutesPayload,
+  ReorderRoutesPayload,
+  AppendRoutePayload,
+  RemoveRoutePayload,
+  RouteSetCoordinatesPayload
+} from './typings'
 
-export const routerOpenedSelector = (state: any) => state.router.open
+export const routesSelector = (state: RootState) => state.router.routes
+
+export const routerOpenedSelector = (state: RootState) => state.router.open
+
+const initialState: RouterState = {
+  routes: [],
+  open: false
+}
 
 const routerSlice = createSlice({
   name: 'router',
-  initialState: {
-    routes: [],
-    open: false
-  },
+  initialState,
   reducers: {
-    toggleRouter(state, action) {
+    toggleRouter(state, action:PayloadAction<ToggleRouterPayload>) {
       const { on } = action.payload
       if (on) {
         state.open = true
@@ -19,28 +32,26 @@ const routerSlice = createSlice({
         state.open = false
       }
     },
-    initRoutes(state, action) {
+    initRoutes(state, action:PayloadAction<InitRoutesPayload>) {
       const { routes } = action.payload
       state.routes = routes
       state.open = true
     },
-    reorderRoutes(state, action) {
+    reorderRoutes(state, action:PayloadAction<ReorderRoutesPayload>) {
       const { fromIdx, toIdx } = action.payload
       const [route] = state.routes.splice(fromIdx, 1)
       state.routes.splice(toIdx, 0, route)
     },
-    appendRoute(state, action) {
+    appendRoute(state, action:PayloadAction<AppendRoutePayload>) {
       const { route } = action.payload
-      // @ts-ignore
       state.routes.push(route)
     },
-    removeRoute(state, action) {
+    removeRoute(state, action:PayloadAction<RemoveRoutePayload>) {
       const { index } = action.payload
       state.routes.splice(index, 1)
     },
-    routeSetCoordinates(state, action) {
+    routeSetCoordinates(state, action:PayloadAction<RouteSetCoordinatesPayload>) {
       const { index, coordinates } = action.payload
-      // @ts-ignore
       state.routes[index].coordinates = coordinates
     }
   }

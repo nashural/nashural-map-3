@@ -1,14 +1,18 @@
-import { createSlice } from '@reduxjs/toolkit'
+import { createSlice, PayloadAction } from '@reduxjs/toolkit'
+
+import { DrawerState, ToggleDrawerPayload } from './typings.d'
 
 export const drawerOpenedSelector = (state: any) => state.drawer.open
 
+const initialState: DrawerState = {
+  open: true
+}
+
 const drawerSlice = createSlice({
   name: 'drawer',
-  initialState: {
-    open: true,
-  },
+  initialState,
   reducers: {
-    toggleDrawer(state, action) {
+    toggleDrawer(state, action: PayloadAction<ToggleDrawerPayload>) {
       const { on } = action.payload
       if (on) {
         state.open = true

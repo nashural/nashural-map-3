@@ -28,6 +28,7 @@ export const Router: FC<RouterProps> = () => {
     dispatch(appendRoute({
       route: {
         id: `${0|Math.random()*0xffffff}`,
+        coordinates: [0, 0], // TODO: Replace to current coordinates
         name: 'Новая точка'
       }
     }))

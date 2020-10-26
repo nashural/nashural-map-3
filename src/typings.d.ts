@@ -6,11 +6,18 @@ export interface Group {
   count: number
 }
 
+export interface Route {
+  id: string
+  name: string
+  coordinates: GeoJSONCoordinates
+}
+
 export type GeoJSONCoordinates = [number, number]
 
 export interface GeoJSONMetadata {
   name: string
   creator: string
+  id: string
 }
 
 export interface GeoJSONGeometry {

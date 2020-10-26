@@ -1,14 +1,16 @@
-import { createSlice } from '@reduxjs/toolkit'
+import { createSlice, PayloadAction } from '@reduxjs/toolkit'
 
-const DEFAULT_ZOOM = 3
-const DEFAULT_LAT = 63.815612726572821
-const DEFAULT_LON = 74.7998273699998
+import { MapState, ChangeBoundsPayload } from './typings.d'
 
-const createInitialMapState = () => {
+const DEFAULT_ZOOM: number = 3
+const DEFAULT_LAT: number = 63.815612726572821
+const DEFAULT_LON: number = 74.7998273699998
+
+const createInitialMapState = (): MapState => {
   let zoom: number = DEFAULT_ZOOM
   let lat: number = DEFAULT_LAT
   let lon: number = DEFAULT_LON
-  let place: string|null = null
+  let place: string|void = undefined
   const url = new URL(window.location.href)
 
   if (
@@ -20,7 +22,7 @@ const createInitialMapState = () => {
     lat = Number(url.searchParams.get('lat'))
     lon = Number(url.searchParams.get('lon'))
     zoom = Number(url.searchParams.get('zoom'))
-    place = url.searchParams.get('place')
+    place = url.searchParams.get('place') as string
   }
 
   if (Number.isNaN(lat) || Number.isNaN(lon) || Number.isNaN(zoom)) {
@@ -47,17 +49,13 @@ export const placeSelector = state => state.map.place
 
 const mapSlice = createSlice({
   name: 'map',
-  initialState: {
-    ...createInitialMapState()
-  },
+  initialState: createInitialMapState(),
   reducers: {
-    changeBounds(state, action) {
+    changeBounds(state, action: PayloadAction<ChangeBoundsPayload>) {
       const { center, zoom } = action.payload
       state.center = center
       state.zoom = zoom
     }
-  },
-  extraReducers: {
   }
 })
 
