@@ -5,8 +5,8 @@ import { Groups } from '../Groups'
 import { Header } from '../Header'
 import { Map } from '../Map'
 import { Router } from '../Router'
-import { drawerOpenedSelector } from '../../store/drawer'
-import { routerOpenedSelector } from '../../store/router'
+import { drawerOpenedSelector } from '../../store/slices/drawer'
+import { routerOpenedSelector } from '../../store/slices/router'
 
 import { AppProps } from './typings'
 
@@ -15,8 +15,8 @@ import "./desktop.css"
 // DEBUG:
 import { useDispatch } from '../../hooks/useDispatch'
 import { useEffect } from 'react'
-import { toggleDrawer } from '../../store/drawer'
-import { toggleRouter } from '../../store/router'
+import { toggleDrawer } from '../../store/slices/drawer'
+import { toggleRouter } from '../../store/slices/router'
 
 export const App: FC<AppProps> = () => {
   const dispatch = useDispatch()

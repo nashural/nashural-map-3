@@ -1,6 +1,6 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
 
-import { MapState, ChangeBoundsPayload } from './typings.d'
+import { MapState, ChangeBoundsPayload } from '../typings'
 
 const DEFAULT_ZOOM: number = 3
 const DEFAULT_LAT: number = 63.815612726572821

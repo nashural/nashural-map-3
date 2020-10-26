@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk, PayloadAction } from '@reduxjs/toolkit'
 
-import { Group, GeoJSON } from '../typings.d'
-import { RootState, GroupsState, ToggleGroupPayload, GroupNamesIndex } from './typings'
+import { Group, GeoJSON } from '../../typings'
+import { RootState, GroupsState, ToggleGroupPayload, GroupNamesIndex } from '../typings'
 
 const groupsSorter = (id1: string, id2: string): number => {
   return id1.localeCompare(id2)

@@ -5,7 +5,7 @@ import { useDispatch } from '../../hooks/useDispatch'
 import { Badge } from './Badge'
 
 import { GroupProps } from './typings'
-import { toggleGroup, isGroupSelectedById, fetchGroupById } from '../../store/groups'
+import { toggleGroup, isGroupSelectedById, fetchGroupById } from '../../store/slices/groups'
 
 import './desktop.css'
 

@@ -1,6 +1,6 @@
 import { createSlice, createSelector, PayloadAction } from '@reduxjs/toolkit'
 
-import { ModalState, RootState, ToggleModalPayload } from './typings.d'
+import { ModalState, RootState, ToggleModalPayload } from '../typings'
 
 export const modalOpenedByName = (name: string) => (state: RootState): boolean => state.modal.opened.includes(name)
 

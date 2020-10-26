@@ -6,7 +6,7 @@ import { useDispatch } from '../../hooks/useDispatch'
 import { RouterHeader } from './RouterHeader'
 import { Routes } from './Routes'
 import { Route } from './Route'
-import { routesSelector, reorderRoutes, appendRoute } from '../../store/router'
+import { routesSelector, reorderRoutes, appendRoute } from '../../store/slices/router'
 import { Button } from '../Button'
 
 import { RouterProps } from './typings.d'

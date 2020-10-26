@@ -4,8 +4,8 @@ import { Draggable } from 'react-beautiful-dnd'
 import AsyncSelect from 'react-select/async'
 
 import { useDispatch } from '../../hooks/useDispatch'
-import { removeRoute, routeSetCoordinates } from '../../store/router'
-import { allFeaturesSelector, groupNamesByKeySelector } from '../../store/groups'
+import { removeRoute, routeSetCoordinates } from '../../store/slices/router'
+import { allFeaturesSelector, groupNamesByKeySelector } from '../../store/slices/groups'
 import { search, geocode } from '../../api'
 
 import { RouteProps } from './typings.d'

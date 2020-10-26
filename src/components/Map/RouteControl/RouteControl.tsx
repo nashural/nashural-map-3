@@ -3,7 +3,7 @@ import { ListBox } from 'react-yandex-maps'
 
 import { useDispatch } from '../../../hooks/useDispatch'
 import { Route } from './Route'
-import { initRoutes } from '../../../store/router'
+import { initRoutes } from '../../../store/slices/router'
 
 import { RouteControlProps } from './typings.d'
 import { GeoJSONCoordinates } from '../../../typings.d'

@@ -9,7 +9,7 @@ import {
   AppendRoutePayload,
   RemoveRoutePayload,
   RouteSetCoordinatesPayload
-} from './typings'
+} from '../typings'
 
 export const routesSelector = (state: RootState) => state.router.routes
 

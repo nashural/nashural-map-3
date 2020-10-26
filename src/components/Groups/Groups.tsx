@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux'
 
 import { useDispatch } from '../../hooks/useDispatch'
 import { Group as GroupItem } from './Group'
-import { fetchGroups, allGroupsSelector } from '../../store/groups';
+import { fetchGroups, allGroupsSelector } from '../../store/slices/groups';
 
 import { GroupsProps } from './typings.d'
 

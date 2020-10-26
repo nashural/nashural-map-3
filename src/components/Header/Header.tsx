@@ -2,7 +2,7 @@ import React, { FC } from 'react'
 import { useSelector } from 'react-redux';
 
 import { Logotype } from './Logotype'
-import { placeSelector } from '../../store/map'
+import { placeSelector } from '../../store/slices/map'
 
 import { HeaderProps } from './typings'
 
