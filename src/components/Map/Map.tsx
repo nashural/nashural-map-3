@@ -1,6 +1,6 @@
-import React, { FC, useCallback, useState, useEffect } from 'react'
+import React, { FC, useCallback, useState, useRef } from 'react'
 import { useSelector } from 'react-redux'
-import { Map as YMap, ZoomControl, TypeSelector, GeolocationControl, Placemark, withYMaps } from 'react-yandex-maps'
+import { Map as YMap, ZoomControl, TypeSelector, GeolocationControl, Placemark } from 'react-yandex-maps'
 import Measure from 'react-measure'
 
 import { useDispatch } from '../../hooks/useDispatch'
@@ -12,6 +12,7 @@ import { toggleModal } from '../../store/slices/modal'
 import { routesSelector } from '../../store/slices/router'
 import { drawerOpenedSelector } from '../../store/slices/drawer'
 import { routerOpenedSelector } from '../../store/slices/router'
+import { Route } from './Route'
 
 import { MapProps } from './typings.d'
 import { GeoJSONCoordinates } from '../../typings.d'
@@ -20,15 +21,13 @@ import "./desktop.css"
 
 const routeGetCoordinates = ({ coordinates }: { coordinates: GeoJSONCoordinates }): GeoJSONCoordinates => coordinates
 
-// @ts-ignore
-export const Map: FC<MapProps> = withYMaps(({ ymaps }) => {
+export const Map: FC<MapProps> = () => {
   const dispatch = useDispatch()
   const { center, zoom } = useSelector(mapStateSelector)
   const features = useSelector(allFeaturesSelector)
   const routes = useSelector(routesSelector)
   const [bounds, setBounds] = useState({ width: -1, height: -1 })
-  const [map, setMap] = useState(null)
-  const [prevRoute, setPrevRoute] = useState(null)
+  const mapRef = useRef(null)
   const drawerOpened = useSelector(drawerOpenedSelector)
   const routerOpened = useSelector(routerOpenedSelector)
 
@@ -79,26 +78,6 @@ export const Map: FC<MapProps> = withYMaps(({ ymaps }) => {
     })
   }, [drawerOpened, routerOpened])
 
-  useEffect(() => {
-    if (map) {
-      if (prevRoute) {
-        debugger
-        // (map as any).geoObjects.remove(prevRoute)
-      }
-
-      const points = routes.map(routeGetCoordinates)
-      ymaps.route(points)
-        .then((route: any) => {
-          // @ts-ignore
-          setPrevRoute({ a: 1 })
-          (map as any).geoObjects.add(route)
-        })
-        .catch((error: any) => {
-          console.error(error)
-        })
-    }
-  }, [ymaps, map, routes, prevRoute])
-
   return (
     <Measure client onResize={handleResize}>{({ measureRef }: any) => {
       return (
@@ -109,7 +88,7 @@ export const Map: FC<MapProps> = withYMaps(({ ymaps }) => {
             state={{ center, zoom }}
             load="geoObject.addon.editor"
             // @ts-ignore
-            instanceRef={setMap}
+            instanceRef={mapRef}
             onBoundschange={handleBoundsChange}
           >
             <RegionControl />
@@ -118,9 +97,10 @@ export const Map: FC<MapProps> = withYMaps(({ ymaps }) => {
             <TypeSelector />
             <ZoomControl />
             {features.map(renderPlacemark)}
+            {Boolean(routes.length) && <Route mapRef={mapRef} points={routes.map(routeGetCoordinates)} />}
           </YMap>
         </div>
       )
     }}</Measure>
   )
-})
+}
