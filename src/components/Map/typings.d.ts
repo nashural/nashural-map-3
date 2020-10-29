@@ -7,3 +7,7 @@ export interface RouteProps {
   mapRef: any // TODO: Specific type
   points: GeoJSONCoordinates[]
 }
+
+export interface RouteManagerCache {
+  [key: string]: any
+}

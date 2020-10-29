@@ -19,7 +19,7 @@ export const RouteControl: FC<RouteControlProps> = () => {
     
     dispatch(initRoutes({
       routes: referencePoints.map((coordinates: GeoJSONCoordinates, id: number) => ({
-        id,
+        id: `route-${id}`,
         coordinates,
         name: ''
       }))
