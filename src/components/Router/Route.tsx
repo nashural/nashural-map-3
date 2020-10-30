@@ -34,7 +34,7 @@ const geoObjectToFeature = ({ Point, name }: any, id: number): GeoJSONFeature =>
   }
 }
 
-export const Route: FC<RouteProps> = ({ id, index }) => {
+export const Route: FC<RouteProps> = ({ id, name, index }) => {
   const dispatch = useDispatch()
   const groupNames = useSelector(groupNamesByKeySelector)
   const features = useSelector(allFeaturesSelector)
@@ -90,6 +90,8 @@ export const Route: FC<RouteProps> = ({ id, index }) => {
       return <div {...provided.draggableProps} ref={provided.innerRef} className="Route">
         <i {...provided.dragHandleProps} className="fa fa-bars Route-draghandle"></i>
         <AsyncSelect
+          key={`${id}-${index}-${name}`}
+          defaultInputValue={name}
           defaultOptions={defaultOptions}
           loadOptions={handleSearch}
           onChange={handleSelect}

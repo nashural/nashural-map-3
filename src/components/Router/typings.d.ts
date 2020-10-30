@@ -9,4 +9,5 @@ export interface RoutesProps {
 export interface RouteProps {
   id: string
   index: number
+  name: string
 }

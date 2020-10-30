@@ -1,13 +1,16 @@
 .Router {
   grid-area: router;
+  display: flex;
+  flex-flow: column nowrap;
 }
 
 .Router-add-btn {
-  margin-left: 1rem;
 }
 
 .Routes {
   padding: 1rem 0;
+  overflow-y: scroll;
+  flex-grow: 1;
 }
 
 .Router-header {
