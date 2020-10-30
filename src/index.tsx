@@ -14,7 +14,7 @@ import './styles/mobile.css'
 import * as serviceWorker from './serviceWorker'
 
 ReactDOM.render(
-  <YMaps preload query={{ apikey: "137e6a7f-ee29-403c-be2d-8021680117ab", lang: "ru_RU", load: 'route' }}>
+  <YMaps preload query={{ apikey: "137e6a7f-ee29-403c-be2d-8021680117ab", lang: "ru_RU", load: 'route,geolocation' }}>
     <Provider store={store}>
       <App />
     </Provider>

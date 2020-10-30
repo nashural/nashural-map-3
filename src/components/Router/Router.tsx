@@ -1,6 +1,7 @@
 import React, { FC, useCallback } from 'react'
 import { useSelector } from 'react-redux'
 import { DragDropContext, Droppable } from 'react-beautiful-dnd'
+import { withYMaps } from 'react-yandex-maps'
 
 import { useDispatch } from '../../hooks/useDispatch'
 import { RouterHeader } from './RouterHeader'
@@ -10,10 +11,11 @@ import { routesSelector, reorderRoutes, appendRoute } from '../../store/slices/r
 import { Button } from '../Button'
 
 import { RouterProps } from './typings.d'
+import { GeoJSONCoordinates } from '../../typings'
 
 import "./desktop.css"
 
-export const Router: FC<RouterProps> = () => {
+const Router_: FC<RouterProps> = ({ ymaps }) => {
   const dispatch = useDispatch()
   const routes = useSelector(routesSelector)
 
@@ -24,15 +26,20 @@ export const Router: FC<RouterProps> = () => {
     }))
   }, [dispatch])
 
-  const handleAppendButton = useCallback(() => {
+  const handleAppendButton = useCallback(async () => {
+    const { geoObjects } = await ymaps.geolocation.get({
+      autoReverseGeocode: true,
+    })
+    const coordinates: GeoJSONCoordinates = geoObjects.position
+
     dispatch(appendRoute({
       route: {
         id: `${0|Math.random()*0xffffff}`,
-        coordinates: [0, 0], // TODO: Replace to current coordinates
-        name: 'Новая точка'
+        coordinates,
+        name: 'Текущее местоположение'
       }
     }))
-  }, [dispatch])
+  }, [dispatch, ymaps])
 
   const renderRoute = (props: any, index: number) => {
     return <Route key={props.id} index={index} {...props} />
@@ -53,3 +60,5 @@ export const Router: FC<RouterProps> = () => {
     </div>
   )
 }
+
+export const Router = withYMaps(Router_)
