@@ -1,0 +1,25 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "name": "Без названия",
+    "creator": "Yandex Map Constructor"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 0,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.93339962969868,
+          54.36180933783937
+        ]
+      },
+      "properties": {
+        "description": "Город чудес",
+        "iconCaption": "Сасово",
+        "marker-color": "#1e98ff"
+      }
+    }
+  ]
+}
