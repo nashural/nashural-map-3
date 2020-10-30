@@ -141,13 +141,19 @@ import './desktop.css'
 
 ```
 /src/components/MyComponent
-  /index.tsx
+  /index.ts
   /desktop.css
   /MyComponent.tsx
   /typings.d.ts
 ```
 
-#### `index.tsx`
+#### `index.ts`
+
+```typescript
+export { MyComponent } from './MyComponent'
+```
+
+#### `typings.d.ts`
 
 ```typescript
 export interface MyComponentProps {}
