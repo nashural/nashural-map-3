@@ -192,7 +192,7 @@ export const MyComponent: FC<MyComponentProps> = () => {
 /src/store
   /index.ts       Сам стор
   /typings.d.ts   Типы всех слайсов
-  /slice
+  /slices
     /drawer.ts    Слайс левой боковой панели
 ```
 
