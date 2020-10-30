@@ -129,7 +129,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Управление маршрутами</title>
+  <title>Управление картой</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -155,7 +155,7 @@
   <!-- Add your site or application content here -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-      <a class="navbar-brand" href="#">Управление маршрутами</a>
+      <a class="navbar-brand" href="#">Управление картой</a>
     </div>
   </nav>
   <div class="container">
