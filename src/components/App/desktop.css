@@ -14,6 +14,9 @@
     var(--drawer-width) calc(100vw - var(--drawer-width) - var(--router-width))
     var(--router-width);
   grid-template-rows: var(--header-height) 1fr;
+
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .App > .Drawer {

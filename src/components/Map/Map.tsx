@@ -6,6 +6,7 @@ import Measure from 'react-measure'
 import { useDispatch } from '../../hooks/useDispatch'
 import { RegionControl } from './RegionControl'
 import { RouteControl } from './RouteControl'
+import { EditorControl } from './EditorControl';
 import { changeBounds, mapStateSelector } from '../../store/slices/map'
 import { allFeaturesSelector } from '../../store/slices/groups'
 import { toggleModal } from '../../store/slices/modal'
@@ -96,6 +97,7 @@ export const Map: FC<MapProps> = () => {
             <GeolocationControl />
             <TypeSelector />
             <ZoomControl />
+            <EditorControl />
             {features.map(renderPlacemark)}
             {Boolean(routes.length) && <Route mapRef={mapRef} points={routes.map(routeGetCoordinates)} />}
           </YMap>

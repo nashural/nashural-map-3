@@ -8,7 +8,7 @@ import { Router } from '../Router'
 import { drawerOpenedSelector } from '../../store/slices/drawer'
 import { routerOpenedSelector } from '../../store/slices/router'
 
-import { AppProps } from './typings'
+import { AppProps } from './typings.d'
 
 import "./desktop.css"
 
