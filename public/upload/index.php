@@ -155,7 +155,7 @@
   <!-- Add your site or application content here -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-      <a class="navbar-brand" href="#">Загрузка карты</a>
+      <a class="navbar-brand" href="#">Управление маршрутами</a>
     </div>
   </nav>
   <div class="container">
