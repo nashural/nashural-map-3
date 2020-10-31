@@ -82,7 +82,7 @@
     for ($i=0; $i<count($groups->groups); $i++) {
       $group = $groups->groups[$i];
       if ($group->id === $id) {
-        unset($groups->groups[$i]);
+        array_splice($groups->groups, $i, 1);
         break;
       }
     }
