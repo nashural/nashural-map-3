@@ -92,12 +92,12 @@ export const Map: FC<MapProps> = () => {
             instanceRef={mapRef}
             onBoundschange={handleBoundsChange}
           >
+            <EditorControl />
             <RegionControl />
             <RouteControl />
             <GeolocationControl />
             <TypeSelector />
             <ZoomControl />
-            <EditorControl />
             {features.map(renderPlacemark)}
             {Boolean(routes.length) && <Route mapRef={mapRef} points={routes.map(routeGetCoordinates)} />}
           </YMap>
