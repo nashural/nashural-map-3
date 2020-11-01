@@ -25,7 +25,7 @@ export const allFeaturesSelector = (state: RootState) => state.groups.features
 export const fetchGroups = createAsyncThunk(
   'fetch-groups',
   async () => {
-    const resp = await fetch('/data/groups.json')
+    const resp = await fetch(`${process.env.PUBLIC_URL || ''}/data/groups.json`)
     const data = await resp.json()
     return data.groups as Group[]
   }
@@ -34,7 +34,7 @@ export const fetchGroups = createAsyncThunk(
 export const fetchGroupById = createAsyncThunk(
   'fetch-group-by-id',
   async (id: string) => {
-    const resp = await fetch (`/data/${id}.json`)
+    const resp = await fetch(`${process.env.PUBLIC_URL || ''}/data/${id}.json`)
     return await resp.json() as GeoJSON
   }
 )

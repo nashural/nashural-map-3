@@ -9,7 +9,7 @@ import { toggleGroup, isGroupSelectedById, fetchGroupById } from '../../store/sl
 
 import './desktop.css'
 
-export const Group: FC<GroupProps> = ({ id, className, name, count }) => {
+export const Group: FC<GroupProps> = ({ id, name, count, iconHref }) => {
   const dispatch = useDispatch()
   const active = useSelector(isGroupSelectedById(id))
 
@@ -17,17 +17,21 @@ export const Group: FC<GroupProps> = ({ id, className, name, count }) => {
     e.preventDefault()
 
     if (active) {
-      // @ts-ignore
       dispatch(toggleGroup({ id, on: false }))
     } else {
-      // @ts-ignore
       dispatch(toggleGroup({ id, on: true }))
       dispatch(fetchGroupById(id))
     }
   }, [dispatch, active, id])
 
   return (
-    <a href={`#${id}`} id={id} className={`Group ${className} ${active ? 'active' : ''}`} onClick={handleClick}>
+    <a
+      href={`#${id}`}
+      id={id}
+      className={`Group ${active ? 'active' : ''}`}
+      style={{ backgroundImage: `URL(${iconHref.replace('/map', process.env.PUBLIC_URL || '')})` }}
+      onClick={handleClick}
+    >
       {name}
       <Badge count={count} />
     </a>

@@ -6,6 +6,6 @@ import "./desktop.css"
 
 export const Logotype: FC<LogotypeProps> = () => {
   return <a href="//nashural.ru" className="Logotype">
-    <img src="/img/map-logo.png" alt="Наш Урал" width={35} height={35} />
+    <img src={`${process.env.PUBLIC_URL || ''}/img/map-logo.png`} alt="Наш Урал" width={35} height={35} />
   </a>
 }
