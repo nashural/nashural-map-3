@@ -44,6 +44,7 @@ const routerSlice = createSlice({
     },
     appendRoute(state, action:PayloadAction<AppendRoutePayload>) {
       const { route } = action.payload
+      state.open = true
       state.routes.push(route)
     },
     removeRoute(state, action:PayloadAction<RemoveRoutePayload>) {

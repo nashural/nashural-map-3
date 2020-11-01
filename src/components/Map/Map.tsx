@@ -32,7 +32,7 @@ export const Map: FC<MapProps> = () => {
   const drawerOpened = useSelector(drawerOpenedSelector)
   const routerOpened = useSelector(routerOpenedSelector)
 
-  const handlePlacemarkClick = useCallback((e: any) => {
+  const handlePlacemarkClick = useCallback((e: any, coordinates: GeoJSONCoordinates) => {
     const { iconCaption, previewSrc, articleHref } = e.get('target').properties.getAll()
     dispatch(toggleModal({
       on: true,
@@ -40,7 +40,8 @@ export const Map: FC<MapProps> = () => {
       props: {
         title: iconCaption,
         src: previewSrc,
-        href: articleHref
+        href: articleHref,
+        coordinates
       }
     }))
   }, [dispatch])
@@ -54,7 +55,7 @@ export const Map: FC<MapProps> = () => {
         preset: 'islands#circleIcon',
         iconColor: '#0074a0'
       }}
-      onClick={handlePlacemarkClick}
+      onClick={(e: any) => handlePlacemarkClick(e, geometry.coordinates)}
     />
   }
 
