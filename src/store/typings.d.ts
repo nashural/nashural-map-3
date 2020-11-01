@@ -93,5 +93,6 @@ export interface RemoveRoutePayload {
 
 export interface RouteSetCoordinatesPayload {
   index: number
+  name: string
   coordinates: GeoJSONCoordinates
 }

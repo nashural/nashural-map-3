@@ -99,7 +99,7 @@ export const Map: FC<MapProps> = () => {
             <TypeSelector />
             <ZoomControl />
             {features.map(renderPlacemark)}
-            {Boolean(routes.length) && <Route mapRef={mapRef} points={routes.map(routeGetCoordinates)} />}
+            {(routes.length >= 2) && <Route mapRef={mapRef} points={routes.map(routeGetCoordinates)} />}
           </YMap>
         </div>
       )

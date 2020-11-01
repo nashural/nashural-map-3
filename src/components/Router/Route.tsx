@@ -79,8 +79,10 @@ export const Route: FC<RouteProps> = ({ id, name, index }) => {
   }, [searchResultToOptionGroups, geocoderResultToOptionGroups])
 
   const handleSelect = useCallback((o: any) => {
+    console.log(o)
     dispatch(routeSetCoordinates({
       index,
+      name: o.label,
       coordinates: o.value.geometry.coordinates
     }))
   }, [dispatch, index])

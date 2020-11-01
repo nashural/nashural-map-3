@@ -51,7 +51,8 @@ const routerSlice = createSlice({
       state.routes.splice(index, 1)
     },
     routeSetCoordinates(state, action:PayloadAction<RouteSetCoordinatesPayload>) {
-      const { index, coordinates } = action.payload
+      const { index, name, coordinates } = action.payload
+      state.routes[index].name = name
       state.routes[index].coordinates = coordinates
     }
   }
