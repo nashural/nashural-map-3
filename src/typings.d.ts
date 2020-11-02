@@ -10,6 +10,7 @@ export interface Route {
   id: string
   name: string
   coordinates: GeoJSONCoordinates
+  immutable?: boolean
 }
 
 export type GeoJSONCoordinates = [number, number]

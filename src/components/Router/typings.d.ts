@@ -12,4 +12,5 @@ export interface RouteProps {
   id: string
   index: number
   name: string
+  immutable: boolean
 }

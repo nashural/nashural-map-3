@@ -16,8 +16,6 @@ export const Placemark: FC<PlacemarkProps> = () => {
   const dispatch = useDispatch()
   const [opened, props, toggle] = useModal('placemark')
 
-  console.log('placemark', props)
-
   const handleClose = useCallback(() => {
     toggle(props)
   }, [props, toggle])
@@ -27,11 +25,12 @@ export const Placemark: FC<PlacemarkProps> = () => {
       route: { 
         id: `${0|Math.random()*0xffffff}` as string,
         name: props.title as string,
-        coordinates: props.coordinates as GeoJSONCoordinates
+        coordinates: props.coordinates as GeoJSONCoordinates,
+        immutable: true
       }
     }))
     toggle(props)
-  }, [dispatch, props])
+  }, [dispatch, props, toggle])
 
   if (opened) {
     const { title, src, href } = props

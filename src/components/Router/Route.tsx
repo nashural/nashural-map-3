@@ -22,7 +22,7 @@ const featuresToOptions = (features: GeoJSONFeature[]): object[] => {
 
 const parsePos = (pos: string): GeoJSONCoordinates => pos.split(' ').map(Number) as GeoJSONCoordinates
 
-const geoObjectToFeature = ({ Point, name }: any, id: number): GeoJSONFeature => {
+const geoObjectToFeature = ({ Point }: any, id: number): GeoJSONFeature => {
   return {
     type: 'Feature',
     id,
@@ -34,7 +34,7 @@ const geoObjectToFeature = ({ Point, name }: any, id: number): GeoJSONFeature =>
   }
 }
 
-export const Route: FC<RouteProps> = ({ id, name, index }) => {
+export const Route: FC<RouteProps> = ({ id, name, immutable, index }) => {
   const dispatch = useDispatch()
   const groupNames = useSelector(groupNamesByKeySelector)
   const features = useSelector(allFeaturesSelector)
@@ -79,7 +79,6 @@ export const Route: FC<RouteProps> = ({ id, name, index }) => {
   }, [searchResultToOptionGroups, geocoderResultToOptionGroups])
 
   const handleSelect = useCallback((o: any) => {
-    console.log(o)
     dispatch(routeSetCoordinates({
       index,
       name: o.label,
@@ -95,6 +94,7 @@ export const Route: FC<RouteProps> = ({ id, name, index }) => {
           key={`${id}-${index}-${name}`}
           defaultInputValue={name}
           defaultOptions={defaultOptions}
+          isDisabled={immutable}
           loadOptions={handleSearch}
           onChange={handleSelect}
           className="Route-select"
