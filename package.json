@@ -28,7 +28,7 @@
     "typescript": "^3.7.5"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "FAST_REFRESH=true react-scripts start",
     "build": "PUBLIC_URL=/map2/ react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
