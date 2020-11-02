@@ -1,7 +1,7 @@
 import React, { FC, useCallback } from 'react'
 
 import { useModal } from '../../hooks/useModal'
-import { Modal, ModalHeader, ModalBody, ModalFooter, ModalButtons } from '../modal'
+import { Modal, ModalHeader, ModalBody, ModalFooter, ModalButtons, ModalClose } from '../modal'
 import { Button } from '../../components/Button'
 
 import { useDispatch } from '../../hooks/useDispatch'
@@ -36,8 +36,11 @@ export const Placemark: FC<PlacemarkProps> = () => {
     const { title, src, href } = props
 
     return (
-      <Modal onClose={handleClose}>
-        <ModalHeader>{title}</ModalHeader>
+      <Modal>
+        <ModalHeader>
+          {title}
+          <ModalClose onClose={handleClose} />
+        </ModalHeader>
         <ModalBody>
           <figure>
             <img className="Placemark-image" src={`https:${src}`} alt={title} />

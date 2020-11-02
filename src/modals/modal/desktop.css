@@ -10,7 +10,6 @@
 }
 
 .Modal-close {
-  position: absolute;
   width: 30px;
   height: 30px;
   border: 2px solid #ffffff;
@@ -18,12 +17,12 @@
   color: #ffffff;
   background-color: #000000;
   box-shadow: 0 3px 4px -1px #0000009e;
-  transform: translate(662px, -4px);
+  transform: translate(15px, -15px);
 }
 
 .Modal-header {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   min-height: 40px;
   padding-left: 0.8rem;
