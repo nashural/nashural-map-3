@@ -1,5 +1,13 @@
 # Интерактивная карта Нашего Урала
 
+## Предварительные шаги
+
+1. [Получить Ключ API для Яндекс.Карт](https://developer.tech.yandex.ru/services/)
+
+```shell
+echo "YMAPS_API_KEY=<YMAPS_API_KEY>" > .env
+```
+
 ## Установка
 
 ```shell
