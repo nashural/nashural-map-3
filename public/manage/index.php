@@ -11,6 +11,18 @@
       else return null;
   }
 
+  function augment_group($group_id, $filename) {
+    $data = json_decode(file_get_contents($filename));
+
+    $data->metadata->id = $group_id;
+
+    foreach ($data->features as $feature) {
+      $feature->properties->group = $group_id;
+    }
+
+    file_put_contents($filename, json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES));
+  }
+
   function handle_new_group() {
     $name = filter_var($_POST['group_name'], FILTER_SANITIZE_STRING);
     $id = transliterate_ru(mb_strtolower($name));
@@ -19,6 +31,8 @@
 
     move_uploaded_file($_FILES['group_icon']['tmp_name'], "../icons/$id.png");
     move_uploaded_file($_FILES['group_file']['tmp_name'], "../data/$id.json");
+
+    augment_group($id, "../data/$id.json");
 
     return array(
       'id' => $id,
@@ -38,6 +52,8 @@
       $features = json_decode(file_get_contents($_FILES['group_file']['tmp_name']))->features;
 
       move_uploaded_file($_FILES['group_file']['tmp_name'], "../data/$id.json");
+
+      augment_group($id, "../data/$id.json");
     
       $count = count($features);
     }
