@@ -4,6 +4,11 @@
     --header-height: 40px;
   }
 
+  body {
+    --drawer-full-width: 240px;
+    --router-full-width: 300px;
+  }
+
   #modals {
     display: none;
     position: absolute;

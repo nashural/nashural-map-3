@@ -1,4 +1,4 @@
-import React, { FC, useCallback, useState, useRef } from 'react'
+import React, { FC, useCallback, useState, useRef, useMemo } from 'react'
 import { useSelector } from 'react-redux'
 import { Map as YMap, ZoomControl, TypeSelector, GeolocationControl, Placemark } from 'react-yandex-maps'
 import Measure from 'react-measure'
@@ -31,6 +31,8 @@ export const Map: FC<MapProps> = () => {
   const mapRef = useRef(null)
   const drawerOpened = useSelector(drawerOpenedSelector)
   const routerOpened = useSelector(routerOpenedSelector)
+  const drawerFullWidth = useMemo(() => parseInt(getComputedStyle(document.body).getPropertyValue('--drawer-full-width'), 10), [])
+  const routerFullWidth = useMemo(() => parseInt(getComputedStyle(document.body).getPropertyValue('--router-full-width'), 10), [])
 
   const handlePlacemarkClick = useCallback((e: any, coordinates: GeoJSONCoordinates) => {
     const { iconCaption, previewSrc, articleHref } = e.get('target').properties.getAll()
@@ -69,10 +71,10 @@ export const Map: FC<MapProps> = () => {
   const handleResize = useCallback((contentRect: any) => {
     let width = window.innerWidth
     if (drawerOpened) {
-      width -= 240 // Sync with src/components/App/desktop.css:26
+      width -= drawerFullWidth // Sync with src/components/App/desktop.css:26
     }
     if (routerOpened) {
-      width -= 300 // Sync with src/components/App/desktop.css:30
+      width -= routerFullWidth // Sync with src/components/App/desktop.css:30
     }
     setBounds({
       ...contentRect.client,

@@ -28,11 +28,11 @@
 }
 
 .App.drawer {
-  --drawer-width: 240px; /* Sync with src/components/Map/Map.tsx:70 */
+  --drawer-width: var(--drawer-full-width);
 }
 
 .App.router {
-  --router-width: 300px; /* Sync with src/components/Map/Map.tsx:73 */
+  --router-width: var(--router-full-width);
 }
 
 .App.drawer > .Drawer {

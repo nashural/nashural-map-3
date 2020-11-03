@@ -30,7 +30,6 @@ export class RouteManager {
       if (this.cache[hash]) {
         return this.cache[hash]
       } else {
-        console.log(points)
         const route = await this.ymaps.route(points)
         this.cache[hash] = route
         return route
