@@ -2,14 +2,16 @@ import React, { FC, useCallback, useMemo } from 'react'
 import { useSelector } from 'react-redux'
 import { Draggable } from 'react-beautiful-dnd'
 import AsyncSelect from 'react-select/async'
+import { groupBy } from 'lodash'
 
 import { useDispatch } from '../../hooks/useDispatch'
 import { removeRoute, routeSetCoordinates } from '../../store/slices/router'
-import { allFeaturesSelector, groupNamesByKeySelector } from '../../store/slices/groups'
+import { allFeaturesSelector, groupNamesByKeySelector, activeGroupsSelector } from '../../store/slices/groups'
 import { search, geocode } from '../../api'
+import { GroupNamesIndex } from '../../store/typings.d'
 
 import { RouteProps } from './typings.d'
-import { GeoJSONFeature, CustomProperties, GeoJSONCoordinates } from '../../typings.d'
+import { GeoJSONFeature, CustomProperties, GeoJSONCoordinates, Group } from '../../typings.d'
 
 import './desktop.css'
 
@@ -34,9 +36,28 @@ const geoObjectToFeature = ({ Point }: any, id: number): GeoJSONFeature => {
   }
 }
 
+const featuresToOptionsGroups = (features: GeoJSONFeature[], activeGroups: string[], groupNames: GroupNamesIndex): object[] => {
+  const featuresByGroups = groupBy(features, (feature: GeoJSONFeature): string => (feature.properties as CustomProperties).group)
+  return activeGroups
+    .filter((groupId: string): boolean => {
+      if (featuresByGroups[groupId]) {
+        return featuresByGroups[groupId].length >= 1
+      } else {
+        return false
+      }
+    })
+    .map((groupId: string): object => {
+      return {
+        label: groupNames[groupId],
+        options: featuresToOptions(featuresByGroups[groupId])
+      }
+    })
+}
+
 export const Route: FC<RouteProps> = ({ id, name, immutable, index }) => {
   const dispatch = useDispatch()
   const groupNames = useSelector(groupNamesByKeySelector)
+  const activeGroups = useSelector(activeGroupsSelector)
   const features = useSelector(allFeaturesSelector)
 
   const searchResultToOptionGroups = useMemo(() => ({ groupId, features }: { groupId: string, features: GeoJSONFeature[] }) => {
@@ -62,7 +83,10 @@ export const Route: FC<RouteProps> = ({ id, name, immutable, index }) => {
     }))
   }, [dispatch, index])
 
-  const defaultOptions = useMemo(() => featuresToOptions(features), [features])
+  const defaultOptions = useMemo(
+    () => featuresToOptionsGroups(features, activeGroups, groupNames),
+    [features, activeGroups, groupNames]
+  )
 
   const handleSearch = useCallback(async (searchPrefix: string) => {
     const optionGroups = []
@@ -91,7 +115,7 @@ export const Route: FC<RouteProps> = ({ id, name, immutable, index }) => {
       return <div {...provided.draggableProps} ref={provided.innerRef} className="Route">
         <i {...provided.dragHandleProps} className="fa fa-bars Route-draghandle"></i>
         <AsyncSelect
-          key={`${id}-${index}-${name}`}
+          key={`${id}-${name}`}
           defaultInputValue={name}
           defaultOptions={defaultOptions}
           isDisabled={immutable}

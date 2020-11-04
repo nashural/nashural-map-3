@@ -22,6 +22,8 @@ export const isGroupSelectedById = (id: string) => (state: RootState) => !!(stat
 
 export const allFeaturesSelector = (state: RootState) => state.groups.features
 
+export const activeGroupsSelector = (state: RootState) => state.groups.activeGroups
+
 export const fetchGroups = createAsyncThunk(
   'fetch-groups',
   async () => {
