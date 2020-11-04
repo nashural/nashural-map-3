@@ -80,7 +80,7 @@ export const Map: FC<MapProps> = () => {
       ...contentRect.client,
       width
     })
-  }, [drawerOpened, routerOpened])
+  }, [drawerOpened, routerOpened, drawerFullWidth, routerFullWidth])
 
   return (
     <Measure client onResize={handleResize}>{({ measureRef }: any) => {
