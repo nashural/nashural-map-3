@@ -2,6 +2,7 @@ import React, { FC, useCallback } from 'react'
 import { useSelector } from 'react-redux'
 import { DragDropContext, Droppable } from 'react-beautiful-dnd'
 import { withYMaps } from 'react-yandex-maps'
+import { nanoid } from 'nanoid'
 
 import { useDispatch } from '../../hooks/useDispatch'
 import { RouterHeader } from './RouterHeader'
@@ -34,7 +35,7 @@ const Router_: FC<RouterProps> = ({ ymaps }) => {
 
     dispatch(appendRoute({
       route: {
-        id: `${0|Math.random()*0xffffff}`,
+        id: nanoid(),
         coordinates,
         name: 'Текущее местоположение'
       }

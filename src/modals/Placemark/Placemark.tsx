@@ -1,4 +1,5 @@
 import React, { FC, useCallback } from 'react'
+import { nanoid } from 'nanoid'
 
 import { useModal } from '../../hooks/useModal'
 import { Modal, ModalHeader, ModalBody, ModalFooter, ModalButtons, ModalClose } from '../modal'
@@ -23,7 +24,7 @@ export const Placemark: FC<PlacemarkProps> = () => {
   const handleAddToRoute = useCallback(() => {
     dispatch(appendRoute({
       route: { 
-        id: `${0|Math.random()*0xffffff}` as string,
+        id: nanoid(),
         name: props.title as string,
         coordinates: props.coordinates as GeoJSONCoordinates,
         immutable: true

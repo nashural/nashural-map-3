@@ -11,7 +11,7 @@ import { search, geocode } from '../../api'
 import { GroupNamesIndex } from '../../store/typings.d'
 
 import { RouteProps } from './typings.d'
-import { GeoJSONFeature, CustomProperties, GeoJSONCoordinates, Group } from '../../typings.d'
+import { GeoJSONFeature, CustomProperties, GeoJSONCoordinates } from '../../typings.d'
 
 import './desktop.css'
 
