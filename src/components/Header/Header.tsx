@@ -1,19 +1,27 @@
 import React, { FC } from 'react'
-import { useSelector } from 'react-redux';
+import Media from 'react-media'
 
-import { Logotype } from './Logotype'
-import { placeSelector } from '../../store/slices/map'
+import { DesktopHeader } from './DesktopHeader'
+import { MobileHeader } from './MobileHeader'
+import { DESKTOP, MOBILE } from '../constants/mediaQueries'
 
 import { HeaderProps } from './typings'
 
-import "./desktop.css"
+import "./universal.css"
 
 export const Header: FC<HeaderProps> = () => {
-  const place = useSelector(placeSelector)
+  return <Media
+    queries={{ mobile: MOBILE, desktop: DESKTOP }}
+    defaultMatches={{ desktop: true }}
+  >{({ mobile, desktop }) => {
+    if (mobile) {
+      return <MobileHeader />
+    }
 
-  return (
-    <div className="Header">
-      {place ? <div className="Header-place">{place}</div> : <Logotype />}
-    </div>
-  )
+    if (desktop) {
+      return <DesktopHeader />
+    }
+
+    return null
+  }}</Media>
 }

@@ -1,0 +1,11 @@
+.Header {
+  display: flex;
+  align-items: center;
+  background-color: #0074a0;
+  grid-area: header;
+}
+
+.Header-place {
+  margin-left: 0.5rem;
+  color: #ffffff;
+}

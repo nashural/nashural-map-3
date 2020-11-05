@@ -1,16 +1,6 @@
-.Header {
-  display: flex;
+.Header.desktop {
   justify-content: flex-start;
-  align-items: center;
-  background-color: #0074a0;
-  grid-area: header;
 }
 
-.Header-place {
-  margin-left: 0.5rem;
-  color: #ffffff;
-}
-
-.Logotype {
-  margin-left: 0.5rem;
+.Header-place.desktop {
 }

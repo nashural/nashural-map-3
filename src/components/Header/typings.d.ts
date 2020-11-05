@@ -1,3 +1,5 @@
 export interface HeaderProps {}
 
-export interface LogotypeProps {}
+export interface DesktopHeaderProps {}
+
+export interface MobileHeaderProps {}
