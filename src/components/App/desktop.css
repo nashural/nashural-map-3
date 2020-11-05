@@ -1,10 +1,8 @@
-.App {
+.App.desktop {
   --drawer-width: 0px;
   --router-width: 0px;
 
   display: grid;
-  width: 100vw;
-  height: 100vh;
 
   grid-template-areas:
     'groups header router'
@@ -14,31 +12,28 @@
     var(--drawer-width) calc(100vw - var(--drawer-width) - var(--router-width))
     var(--router-width);
   grid-template-rows: var(--header-height) 1fr;
-
-  overflow-x: hidden;
-  overflow-y: hidden;
 }
 
-.App > .Drawer {
+.App.desktop > .Drawer {
   display: none;
 }
 
-.App > .Router {
+.App.desktop > .Router {
   display: flex;
 }
 
-.App.drawer {
+.App.desktop.drawer {
   --drawer-width: var(--drawer-full-width);
 }
 
-.App.router {
+.App.desktop.router {
   --router-width: var(--router-full-width);
 }
 
-.App.drawer > .Drawer {
+.App.desktop.drawer > .Drawer {
   display: block;
 }
 
-.App.router > .Router {
+.App.desktop.router > .Router {
   display: flex;
 }
