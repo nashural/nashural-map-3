@@ -3,6 +3,8 @@ import { useSelector } from 'react-redux'
 
 import { Logotype } from '../Logotype'
 import { placeSelector } from '../../store/slices/map'
+import { OpenGroups } from './OpenGroups'
+import { OpenRouter } from './OpenRouter'
 
 import { MobileHeaderProps } from './typings.d'
 
@@ -13,7 +15,9 @@ export const MobileHeader: FC<MobileHeaderProps> = () => {
 
   return (
     <div className="Header mobile">
+      <OpenGroups />
       {place ? <div className="Header-place mobile">{place}</div> : <Logotype />}
+      <OpenRouter />
     </div>
   )
 }

@@ -1,6 +1,30 @@
 .Header.mobile {
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .Header-place.mobile {
+}
+
+.OpenGroups.mobile {
+  margin-left: 20px;
+  padding: 0.3rem 1rem;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 1rem;
+  background: transparent;
+  cursor: pointer;
+}
+
+.OpenRouter.mobile {
+  margin-right: 20px;
+  padding: 0.3rem 1rem;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 1rem;
+  background: transparent;
+  cursor: pointer;
 }
