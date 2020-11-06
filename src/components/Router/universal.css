@@ -10,7 +10,6 @@
 .Routes {
   padding: 1rem 0;
   overflow-y: scroll;
-  flex-grow: 1;
 }
 
 .Router-header {

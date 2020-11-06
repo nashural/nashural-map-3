@@ -8,3 +8,7 @@
   height: calc(100vh - var(--header-height));
   background-color: #ffffff;
 }
+
+.Routes.mobile {
+  flex-grow: 0;
+}
