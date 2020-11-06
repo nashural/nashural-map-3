@@ -3,7 +3,7 @@ import Media from 'react-media'
 
 import { DesktopHeader } from './DesktopHeader'
 import { MobileHeader } from './MobileHeader'
-import { DESKTOP, MOBILE } from '../constants/mediaQueries'
+import { DESKTOP, MOBILE } from '../../constants/mediaQueries'
 
 import { HeaderProps } from './typings'
 

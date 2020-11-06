@@ -4,5 +4,7 @@ html {
 }
 
 body {
+  --header-height: 40px;
+
   margin: 0;
 }

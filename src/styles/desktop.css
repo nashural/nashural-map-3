@@ -1,9 +1,5 @@
 @media only screen and (min-width: 961px),
   only screen and (min-device-width: 961px) {
-  html {
-    --header-height: 40px;
-  }
-
   body {
     --drawer-full-width: 240px;
     --router-full-width: 300px;

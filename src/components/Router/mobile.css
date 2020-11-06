@@ -1,0 +1,10 @@
+.Router.mobile {
+  z-index: 1;
+  position: absolute;
+  top: var(--header-height);
+  left: 0;
+  flex-flow: column nowrap;
+  width: 100vw;
+  height: calc(100vh - var(--header-height));
+  background-color: #ffffff;
+}

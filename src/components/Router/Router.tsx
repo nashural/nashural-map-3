@@ -3,16 +3,20 @@ import { useSelector } from 'react-redux'
 import { DragDropContext, Droppable } from 'react-beautiful-dnd'
 import { withYMaps } from 'react-yandex-maps'
 import { nanoid } from 'nanoid'
+import Media from 'react-media'
 
 import { useDispatch } from '../../hooks/useDispatch'
 import { RouterHeader } from './RouterHeader'
 import { Routes } from './Routes'
 import { routesSelector, reorderRoutes, appendRoute } from '../../store/slices/router'
 import { Button } from '../Button'
+import { DESKTOP, MOBILE } from '../../constants/mediaQueries'
 
 import { RouterProps } from './typings.d'
 
+import "./universal.css"
 import "./desktop.css"
+import "./mobile.css"
 
 const Router_: FC<RouterProps> = ({ ymaps }) => {
   const dispatch = useDispatch()
@@ -39,21 +43,24 @@ const Router_: FC<RouterProps> = ({ ymaps }) => {
     }))
   }, [dispatch, ymaps])
 
-  
-
   return (
-    <div className="Router">
-      <RouterHeader />
-      <DragDropContext onDragEnd={handleDragEnd}>
-        <Droppable droppableId="routes">{(provided) =>
-          <Routes routes={routes} innerRef={provided.innerRef} {...provided.droppableProps}>
-            {provided.placeholder}
-          </Routes>
-        }</Droppable>
-      </DragDropContext>
-      <Button className="Router-add-btn" onClick={handleAppendButton}>Добавить точку</Button>
-    </div>
+    <Media queries={{ desktop: DESKTOP, mobile: MOBILE }} defaultMatches={{ desktop: true }}>{({ desktop, mobile }) => {
+      return (
+        <div className={`Router ${mobile ? 'mobile' : ''} ${desktop ? 'desktop' : ''}`}>
+          {desktop && <RouterHeader />}
+          <DragDropContext onDragEnd={handleDragEnd}>
+            <Droppable droppableId="routes">{(provided) =>
+              <Routes routes={routes} innerRef={provided.innerRef} {...provided.droppableProps}>
+                {provided.placeholder}
+              </Routes>
+            }</Droppable>
+          </DragDropContext>
+          <Button className="Router-add-btn" onClick={handleAppendButton}>Добавить точку</Button>
+        </div>
+      )
+    }}</Media>
   )
+
 }
 
 export const Router = withYMaps(Router_)

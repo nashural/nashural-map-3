@@ -1,0 +1,24 @@
+.Groups {
+  overflow-y: scroll;
+}
+
+.Group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 50px;
+  padding-right: 0.3rem;
+  padding-left: 70px !important;
+  color: #0274a0;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-position: 10px 50%;
+  background-position-x: 10px;
+  background-position-y: 50%;
+}
+
+.Group:hover,
+.Group.active {
+  color: #ffffff;
+  background-color: #0274a0;
+}

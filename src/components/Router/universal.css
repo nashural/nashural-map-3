@@ -1,0 +1,52 @@
+.Router {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.Router-add-btn {
+  margin: 1rem;
+}
+
+.Routes {
+  padding: 1rem 0;
+  overflow-y: scroll;
+  flex-grow: 1;
+}
+
+.Router-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: var(--header-height);
+  padding-left: 0.5rem;
+  color: #ffffff;
+  background-color: #0274a0;
+}
+
+.Route {
+  display: flex;
+}
+
+.Route:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.Route-draghandle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  flex-shrink: 0;
+}
+
+.Route-select {
+  flex-grow: 1;
+  width: 69%;
+}
+
+.Route-remove-btn {
+  width: 3rem;
+  border: none;
+  background-color: transparent;
+  flex-shrink: 0;
+}

@@ -1,38 +1,29 @@
-import React, { FC, useCallback, useState, useRef, useMemo } from 'react'
+import React, { FC, useCallback } from 'react'
 import { useSelector } from 'react-redux'
-import { Map as YMap, ZoomControl, TypeSelector, GeolocationControl, Placemark } from 'react-yandex-maps'
-import Measure from 'react-measure'
+import Media from 'react-media'
+import { Placemark } from 'react-yandex-maps'
 
 import { useDispatch } from '../../hooks/useDispatch'
-import { RegionControl } from './RegionControl'
-import { RouteControl } from './RouteControl'
-import { EditorControl } from './EditorControl';
+import { DESKTOP, MOBILE } from '../../constants/mediaQueries'
 import { changeBounds, mapStateSelector } from '../../store/slices/map'
 import { allFeaturesSelector } from '../../store/slices/groups'
 import { toggleModal } from '../../store/slices/modal'
 import { routesSelector } from '../../store/slices/router'
-import { drawerOpenedSelector } from '../../store/slices/drawer'
-import { routerOpenedSelector } from '../../store/slices/router'
-import { Route } from './Route'
+import { MobileMap } from './MobileMap'
+import { DesktopMap } from './DesktopMap'
 
 import { MapProps } from './typings.d'
 import { GeoJSONCoordinates } from '../../typings.d'
 
+import "./universal.css"
 import "./desktop.css"
-
-const routeGetCoordinates = ({ coordinates }: { coordinates: GeoJSONCoordinates }): GeoJSONCoordinates => coordinates
+import "./mobile.css"
 
 export const Map: FC<MapProps> = () => {
   const dispatch = useDispatch()
   const { center, zoom } = useSelector(mapStateSelector)
   const features = useSelector(allFeaturesSelector)
   const routes = useSelector(routesSelector)
-  const [bounds, setBounds] = useState({ width: -1, height: -1 })
-  const mapRef = useRef(null)
-  const drawerOpened = useSelector(drawerOpenedSelector)
-  const routerOpened = useSelector(routerOpenedSelector)
-  const drawerFullWidth = useMemo(() => parseInt(getComputedStyle(document.body).getPropertyValue('--drawer-full-width'), 10), [])
-  const routerFullWidth = useMemo(() => parseInt(getComputedStyle(document.body).getPropertyValue('--router-full-width'), 10), [])
 
   const handlePlacemarkClick = useCallback((e: any, coordinates: GeoJSONCoordinates) => {
     const { iconCaption, previewSrc, articleHref } = e.get('target').properties.getAll()
@@ -68,44 +59,31 @@ export const Map: FC<MapProps> = () => {
     }))
   }, [dispatch])
 
-  const handleResize = useCallback((contentRect: any) => {
-    let width = window.innerWidth
-    if (drawerOpened) {
-      width -= drawerFullWidth // Sync with src/components/App/desktop.css:26
-    }
-    if (routerOpened) {
-      width -= routerFullWidth // Sync with src/components/App/desktop.css:30
-    }
-    setBounds({
-      ...contentRect.client,
-      width
-    })
-  }, [drawerOpened, routerOpened, drawerFullWidth, routerFullWidth])
-
   return (
-    <Measure client onResize={handleResize}>{({ measureRef }: any) => {
-      return (
-        <div className="Map" ref={measureRef}>
-          <YMap
-            width={bounds.width}
-            height={bounds.height}
-            state={{ center, zoom }}
-            load="geoObject.addon.editor"
-            // @ts-ignore
-            instanceRef={mapRef}
-            onBoundschange={handleBoundsChange}
-          >
-            <EditorControl />
-            <RegionControl />
-            <RouteControl />
-            <GeolocationControl />
-            <TypeSelector />
-            <ZoomControl />
-            {features.map(renderPlacemark)}
-            {(routes.length >= 2) && <Route mapRef={mapRef} points={routes.map(routeGetCoordinates)} />}
-          </YMap>
-        </div>
-      )
-    }}</Measure>
+    <Media queries={{ desktop: DESKTOP, mobile: MOBILE }} defaultMatches={{ desktop: true }}>{({ mobile, desktop }) => {
+      if (mobile) {
+        return <MobileMap
+          center={center}
+          zoom={zoom}
+          features={features}
+          routes={routes}
+          renderPlacemark={renderPlacemark}
+          onBoundsChange={handleBoundsChange}
+        />
+      }
+
+      if (desktop) {
+        return <DesktopMap
+          center={center}
+          zoom={zoom}
+          features={features}
+          routes={routes}
+          renderPlacemark={renderPlacemark}
+          onBoundsChange={handleBoundsChange}
+        />
+      }
+
+      return null
+    }}</Media>
   )
 }

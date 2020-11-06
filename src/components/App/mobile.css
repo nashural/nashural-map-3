@@ -1,5 +1,23 @@
 .App.mobile {
 }
 
+.App.App.mobile .Groups {
+  display: none;
+}
+
+.App.App.mobile .Router {
+  display: none;
+}
+
+.App.drawer.mobile .Groups {
+  display: flex;
+}
+
+.App.router.mobile .Router {
+  display: flex;
+}
+
 .App-screen.mobile {
+  display: flex;
+  flex-flow: row nowrap;
 }
