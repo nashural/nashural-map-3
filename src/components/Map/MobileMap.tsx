@@ -3,7 +3,7 @@ import { Map as YMap, ZoomControl, TypeSelector, GeolocationControl } from 'reac
 import { useWindowSize } from '@react-hook/window-size'
 
 import { RegionControl } from './RegionControl'
-import { EditorControl } from './EditorControl'
+import { RouteControl } from './RouteControl'
 import { Route } from './Route'
 
 import { MobileMapProps } from './typings.d'
@@ -28,8 +28,8 @@ export const MobileMap: FC<MobileMapProps> = ({ center, zoom, features, routes, 
         instanceRef={mapRef}
         onBoundschange={onBoundsChange}
       >
-            <EditorControl />
             <RegionControl />
+            <RouteControl />
             <GeolocationControl />
             <TypeSelector />
             <ZoomControl />
