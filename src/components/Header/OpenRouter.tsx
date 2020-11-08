@@ -19,5 +19,9 @@ export const OpenRouter: FC<OpenRouterProps> = () => {
     dispatch(toggleDrawer({ on: false }))
   }, [dispatch, opened])
 
-  return <button className={`OpenRouter mobile ${opened ? 'opened' : ''}`} onClick={handleClick}>Маршрут</button>
+  return (
+    <button
+      className={`OpenRouter mobile ${opened ? 'opened' : ''}`}
+      onClick={handleClick}>{opened ? 'Карта' : 'Маршрут'}</button>
+  )
 }

@@ -19,5 +19,9 @@ export const OpenGroups: FC<OpenGroupsProps> = () => {
     dispatch(toggleRouter({ on: false }))
   }, [dispatch, opened])
 
-  return <button className={`OpenGroups mobile ${opened ? 'opened' : ''}`} onClick={handleClick}>Каталог</button>
+  return (
+    <button
+      className={`OpenGroups mobile ${opened ? 'opened' : ''}`}
+      onClick={handleClick}>{opened ? 'Карта' : 'Каталог'}</button>
+  )
 }
