@@ -1,7 +1,3 @@
 .Router.desktop {
   grid-area: router;
 }
-
-.Routes.desktop {
-  flex-grow: 1;
-}

@@ -28,36 +28,19 @@ export const App: FC<AppProps> = () => {
   // DEBUG ONLY:
   const dispatch = useDispatch()
   useEffect(() => {
-    // dispatch(toggleDrawer({ on: false }))
+    dispatch(toggleDrawer({ on: false }))
   }, [dispatch])
-
+  
   return (
     <Media queries={{ mobile: MOBILE, desktop: DESKTOP }}>{({ mobile, desktop }: { mobile: boolean, desktop: boolean }) => {
-      if (mobile) {
-        return (
-          <div className={`App ${drawerOpened ? 'drawer' : ''} ${routerOpened ? 'router' : ''} mobile`}>
-            <Header />
-            <div className="App-screen mobile">
-              <Groups />
-              <Map />
-              <Router />
-            </div>
-          </div>
-        )
-      }
-
-      if (desktop) {
-        return (
-          <div className={`App ${drawerOpened ? 'drawer' : ''} ${routerOpened ? 'router' : ''} desktop`}>
-            <Header />
-            <Groups />
-            <Map />
-            <Router />
-          </div>
-        )
-      }
-
-      return null
+      return (
+        <div className={`App ${drawerOpened ? 'drawer' : ''} ${routerOpened ? 'router' : ''} ${desktop ? 'desktop' : ''} ${mobile ? 'mobile' : ''}`}>
+          <Header />
+          <Groups />
+          <Map />
+          <Router />
+        </div>
+      )
     }}</Media>
   )
 }

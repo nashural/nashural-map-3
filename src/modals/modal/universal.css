@@ -1,0 +1,35 @@
+.Modal {
+  display: flex;
+  flex-flow: column;
+  justify-content: stretch;
+  align-items: stretch;
+}
+
+.Modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 40px;
+  padding-left: 0.8rem;
+  font-weight: 600;
+  font-size: 1.4rem;
+  background-color: #ffffff;
+}
+
+.Modal-body {
+  flex-grow: 1;
+  font-weight: normal;
+  background-color: #ffffff;
+}
+
+.Modal-footer {
+  padding: 0.7rem;
+  background-color: #ffffff;
+}
+
+.Modal-buttons {
+}
+
+.Modal-buttons > *:not(:last-child) {
+  margin-right: 1rem;
+}

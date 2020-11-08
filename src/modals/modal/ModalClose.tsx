@@ -1,4 +1,7 @@
 import React, { FC, useCallback } from 'react'
+import Media from 'react-media'
+
+import { DESKTOP, MOBILE } from '../../constants/mediaQueries'
 
 import { ModalCloseProps } from './typings.d'
 
@@ -9,5 +12,14 @@ export const ModalClose: FC<ModalCloseProps> = ({ onClose }) => {
     onClose()
   }, [onClose])
 
-  return <button className="Modal-close" onClick={handleClose}><i className="fa fa-times"></i></button>
+  return (
+    <Media queries={{ desktop: DESKTOP, mobile: MOBILE }} defaultMatches={{ desktop: true }}>{({ mobile, desktop }) => {
+      return (
+        <button
+          className={`Modal-close ${desktop ? 'desktop' : ''} ${mobile ? 'mobile' : ''}`}
+          onClick={handleClose}><i className="fa fa-times"></i>
+        </button>
+      )
+    }}</Media>
+  )
 }

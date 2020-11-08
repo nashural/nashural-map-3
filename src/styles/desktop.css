@@ -4,17 +4,4 @@
     --drawer-full-width: 240px;
     --router-full-width: 300px;
   }
-
-  #modals {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
-    background-color: #00000059;
-    backdrop-filter: blur(10px);
-  }
 }

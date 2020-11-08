@@ -8,7 +8,7 @@ import { DESKTOP, MOBILE } from '../../constants/mediaQueries'
 import { changeBounds, mapStateSelector } from '../../store/slices/map'
 import { allFeaturesSelector } from '../../store/slices/groups'
 import { toggleModal } from '../../store/slices/modal'
-import { routesSelector } from '../../store/slices/router'
+import { pointsSelector } from '../../store/slices/router'
 import { MobileMap } from './MobileMap'
 import { DesktopMap } from './DesktopMap'
 
@@ -23,7 +23,7 @@ export const Map: FC<MapProps> = () => {
   const dispatch = useDispatch()
   const { center, zoom } = useSelector(mapStateSelector)
   const features = useSelector(allFeaturesSelector)
-  const routes = useSelector(routesSelector)
+  const points = useSelector(pointsSelector)
 
   const handlePlacemarkClick = useCallback((e: any, coordinates: GeoJSONCoordinates) => {
     const { iconCaption, previewSrc, articleHref } = e.get('target').properties.getAll()
@@ -66,7 +66,7 @@ export const Map: FC<MapProps> = () => {
           center={center}
           zoom={zoom}
           features={features}
-          routes={routes}
+          points={points}
           renderPlacemark={renderPlacemark}
           onBoundsChange={handleBoundsChange}
         />
@@ -77,7 +77,7 @@ export const Map: FC<MapProps> = () => {
           center={center}
           zoom={zoom}
           features={features}
-          routes={routes}
+          points={points}
           renderPlacemark={renderPlacemark}
           onBoundsChange={handleBoundsChange}
         />

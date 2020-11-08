@@ -17,7 +17,7 @@ export interface MobileMapProps {
   center: GeoJSONCoordinates
   zoom: number
   features: GeoJSONFeature[]
-  routes: Route[]
+  points?: GeoJSONCoordinates[]
   renderPlacemark: (value: GeoJSONFeature, index: number, array: GeoJSONFeature[]) => {}
   onBoundsChange: Function
 }
@@ -26,7 +26,7 @@ export interface DesktopMapProps {
   center: GeoJSONCoordinates
   zoom: number
   features: GeoJSONFeature[]
-  routes: Route[]
+  points?: GeoJSONCoordinates[]
   renderPlacemark: (value: GeoJSONFeature, index: number, array: GeoJSONFeature[]) => {}
   onBoundsChange: Function
 }

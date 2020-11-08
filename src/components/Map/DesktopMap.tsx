@@ -11,19 +11,18 @@ import { routerOpenedSelector } from '../../store/slices/router'
 import { Route } from './Route'
 
 import { DesktopMapProps } from './typings.d'
-import { GeoJSONCoordinates } from '../../typings.d'
 
 import "./desktop.css"
 
-const routeGetCoordinates = ({ coordinates }: { coordinates: GeoJSONCoordinates }): GeoJSONCoordinates => coordinates
-
-export const DesktopMap: FC<DesktopMapProps> = ({ center, zoom, features, routes, renderPlacemark, onBoundsChange }) => {
+export const DesktopMap: FC<DesktopMapProps> = ({ center, zoom, features, points, renderPlacemark, onBoundsChange }) => {
   const mapRef = useRef(null)
   const [bounds, setBounds] = useState({ width: -1, height: -1 })
   const drawerOpened = useSelector(drawerOpenedSelector)
   const routerOpened = useSelector(routerOpenedSelector)
   const drawerFullWidth = useMemo(() => parseInt(getComputedStyle(document.body).getPropertyValue('--drawer-full-width'), 10), [])
   const routerFullWidth = useMemo(() => parseInt(getComputedStyle(document.body).getPropertyValue('--router-full-width'), 10), [])
+
+  console.log('points =', points)
 
   const handleResize = useCallback((contentRect: any) => {
     let width = window.innerWidth
@@ -59,7 +58,7 @@ export const DesktopMap: FC<DesktopMapProps> = ({ center, zoom, features, routes
             <TypeSelector />
             <ZoomControl />
             {features.map(renderPlacemark)}
-            {(routes.length >= 2) && <Route mapRef={mapRef} points={routes.map(routeGetCoordinates)} />}
+            {points ? <Route mapRef={mapRef} points={points} /> : null}
           </YMap>
         </div>
       )

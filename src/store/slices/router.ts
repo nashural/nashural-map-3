@@ -9,11 +9,22 @@ import {
   AppendRoutePayload,
   RemoveRoutePayload,
   RouteSetCoordinatesPayload
-} from '../typings'
+} from '../typings.d'
+import { GeoJSONCoordinates } from '../../typings.d'
+
+const routeGetCoordinates = ({ coordinates }: { coordinates: GeoJSONCoordinates }): GeoJSONCoordinates => coordinates
 
 export const routesSelector = (state: RootState) => state.router.routes
 
 export const routerOpenedSelector = (state: RootState) => state.router.open
+
+export const pointsSelector = (state: RootState): GeoJSONCoordinates[]|undefined => {
+  const { routes } = state.router
+  if (routes && routes.length >= 2) {
+    return routes.map(routeGetCoordinates)
+  }
+  return undefined
+}
 
 const initialState: RouterState = {
   routes: [],

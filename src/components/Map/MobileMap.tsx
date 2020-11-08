@@ -7,15 +7,14 @@ import { RouteControl } from './RouteControl'
 import { Route } from './Route'
 
 import { MobileMapProps } from './typings.d'
-import { GeoJSONCoordinates } from '../../typings.d'
 
-const routeGetCoordinates = ({ coordinates }: { coordinates: GeoJSONCoordinates }): GeoJSONCoordinates => coordinates
-
-export const MobileMap: FC<MobileMapProps> = ({ center, zoom, features, routes, renderPlacemark, onBoundsChange }) => {
+export const MobileMap: FC<MobileMapProps> = ({ center, zoom, features, points, renderPlacemark, onBoundsChange }) => {
   const mapRef = useRef(null)
   const [width, height_] = useWindowSize()
   const headerHeight = useMemo(() => parseInt(getComputedStyle(document.body).getPropertyValue('--header-height'), 10), [])
   const height = height_ - headerHeight
+
+  console.log('points =', points)
 
   return (
     <div className="Map mobile">
@@ -34,7 +33,7 @@ export const MobileMap: FC<MobileMapProps> = ({ center, zoom, features, routes, 
             <TypeSelector />
             <ZoomControl />
             {features.map(renderPlacemark)}
-            {(routes.length >= 2) && <Route mapRef={mapRef} points={routes.map(routeGetCoordinates)} />}
+            {points ? <Route mapRef={mapRef} points={points} /> : null}
         </YMap>
     </div>
   )

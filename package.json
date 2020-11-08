@@ -33,7 +33,7 @@
   },
   "scripts": {
     "start": "FAST_REFRESH=true react-scripts start",
-    "build": "PUBLIC_URL=/map2/ react-scripts build",
+    "build": "PUBLIC_URL=/map2 SEARCH_PREFIX=http://nashural.ru/map2 react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

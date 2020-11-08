@@ -48,6 +48,7 @@ const Router_: FC<RouterProps> = ({ ymaps }) => {
       return (
         <div className={`Router ${mobile ? 'mobile' : ''} ${desktop ? 'desktop' : ''}`}>
           {desktop && <RouterHeader />}
+          {mobile && <Button className="Router-add-btn" onClick={handleAppendButton}>Добавить точку</Button>}
           <DragDropContext onDragEnd={handleDragEnd}>
             <Droppable droppableId="routes">{(provided) =>
               <Routes routes={routes} innerRef={provided.innerRef} {...provided.droppableProps}>
@@ -55,7 +56,7 @@ const Router_: FC<RouterProps> = ({ ymaps }) => {
               </Routes>
             }</Droppable>
           </DragDropContext>
-          <Button className="Router-add-btn" onClick={handleAppendButton}>Добавить точку</Button>
+          {desktop && <Button className="Router-add-btn" onClick={handleAppendButton}>Добавить точку</Button>}
         </div>
       )
     }}</Media>
