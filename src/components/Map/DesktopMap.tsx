@@ -22,8 +22,6 @@ export const DesktopMap: FC<DesktopMapProps> = ({ center, zoom, features, points
   const drawerFullWidth = useMemo(() => parseInt(getComputedStyle(document.body).getPropertyValue('--drawer-full-width'), 10), [])
   const routerFullWidth = useMemo(() => parseInt(getComputedStyle(document.body).getPropertyValue('--router-full-width'), 10), [])
 
-  console.log('points =', points)
-
   const handleResize = useCallback((contentRect: any) => {
     let width = window.innerWidth
     if (drawerOpened) {

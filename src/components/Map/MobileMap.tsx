@@ -14,8 +14,6 @@ export const MobileMap: FC<MobileMapProps> = ({ center, zoom, features, points, 
   const headerHeight = useMemo(() => parseInt(getComputedStyle(document.body).getPropertyValue('--header-height'), 10), [])
   const height = height_ - headerHeight
 
-  console.log('points =', points)
-
   return (
     <div className="Map mobile">
       <YMap
