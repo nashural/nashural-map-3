@@ -28,7 +28,7 @@ export const App: FC<AppProps> = () => {
   // DEBUG ONLY:
   const dispatch = useDispatch()
   useEffect(() => {
-    dispatch(toggleDrawer({ on: false }))
+    // dispatch(toggleDrawer({ on: false }))
   }, [dispatch])
   
   return (
