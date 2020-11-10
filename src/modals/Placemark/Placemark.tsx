@@ -3,7 +3,7 @@ import { nanoid } from 'nanoid'
 
 import { useModal } from '../../hooks/useModal'
 import { Modal, ModalHeader, ModalBody, ModalFooter, ModalButtons, ModalClose } from '../modal'
-import { Button } from '../../components/Button'
+import { Button, AnchorButton } from '../../components/Button'
 
 import { useDispatch } from '../../hooks/useDispatch'
 import { appendRoute } from '../../store/slices/router'
@@ -49,7 +49,7 @@ export const Placemark: FC<PlacemarkProps> = () => {
         </ModalBody>
         <ModalFooter>
           <ModalButtons>
-            <Button anchor href={href}>Читать далее</Button>
+            <AnchorButton href={href} target="_blank">Читать далее</AnchorButton>
             <Button onClick={handleAddToRoute}>Добавить как точку маршрута</Button>
           </ModalButtons>
         </ModalFooter>
