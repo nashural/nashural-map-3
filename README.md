@@ -50,26 +50,50 @@ npm start
 
 ## Файловая структура компонентов
 
-Все переиспользуемые компоненты лежат плоско в `src/components/*`.
+Компоненты организованы плоско в плоско в `src/components/*`.
 
-Название компонента совпадает с именем каталога компонента, а также с названием файла, где компонент определен, такой компонент называется титульным.
+Название компонента совпадает как с именем каталога, так и с именем файла, где определен компонента, такой компонент называется титульным:
 
-Компоненты, специфичные лишь для одного компонента хранятся в каталоге компонента и называются без префикса, такой компонент называется под-компонентом.
+```
+/src/components
+  /MyComponent
+    /MyComponent.tsx
+```
 
-Из индексного файла (`index.ts`) экспортируется титульный компонент, и, при необходимости, под-компоненты.
+```typescript
+// src/components/MyComponent/MyComponent.tsx
+export const MyComponent = () => null
+```
 
-На данный момент реализуюется десктопная версия карт, так что в компонентах присутствует только файл `desktop.css`, но впоследствии, с реализацией мобильной версии будет также и `mobile.css`, а также структура самого файла поменяется.
+Если компонент включает некоторый другой компонент, который не может использоваться независимо, вне этого компонента, такой под-компонент хранится в том же каталоге:
+
+```
+/src/components
+  /MyComponent
+    /MyComponent.tsx
+    /SubComponent.tsx
+```
+
+Из индексного файла (`index.ts`) экспортируется титульный компонент, и, при крайней необходимости, под-компоненты.
+
+```typescript
+// src/components/MyComponent/index.ts
+export { MyComponent } from './MyComponent'
+export { SubComponent } from './SubComponent'
+```
 
 Для примера рассмотрим структуру компонента `Groups`:
 
 ```
 /src/components/Grups
-  /Badge.tsx    Под-компонент значка элемента меню
-  /desktop.css  Десктопные стили титульного и под-компонентов
-  /Group.tsx    Под-компонент элемента меню
-  /Groups.tsx   Титульный компонент
-  /index.ts     Индексный файл
-  /typings.d.ts Типы титульного и под-компонентов
+  /Badge.tsx      Под-компонент значка элемента меню
+  /universal.css  Общие стили титульного и под-компонентов
+  /desktop.css    Десктопные стили титульного и под-компонентов
+  /mobile.css     Мобильные стили титульного и под-компонентов
+  /Group.tsx      Под-компонент элемента меню
+  /Groups.tsx     Титульный компонент
+  /index.ts       Индексный файл
+  /typings.d.ts   Типы титульного и под-компонентов
 ```
 
 ## Код компонента
@@ -185,6 +209,97 @@ import './desktop.css'
 
 export const MyComponent: FC<MyComponentProps> = () => {
   return <div className='MyComponent'>{null}</div>
+}
+```
+
+## Девайс-дивергентные компоненты
+
+Девайс-дивергентным компонентом называется такой компонент, представление и/или поведение которого отличается в зависимости от устройства: компьютера с широким дисплеем и смартфона.
+
+Девайс-дивергентные компоненты бывают с дивергенцией представления и поведения.
+
+### Девайс-дивергентные компоненты с дивергенцией представления
+
+Компонент, имеющий специфичное представление для мобильных устройств имеет класс `mobile`.
+
+А компонент, имеющий специфичное представление для десктопных устройств имеет класс `desktop`.
+
+```typescript
+import React, { FC } from 'react'
+import Media from 'react-media'
+
+import { DESKTOP, MOBILE } from '../../constants/mediaQueries'
+
+import { MyComponentProps } from './typings.d'
+
+export MyComponent: FC<MyComponentProps> = () => {
+  return (
+    <Media queries={{ mobile: MOBILE, desktop: DESKTOP }}>{({ mobile, desktop }) => {
+      return (
+        <div className={`MyComponent ${desktop ? 'desktop' : ''} ${mobile ? 'mobile' : ''}`}></div>
+      )
+    }</Media>
+  )
+}
+```
+
+### Девайс-дивергентные компоненты с дивергенцией поведения
+
+Необходимо создать два компонента с префиксом `Desktop*` и `Mobile*`, содержащие поведение соответственно для десктопной и мобильной версии компонента:
+
+```
+src/components/MyComponent
+  /DesktopMyComponent.tsx
+  /MobileMyComponent.tsx
+  /MyComponent.tsx
+```
+
+#### src/components/MyComponent/MyComponent.tsx
+
+```typescript
+import React, { FC } from 'react'
+import Media from 'react-media'
+
+import { DESKTOP, MOBILE } from '../../constants/mediaQueries'
+import { DesktopMyComponent } from './DesktopMyComponent'
+import { MobileMyComponent } from './DesktopMyComponent'
+
+import { MyComponentProps } from './typings.d'
+
+import './desktop.css'
+import './mobile.css'
+import './universal.css'
+
+export MyComponent: FC<MyComponentProps> = () => {
+  return (
+    <Media queries={{ mobile: MOBILE, desktop: DESKTOP }}>{({ mobile, desktop }) => {
+      if (desktop) {
+        return <DesktopMyComponent />
+      }
+
+      if (mobile) {
+        return <MobileMyComponent />
+      }
+
+      return null
+    }</Media>
+  )
+}
+```
+
+#### src/components/MyComponent/MobileMyComponent.tsx
+
+```typescript
+import React, { FC } from 'react'
+
+import './mobile.css'
+
+import { MobileMyComponentProps } from './typings.d'
+
+export const MobileMyComponent: FC<MobileMyComponentProps> () => {
+  return (
+    <div className="MyComponent mobile"></div>
+  )
 }
 ```
 
