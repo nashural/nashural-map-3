@@ -17,6 +17,14 @@
     $data->metadata->id = $group_id;
 
     foreach ($data->features as $feature) {
+      if ($feature->properties->description) {
+        $result = explode("\n", $feature->properties->description);
+        $feature->properties->previewSrc = $result[1];
+        $feature->properties->articleHref = $result[0];
+      }
+    }
+
+    foreach ($data->features as $feature) {
       $feature->properties->group = $group_id;
     }
 
