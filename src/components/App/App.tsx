@@ -27,7 +27,7 @@ export const App: FC<AppProps> = () => {
 
   useEffect(() => {
     if (mobile) dispatch(toggleDrawer({ on: false }))
-  }, [dispatch])
+  }, [dispatch, mobile])
   
   return (
     <Media queries={{ mobile: MOBILE, desktop: DESKTOP }}>{({ mobile, desktop }: { mobile: boolean, desktop: boolean }) => {
