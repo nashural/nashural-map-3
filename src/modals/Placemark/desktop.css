@@ -1,3 +1,4 @@
 .Placemark-image {
   width: 100%;
+  max-width: 550px;
 }
