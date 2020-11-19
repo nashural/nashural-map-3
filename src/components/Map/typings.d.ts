@@ -1,11 +1,13 @@
 import { GeoJSONCoordinates, GeoJSONFeature } from '../../typings.d'
 import { Route } from '../../typings.d'
 
-export interface MapProps {}
+export interface MapProps {
+  ymaps?: any
+}
 
 export interface RouteProps {
-  ymaps?: any // TODO: Specific type
-  mapRef: any // TODO: Specific type
+  ymaps?: any
+  mapRef: any
   points: GeoJSONCoordinates[]
 }
 

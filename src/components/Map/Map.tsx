@@ -14,7 +14,7 @@ import { MobileMap } from './MobileMap'
 import { DesktopMap } from './DesktopMap'
 
 import { MapProps } from './typings.d'
-import { GeoJSONCoordinates } from '../../typings.d'
+import { CustomProperties, GeoJSONCoordinates, GeoJSONFeature } from '../../typings.d'
 
 import "./universal.css"
 import "./desktop.css"
@@ -48,14 +48,14 @@ export const Map: FC<MapProps> = () => {
     }))
   }, [dispatch])
 
-  const renderPlacemark = ({ id, geometry, properties }: any) => {
+  const renderPlacemark = ({ id, geometry, properties }: GeoJSONFeature) => {
     return <Placemark
-      key={`${properties.group}-${id}`}
-      geometry={geometry}
+      key={`${(properties as CustomProperties).group}-${id}`}
+      geometry={geometry as any}
       properties={properties}
       options={{
-        preset: 'islands#circleIcon',
-        iconColor: '#0074a0'
+        iconLayout: 'default#image',
+        iconImageHref: `/icons/${(properties as CustomProperties).group}.png`
       }}
       onClick={(e: any) => handlePlacemarkClick(e, geometry.coordinates)}
     />
