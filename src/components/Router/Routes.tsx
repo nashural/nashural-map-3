@@ -2,6 +2,7 @@ import React, { FC } from 'react'
 import Media from 'react-media'
 
 import { Route } from './Route'
+import { RouteInfo } from './RouteInfo'
 import { DESKTOP, MOBILE } from '../../constants/mediaQueries'
 
 import { RoutesProps } from './typings.d'
@@ -18,6 +19,7 @@ export const Routes: FC<RoutesProps> = ({ routes, innerRef, children }) => {
       return (
         <div className={`Routes ${mobile ? 'mobile' : ''} ${desktop ? 'desktop' : ''}`} ref={innerRef}>
           {routes.map(renderRoute)}
+          <RouteInfo />
           {children}
         </div>
       )

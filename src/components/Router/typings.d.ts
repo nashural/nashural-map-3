@@ -17,3 +17,5 @@ export interface RouteProps {
   name: string
   immutable: boolean
 }
+
+export interface RouteInfoProps {}

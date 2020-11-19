@@ -1,4 +1,4 @@
-import React, { FC, useCallback } from 'react'
+import React, { FC, useCallback, useEffect } from 'react'
 import { useSelector } from 'react-redux'
 import Media from 'react-media'
 import { Placemark } from 'react-yandex-maps'
@@ -9,6 +9,7 @@ import { changeBounds, mapStateSelector } from '../../store/slices/map'
 import { allFeaturesSelector } from '../../store/slices/groups'
 import { toggleModal } from '../../store/slices/modal'
 import { pointsSelector } from '../../store/slices/router'
+import { toggleInfo } from '../../store/slices/router'
 import { MobileMap } from './MobileMap'
 import { DesktopMap } from './DesktopMap'
 
@@ -24,6 +25,14 @@ export const Map: FC<MapProps> = () => {
   const { center, zoom } = useSelector(mapStateSelector)
   const features = useSelector(allFeaturesSelector)
   const points = useSelector(pointsSelector)
+
+  useEffect(() => {
+    if (!points) {
+      dispatch(toggleInfo({
+        show: false
+      }))
+    }
+  }, [dispatch, points])
 
   const handlePlacemarkClick = useCallback((e: any, coordinates: GeoJSONCoordinates) => {
     const { iconCaption, previewSrc, articleHref } = e.get('target').properties.getAll()

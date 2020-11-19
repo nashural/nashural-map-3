@@ -65,9 +65,18 @@ export interface ToggleModalPayload {
   props: object
 }
 
+export interface RouteInfo {
+  show: boolean
+  humanTime?: string,
+  humanJamsTime?: string,
+  humanLength?: string,
+  humanFuel?: string
+}
+
 export interface RouterState {
   routes: Route[]
   open: boolean
+  info: RouteInfo
 }
 
 export interface ToggleRouterPayload {

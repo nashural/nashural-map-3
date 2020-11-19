@@ -8,7 +8,8 @@ import {
   ReorderRoutesPayload,
   AppendRoutePayload,
   RemoveRoutePayload,
-  RouteSetCoordinatesPayload
+  RouteSetCoordinatesPayload,
+  RouteInfo
 } from '../typings.d'
 import { GeoJSONCoordinates } from '../../typings.d'
 
@@ -17,6 +18,8 @@ const routeGetCoordinates = ({ coordinates }: { coordinates: GeoJSONCoordinates 
 export const routesSelector = (state: RootState) => state.router.routes
 
 export const routerOpenedSelector = (state: RootState) => state.router.open
+
+export const routeInfoSelector = (state: RootState) => state.router.info
 
 export const pointsSelector = (state: RootState): GeoJSONCoordinates[]|undefined => {
   const { routes } = state.router
@@ -28,7 +31,10 @@ export const pointsSelector = (state: RootState): GeoJSONCoordinates[]|undefined
 
 const initialState: RouterState = {
   routes: [],
-  open: false
+  open: false,
+  info: {
+    show: false
+  }
 }
 
 const routerSlice = createSlice({
@@ -66,6 +72,22 @@ const routerSlice = createSlice({
       const { index, name, coordinates } = action.payload
       state.routes[index].name = name
       state.routes[index].coordinates = coordinates
+    },
+    toggleInfo(state, action: PayloadAction<RouteInfo>) {
+      const { show, humanTime, humanJamsTime, humanLength, humanFuel } = action.payload
+      if (show) {
+        state.info.show = true
+        state.info.humanTime = humanTime
+        state.info.humanJamsTime = humanJamsTime
+        state.info.humanLength = humanLength
+        state.info.humanFuel = humanFuel
+      } else {
+        state.info.show = false
+        delete state.info.humanTime
+        delete state.info.humanJamsTime
+        delete state.info.humanLength
+        delete state.info.humanFuel
+      }
     }
   }
 })
@@ -76,7 +98,8 @@ export const {
   appendRoute,
   removeRoute,
   routeSetCoordinates,
-  toggleRouter
+  toggleRouter,
+  toggleInfo
 } = routerSlice.actions
 
 export default routerSlice.reducer

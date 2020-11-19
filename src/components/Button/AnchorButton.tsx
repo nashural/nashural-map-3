@@ -6,5 +6,5 @@ import './universal.css'
 
 export const AnchorButton: FC<ButtonProps> = ({ className, ...props }) => {
   // @ts-ignore
-  return <a className={`Button ${className || ''}`} {...props} />
+  return <a className={`Button ${className || ''}`} {...props} /> // eslint-disable-line jsx-a11y/anchor-has-content
 }

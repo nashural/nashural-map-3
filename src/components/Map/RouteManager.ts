@@ -30,13 +30,14 @@ export class RouteManager {
       if (this.cache[hash]) {
         return this.cache[hash]
       } else {
+        console.log(points)
         const route = await this.ymaps.route(points)
         this.cache[hash] = route
         return route
       }
     }
   
-    async update(points: GeoJSONCoordinates[]) {
+    async update(points: GeoJSONCoordinates[], callback: (route: any) => void) {
       if (this.updateLock) {
         return 
       } else {
@@ -45,6 +46,7 @@ export class RouteManager {
         const idx = this.map.geoObjects.indexOf(route)
         if (idx === -1) {
           this.map.geoObjects.add(route)
+          callback(route)
         }
         this.updateLock = false
       }
