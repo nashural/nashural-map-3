@@ -55,7 +55,9 @@ export const Map: FC<MapProps> = () => {
       properties={properties}
       options={{
         iconLayout: 'default#image',
-        iconImageHref: `/icons/${(properties as CustomProperties).group}.png`
+        iconImageHref: `/icons/${(properties as CustomProperties).group}.png`,
+        iconImageSize: [24, 24],
+        iconImageOffset: [-12, -12]
       }}
       onClick={(e: any) => handlePlacemarkClick(e, geometry.coordinates)}
     />
