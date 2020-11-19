@@ -8,6 +8,14 @@
 echo "YMAPS_API_KEY=<YMAPS_API_KEY>" > .env
 ```
 
+```shell
+echo "\
+PUBLIC_URL=/map2
+REACT_APP_SEARCH_URL=https://nashural.ru/map2
+REACT_APP_YMAPS_API_KEY=<YMAPS_API_KEY>" > .env.production
+
+```
+
 ## Установка
 
 ```shell
