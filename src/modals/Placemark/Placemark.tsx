@@ -36,6 +36,8 @@ export const Placemark: FC<PlacemarkProps> = () => {
   if (opened) {
     const { title, src, href } = props
 
+    const srcWithoutProto = src.replace(/(^\w+:|^)\/\//, '')
+
     return (
       <Modal>
         <ModalHeader>
@@ -44,7 +46,7 @@ export const Placemark: FC<PlacemarkProps> = () => {
         </ModalHeader>
         <ModalBody>
           <figure>
-            <img className="Placemark-image" src={`https:${src}`} alt={title} />
+            <img className="Placemark-image" src={`https://${srcWithoutProto}`} alt={title} />
           </figure>
         </ModalBody>
         <ModalFooter>
