@@ -1,4 +1,6 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
+import { createSelectorCreator, defaultMemoize } from 'reselect'
+import { isEqual } from 'lodash'
 
 import {
   RootState,
@@ -11,7 +13,7 @@ import {
   RouteSetCoordinatesPayload,
   RouteInfo
 } from '../typings.d'
-import { GeoJSONCoordinates } from '../../typings.d'
+import { GeoJSONCoordinates, Route } from '../../typings.d'
 
 const routeGetCoordinates = ({ coordinates }: { coordinates: GeoJSONCoordinates }): GeoJSONCoordinates => coordinates
 
@@ -21,13 +23,20 @@ export const routerOpenedSelector = (state: RootState) => state.router.open
 
 export const routeInfoSelector = (state: RootState) => state.router.info
 
-export const pointsSelector = (state: RootState): GeoJSONCoordinates[]|undefined => {
-  const { routes } = state.router
-  if (routes && routes.length >= 2) {
-    return routes.map(routeGetCoordinates)
+const createPointsSelector = createSelectorCreator(
+  defaultMemoize,
+  isEqual
+)
+
+export const pointsSelector = createPointsSelector(
+  (state: RootState): Route[] => state.router.routes,
+  (routes: Route[]): GeoJSONCoordinates[]|undefined => {
+    if (routes && routes.length >= 2) {
+      return routes.map(routeGetCoordinates)
+    }
+    return undefined
   }
-  return undefined
-}
+)
 
 const initialState: RouterState = {
   routes: [],
