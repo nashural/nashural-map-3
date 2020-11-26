@@ -2,6 +2,9 @@
   overflow-y: scroll;
 }
 
+.Groups-list {
+}
+
 .Group {
   display: flex;
   justify-content: space-between;
@@ -17,8 +20,40 @@
   background-position-y: 50%;
 }
 
-.Group:hover,
-.Group.active {
+a.Group:hover,
+a.Group.active {
+  color: #ffffff;
+  background-color: #0274a0;
+}
+
+.Groups-search {
+  padding: 0.5rem;
+}
+
+.Groups-search__input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.2rem;
+  border: 1px solid #0274a0;
+  font-size: 1.1rem;
+}
+
+.GroupSearchResult {
+}
+
+.GroupSearchResult-features {
+}
+
+.GroupSearchResult-feature {
+  display: block;
+  margin-bottom: 0.2rem;
+  padding-left: 15px;
+  color: #0274a5;
+  text-decoration: none;
+}
+
+.GroupSearchResult-feature.active,
+.GroupSearchResult-feature:hover {
   color: #ffffff;
   background-color: #0274a0;
 }

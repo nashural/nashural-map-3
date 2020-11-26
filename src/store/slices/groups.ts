@@ -1,7 +1,18 @@
 import { createSlice, createAsyncThunk, PayloadAction } from '@reduxjs/toolkit'
 
-import { Group, GeoJSON } from '../../typings'
-import { RootState, GroupsState, ToggleGroupPayload, GroupNamesIndex } from '../typings'
+import { Group, GeoJSON, CustomProperties, GeoJSONFeature } from '../../typings'
+import {
+  RootState,
+  GroupsState,
+  ToggleGroupPayload,
+  GroupNamesIndex,
+  AddFeaturePayload,
+  RemoveFeaturePayload
+} from '../typings'
+
+const isFeaturesSame = (featureA: GeoJSONFeature, featureB: GeoJSONFeature): boolean => {
+  return (featureA.id === featureB.id) && ((featureA.properties as CustomProperties).group === (featureB.properties as CustomProperties).group)
+}
 
 const groupsSorter = (id1: string, id2: string): number => {
   return id1.localeCompare(id2)
@@ -24,6 +35,23 @@ export const allFeaturesSelector = (state: RootState) => state.groups.features
 
 export const activeGroupsSelector = (state: RootState) => state.groups.activeGroups
 
+export const featureIsActiveByKeySelector = (key: string) => (state: RootState) => {
+  for (let { id, properties } of state.groups.features) {
+    const { group } = properties as CustomProperties
+    if (key === `${group}-${id}`)
+      return true
+  }
+  return false
+}
+
+export const selectGroupById = (groupId: string) => (state: RootState) => {
+  for (let group of state.groups.allGroups) {
+    if (group.id === groupId)
+      return group
+  }
+  return undefined
+}
+
 export const fetchGroups = createAsyncThunk(
   'fetch-groups',
   async () => {
@@ -41,16 +69,23 @@ export const fetchGroupById = createAsyncThunk(
   }
 )
 
-const addFeatures = (state: any, id: string) => {
-  const { features } = state.groups[id]
+const mergeFeatures = (state: any, id: string) => {
+  const features = state.features.slice(0)
 
-  return state.features.concat(features)
+  for (let newFeature of state.groups[id].features) {
+    const index = features.findIndex((presentFeature: GeoJSONFeature) => isFeaturesSame(newFeature, presentFeature))
+    if (index === -1) {
+      features.push(newFeature)
+    }
+  }
+
+  return features
 }
 
 const removeFeatures = (state: any, id: string) => {
-  return state.features.filter((feature_: any) => {
+  return state.features.filter((feature_: GeoJSONFeature) => {
     for (let feature of state.groups[id].features) {
-      if ((feature.id === feature_.id) && (feature.properties.group === feature_.properties.group)) {
+      if (isFeaturesSame(feature, feature_)) {
         return false
       }
     }
@@ -83,7 +118,19 @@ const groupsSlice = createSlice({
         state.selectedGroups[id] = false
         state.features = removeFeatures(state, id)
       }
-    }
+    },
+    addFeature(state, action: PayloadAction<AddFeaturePayload>) {
+      const { feature } = action.payload
+      state.features.push(feature)
+    },
+    removeFeature(state, action: PayloadAction<RemoveFeaturePayload>) {
+      const index = state.features.findIndex((feature: GeoJSONFeature) => {
+        if (isFeaturesSame(feature, action.payload.feature)) {
+          return true
+        }
+      })
+      if (index >= -1) state.features.splice(index, 1)
+    },
   },
   extraReducers: builder => {
     builder.addCase(fetchGroups.fulfilled, (state, action:PayloadAction<Group[]>) => {
@@ -91,11 +138,11 @@ const groupsSlice = createSlice({
     })
     builder.addCase(fetchGroupById.fulfilled, (state, action:PayloadAction<GeoJSON>) => {
       state.groups[action.payload.metadata.id] = action.payload
-      state.features = addFeatures(state, action.payload.metadata.id)
+      state.features = mergeFeatures(state, action.payload.metadata.id)
     })
   }
 })
 
-export const { toggleGroup } = groupsSlice.actions
+export const { toggleGroup, addFeature, removeFeature } = groupsSlice.actions
 
 export default groupsSlice.reducer

@@ -1,11 +1,14 @@
 import React, { FC, useEffect } from 'react'
-import { useSelector } from 'react-redux'
 import Media from 'react-media'
+import { useSelector } from 'react-redux'
 
 import { useDispatch } from '../../hooks/useDispatch'
-import { Group as GroupItem } from './Group'
-import { fetchGroups, allGroupsSelector } from '../../store/slices/groups'
+import { fetchGroups } from '../../store/slices/groups'
 import { DESKTOP, MOBILE } from '../../constants/mediaQueries'
+import { GroupsSearch } from './GroupsSearch'
+import { GroupsList } from './GroupsList'
+import { enabledSelector } from '../../store/slices/search'
+import { SearchResult } from './SearchResult'
 
 import { GroupsProps } from './typings.d'
 
@@ -15,21 +18,18 @@ import "./mobile.css"
 
 export const Groups: FC<GroupsProps> = () => {
   const dispatch = useDispatch()
-  const groups = useSelector(allGroupsSelector)
+  const enabled = useSelector(enabledSelector)
 
   useEffect(() => {
     dispatch(fetchGroups())
   }, [dispatch])
 
-  const renderGroup = (group: any) => {
-    return <GroupItem key={group.id} {...group} />
-  }
-
   return (
     <Media queries={{ desktop: DESKTOP, mobile: MOBILE }} defaultMatches={{ desktop: true }}>{({ desktop, mobile }) => {
       return (
         <div className={`Groups ${mobile ? 'mobile' : ''} ${desktop ? 'desktop' : ''}`}>
-          {groups.map(renderGroup)}
+          <GroupsSearch />
+          {enabled ? <SearchResult /> : <GroupsList />}
         </div>
       )
     }}</Media>

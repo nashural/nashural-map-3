@@ -55,7 +55,7 @@ export const Map: FC<MapProps> = () => {
       properties={properties}
       options={{
         iconLayout: 'default#image',
-        iconImageHref: `/icons/${(properties as CustomProperties).group}.png`,
+        iconImageHref: `${process.env.PUBLIC_URL}/icons/${(properties as CustomProperties).group}.png`,
         iconImageSize: [24, 24],
         iconImageOffset: [-12, -12]
       }}

@@ -105,3 +105,35 @@ export interface RouteSetCoordinatesPayload {
   name: string
   coordinates: GeoJSONCoordinates
 }
+
+export interface SearchResult {
+  groupId: string
+  features: GeoJSONFeature[]
+}
+
+export interface GroupedFeaturesIndex {
+  [key: string]: GeoJSONFeature[]
+}
+
+export interface SearchState {
+  enabled: boolean
+  query: string
+  groupedFeatures: GroupedFeatures
+}
+
+export interface PerformSearchPayload {
+  query: string
+  results?: SearchResult[]
+}
+
+export interface ToggleEnabledPayload {
+  on: boolean
+}
+
+export interface AddFeaturePayload {
+  feature: GeoJSONFeature
+}
+
+export interface RemoveFeaturePayload {
+  feature: GeoJSONFeature
+}
