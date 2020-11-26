@@ -8,6 +8,7 @@ import { toggleInfo } from '../../store/slices/router'
 import { RouteProps } from './typings.d'
 import { GeoJSONCoordinates } from '../../typings'
 
+// eslint-disable-next-line @typescript-eslint/no-array-constructor
 const ROUTES_CACHE: Array<[GeoJSONCoordinates[], object]> = new Array()
 
 const getRoute = async (ymaps: any, points: GeoJSONCoordinates[]): Promise<any> => {
@@ -44,7 +45,7 @@ const Route_: FC<RouteProps> = memo<RouteProps>(({ points, mapRef, ymaps }) => {
     return () => {
       if (route) map.geoObjects.remove(route)
     }
-  }, [points, route])
+  }, [dispatch, mapRef, ymaps, points, route])
 
   return null
 })

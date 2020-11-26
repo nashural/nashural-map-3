@@ -128,6 +128,7 @@ const groupsSlice = createSlice({
         if (isFeaturesSame(feature, action.payload.feature)) {
           return true
         }
+        return false
       })
       if (index >= -1) state.features.splice(index, 1)
     },

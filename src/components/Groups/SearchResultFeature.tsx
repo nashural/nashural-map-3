@@ -21,7 +21,7 @@ export const SearchResultFeature: FC<SearchResultFeatureProps> = ({ feature }) =
     } else {
       dispatch(addFeature({ feature }))
     }
-  }, [active])
+  }, [dispatch, feature, active])
 
   return (
     <a

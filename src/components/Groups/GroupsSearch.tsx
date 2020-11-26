@@ -14,7 +14,7 @@ export const GroupsSearch: FC<GroupsSearchProps> = () => {
     dispatch(performSearch({
       query: e.target.value
     }))
-  }, [])
+  }, [dispatch])
 
   return (
     <div className="Groups-search">
