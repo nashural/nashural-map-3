@@ -1,3 +1,6 @@
+// @ts-ignore
+import compareSnapshotCommand from 'cypress-image-diff-js/dist/command'
+
 // ***********************************************
 // This example commands.js shows you how to
 // create various custom commands and overwrite
@@ -23,3 +26,5 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
+
+compareSnapshotCommand()
