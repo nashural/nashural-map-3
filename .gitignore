@@ -24,3 +24,6 @@ yarn-error.log*
 
 .env
 .env.production
+
+cypress-visual-report/
+cypress-visual-screenshots/
