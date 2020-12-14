@@ -2,9 +2,9 @@ import { createSlice, PayloadAction } from '@reduxjs/toolkit'
 
 import { RootState, MapState, ChangeBoundsPayload } from '../typings'
 
-const DEFAULT_ZOOM: number = 3
-const DEFAULT_LAT: number = 63.815612726572821
-const DEFAULT_LON: number = 74.7998273699998
+const DEFAULT_ZOOM: number = 4
+const DEFAULT_LAT: number = 64.87185143
+const DEFAULT_LON: number = 71.56933550
 
 const createInitialMapState = (): MapState => {
   let zoom: number = DEFAULT_ZOOM
