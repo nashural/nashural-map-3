@@ -218,6 +218,7 @@
         ?>
         <li class="list-group-item">
           <button class="btn btn-primary" data-toggle="modal" data-target="#new_group_modal">Добавить группу</button>
+          <button class="btn btn-secondary" data-toggle="modal" data-target="#import_modal">Импорт</button>
         </li>
       </ul>
     </div>
@@ -328,6 +329,34 @@
         </div>
       </div>
     </div>
+  </div>
+
+  <div class="modal" data-backdrop="static" data-keyboard="false" id="import_modal">
+    <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Импорт данных</h5>
+              <button type="button" class="close" data-dismiss="modal">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <a href="csv_template.php" download="template.csv">Скачать шаблон (.csv)</a>
+              <form action="import.php" method="post" enctype="multipart/form-data" id="import_groups_form">
+                <div class="form-group">
+                  <label for="groups">Точки групп</label>
+                  <input type="file" class="form-control-file" name="groups_file" id="groups_file" accept=".csv" aria-describedby="groups_file_help">
+                  <small id="groups_file_help" class="form-text text-muted">Файл в формате <code>.csv</code>, заполненный по шаблону</small>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Отмена</button>
+              <button type="submit" class="btn btn-success" form="import_groups_form">Импортировать</button>
+            </div>
+          </div>
+        </div>
+      </div>
   </div>
 
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
