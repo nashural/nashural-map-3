@@ -20,7 +20,7 @@
   }
 
   function line_has_content($line) {
-    return isset($line[2]);
+    return isset($line[0]) && isset($line[2]) && isset($line[3]) && isset($line[4]) && isset($line[5]) && isset($line[6]);
   }
 
   function find_group_by_id($groups, $group_id) {
@@ -34,12 +34,14 @@
   function insert_feature($groups, $features) {
     foreach ($features as $feature) {
       $group = find_group_by_id($groups->groups, $feature['properties']['group']);
-      $feature['id'] = $group->count;
-      $filename = "../data/".$group->id.'.json';
-      $data = json_decode(file_get_contents($filename));
-      array_push($data->features, $feature);
-      file_put_contents($filename, json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES));
-      $group->count += 1;
+      if (isset($group)) {
+        $feature['id'] = $group->count;
+        $filename = "../data/".$group->id.'.json';
+        $data = json_decode(file_get_contents($filename));
+        array_push($data->features, $feature);
+        file_put_contents($filename, json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES));
+        $group->count += 1;
+      }
     }
     file_put_contents("../data/groups.json", json_encode($groups, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES));
   }
