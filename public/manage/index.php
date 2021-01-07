@@ -344,7 +344,7 @@
               <a href="csv_template.php" download="template.csv">Скачать шаблон (.csv)</a>
               <form action="import.php" method="post" enctype="multipart/form-data" id="import_groups_form">
                 <div class="form-group">
-                  <label for="groups">Точки групп</label>
+                  <label for="groups">Новые точки</label>
                   <input type="file" class="form-control-file" name="groups_file" id="groups_file" accept=".csv" aria-describedby="groups_file_help">
                   <small id="groups_file_help" class="form-text text-muted">Файл в формате <code>.csv</code>, заполненный по шаблону</small>
                 </div>
