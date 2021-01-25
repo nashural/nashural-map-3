@@ -1,20 +1,24 @@
-import React, { FC, useCallback, ChangeEvent } from 'react'
-import { useSelector } from 'react-redux'
+import React, { ChangeEvent, FC, useCallback } from "react";
+import { performSearch, querySelector } from "../../store/slices/search";
 
-import { useDispatch } from '../../hooks/useDispatch'
-import { querySelector, performSearch } from '../../store/slices/search'
-
-import { GroupsSearchProps } from './typings'
+import { GroupsSearchProps } from "./typings";
+import { useDispatch } from "../../hooks/useDispatch";
+import { useSelector } from "react-redux";
 
 export const GroupsSearch: FC<GroupsSearchProps> = () => {
-  const dispatch = useDispatch()
-  const query = useSelector(querySelector)
+  const dispatch = useDispatch();
+  const query = useSelector(querySelector);
 
-  const handleQueryChange = useCallback((e: ChangeEvent<HTMLInputElement>) => {
-    dispatch(performSearch({
-      query: e.target.value
-    }))
-  }, [dispatch])
+  const handleQueryChange = useCallback(
+    (e: ChangeEvent<HTMLInputElement>) => {
+      dispatch(
+        performSearch({
+          query: e.target.value,
+        })
+      );
+    },
+    [dispatch]
+  );
 
   return (
     <div className="Groups-search">
@@ -26,5 +30,5 @@ export const GroupsSearch: FC<GroupsSearchProps> = () => {
         onChange={handleQueryChange}
       />
     </div>
-  )
-}
+  );
+};

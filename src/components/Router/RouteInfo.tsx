@@ -1,12 +1,11 @@
-import React, { FC } from 'react'
-import { useSelector } from 'react-redux'
+import React, { FC } from "react";
 
-import { routeInfoSelector } from '../../store/slices/router'
-
-import { RouteInfoProps } from './typings.d'
+import { RouteInfoProps } from "./typings.d";
+import { routeInfoSelector } from "../../store/slices/router";
+import { useSelector } from "react-redux";
 
 export const RouteInfo: FC<RouteInfoProps> = () => {
-  const info = useSelector(routeInfoSelector)
+  const info = useSelector(routeInfoSelector);
 
   if (info.show) {
     return (
@@ -21,8 +20,8 @@ export const RouteInfo: FC<RouteInfoProps> = () => {
           <b>Время в пути:</b> {info.humanJamsTime}
         </div>
       </div>
-    )
+    );
   } else {
-    return null
+    return null;
   }
-}
+};

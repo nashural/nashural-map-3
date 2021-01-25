@@ -1,10 +1,20 @@
-import React, { FC } from 'react'
-import { ListBoxItem } from 'react-yandex-maps'
+import React, { FC } from "react";
 
-import { RouteProps } from './typings.d'
+import { ListBoxItem } from "react-yandex-maps";
+import { RouteProps } from "./typings.d";
 
-export const Route: FC<RouteProps> = ({ content, articleUrl, descriptionUrl, referencePoints, onSelect }) => {
+export const Route: FC<RouteProps> = ({
+  content,
+  articleUrl,
+  descriptionUrl,
+  referencePoints,
+  onSelect,
+}) => {
   return (
-    <ListBoxItem data={{ content }} options={{ articleUrl, descriptionUrl, referencePoints }} onSelect={onSelect} />
-  )
-}
+    <ListBoxItem
+      data={{ content }}
+      options={{ articleUrl, descriptionUrl, referencePoints }}
+      onSelect={onSelect}
+    />
+  );
+};

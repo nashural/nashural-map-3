@@ -1,18 +1,28 @@
-import React, { FC } from 'react'
-import Media from 'react-media'
+import "./desktop.css";
 
-import { DESKTOP, MOBILE } from '../../constants/mediaQueries'
+import { DESKTOP, MOBILE } from "../../constants/mediaQueries";
+import React, { FC } from "react";
 
-import { ModalHeaderProps } from './typings.d'
-
-import "./desktop.css"
+import Media from "react-media";
+import { ModalHeaderProps } from "./typings.d";
 
 export const ModalHeader: FC<ModalHeaderProps> = ({ children }) => {
   return (
-    <Media queries={{ desktop: DESKTOP, mobile: MOBILE }} defaultMatches={{ desktop: true }}>{({ mobile, desktop }) => {
-      return (
-        <div className={`Modal-header ${desktop ? 'desktop' : ''} ${mobile ? 'mobile' : ''}`}>{children}</div>
-      )
-    }}</Media>
-  )
-}
+    <Media
+      queries={{ desktop: DESKTOP, mobile: MOBILE }}
+      defaultMatches={{ desktop: true }}
+    >
+      {({ mobile, desktop }) => {
+        return (
+          <div
+            className={`Modal-header ${desktop ? "desktop" : ""} ${
+              mobile ? "mobile" : ""
+            }`}
+          >
+            {children}
+          </div>
+        );
+      }}
+    </Media>
+  );
+};

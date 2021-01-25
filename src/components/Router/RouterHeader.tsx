@@ -1,11 +1,9 @@
-import React, { FC } from 'react'
+import "./desktop.css";
 
-import { RouterHeaderProps } from './typings.d'
+import React, { FC } from "react";
 
-import "./desktop.css"
+import { RouterHeaderProps } from "./typings.d";
 
 export const RouterHeader: FC<RouterHeaderProps> = () => {
-  return (
-    <div className="Router-header">Маршрут</div>
-  )
-}
+  return <div className="Router-header">Маршрут</div>;
+};

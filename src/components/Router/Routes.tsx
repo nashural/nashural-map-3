@@ -1,29 +1,37 @@
-import React, { FC } from 'react'
-import Media from 'react-media'
+import "./desktop.css";
 
-import { Route } from './Route'
-import { RouteInfo } from './RouteInfo'
-import { DESKTOP, MOBILE } from '../../constants/mediaQueries'
+import { DESKTOP, MOBILE } from "../../constants/mediaQueries";
+import React, { FC } from "react";
 
-import { RoutesProps } from './typings.d'
-
-import './desktop.css'
+import Media from "react-media";
+import { Route } from "./Route";
+import { RouteInfo } from "./RouteInfo";
+import { RoutesProps } from "./typings.d";
 
 export const Routes: FC<RoutesProps> = ({ routes, innerRef, children }) => {
   const renderRoute = (props: any, index: number) => {
-    return <Route key={props.id} index={index} {...props} />
-  }
+    return <Route key={props.id} index={index} {...props} />;
+  };
 
   return (
-    <Media queries={{ desktop: DESKTOP, mobile: MOBILE }} defaultMatches={{ desktop: true }}>{({ desktop, mobile }) => {
-      return (
-        <div className={`Routes ${mobile ? 'mobile' : ''} ${desktop ? 'desktop' : ''}`} ref={innerRef}>
-          {routes.map(renderRoute)}
-          <RouteInfo />
-          {children}
-        </div>
-      )
-    }}</Media>
-  )
-
-}
+    <Media
+      queries={{ desktop: DESKTOP, mobile: MOBILE }}
+      defaultMatches={{ desktop: true }}
+    >
+      {({ desktop, mobile }) => {
+        return (
+          <div
+            className={`Routes ${mobile ? "mobile" : ""} ${
+              desktop ? "desktop" : ""
+            }`}
+            ref={innerRef}
+          >
+            {routes.map(renderRoute)}
+            <RouteInfo />
+            {children}
+          </div>
+        );
+      }}
+    </Media>
+  );
+};

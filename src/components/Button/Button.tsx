@@ -1,10 +1,10 @@
-import React, { FC } from 'react'
+import "./universal.css";
 
-import { ButtonProps } from './typings.d'
+import React, { FC } from "react";
 
-import './universal.css'
+import { ButtonProps } from "./typings.d";
 
 export const Button: FC<ButtonProps> = ({ className, ...props }) => {
   // @ts-ignore
-  return <button className={`Button ${className || ''}`} {...props} />
-}
+  return <button className={`Button ${className || ""}`} {...props} />;
+};

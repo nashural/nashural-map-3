@@ -1,27 +1,30 @@
-import React, { FC } from 'react'
-import Media from 'react-media'
+import "./universal.css";
 
-import { DesktopHeader } from './DesktopHeader'
-import { MobileHeader } from './MobileHeader'
-import { DESKTOP, MOBILE } from '../../constants/mediaQueries'
+import { DESKTOP, MOBILE } from "../../constants/mediaQueries";
+import React, { FC } from "react";
 
-import { HeaderProps } from './typings'
-
-import "./universal.css"
+import { DesktopHeader } from "./DesktopHeader";
+import { HeaderProps } from "./typings";
+import Media from "react-media";
+import { MobileHeader } from "./MobileHeader";
 
 export const Header: FC<HeaderProps> = () => {
-  return <Media
-    queries={{ mobile: MOBILE, desktop: DESKTOP }}
-    defaultMatches={{ desktop: true }}
-  >{({ mobile, desktop }) => {
-    if (mobile) {
-      return <MobileHeader />
-    }
+  return (
+    <Media
+      queries={{ mobile: MOBILE, desktop: DESKTOP }}
+      defaultMatches={{ desktop: true }}
+    >
+      {({ mobile, desktop }) => {
+        if (mobile) {
+          return <MobileHeader />;
+        }
 
-    if (desktop) {
-      return <DesktopHeader />
-    }
+        if (desktop) {
+          return <DesktopHeader />;
+        }
 
-    return null
-  }}</Media>
-}
+        return null;
+      }}
+    </Media>
+  );
+};

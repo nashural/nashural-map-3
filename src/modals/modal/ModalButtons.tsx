@@ -1,11 +1,9 @@
-import React, { FC } from 'react'
+import "./desktop.css";
 
-import { ModalButtonsProps } from './typings.d'
+import React, { FC } from "react";
 
-import './desktop.css'
+import { ModalButtonsProps } from "./typings.d";
 
 export const ModalButtons: FC<ModalButtonsProps> = ({ children }) => {
-  return (
-    <div className="Modal-buttons">{children}</div>
-  )
-}
+  return <div className="Modal-buttons">{children}</div>;
+};

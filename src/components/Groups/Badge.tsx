@@ -1,13 +1,9 @@
-import React, { FC } from 'react'
+import "./desktop.css";
 
-import { BadgeProps } from './typings'
+import React, { FC } from "react";
 
-import "./desktop.css"
+import { BadgeProps } from "./typings";
 
 export const Badge: FC<BadgeProps> = ({ count }) => {
-  return (
-    <div className="Badge">
-      {count}
-    </div>
-  )
-}
+  return <div className="Badge">{count}</div>;
+};
