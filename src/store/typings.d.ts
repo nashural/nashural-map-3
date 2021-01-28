@@ -43,6 +43,8 @@ export interface MapState {
   zoom: number
   center: GeoJSONCoordinates
   place: string|void
+  isInline: boolean
+  preselectAllGroups: boolean
 }
 
 export interface ChangeBoundsPayload {

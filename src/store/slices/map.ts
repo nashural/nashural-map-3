@@ -1,6 +1,5 @@
-import { createSlice, PayloadAction } from '@reduxjs/toolkit'
-
-import { RootState, MapState, ChangeBoundsPayload } from '../typings'
+import { ChangeBoundsPayload, MapState, RootState } from '../typings'
+import { PayloadAction, createSlice } from '@reduxjs/toolkit'
 
 const DEFAULT_ZOOM: number = 4
 const DEFAULT_LAT: number = 64.87185143
@@ -11,6 +10,8 @@ const createInitialMapState = (): MapState => {
   let lat: number = DEFAULT_LAT
   let lon: number = DEFAULT_LON
   let place: string|void = undefined
+  let isInline: boolean = false
+  let preselectAllGroups: boolean = false
   const url = new URL(window.location.href)
 
   if (
@@ -25,16 +26,29 @@ const createInitialMapState = (): MapState => {
     place = url.searchParams.get('place') as string
   }
 
+  if (url.searchParams.has('inline')) {
+    isInline = url.searchParams.get('inline') === 'true'
+  } else
+  if (!Number.isNaN(lat) || !Number.isNaN(lon) || !Number.isNaN(zoom)) {
+    isInline = true
+  }
+
   if (Number.isNaN(lat) || Number.isNaN(lon) || Number.isNaN(zoom)) {
     zoom = DEFAULT_ZOOM
     lat = DEFAULT_LAT
     lon = DEFAULT_LON
   }
 
+  if (isInline) {
+    preselectAllGroups = true
+  }
+
   return {
     zoom,
     center: [lat, lon],
-    place
+    place,
+    isInline,
+    preselectAllGroups
   }
 }
 
@@ -44,6 +58,8 @@ export const mapStateSelector = (state: RootState) => ({
 })
 
 export const placeSelector = (state: RootState) => state.map.place
+
+export const preselectAllGroupsSelector = (state: RootState) => state.map.preselectAllGroups
 
 const mapSlice = createSlice({
   name: 'map',

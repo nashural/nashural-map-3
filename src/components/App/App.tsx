@@ -12,6 +12,8 @@ import { Map } from "../Map";
 import Media from "react-media";
 import { Router } from "../Router";
 import { drawerOpenedSelector } from "../../store/slices/drawer";
+import { fetchAndSelectAllGroups } from "../../store/slices/groups";
+import { preselectAllGroupsSelector } from "../../store/slices/map";
 import { routerOpenedSelector } from "../../store/slices/router";
 import { toggleDrawer } from "../../store/slices/drawer";
 import { useDispatch } from "../../hooks/useDispatch";
@@ -21,11 +23,18 @@ export const App: FC<AppProps> = () => {
   const dispatch = useDispatch();
   const drawerOpened = useSelector(drawerOpenedSelector);
   const routerOpened = useSelector(routerOpenedSelector);
+  const preselectAllGroups = useSelector(preselectAllGroupsSelector);
   const { matches: mobile } = useMemo(() => window.matchMedia(MOBILE), []);
 
   useEffect(() => {
     if (mobile) dispatch(toggleDrawer({ on: false }));
   }, [dispatch, mobile]);
+
+  useEffect(() => {
+    if (preselectAllGroups) {
+      dispatch(fetchAndSelectAllGroups());
+    }
+  }, [preselectAllGroups, dispatch]);
 
   return (
     <Media queries={{ mobile: MOBILE, desktop: DESKTOP }}>

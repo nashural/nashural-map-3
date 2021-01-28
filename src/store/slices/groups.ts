@@ -4,7 +4,7 @@ import {
   GroupsState,
   RemoveFeaturePayload,
   RootState,
-  ToggleGroupPayload
+  ToggleGroupPayload,
 } from '../typings'
 import { CustomProperties, GeoJSON, GeoJSONFeature, Group } from '../../typings'
 import { PayloadAction, createAsyncThunk, createSlice } from '@reduxjs/toolkit'
@@ -65,6 +65,24 @@ export const fetchGroupById = createAsyncThunk(
   async (id: string) => {
     const resp = await fetch(`${process.env.PUBLIC_URL || ''}/data/${id}.json`)
     return await resp.json() as GeoJSON
+  }
+)
+
+export const fetchAndSelectAllGroups = createAsyncThunk(
+  'featch-and-select-all-groups',
+  async () => {
+    let resp = await fetch(`${process.env.PUBLIC_URL || ''}/data/groups.json`)
+    const data = await resp.json()
+    const groups: Group[] = data.groups
+    const groupedFeatures: Record<string, GeoJSON> = {}
+    for (let group of data.groups) {
+      resp = await fetch(`${process.env.PUBLIC_URL || ''}/data/${group.id}.json`)
+      groupedFeatures[group.id] = await resp.json()
+    }
+    return {
+      groups,
+      groupedFeatures 
+    }
   }
 )
 
@@ -139,6 +157,17 @@ const groupsSlice = createSlice({
     builder.addCase(fetchGroupById.fulfilled, (state, action:PayloadAction<GeoJSON>) => {
       state.groups[action.payload.metadata.id] = action.payload
       state.features = mergeFeatures(state, action.payload.metadata.id)
+    })
+    builder.addCase(fetchAndSelectAllGroups.fulfilled, (state, action) => {
+      const { groups, groupedFeatures } = action.payload
+      state.allGroups = groups
+      for (let group of groups) {
+        state.activeGroups.push(group.id)
+        state.selectedGroups[group.id] = true
+        const groupFeatures = groupedFeatures[group.id].features
+        state.features.push(...groupFeatures)
+      }
+      state.activeGroups.sort(groupsSorter)
     })
   }
 })
