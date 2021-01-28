@@ -162,6 +162,7 @@ const groupsSlice = createSlice({
       const { groups, groupedFeatures } = action.payload
       state.allGroups = groups
       for (let group of groups) {
+        state.groups[group.id] = groupedFeatures[group.id]
         state.activeGroups.push(group.id)
         state.selectedGroups[group.id] = true
         const groupFeatures = groupedFeatures[group.id].features
