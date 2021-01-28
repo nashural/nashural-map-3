@@ -1,5 +1,4 @@
 import { GeoJSONCoordinates, GeoJSONFeature } from '../../typings.d'
-import { Route } from '../../typings.d'
 
 export interface MapProps {
   ymaps?: any
@@ -18,17 +17,23 @@ export interface RouteManagerCache {
 export interface MobileMapProps {
   center: GeoJSONCoordinates
   zoom: number
-  features: GeoJSONFeature[]
+  groupedFeatures: Record<string, GeoJSONFeature[]>
   points?: GeoJSONCoordinates[]
-  renderPlacemark: (value: GeoJSONFeature, index: number, array: GeoJSONFeature[]) => {}
+  onPlacemarkClick: (feature: GeoJSONFeature) => void
   onBoundsChange: Function
 }
 
 export interface DesktopMapProps {
   center: GeoJSONCoordinates
   zoom: number
-  features: GeoJSONFeature[]
+  groupedFeatures: Record<string, GeoJSONFeature[]>
   points?: GeoJSONCoordinates[]
-  renderPlacemark: (value: GeoJSONFeature, index: number, array: GeoJSONFeature[]) => {}
+  onPlacemarkClick: (feature: GeoJSONFeature) => void
   onBoundsChange: Function
+}
+
+export interface FeaturesGroupProps {
+  groupId: string
+  features: GeoJSONFeature[]
+  onPlacemarkClick: (feature: GeoJSONFeature) => void
 }

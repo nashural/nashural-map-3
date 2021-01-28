@@ -2,21 +2,17 @@ import "./universal.css";
 import "./desktop.css";
 import "./mobile.css";
 
-import {
-  CustomProperties,
-  GeoJSONCoordinates,
-  GeoJSONFeature,
-} from "../../typings.d";
+import { CustomProperties, GeoJSONFeature } from "../../typings.d";
 import { DESKTOP, MOBILE } from "../../constants/mediaQueries";
-import React, { FC, useCallback, useEffect } from "react";
+import React, { FC, useCallback, useEffect, useMemo } from "react";
 import { changeBounds, mapStateSelector } from "../../store/slices/map";
 
 import { DesktopMap } from "./DesktopMap";
 import { MapProps } from "./typings.d";
 import Media from "react-media";
 import { MobileMap } from "./MobileMap";
-import { Placemark } from "react-yandex-maps";
 import { allFeaturesSelector } from "../../store/slices/groups";
+import { groupBy } from "lodash";
 import { pointsSelector } from "../../store/slices/router";
 import { toggleInfo } from "../../store/slices/router";
 import { toggleModal } from "../../store/slices/modal";
@@ -27,6 +23,11 @@ export const Map: FC<MapProps> = () => {
   const dispatch = useDispatch();
   const { center, zoom } = useSelector(mapStateSelector);
   const features = useSelector(allFeaturesSelector);
+  const groupedFeatures = useMemo(() => {
+    return groupBy(features, (feature: GeoJSONFeature) => {
+      return (feature.properties as CustomProperties).group;
+    });
+  }, [features]);
   const points = useSelector(pointsSelector);
 
   useEffect(() => {
@@ -40,10 +41,13 @@ export const Map: FC<MapProps> = () => {
   }, [dispatch, points]);
 
   const handlePlacemarkClick = useCallback(
-    (e: any, coordinates: GeoJSONCoordinates) => {
-      const { iconCaption, previewSrc, articleHref } = e
-        .get("target")
-        .properties.getAll();
+    (feature: GeoJSONFeature) => {
+      const {
+        iconCaption,
+        previewSrc,
+        articleHref,
+      } = feature.properties as CustomProperties;
+      const { coordinates } = feature.geometry;
       dispatch(
         toggleModal({
           on: true,
@@ -59,25 +63,6 @@ export const Map: FC<MapProps> = () => {
     },
     [dispatch]
   );
-
-  const renderPlacemark = ({ id, geometry, properties }: GeoJSONFeature) => {
-    return (
-      <Placemark
-        key={`${(properties as CustomProperties).group}-${id}`}
-        geometry={geometry as any}
-        properties={properties}
-        options={{
-          iconLayout: "default#image",
-          iconImageHref: `${process.env.PUBLIC_URL}/icons/${
-            (properties as CustomProperties).group
-          }.png`,
-          iconImageSize: [24, 24],
-          iconImageOffset: [-12, -12],
-        }}
-        onClick={(e: any) => handlePlacemarkClick(e, geometry.coordinates)}
-      />
-    );
-  };
 
   const handleBoundsChange = useCallback(
     (e) => {
@@ -102,9 +87,9 @@ export const Map: FC<MapProps> = () => {
             <MobileMap
               center={center}
               zoom={zoom}
-              features={features}
+              groupedFeatures={groupedFeatures}
               points={points}
-              renderPlacemark={renderPlacemark}
+              onPlacemarkClick={handlePlacemarkClick}
               onBoundsChange={handleBoundsChange}
             />
           );
@@ -115,9 +100,9 @@ export const Map: FC<MapProps> = () => {
             <DesktopMap
               center={center}
               zoom={zoom}
-              features={features}
+              groupedFeatures={groupedFeatures}
               points={points}
-              renderPlacemark={renderPlacemark}
+              onPlacemarkClick={handlePlacemarkClick}
               onBoundsChange={handleBoundsChange}
             />
           );

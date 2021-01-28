@@ -10,6 +10,7 @@ import React, { FC, useCallback, useMemo, useRef, useState } from "react";
 
 import { DesktopMapProps } from "./typings.d";
 import { EditorControl } from "./EditorControl";
+import { FeaturesGroup } from "./FeaturesGroup";
 import Measure from "react-measure";
 import { RegionControl } from "./RegionControl";
 import { Route } from "./Route";
@@ -21,10 +22,10 @@ import { useSelector } from "react-redux";
 export const DesktopMap: FC<DesktopMapProps> = ({
   center,
   zoom,
-  features,
+  groupedFeatures,
   points,
-  renderPlacemark,
   onBoundsChange,
+  onPlacemarkClick,
 }) => {
   const mapRef = useRef(null);
   const [bounds, setBounds] = useState({ width: -1, height: -1 });
@@ -64,6 +65,19 @@ export const DesktopMap: FC<DesktopMapProps> = ({
     [drawerOpened, routerOpened, drawerFullWidth, routerFullWidth]
   );
 
+  const featureGroupsEls = useMemo(() => {
+    return Object.entries(groupedFeatures).map(([groupId, features]) => {
+      return (
+        <FeaturesGroup
+          key={groupId}
+          groupId={groupId}
+          features={features}
+          onPlacemarkClick={onPlacemarkClick}
+        />
+      );
+    });
+  }, [groupedFeatures, onPlacemarkClick]);
+
   return (
     <Measure client onResize={handleResize}>
       {({ measureRef }: any) => {
@@ -84,7 +98,7 @@ export const DesktopMap: FC<DesktopMapProps> = ({
               <GeolocationControl />
               <TypeSelector />
               <ZoomControl />
-              {features.map(renderPlacemark)}
+              {featureGroupsEls}
               {points ? <Route mapRef={mapRef} points={points} /> : null}
             </YMap>
           </div>

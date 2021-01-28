@@ -6,6 +6,7 @@ import {
 } from "react-yandex-maps";
 import React, { FC, useMemo, useRef } from "react";
 
+import { FeaturesGroup } from "./FeaturesGroup";
 import { MobileMapProps } from "./typings.d";
 import { RegionControl } from "./RegionControl";
 import { Route } from "./Route";
@@ -15,10 +16,10 @@ import { useWindowSize } from "@react-hook/window-size";
 export const MobileMap: FC<MobileMapProps> = ({
   center,
   zoom,
-  features,
+  groupedFeatures,
   points,
-  renderPlacemark,
   onBoundsChange,
+  onPlacemarkClick,
 }) => {
   const mapRef = useRef(null);
   const [width, height_] = useWindowSize();
@@ -31,6 +32,19 @@ export const MobileMap: FC<MobileMapProps> = ({
     []
   );
   const height = height_ - headerHeight;
+
+  const featureGroupsEls = useMemo(() => {
+    return Object.entries(groupedFeatures).map(([groupId, features]) => {
+      return (
+        <FeaturesGroup
+          key={groupId}
+          groupId={groupId}
+          features={features}
+          onPlacemarkClick={onPlacemarkClick}
+        />
+      );
+    });
+  }, [groupedFeatures, onPlacemarkClick]);
 
   return (
     <div className="Map mobile">
@@ -48,7 +62,7 @@ export const MobileMap: FC<MobileMapProps> = ({
         <GeolocationControl />
         <TypeSelector />
         <ZoomControl />
-        {features.map(renderPlacemark)}
+        {featureGroupsEls}
         {points ? <Route mapRef={mapRef} points={points} /> : null}
       </YMap>
     </div>

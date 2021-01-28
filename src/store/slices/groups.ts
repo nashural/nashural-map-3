@@ -1,14 +1,13 @@
-import { createSlice, createAsyncThunk, PayloadAction } from '@reduxjs/toolkit'
-
-import { Group, GeoJSON, CustomProperties, GeoJSONFeature } from '../../typings'
 import {
-  RootState,
-  GroupsState,
-  ToggleGroupPayload,
-  GroupNamesIndex,
   AddFeaturePayload,
-  RemoveFeaturePayload
+  GroupNamesIndex,
+  GroupsState,
+  RemoveFeaturePayload,
+  RootState,
+  ToggleGroupPayload
 } from '../typings'
+import { CustomProperties, GeoJSON, GeoJSONFeature, Group } from '../../typings'
+import { PayloadAction, createAsyncThunk, createSlice } from '@reduxjs/toolkit'
 
 const isFeaturesSame = (featureA: GeoJSONFeature, featureB: GeoJSONFeature): boolean => {
   return (featureA.id === featureB.id) && ((featureA.properties as CustomProperties).group === (featureB.properties as CustomProperties).group)
