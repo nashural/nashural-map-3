@@ -54,7 +54,7 @@ export const selectGroupById = (groupId: string) => (state: RootState) => {
 export const fetchGroups = createAsyncThunk(
   'fetch-groups',
   async () => {
-    const resp = await fetch(`${process.env.PUBLIC_URL || ''}/data/groups.json`)
+    const resp = await fetch(`${process.env.PUBLIC_URL || ''}/data/groups.json?nonce=${process.env.REACT_APP_NONCE}`)
     const data = await resp.json()
     return data.groups as Group[]
   }
@@ -63,7 +63,7 @@ export const fetchGroups = createAsyncThunk(
 export const fetchGroupById = createAsyncThunk(
   'fetch-group-by-id',
   async (id: string) => {
-    const resp = await fetch(`${process.env.PUBLIC_URL || ''}/data/${id}.json`)
+    const resp = await fetch(`${process.env.PUBLIC_URL || ''}/data/${id}.json?nonce=${process.env.REACT_APP_NONCE}`)
     return await resp.json() as GeoJSON
   }
 )
@@ -71,12 +71,12 @@ export const fetchGroupById = createAsyncThunk(
 export const fetchAndSelectAllGroups = createAsyncThunk(
   'featch-and-select-all-groups',
   async () => {
-    let resp = await fetch(`${process.env.PUBLIC_URL || ''}/data/groups.json`)
+    let resp = await fetch(`${process.env.PUBLIC_URL || ''}/data/groups.json?nonce=${process.env.REACT_APP_NONCE}`)
     const data = await resp.json()
     const groups: Group[] = data.groups
     const groupedFeatures: Record<string, GeoJSON> = {}
     for (let group of data.groups) {
-      resp = await fetch(`${process.env.PUBLIC_URL || ''}/data/${group.id}.json`)
+      resp = await fetch(`${process.env.PUBLIC_URL || ''}/data/${group.id}.json?nonce=${process.env.REACT_APP_NONCE}`)
       groupedFeatures[group.id] = await resp.json()
     }
     return {
