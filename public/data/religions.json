@@ -1,1149 +1,1761 @@
 {
-  "type": "FeatureCollection",
-  "metadata": {
-    "name": "Религия",
-    "creator": "YChebotaev's YMapsML to GeoJSON converter",
-    "id": "religions"
-  },
-  "features": [
-    {
-      "type": "Feature",
-      "id": 0,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          56.250662,
-          60.155265
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Самый старый деревянный храм на Урале",
-        "previewSrc": "//nashural.ru/assets/uploads/cherdynskiy-rayon07.jpg",
-        "articleHref": "//nashural.ru/article/travel/samaya-trudnodostupnaya-dostoprimechatelnost-rossii-i-ozero-mertvoj-vody/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 1,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          56.335759,
-          60.081385
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Спасская церковь в селе Лемеж",
-        "previewSrc": "//nashural.ru/assets/uploads/cherdynskiy-rayon04.jpg",
-        "articleHref": "//nashural.ru/article/travel/samaya-trudnodostupnaya-dostoprimechatelnost-rossii-i-ozero-mertvoj-vody/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 2,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          56.459565,
-          60.457576
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Благовещенская церковь",
-        "previewSrc": "//nashural.ru/assets/uploads/cherdynskiy-rayon03.jpg",
-        "articleHref": "//nashural.ru/article/travel/samaya-trudnodostupnaya-dostoprimechatelnost-rossii-i-ozero-mertvoj-vody/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 3,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          56.368296,
-          60.490661
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Церковь Параскевы Пятницы",
-        "previewSrc": "//nashural.ru/assets/uploads/cherdynskiy-rayon01.jpg",
-        "articleHref": "//nashural.ru/article/travel/samaya-trudnodostupnaya-dostoprimechatelnost-rossii-i-ozero-mertvoj-vody/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 4,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.723953,
-          58.074764
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Никольская церковь",
-        "previewSrc": "//nashural.ru/assets/uploads/DSC_5864-e1551209746222.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/top-17-dostoprimechatelnostej-nizhnej-saldy/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 5,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.708812,
-          58.075849
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Церковь Александра Невского",
-        "previewSrc": "//nashural.ru/assets/uploads/DSC_5864-e1551209746222.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/top-17-dostoprimechatelnostej-nizhnej-saldy/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 6,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.549931,
-          58.042969
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Храм во имя Иоанна Богослова",
-        "previewSrc": "//nashural.ru/assets/uploads/1-84-e1551121370134.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/verhnesaldinskij-hram-vo-imya-svyatogo-apostola-i-evangelista-ioanna-bogoslova/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 7,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.556495,
-          56.646784
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Храм в честь Введения во храм Пресвятой Богородицы",
-        "previewSrc": "//nashural.ru/assets/uploads/hram-verhnie-sergy02-1068x801.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/verhnie-sergi-hram-v-chest-vvedeniya-vo-hram-presvyatoj-bogoroditsy/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 8,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.421415,
-          56.685907
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Церковь Тихвинской Богоматери",
-        "previewSrc": "//nashural.ru/assets/uploads/hram-atig01.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/tserkov-tihvinskoj-bogomateri-v-poselke-atig/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 9,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.402421,
-          57.376182
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Храм Иоанна Предтечи",
-        "previewSrc": "//nashural.ru/assets/uploads/hram-rezh08.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/hram-ioanna-predtechi-v-rezhe/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 10,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.81841,
-          56.96569
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Свято-Троицкий храм",
-        "previewSrc": "//nashural.ru/assets/uploads/hram-bilimbay01.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/svyato-troitskiy-hram-v-bilimbae/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 11,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.773459,
-          56.621261
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Церковь Святой Троицы",
-        "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk06-696x522.jpg",
-        "articleHref": "//nashural.ru/article/travel/krasnoufimsk-dostoprimechatelnosti-i-marshrut-vyhodnogo-dnya/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 12,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.773001,
-          56.616239
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Александро-Невский собор",
-        "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk18-696x522.jpg",
-        "articleHref": "//nashural.ru/article/travel/krasnoufimsk-dostoprimechatelnosti-i-marshrut-vyhodnogo-dnya/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 13,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.755276,
-          56.629137
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Краноуфимское кладбище",
-        "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk22-696x392.jpg",
-        "articleHref": "//nashural.ru/article/travel/krasnoufimsk-dostoprimechatelnosti-i-marshrut-vyhodnogo-dnya/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 14,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.983602,
-          56.23438
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Боголюбский женский монастырь",
-        "previewSrc": "//nashural.ru/assets/uploads/bogolubskiy-monastyr01.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/bogolyubskij-zhenskij-monastyr-v-sele-sarsy-vtorye/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 15,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.770982,
-          56.622346
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Мечеть Аль-Хафиз",
-        "previewSrc": "//nashural.ru/assets/uploads/mechet-krasnoufimsk01.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/mechet-al-hafiz-v-krasnoufimske/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 16,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          58.55861,
-          56.439242
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Введенский храм",
-        "previewSrc": "//nashural.ru/assets/uploads/pristan-arty01.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/vvedenskiy-hram-i-shkola-sela-pristan/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 17,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          58.557571,
-          56.451547
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Храм Троицы Живоначальной",
-        "previewSrc": "//nashural.ru/assets/uploads/pristan-arty12.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/hram-troitsy-zhivonachalnoy-selo-pristan/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 18,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          58.621732,
-          56.821699
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Свято-Никольский храм",
-        "previewSrc": "//nashural.ru/assets/uploads/selo-klenovskoe01.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/selo-klenovskoe/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 19,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.052739,
-          56.859913
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Церковь Серафима Саровского",
-        "previewSrc": "//nashural.ru/assets/uploads/hram-bisert01.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/tserkov-serafima-sarovskogo-v-biserti/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 20,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.156882,
-          56.842514
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Храм Казанской Иконы Пресвятой Богородицы",
-        "previewSrc": "//nashural.ru/assets/uploads/kirgishany06.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/selo-kirgishany/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 21,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.639057,
-          56.705389
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Свято-Троицкая церковь",
-        "previewSrc": "//nashural.ru/assets/uploads/selo-zakhrovskoe01.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/selo-zaharovskoe/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 22,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.689853,
-          56.84636
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Свято-Покровский собор",
-        "previewSrc": "//nashural.ru/assets/uploads/pokrovskiy-sobor-kamyshlov05.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/svyato-pokrovskiy-sobor-kamyshlov/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 23,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.958998,
-          57.377825
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Храм во имя иконы Божией Матери «Знамения»",
-        "previewSrc": "//nashural.ru/assets/uploads/znamenskiy-hram02.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/hram-vo-imya-ikony-bozhiej-materi-znameniya-v-verhnem-tagile/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 24,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.969281,
-          57.383912
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Храм Архангела Михаила",
-        "previewSrc": "//nashural.ru/assets/uploads/hram-arkh-mihaila-vtagil-logo.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/hram-arhangela-mihaila-v-verhnem-tagile/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 25,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.938447380981415,
-          53.44262644981016
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Мечеть Суфии в деревне Кантюковка",
-        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya033.jpg",
-        "articleHref": "//nashural.ru/Goroda_i_sela/mechet-sufii.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 26,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.58577676214054,
-          54.64644408090642
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Церковь Вознесения Господня (с. Вознесенка)",
-        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya067.jpg",
-        "articleHref": "//nashural.ru/Goroda_i_sela/voznesenka-c.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 27,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          53.866766,
-          54.246781
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Церковь Димитрия Солунского (с. Елизаветино)",
-        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya068.jpg",
-        "articleHref": "//nashural.ru/Goroda_i_sela/cerkov-elizavetino.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 28,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          53.5563,
-          61.8247
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Ульяновский Троице-Стефановский монастырь",
-        "previewSrc": "//o.nashural.ru/mesta-reg/komi/komi014.jpg",
-        "articleHref": "//nashural.ru/Goroda_i_sela/troice-stefano-ulyanovskiy-monastir.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 29,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.65544669311521,
-          56.26353169358813
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Боровский женский монастырь",
-        "previewSrc": "//o.nashural.ru/mesta-reg/kurganskaya-obl/kurgan001.jpg",
-        "articleHref": "//nashural.ru/Konkursi/po-svyatym-mestam-urala/vetra-v-sadu-nebesnoy-hozaushki.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 30,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.94014920827957,
-          56.256853831578375
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Далматовский монастырь",
-        "previewSrc": "//o.nashural.ru/mesta-reg/kurganskaya-obl/kurgan002.jpg",
-        "articleHref": "//nashural.ru/Goroda_i_sela/dalmatovo.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 31,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          65.13492622485342,
-          56.09446473665017
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Свято-Казанский Чимеевский мужской монастырь",
-        "previewSrc": "//o.nashural.ru/mesta-reg/kurganskaya-obl/kurgan009.jpg",
-        "articleHref": "//nashural.ru/Goroda_i_sela/chimeevo.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 32,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.59316162897818,
-          55.91314099708027
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Введенский женский монастырь (с. Верхняя Теча)",
-        "previewSrc": "//o.nashural.ru/mesta-reg/kurganskaya-obl/kurgan010.jpg",
-        "articleHref": "//nashural.ru/Goroda_i_sela/v-techa-monastyr.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 33,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          56.35779885977166,
-          51.78697787282084
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Свято-Троицкая обитель милосердия",
-        "previewSrc": "//o.nashural.ru/mesta-reg/orenb-obl/orenburg008.jpg",
-        "articleHref": "//nashural.ru/Goroda_i_sela/krasnaya-gora.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 34,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          56.229381,
-          57.391878
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Белогорский Свято-Николаевский мужской монастырь",
-        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm005.jpg",
-        "articleHref": "//nashural.ru/Goroda_i_sela/belogor-monastir.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 35,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.069861314819235,
-          58.21264328386588
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Успенский храм в селе Успенка",
-        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm008.jpg",
-        "articleHref": "//nashural.ru/Goroda_i_sela/v-chus-gor.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 36,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.13848581751822,
-          58.19783179060433
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Верхнечусовская Казанская Трифонова женская пустынь",
-        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm008.jpg",
-        "articleHref": "//nashural.ru/Goroda_i_sela/v-chus-gor.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 37,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          56.26045,
-          58.260282
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Церковь Преображения (с. Янидор)",
-        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm088.jpg",
-        "articleHref": "//nashural.ru/Goroda_i_sela/hohlovka-yanidor.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 38,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          54.3160495,
-          59.326121064959295
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Юрлинская церковь",
-        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm097.jpg",
-        "articleHref": "//nashural.ru/Goroda_i_sela/urlinskaya-cerkov.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 39,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          65.53171998927051,
-          57.15581168438066
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Спасская церковь",
-        "previewSrc": "//o.nashural.ru/mesta-reg/tumen-obl/tyumen012.jpg",
-        "articleHref": "//nashural.ru/Goroda_i_sela/spasskaya-cerkov.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 40,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          65.51224603409634,
-          57.169682897767586
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Троицкий монастырь",
-        "previewSrc": "//o.nashural.ru/mesta-reg/tumen-obl/tyumen013.jpg",
-        "articleHref": "//nashural.ru/Goroda_i_sela/troickiy-monastir.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 41,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.606143784641354,
-          57.00142000142104
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Храм Александра Невского (с. Балтым)",
-        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk051.jpg",
-        "articleHref": "//nashural.ru/Goroda_i_sela/baltym-hram.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 42,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.473333,
-          56.942222
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Монастырь на Ганиной Яме",
-        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk074.jpg",
-        "articleHref": "//nashural.ru/Goroda_i_sela/ganina-yama.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 43,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.701622,
-          57.954256
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Алапаевский монастырь Новомучеников и Исповедников Российских",
-        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk075.jpg",
-        "articleHref": "//nashural.ru/Goroda_i_sela/monastir_alap.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 44,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.386944,
-          58.776944
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Монастырь Шад Тчуп Линг (Качканар)",
-        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk076.jpg",
-        "articleHref": "//nashural.ru/uralskaya-zima-2012/shad-tchup-ling.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 45,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          63.69805040213008,
-          57.009096478906706
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Петропавловский храм (Талица)",
-        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk101.jpg",
-        "articleHref": "//nashural.ru/Goroda_i_sela/petropavlovskiy-hram-talica.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 46,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.49558238903643,
-          56.91127598492671
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Старая Коптяковская дорога",
-        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk132.jpg",
-        "articleHref": "//nashural.ru/Spravka/taina-staroi-koptyakovskoi-dorogi.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 47,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.64489610052492,
-          56.425196954513616
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Церковь в селе Смолино",
-        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk143.jpg",
-        "articleHref": "//nashural.ru/Krasota/smolino-i-revun.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 48,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.665833,
-          56.346944
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Церковь Тихвинской иконы Божией Матери",
-        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk144.jpg",
-        "articleHref": "//nashural.ru/Goroda_i_sela/c-rybnikovkoe.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 49,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.43657780426021,
-          55.70138587591912
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Богородицкая церковь (с. Беликуль)",
-        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab005.jpg",
-        "articleHref": "//nashural.ru/Goroda_i_sela/belikul.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 50,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.07289490103253,
-          56.0829844806875
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Храм Покрова Пресвятой Богородицы (с. Булзи)",
-        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab006.jpg",
-        "articleHref": "//nashural.ru/Goroda_i_sela/bulzi.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 51,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.563889,
-          54.197222
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Храм иконы Божьей Матери «Скоропослушница»",
-        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab008.jpg",
-        "articleHref": "//nashural.ru/Goroda_i_sela/verhnaya-sanarka.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 52,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.669739499999956,
-          55.1550670695712
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Храм Преподобного Серафима Саровского",
-        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab018.jpg",
-        "articleHref": "//nashural.ru/Goroda_i_sela/zlatoust-hram-serafim.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 53,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.677222,
-          55.971944
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Сунгульский старообрядческий скит",
-        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab071.jpg",
-        "articleHref": "//nashural.ru/Mesta/sungulskiy-skit.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 54,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.063701990904974,
-          55.734870014542906
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Церковь Илии Пророка (с. Сугояк)",
-        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab073.jpg",
-        "articleHref": "//nashural.ru/Goroda_i_sela/sugoyak-cerkov.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 55,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.75300788360591,
-          55.35226684371656
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Храм Александра Невского (с. Харино)",
-        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab087.jpg",
-        "articleHref": "//nashural.ru/Goroda_i_sela/harino-cerkov.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 56,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.008707,
-          56.922623
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Храм в честь Богоявления Господня",
-        "previewSrc": "//nashural.ru/assets/uploads/Suhoj-Log-2.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/hramy-suholozhya-part1/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 57,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.993422,
-          57.061714
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Храм Рождества Христова",
-        "previewSrc": "//nashural.ru/assets/uploads/Altynaj-2.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/hramy-suholozhya-part1/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 58,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.944339,
-          56.938664
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Церковь во имя Знамения Пресвятой Богородицы",
-        "previewSrc": "//nashural.ru/assets/uploads/Znamenskoe-2.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/hramy-suholozhya-part1/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 59,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.947546,
-          56.984948
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Церковь в честь Покрова Пресвятой Богородицы",
-        "previewSrc": "//nashural.ru/assets/uploads/Rudyanskoe-2.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/hramy-suholozhya-part1/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 60,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.797486,
-          56.926826
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Храм в честь Рождества Христова",
-        "previewSrc": "//nashural.ru/assets/uploads/Svetloe.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/hramy-suholozhya-part1/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 61,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.202958,
-          57.074289
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Дмитриевская церковь",
-        "previewSrc": "//nashural.ru/assets/uploads/Taushkan-1.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/hramy-suholozhya-part1/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 62,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.134211,
-          56.921716
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Церковь в честь Святой Живоначальной Троицы",
-        "previewSrc": "//nashural.ru/assets/uploads/Kuri-2.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/hramy-suholozhya-part2/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 63,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.232892,
-          56.880827
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Церковь во имя архангела Михаила",
-        "previewSrc": "//nashural.ru/assets/uploads/Novopyshminskoe-1.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/hramy-suholozhya-part2/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 64,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.24582,
-          56.88773
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Церковь во имя святого Николая Чудотворца",
-        "previewSrc": "//nashural.ru/assets/uploads/Povarnya-2.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/hramy-suholozhya-part2/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 65,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.303282,
-          56.847113
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Храм в честь Вознесения Господня",
-        "previewSrc": "//nashural.ru/assets/uploads/Filatovo-1.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/hramy-suholozhya-part2/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 66,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.280175,
-          56.849119
-        ]
-      },
-      "properties": {
-        "group": "religions",
-        "iconCaption": "Часовня имени св. Анатолия",
-        "previewSrc": "//nashural.ru/assets/uploads/Filatovo-chasovnya.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/hramy-suholozhya-part2/"
-      }
-    }
-  ]
+    "type": "FeatureCollection",
+    "metadata": {
+        "name": "Религия",
+        "creator": "YChebotaev's YMapsML to GeoJSON converter",
+        "id": "religions"
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "id": 0,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.250662,
+                    60.155265
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Самый старый деревянный храм на Урале",
+                "previewSrc": "//nashural.ru/assets/uploads/cherdynskiy-rayon07.jpg",
+                "articleHref": "//nashural.ru/article/travel/samaya-trudnodostupnaya-dostoprimechatelnost-rossii-i-ozero-mertvoj-vody/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 1,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.335759,
+                    60.081385
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Спасская церковь в селе Лемеж",
+                "previewSrc": "//nashural.ru/assets/uploads/cherdynskiy-rayon04.jpg",
+                "articleHref": "//nashural.ru/article/travel/samaya-trudnodostupnaya-dostoprimechatelnost-rossii-i-ozero-mertvoj-vody/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 2,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.459565,
+                    60.457576
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Благовещенская церковь",
+                "previewSrc": "//nashural.ru/assets/uploads/cherdynskiy-rayon03.jpg",
+                "articleHref": "//nashural.ru/article/travel/samaya-trudnodostupnaya-dostoprimechatelnost-rossii-i-ozero-mertvoj-vody/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 3,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.368296,
+                    60.490661
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Церковь Параскевы Пятницы",
+                "previewSrc": "//nashural.ru/assets/uploads/cherdynskiy-rayon01.jpg",
+                "articleHref": "//nashural.ru/article/travel/samaya-trudnodostupnaya-dostoprimechatelnost-rossii-i-ozero-mertvoj-vody/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 4,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.723953,
+                    58.074764
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Никольская церковь",
+                "previewSrc": "//nashural.ru/assets/uploads/DSC_5864-e1551209746222.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/top-17-dostoprimechatelnostej-nizhnej-saldy/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 5,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.708812,
+                    58.075849
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Церковь Александра Невского",
+                "previewSrc": "//nashural.ru/assets/uploads/DSC_5864-e1551209746222.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/top-17-dostoprimechatelnostej-nizhnej-saldy/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 6,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.549931,
+                    58.042969
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Храм во имя Иоанна Богослова",
+                "previewSrc": "//nashural.ru/assets/uploads/1-84-e1551121370134.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/verhnesaldinskij-hram-vo-imya-svyatogo-apostola-i-evangelista-ioanna-bogoslova/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 7,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.556495,
+                    56.646784
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Храм в честь Введения во храм Пресвятой Богородицы",
+                "previewSrc": "//nashural.ru/assets/uploads/hram-verhnie-sergy02-1068x801.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/verhnie-sergi-hram-v-chest-vvedeniya-vo-hram-presvyatoj-bogoroditsy/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 8,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.421415,
+                    56.685907
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Церковь Тихвинской Богоматери",
+                "previewSrc": "//nashural.ru/assets/uploads/hram-atig01.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/tserkov-tihvinskoj-bogomateri-v-poselke-atig/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 9,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.402421,
+                    57.376182
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Храм Иоанна Предтечи",
+                "previewSrc": "//nashural.ru/assets/uploads/hram-rezh08.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/hram-ioanna-predtechi-v-rezhe/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 10,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.81841,
+                    56.96569
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Свято-Троицкий храм",
+                "previewSrc": "//nashural.ru/assets/uploads/hram-bilimbay01.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/svyato-troitskiy-hram-v-bilimbae/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 11,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.773459,
+                    56.621261
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Церковь Святой Троицы",
+                "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk06-696x522.jpg",
+                "articleHref": "//nashural.ru/article/travel/krasnoufimsk-dostoprimechatelnosti-i-marshrut-vyhodnogo-dnya/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 12,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.773001,
+                    56.616239
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Александро-Невский собор",
+                "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk18-696x522.jpg",
+                "articleHref": "//nashural.ru/article/travel/krasnoufimsk-dostoprimechatelnosti-i-marshrut-vyhodnogo-dnya/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 13,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.755276,
+                    56.629137
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Краноуфимское кладбище",
+                "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk22-696x392.jpg",
+                "articleHref": "//nashural.ru/article/travel/krasnoufimsk-dostoprimechatelnosti-i-marshrut-vyhodnogo-dnya/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 14,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.983602,
+                    56.23438
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Боголюбский женский монастырь",
+                "previewSrc": "//nashural.ru/assets/uploads/bogolubskiy-monastyr01.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/bogolyubskij-zhenskij-monastyr-v-sele-sarsy-vtorye/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 15,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.770982,
+                    56.622346
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Мечеть Аль-Хафиз",
+                "previewSrc": "//nashural.ru/assets/uploads/mechet-krasnoufimsk01.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/mechet-al-hafiz-v-krasnoufimske/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 16,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.55861,
+                    56.439242
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Введенский храм",
+                "previewSrc": "//nashural.ru/assets/uploads/pristan-arty01.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/vvedenskiy-hram-i-shkola-sela-pristan/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 17,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.557571,
+                    56.451547
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Храм Троицы Живоначальной",
+                "previewSrc": "//nashural.ru/assets/uploads/pristan-arty12.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/hram-troitsy-zhivonachalnoy-selo-pristan/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 18,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.621732,
+                    56.821699
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Свято-Никольский храм",
+                "previewSrc": "//nashural.ru/assets/uploads/selo-klenovskoe01.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/selo-klenovskoe/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 19,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.052739,
+                    56.859913
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Церковь Серафима Саровского",
+                "previewSrc": "//nashural.ru/assets/uploads/hram-bisert01.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/tserkov-serafima-sarovskogo-v-biserti/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 20,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.156882,
+                    56.842514
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Храм Казанской Иконы Пресвятой Богородицы",
+                "previewSrc": "//nashural.ru/assets/uploads/kirgishany06.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/selo-kirgishany/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 21,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.639057,
+                    56.705389
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Свято-Троицкая церковь",
+                "previewSrc": "//nashural.ru/assets/uploads/selo-zakhrovskoe01.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/selo-zaharovskoe/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 22,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.689853,
+                    56.84636
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Свято-Покровский собор",
+                "previewSrc": "//nashural.ru/assets/uploads/pokrovskiy-sobor-kamyshlov05.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/svyato-pokrovskiy-sobor-kamyshlov/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 23,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.958998,
+                    57.377825
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Храм во имя иконы Божией Матери «Знамения»",
+                "previewSrc": "//nashural.ru/assets/uploads/znamenskiy-hram02.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/hram-vo-imya-ikony-bozhiej-materi-znameniya-v-verhnem-tagile/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 24,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.969281,
+                    57.383912
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Храм Архангела Михаила",
+                "previewSrc": "//nashural.ru/assets/uploads/hram-arkh-mihaila-vtagil-logo.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/hram-arhangela-mihaila-v-verhnem-tagile/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 25,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.938447380981,
+                    53.44262644981
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Мечеть Суфии в деревне Кантюковка",
+                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya033.jpg",
+                "articleHref": "//nashural.ru/Goroda_i_sela/mechet-sufii.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 26,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.585776762141,
+                    54.646444080906
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Церковь Вознесения Господня (с. Вознесенка)",
+                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya067.jpg",
+                "articleHref": "//nashural.ru/Goroda_i_sela/voznesenka-c.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 27,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    53.866766,
+                    54.246781
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Церковь Димитрия Солунского (с. Елизаветино)",
+                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya068.jpg",
+                "articleHref": "//nashural.ru/Goroda_i_sela/cerkov-elizavetino.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 28,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    53.5563,
+                    61.8247
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Ульяновский Троице-Стефановский монастырь",
+                "previewSrc": "//o.nashural.ru/mesta-reg/komi/komi014.jpg",
+                "articleHref": "//nashural.ru/Goroda_i_sela/troice-stefano-ulyanovskiy-monastir.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 29,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.655446693115,
+                    56.263531693588
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Боровский женский монастырь",
+                "previewSrc": "//o.nashural.ru/mesta-reg/kurganskaya-obl/kurgan001.jpg",
+                "articleHref": "//nashural.ru/Konkursi/po-svyatym-mestam-urala/vetra-v-sadu-nebesnoy-hozaushki.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 30,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.94014920828,
+                    56.256853831578
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Далматовский монастырь",
+                "previewSrc": "//o.nashural.ru/mesta-reg/kurganskaya-obl/kurgan002.jpg",
+                "articleHref": "//nashural.ru/Goroda_i_sela/dalmatovo.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 31,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    65.134926224853,
+                    56.09446473665
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Свято-Казанский Чимеевский мужской монастырь",
+                "previewSrc": "//o.nashural.ru/mesta-reg/kurganskaya-obl/kurgan009.jpg",
+                "articleHref": "//nashural.ru/Goroda_i_sela/chimeevo.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 32,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.593161628978,
+                    55.91314099708
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Введенский женский монастырь (с. Верхняя Теча)",
+                "previewSrc": "//o.nashural.ru/mesta-reg/kurganskaya-obl/kurgan010.jpg",
+                "articleHref": "//nashural.ru/Goroda_i_sela/v-techa-monastyr.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 33,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.357798859772,
+                    51.786977872821
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Свято-Троицкая обитель милосердия",
+                "previewSrc": "//o.nashural.ru/mesta-reg/orenb-obl/orenburg008.jpg",
+                "articleHref": "//nashural.ru/Goroda_i_sela/krasnaya-gora.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 34,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.229381,
+                    57.391878
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Белогорский Свято-Николаевский мужской монастырь",
+                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm005.jpg",
+                "articleHref": "//nashural.ru/Goroda_i_sela/belogor-monastir.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 35,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.069861314819,
+                    58.212643283866
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Успенский храм в селе Успенка",
+                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm008.jpg",
+                "articleHref": "//nashural.ru/Goroda_i_sela/v-chus-gor.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 36,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.138485817518,
+                    58.197831790604
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Верхнечусовская Казанская Трифонова женская пустынь",
+                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm008.jpg",
+                "articleHref": "//nashural.ru/Goroda_i_sela/v-chus-gor.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 37,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.26045,
+                    58.260282
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Церковь Преображения (с. Янидор)",
+                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm088.jpg",
+                "articleHref": "//nashural.ru/Goroda_i_sela/hohlovka-yanidor.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 38,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    54.3160495,
+                    59.326121064959
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Юрлинская церковь",
+                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm097.jpg",
+                "articleHref": "//nashural.ru/Goroda_i_sela/urlinskaya-cerkov.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 39,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    65.531719989271,
+                    57.155811684381
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Спасская церковь",
+                "previewSrc": "//o.nashural.ru/mesta-reg/tumen-obl/tyumen012.jpg",
+                "articleHref": "//nashural.ru/Goroda_i_sela/spasskaya-cerkov.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 40,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    65.512246034096,
+                    57.169682897768
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Троицкий монастырь",
+                "previewSrc": "//o.nashural.ru/mesta-reg/tumen-obl/tyumen013.jpg",
+                "articleHref": "//nashural.ru/Goroda_i_sela/troickiy-monastir.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 41,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.606143784641,
+                    57.001420001421
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Храм Александра Невского (с. Балтым)",
+                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk051.jpg",
+                "articleHref": "//nashural.ru/Goroda_i_sela/baltym-hram.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 42,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.473333,
+                    56.942222
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Монастырь на Ганиной Яме",
+                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk074.jpg",
+                "articleHref": "//nashural.ru/Goroda_i_sela/ganina-yama.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 43,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.701622,
+                    57.954256
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Алапаевский монастырь Новомучеников и Исповедников Российских",
+                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk075.jpg",
+                "articleHref": "//nashural.ru/Goroda_i_sela/monastir_alap.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 44,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.386944,
+                    58.776944
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Монастырь Шад Тчуп Линг (Качканар)",
+                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk076.jpg",
+                "articleHref": "//nashural.ru/uralskaya-zima-2012/shad-tchup-ling.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 45,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    63.69805040213,
+                    57.009096478907
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Петропавловский храм (Талица)",
+                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk101.jpg",
+                "articleHref": "//nashural.ru/Goroda_i_sela/petropavlovskiy-hram-talica.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 46,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.495582389036,
+                    56.911275984927
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Старая Коптяковская дорога",
+                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk132.jpg",
+                "articleHref": "//nashural.ru/Spravka/taina-staroi-koptyakovskoi-dorogi.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 47,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.644896100525,
+                    56.425196954514
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Церковь в селе Смолино",
+                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk143.jpg",
+                "articleHref": "//nashural.ru/Krasota/smolino-i-revun.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 48,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.665833,
+                    56.346944
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Церковь Тихвинской иконы Божией Матери",
+                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk144.jpg",
+                "articleHref": "//nashural.ru/Goroda_i_sela/c-rybnikovkoe.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 49,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.43657780426,
+                    55.701385875919
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Богородицкая церковь (с. Беликуль)",
+                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab005.jpg",
+                "articleHref": "//nashural.ru/Goroda_i_sela/belikul.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 50,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.072894901033,
+                    56.082984480688
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Храм Покрова Пресвятой Богородицы (с. Булзи)",
+                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab006.jpg",
+                "articleHref": "//nashural.ru/Goroda_i_sela/bulzi.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 51,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.563889,
+                    54.197222
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Храм иконы Божьей Матери «Скоропослушница»",
+                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab008.jpg",
+                "articleHref": "//nashural.ru/Goroda_i_sela/verhnaya-sanarka.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 52,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.6697395,
+                    55.155067069571
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Храм Преподобного Серафима Саровского",
+                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab018.jpg",
+                "articleHref": "//nashural.ru/Goroda_i_sela/zlatoust-hram-serafim.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 53,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.677222,
+                    55.971944
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Сунгульский старообрядческий скит",
+                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab071.jpg",
+                "articleHref": "//nashural.ru/Mesta/sungulskiy-skit.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 54,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.063701990905,
+                    55.734870014543
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Церковь Илии Пророка (с. Сугояк)",
+                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab073.jpg",
+                "articleHref": "//nashural.ru/Goroda_i_sela/sugoyak-cerkov.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 55,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.753007883606,
+                    55.352266843717
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Храм Александра Невского (с. Харино)",
+                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab087.jpg",
+                "articleHref": "//nashural.ru/Goroda_i_sela/harino-cerkov.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 56,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.008707,
+                    56.922623
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Храм в честь Богоявления Господня",
+                "previewSrc": "//nashural.ru/assets/uploads/Suhoj-Log-2.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/hramy-suholozhya-part1/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 57,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.993422,
+                    57.061714
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Храм Рождества Христова",
+                "previewSrc": "//nashural.ru/assets/uploads/Altynaj-2.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/hramy-suholozhya-part1/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 58,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.944339,
+                    56.938664
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Церковь во имя Знамения Пресвятой Богородицы",
+                "previewSrc": "//nashural.ru/assets/uploads/Znamenskoe-2.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/hramy-suholozhya-part1/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 59,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.947546,
+                    56.984948
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Церковь в честь Покрова Пресвятой Богородицы",
+                "previewSrc": "//nashural.ru/assets/uploads/Rudyanskoe-2.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/hramy-suholozhya-part1/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 60,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.797486,
+                    56.926826
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Храм в честь Рождества Христова",
+                "previewSrc": "//nashural.ru/assets/uploads/Svetloe.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/hramy-suholozhya-part1/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 61,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.202958,
+                    57.074289
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Дмитриевская церковь",
+                "previewSrc": "//nashural.ru/assets/uploads/Taushkan-1.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/hramy-suholozhya-part1/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 62,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.134211,
+                    56.921716
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Церковь в честь Святой Живоначальной Троицы",
+                "previewSrc": "//nashural.ru/assets/uploads/Kuri-2.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/hramy-suholozhya-part2/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 63,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.232892,
+                    56.880827
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Церковь во имя архангела Михаила",
+                "previewSrc": "//nashural.ru/assets/uploads/Novopyshminskoe-1.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/hramy-suholozhya-part2/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 64,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.24582,
+                    56.88773
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Церковь во имя святого Николая Чудотворца",
+                "previewSrc": "//nashural.ru/assets/uploads/Povarnya-2.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/hramy-suholozhya-part2/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 65,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.303282,
+                    56.847113
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Храм в честь Вознесения Господня",
+                "previewSrc": "//nashural.ru/assets/uploads/Filatovo-1.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/hramy-suholozhya-part2/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 66,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.280175,
+                    56.849119
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Часовня имени св. Анатолия",
+                "previewSrc": "//nashural.ru/assets/uploads/Filatovo-chasovnya.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/hramy-suholozhya-part2/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 67,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    52.770462,
+                    52.272293
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Кафедральный собор Николая Чудотворца",
+                "previewSrc": "https://nashural.ru/assets/uploads/Zdanie-zhenskoj-gimnazii-pedagogicheskij-kolledzh-e1597903096371.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/dostoprimechatelnosti-goroda-buzuluk/   "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 68,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    53.209657,
+                    52.360094
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Церковь во имя Смоленской иконы Божией Матери",
+                "previewSrc": "https://nashural.ru/assets/uploads/002-12-e1595576238684.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/progulka-po-rodovomu-pomestyu-poeta-g-r-derzhavina/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 69,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    52.814485,
+                    52.323713
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Спасо-Преображенский Бузулукский мужской монастырь",
+                "previewSrc": "https://nashural.ru/assets/uploads/Sovremennyj-vid-monastyrya-e1595940768506.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/monastyr-na-atamanskoj-gore/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 70,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    52.786215,
+                    52.275275
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Свято-Тихвинский Богородицкий женский монастырь",
+                "previewSrc": "https://nashural.ru/assets/uploads/IMG_0382-1-e1596092661243.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/istoriya-svyato-tihvinskogo-bogoroditskogo-zhenskogo-monastyrya-v-buzuluke/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 71,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.453103451084,
+                    58.433717698163
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Кафедральный собор святого праведного Иоанна Кронштадтского",
+                "previewSrc": "https://nashural.ru/assets/uploads/47-4-e1592803716572.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/azhurnoe-chudo-goroda-gaya-kovanyj-ikonostas-v-hrame-svyatogo-pravednogo-ioanna-kronshtadtskogo/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 72,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.318611,
+                    56.908333
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Кулпытасы",
+                "previewSrc": "https://nashural.ru/assets/uploads/20200815_174907-e1598247037952.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/tajny-orenburgskih-stepej/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 73,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.396371074748,
+                    57.605661969656
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Храм Святителя Николая Чудотворца",
+                "previewSrc": "https://nashural.ru/assets/uploads/7.1-e1588836293156.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/hram-svyatitelya-nikolaya-chudotvortsa-v-mednogorske/ "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 74,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.786831,
+                    56.35758
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Свято-Троицкая Симеонова обитель милосердия",
+                "previewSrc": "https://nashural.ru/assets/uploads/1024px-Orenburgskaya_oblast_Saraktash_Svyato-Troitskaya_obitel_4-e1591251501634.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/chernoe-i-beloe-udivitelnaya-istoriya-svyato-troitskoj-obiteli/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 75,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.933167,
+                    56.638231
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Свято-Андреевский мужской монастырь",
+                "previewSrc": "https://nashural.ru/assets/uploads/Qfuqw1hNiHY-e1591700129403.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/svyato-andreevskij-muzhskoj-monastyr-v-andreevke-poistine-zapovednyj-ugolok/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 76,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.476339198581,
+                    55.369905031946
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Храм Преподобного Алексия Человека Божия",
+                "previewSrc": "https://nashural.ru/assets/uploads/tayny-orenburgskih-stepey-logo.jpg",
+                "articleHref": "https://nashural.ru/article/travel/tayny-orenburgskoy-stepy/ "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 77,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.159424,
+                    55.010404
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Николаевский монастырь",
+                "previewSrc": "https://nashural.ru/assets/uploads/21904_20120822_182736-e1591082187995.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/nikolaevskij-monastyr-v-sol-iletske/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 78,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.073363,
+                    54.669239
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Старообрядческая община",
+                "previewSrc": "https://nashural.ru/assets/uploads/IMG_20200417_132608-e1587113733790.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/pitanie-staroobryadtsev-vereshhaginskogo-rajona/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 79,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.074565,
+                    54.655747
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Храм Александра Невского",
+                "previewSrc": "https://nashural.ru/assets/uploads/osnovnaya-chast-e1585313417178.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/istoriya-hrama-vo-imya-svyatogo-blagovernogo-knyazya-aleksandra-nevskogo-v-g-vereshhagino/ "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 80,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.01235,
+                    54.654657
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Свято-Никольский кафедральный собор",
+                "previewSrc": "https://nashural.ru/assets/uploads/DSC_3659-scaled-e1603891834658-2048x1044.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/svyato-nikolskij-kafedralnyj-sobor-v-kudymkare/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 81,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.48287,
+                    56.588446
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Легенды Пыскорского мужского монастыря",
+                "previewSrc": "https://nashural.ru/assets/uploads/pyskor-e1587727382670.jpg",
+                "articleHref": "https://nashural.ru/article/zagadki/legendy-pyskorskogo-muzhskogo-monastyrya/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 82,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.417624,
+                    56.705465
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Рубежская церковь",
+                "previewSrc": "https://nashural.ru/assets/uploads/DSC_6552-scaled-e1607754738759-1638x700.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/rubezhskaya-tserkov-v-usole/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 83,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.410568,
+                    56.695834
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Никольская церковь",
+                "previewSrc": "https://nashural.ru/assets/uploads/DSC_6540-2048x1366.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/nikolskaya-tserkov-v-usole/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 84,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.412915,
+                    56.708149
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Спасо-Преображенский собор",
+                "previewSrc": "https://nashural.ru/assets/uploads/DSC_6482-scaled-e1607674530477-2048x957.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/spaso-preobrazhenskij-sobor-v-usole/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 85,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.303458,
+                    56.356234
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Петропавловский храм",
+                "previewSrc": "https://nashural.ru/assets/uploads/taman-2-e1587979799417.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/zabytoe-velichie-petropavlovskij-hram-v-sele-taman/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 86,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.776123,
+                    56.149995
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Церковь Рождества Пресвятой Богородицы",
+                "previewSrc": "https://nashural.ru/assets/uploads/1.-Zdanie-hrama-Rozhdestva-Bogoroditsy-2020-scaled-e1585211442829-2048x1110.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/g-chyormoz-istoriko-arhitekturnoe-nasledie-goroda/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 87,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.525165,
+                    56.067038
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Мечеть Махалля",
+                "previewSrc": "https://nashural.ru/assets/uploads/mechet-e1585727040706.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/mechet-mahallya-v-chernushke/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 88,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.284736,
+                    70.468937
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Петропавловская церковь",
+                "previewSrc": "https://nashural.ru/assets/uploads/DSC_0148-scaled-e1591185754723-2048x1095.jpg",
+                "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/istoriya-uhodyashhaya-kornyami-v-dalekij-1709-god/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 89,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.403192,
+                    66.653014
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Бигилинский приход при церкви во имя Святителя Иоанна Златоуста",
+                "previewSrc": "https://nashural.ru/assets/uploads/11-Fontan-e1588850152892.jpg",
+                "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/rog-izobiliya-v-tyumenskoj-glubinke/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 90,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.505689,
+                    66.560193
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Храм во имя святого великомученика Георгия Победоносца",
+                "previewSrc": "https://nashural.ru/assets/uploads/izobrazhenie_viber_2020-04-23_15-34-09-1-e1587709316489.jpg",
+                "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/simvol-duhovno-nravstvennogo-vozrozhdeniya-sibiryakov/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 91,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.448428,
+                    69.324437
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Храм во имя пророка Илии",
+                "previewSrc": "https://nashural.ru/assets/uploads/1a-Kazanskoe-GLAVNAYA.jpg",
+                "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/reportazh-s-bolshim-uvazheniem-k-selskim-zhitelyam/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 92,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.452892,
+                    69.423445
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Церковь Рождества Христова",
+                "previewSrc": "https://nashural.ru/assets/uploads/1a-Kazanskoe-GLAVNAYA.jpg",
+                "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/reportazh-s-bolshim-uvazheniem-k-selskim-zhitelyam/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 93,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.642054,
+                    69.241091
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Храм Николая Чудотворца",
+                "previewSrc": "https://nashural.ru/assets/uploads/1a-Kazanskoe-GLAVNAYA.jpg",
+                "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/reportazh-s-bolshim-uvazheniem-k-selskim-zhitelyam/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 94,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.643265,
+                    69.239441
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Храм Казанской иконы Божией Матери",
+                "previewSrc": "https://nashural.ru/assets/uploads/1a-Kazanskoe-GLAVNAYA.jpg",
+                "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/reportazh-s-bolshim-uvazheniem-k-selskim-zhitelyam/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 95,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.552271,
+                    69.416544
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Село Пешнёво",
+                "previewSrc": "https://nashural.ru/assets/uploads/IMG_6255-e1599470894380.jpg",
+                "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/neprostaya-sudba-dvoedan-v-sibiri/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 96,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.791348,
+                    69.437367
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Большеченчерская церковь в честь Покрова Пресвятой Богородицы",
+                "previewSrc": "https://nashural.ru/assets/uploads/2-108-e1602689249639.jpg",
+                "articleHref": "https://nashural.ru/projects/malye-goroda/dostoprimechatelnosti-kazanskogo/bolshechencherskaya-tserkov-v-chest-pokrova-presvyatoj-bogoroditsy/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 97,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.048601,
+                    66.586991
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Свято-Никольский храм",
+                "previewSrc": "https://nashural.ru/assets/uploads/DSC_4424-scaled-e1605544358287-1610x700.jpg",
+                "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/kakov-on-selskij-batyushka/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 98,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.478119,
+                    65.30091
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Храм во имя Казанской Божьей Матери",
+                "previewSrc": "https://nashural.ru/assets/uploads/DSC_0004-6-scaled-e1587642185154.jpg",
+                "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/ot-rafailovoj-pustynki-do-nashih-dnej/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 99,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.650493,
+                    65.387983
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Храм во имя Иоанна Богослова",
+                "previewSrc": "https://nashural.ru/assets/uploads/DSC_0052-2-scaled-e1587643555204.jpg",
+                "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/pomoshh-prishla-iz-dalekogo-saleharda/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 100,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.532152,
+                    65.831077
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Храм в честь Рождества Христова",
+                "previewSrc": "https://nashural.ru/assets/uploads/DSC_0083-1-scaled-e1587642852515.jpg",
+                "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/zvon-kolokolov-v-krayu-pyati-ozer/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 101,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.649657,
+                    66.321261
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Сретенский Собор",
+                "previewSrc": "https://nashural.ru/assets/uploads/DSC_4099-scaled-e1603977463382-1796x700.jpg",
+                "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/zhiteli-sibirskogo-gorodka-vnov-obreli-utrachennyj-v-lihie-gody-hram/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 102,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.65392,
+                    66.304798
+                ]
+            },
+            "properties": {
+                "group": "religions",
+                "iconCaption": "Успенско-Никольский храм",
+                "previewSrc": "https://nashural.ru/assets/uploads/IMG_1355-1-scaled-e1588768874115-2048x962.jpg",
+                "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/tserkov-ustoyavshaya-v-dni-ispytanij/"
+            }
+        }
+    ]
 }

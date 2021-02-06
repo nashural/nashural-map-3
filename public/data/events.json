@@ -1,0 +1,435 @@
+{
+    "type": "FeatureCollection",
+    "metadata": {
+        "name": "События",
+        "creator": "YChebotaev's YMapsML to GeoJSON converter",
+        "id": "events"
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "id": 0,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    53.865203,
+                    52.634874
+                ]
+            },
+            "properties": {
+                "group": "events",
+                "iconCaption": "Аксаковские дни ",
+                "previewSrc": "https://nashural.ru/assets/uploads/12-59-e1595407114652.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/aksakovskie-dni-v-orenburgskoj-oblasti/ "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 1,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.465426963551,
+                    58.440715940492
+                ]
+            },
+            "properties": {
+                "group": "events",
+                "iconCaption": "Свадебные традиции ",
+                "previewSrc": "https://nashural.ru/assets/uploads/f27f84b76f03ec9a1016806cb94c98a8-e1592391249851.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/svadebnye-traditsii-narodov-orenburzhya-kazahskaya-svadba-v-gorode-gae/  "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 2,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.505757168811,
+                    57.349556161854
+                ]
+            },
+            "properties": {
+                "group": "events",
+                "iconCaption": "Фестиваль «Играй, Кувандыкская гармонь»",
+                "previewSrc": "https://nashural.ru/assets/uploads/HMfwGX9he2E-e1593505369670.jpg",
+                "articleHref": "https://nashural.ru/sobytiya/festival-igraj-kuvandykskaya-garmon/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 3,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.506094649804,
+                    57.351204077587
+                ]
+            },
+            "properties": {
+                "group": "events",
+                "iconCaption": "Фестиваль гитарной песни в городе Кувандыке",
+                "previewSrc": "https://nashural.ru/assets/uploads/3I4412XM5ow-e1593602159868.jpg",
+                "articleHref": "https://nashural.ru/sobytiya/festival-gitarnoj-pesni-v-kuvandyke/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 4,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.414028,
+                    57.520545
+                ]
+            },
+            "properties": {
+                "group": "events",
+                "iconCaption": "Село Идельбаево",
+                "previewSrc": "https://nashural.ru/assets/uploads/69063-e1589432487254.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/v-mednogorske-otzhigayut-v-avguste/ "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 5,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.786402,
+                    56.344711
+                ]
+            },
+            "properties": {
+                "group": "events",
+                "iconCaption": "Праздник-фестиваль «Шальтуй»",
+                "previewSrc": "https://nashural.ru/assets/uploads/402b03e67e1a11e86cbd0eb20b3826de-e1592897457922.jpg",
+                "articleHref": "https://nashural.ru/sobytiya/samyj-teplyj-festival-orenburzhya-prazdnik-shaltuj/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 6,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.162555,
+                    54.978153
+                ]
+            },
+            "properties": {
+                "group": "events",
+                "iconCaption": "Арбузный фестиваль",
+                "previewSrc": "https://nashural.ru/assets/uploads/DSC04974-scaled-e1590124118978.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/arbuznyj-festival-v-sol-iletske/ "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 7,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.015389,
+                    59.896333
+                ]
+            },
+            "properties": {
+                "group": "events",
+                "iconCaption": "Джип-триал «ЯМА»",
+                "previewSrc": "https://nashural.ru/assets/uploads/N_0YoBPwmIs-e1597908402968.jpg",
+                "articleHref": "https://nashural.ru/sobytiya/dzhip-trial-yama-v-gorode-yasnom/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 8,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.874838,
+                    57.601585
+                ]
+            },
+            "properties": {
+                "group": "events",
+                "iconCaption": "Фестиваль «Губаха ALIVE»",
+                "previewSrc": "https://nashural.ru/assets/uploads/DSC_3250-2048x1366.jpg",
+                "articleHref": "https://nashural.ru/sobytiya/festival-gubaha-alive/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 9,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.853434,
+                    57.5818
+                ]
+            },
+            "properties": {
+                "group": "events",
+                "iconCaption": "Фестиваль «Тайны горы Крестовой»",
+                "previewSrc": "https://nashural.ru/assets/uploads/tai-n-e1589803351492.jpg",
+                "articleHref": "https://nashural.ru/sobytiya/festival-tajny-gory-krestovoj/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 10,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.412821,
+                    57.083301
+                ]
+            },
+            "properties": {
+                "group": "events",
+                "iconCaption": "Фестиваль «Праздник черники и черничного пирога»",
+                "previewSrc": "https://nashural.ru/assets/uploads/prazdnik-cherniky.jpg",
+                "articleHref": "https://nashural.ru/sobytiya/prazdnik-cherniki-i-chernichnogo-piroga-v-krasnovisherske/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 11,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.58569,
+                    56.495177
+                ]
+            },
+            "properties": {
+                "group": "events",
+                "iconCaption": "Фестиваль «Зов Пармы»",
+                "previewSrc": "https://nashural.ru/assets/uploads/at3a5518-scaled-e1586866624252-2048x914.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/permskij-kraj-priglashaet-lyubitelej-sobytijnogo-turizma/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 12,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.015289,
+                    54.655191
+                ]
+            },
+            "properties": {
+                "group": "events",
+                "iconCaption": "Фестиваль национальной игрушки «Акань»",
+                "previewSrc": "https://nashural.ru/assets/uploads/af07.jpg",
+                "articleHref": "https://nashural.ru/sobytiya/festival-akan/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 13,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.015432,
+                    54.656217
+                ]
+            },
+            "properties": {
+                "group": "events",
+                "iconCaption": "ЧУДный карнавал",
+                "previewSrc": "https://nashural.ru/assets/uploads/UDIvitelnyj-karnaval-1-e1585638685792.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/chudnyj-karnaval-v-kudymkare/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 14,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.837316,
+                    54.659179
+                ]
+            },
+            "properties": {
+                "group": "events",
+                "iconCaption": "Народный праздник коми-пермяков «Ай да рыжик!»",
+                "previewSrc": "https://nashural.ru/assets/uploads/SWGTSfZ81u0-e1590996492918.jpg",
+                "articleHref": "https://nashural.ru/sobytiya/narodnyj-prazdnik-komi-permyakov-aj-da-ryzhik/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 15,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.881374,
+                    54.714874
+                ]
+            },
+            "properties": {
+                "group": "events",
+                "iconCaption": "Фестиваль «Очерский родник»",
+                "previewSrc": "https://nashural.ru/assets/uploads/IMG_20201010_140546-scaled-e1602672208534-1830x700.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/festival-ocherskij-rodnik/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 16,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.18376,
+                    70.467726
+                ]
+            },
+            "properties": {
+                "group": "events",
+                "iconCaption": "Народный праздник Навруз",
+                "previewSrc": "https://nashural.ru/assets/uploads/7-57-e1590666925321.jpg",
+                "articleHref": "https://nashural.ru/sobytiya/sibirskie-kazahi-chtyat-svoyu-istoriyu-i-obychai-predkov-narodnyj-prazdnik-navruz/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 17,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.283916,
+                    70.467304
+                ]
+            },
+            "properties": {
+                "group": "events",
+                "iconCaption": "Сельская Ярмарка",
+                "previewSrc": "https://nashural.ru/assets/uploads/tn_203819_72d307cb83803-e1592799708773.jpg",
+                "articleHref": "https://nashural.ru/sobytiya/selskaya-yarmarka-kak-v-pozaproshlom-veke/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 18,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.28372,
+                    70.46478
+                ]
+            },
+            "properties": {
+                "group": "events",
+                "iconCaption": "Автопробег «Памяти героев»",
+                "previewSrc": "https://nashural.ru/assets/uploads/227896_b78b5313c037-e1589263822913.jpg",
+                "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/avtoprobeg-pamyati-geroev-k-75-letiyu-pobedy/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 19,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.509416,
+                    66.538984
+                ]
+            },
+            "properties": {
+                "group": "events",
+                "iconCaption": "Творческое состязание «Чудо-Масленица»",
+                "previewSrc": "https://nashural.ru/assets/uploads/2-86-e1588762684119.jpg",
+                "articleHref": "https://nashural.ru/sobytiya/ish-ty-maslenitsa/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 20,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.509404,
+                    66.538672
+                ]
+            },
+            "properties": {
+                "group": "events",
+                "iconCaption": "Конкурс «Заводоуковская марка»",
+                "previewSrc": "https://nashural.ru/assets/uploads/3-85-e1588764555589.jpg",
+                "articleHref": "https://nashural.ru/sobytiya/vot-takie-pirogi-proshel-konkurs-zavodoukovskaya-marka/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 21,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.643319,
+                    69.240548
+                ]
+            },
+            "properties": {
+                "group": "events",
+                "iconCaption": "Казанская ярмарка",
+                "previewSrc": "https://nashural.ru/assets/uploads/A-vot-i-svezhij-medok-e1600429719221.jpg",
+                "articleHref": "https://nashural.ru/sobytiya/kazantsy-sohranyayut-traditsiyu-i-kulturu-provedeniya-yarmarok/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 22,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.05126,
+                    66.588106
+                ]
+            },
+            "properties": {
+                "group": "events",
+                "iconCaption": "Никольская ярмарка",
+                "previewSrc": "https://nashural.ru/assets/uploads/IMG_5656-06-02-19-07-14-e1605543723415.jpg",
+                "articleHref": "https://nashural.ru/projects/malye-goroda/dostoprimechatelnosti-uporovo/sdelal-delo-gulyaj-smelo/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 23,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.650186,
+                    66.31853
+                ]
+            },
+            "properties": {
+                "group": "events",
+                "iconCaption": "Городской фестиваль «Кузнечный посад»",
+                "previewSrc": "https://nashural.ru/assets/uploads/kuznechniy-posad-logo.jpg",
+                "articleHref": "https://nashural.ru/sobytiya/festival-kuznechnyj-posad-yalutorovsk/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 24,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.65001,
+                    66.318719
+                ]
+            },
+            "properties": {
+                "group": "events",
+                "iconCaption": "Квасной пир",
+                "previewSrc": "https://nashural.ru/assets/uploads/115881452_178894573617928_6133151880197751490_n-e1598871442850.jpg",
+                "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/kvasnoj-pir-2020-v-yalutorovske-sostoyalsya/"
+            }
+        }
+    ]
+}

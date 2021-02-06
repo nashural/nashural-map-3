@@ -1,724 +1,962 @@
 {
-  "type": "FeatureCollection",
-  "metadata": {
-    "name": "Пещеры",
-    "creator": "YChebotaev's YMapsML to GeoJSON converter",
-    "id": "caves"
-  },
-  "features": [
-    {
-      "type": "Feature",
-      "id": 0,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.293889,
-          56.498611
-        ]
-      },
-      "properties": {
-        "group": "caves",
-        "iconCaption": "Пещера Дружба",
-        "previewSrc": "//nashural.ru/assets/uploads/peshera-druzhba01.jpg",
-        "articleHref": "//nashural.ru/article/zagadki/legenda-o-belom-speleologe/#id3"
-      }
+    "type": "FeatureCollection",
+    "metadata": {
+        "name": "Пещеры",
+        "creator": "YChebotaev's YMapsML to GeoJSON converter",
+        "id": "caves"
     },
-    {
-      "type": "Feature",
-      "id": 1,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.262233,
-          56.458967
-        ]
-      },
-      "properties": {
-        "group": "caves",
-        "iconCaption": "Пещера Мшистая",
-        "previewSrc": "//nashural.ru/assets/uploads/49126969_2150461731701814_5711539486945443840_o-e1547302285588.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/peshehodnye-marshruty-dolina-arakaevskih-peshher/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 2,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          54.235861,
-          56.902583
-        ]
-      },
-      "properties": {
-        "group": "caves",
-        "iconCaption": "Аскинская ледяная пещера",
-        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya004.jpg",
-        "articleHref": "//nashural.ru/Mesta/askinskaya.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 3,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          53.6011,
-          56.6467
-        ]
-      },
-      "properties": {
-        "group": "caves",
-        "iconCaption": "Пещера Салавата",
-        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya009.jpg",
-        "articleHref": "//nashural.ru/Mesta/kuk-karauk.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 4,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          56.143889,
-          53.629611
-        ]
-      },
-      "properties": {
-        "group": "caves",
-        "iconCaption": "Ишеевские пещеры",
-        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya022.jpg",
-        "articleHref": "//nashural.ru/Mesta/isheevskie-pesheri.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 5,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.063889,
-          53.044444
-        ]
-      },
-      "properties": {
-        "group": "caves",
-        "iconCaption": "Капова пещера (Шульган-Таш)",
-        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya023.jpg",
-        "articleHref": "//nashural.ru/Mesta/kapova-peshera.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 6,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          56.168333,
-          54.289444
-        ]
-      },
-      "properties": {
-        "group": "caves",
-        "iconCaption": "Карламанская пещера",
-        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya024.jpg",
-        "articleHref": "//nashural.ru/Mesta/karlamanskaya-peshera.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 7,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          56.854444,
-          54.156944
-        ]
-      },
-      "properties": {
-        "group": "caves",
-        "iconCaption": "Киндерлинская пещера (Победы)",
-        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya025.jpg",
-        "articleHref": "//nashural.ru/Mesta/kinderlinskaya-peshera.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 8,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.103655,
-          53.036182
-        ]
-      },
-      "properties": {
-        "group": "caves",
-        "iconCaption": "Пещера Грезы",
-        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya047.jpg",
-        "articleHref": "//nashural.ru/Mesta/peshera-grjozy.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 9,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          56.000617,
-          54.240717
-        ]
-      },
-      "properties": {
-        "group": "caves",
-        "iconCaption": "Пещера Вертолетная (Ахмеровский провал)",
-        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya048.jpg",
-        "articleHref": "//nashural.ru/Mesta/peshera-vertoletnaya.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 10,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.05507,
-          53.0446
-        ]
-      },
-      "properties": {
-        "group": "caves",
-        "iconCaption": "Пещера Космонавтов (Кульюрт-Тамак)",
-        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya049.jpg",
-        "articleHref": "//nashural.ru/Mesta/peshera-kosmonavtov.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 11,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.314306,
-          55.020361
-        ]
-      },
-      "properties": {
-        "group": "caves",
-        "iconCaption": "Пещера Киселевская (Чебаевского)",
-        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya051.jpg",
-        "articleHref": "//nashural.ru/Mesta/kiselevskaya-peshera.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 12,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          56.422817,
-          54.484533
-        ]
-      },
-      "properties": {
-        "group": "caves",
-        "iconCaption": "Пещера Охлебининская",
-        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya052.jpg",
-        "articleHref": "//nashural.ru/Mesta/peshera-kiselevskaya.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 13,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.200194,
-          53.018319
-        ]
-      },
-      "properties": {
-        "group": "caves",
-        "iconCaption": "Пещера Пропащая Яма",
-        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya053.jpg",
-        "articleHref": "//nashural.ru/Mesta/propashaya-yama.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 14,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.124722,
-          53.026944
-        ]
-      },
-      "properties": {
-        "group": "caves",
-        "iconCaption": "Пещера Сказка",
-        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya054.jpg",
-        "articleHref": "//nashural.ru/Mesta/peshera-skazka.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 15,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          56.751111,
-          53.000556
-        ]
-      },
-      "properties": {
-        "group": "caves",
-        "iconCaption": "Пещера Сумган-Кутук",
-        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya055.jpg",
-        "articleHref": "//nashural.ru/Mesta/sumgan-kutuk.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 16,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.413333,
-          54.849167
-        ]
-      },
-      "properties": {
-        "group": "caves",
-        "iconCaption": "Пещера Сухая Атя",
-        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya056.jpg",
-        "articleHref": "//nashural.ru/Mesta/peshera-suhaya-atya.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 17,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          56.408271,
-          53.407419
-        ]
-      },
-      "properties": {
-        "group": "caves",
-        "iconCaption": "Пещера Хазинская",
-        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya057.jpg",
-        "articleHref": "//nashural.ru/Mesta/hazinskaya-i-ilasin.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 18,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          56.398056,
-          53.394444
-        ]
-      },
-      "properties": {
-        "group": "caves",
-        "iconCaption": "Пещера Ыласын",
-        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya057.jpg",
-        "articleHref": "//nashural.ru/Mesta/hazinskaya-i-ilasin.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 19,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.007222,
-          57.440278
-        ]
-      },
-      "properties": {
-        "group": "caves",
-        "iconCaption": "Кунгурская ледяная пещера",
-        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm025.jpg",
-        "articleHref": "//nashural.ru/Mesta/kungurskaya-peshera.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 20,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          56.888056,
-          57.182
-        ]
-      },
-      "properties": {
-        "group": "caves",
-        "iconCaption": "Ординская пещера",
-        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm044.jpg",
-        "articleHref": "//nashural.ru/Mesta/ordinskaya-peshera.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 21,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.4502,
-          58.01640956654631
-        ]
-      },
-      "properties": {
-        "group": "caves",
-        "iconCaption": "Пещера Бабиногорская",
-        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm050.jpg",
-        "articleHref": "//nashural.ru/Mesta/babinogorskaya-peshera.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 22,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          56.9787,
-          57.608867
-        ]
-      },
-      "properties": {
-        "group": "caves",
-        "iconCaption": "Пещера Большая Мечкинская",
-        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm051.jpg",
-        "articleHref": "//nashural.ru/uralskaya-zima-2012/zimnyaya-skazka.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 23,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          56.741667,
-          60.809722
-        ]
-      },
-      "properties": {
-        "group": "caves",
-        "iconCaption": "Пещера Дивья",
-        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm052.jpg",
-        "articleHref": "//nashural.ru/Mesta/divya.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 24,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.656389,
-          59.088056
-        ]
-      },
-      "properties": {
-        "group": "caves",
-        "iconCaption": "Пещера Кизеловская-Виашерская",
-        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm053.jpg",
-        "articleHref": "//nashural.ru/Mesta/kizelovskaya-peshera.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 25,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.651417,
-          58.945117
-        ]
-      },
-      "properties": {
-        "group": "caves",
-        "iconCaption": "Пещера Темная",
-        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm054.jpg",
-        "articleHref": "//nashural.ru/Mesta/temnaya.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 26,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          58.217222,
-          58.420278
-        ]
-      },
-      "properties": {
-        "group": "caves",
-        "iconCaption": "Пещера Пашийская",
-        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm055.jpg",
-        "articleHref": "//nashural.ru/Mesta/pashiyskaya-peshera.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 27,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.554722,
-          59.071111
-        ]
-      },
-      "properties": {
-        "group": "caves",
-        "iconCaption": "Пещера Расик",
-        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm056.jpg",
-        "articleHref": "//nashural.ru/Mesta/rasik.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 28,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.604444,
-          58.844167
-        ]
-      },
-      "properties": {
-        "group": "caves",
-        "iconCaption": "Пещера Российская",
-        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm057.jpg",
-        "articleHref": "//nashural.ru/Mesta/rossiyskaya-peshera.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 29,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.766667,
-          59.3825
-        ]
-      },
-      "properties": {
-        "group": "caves",
-        "iconCaption": "Пещеры Чаньвинские",
-        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm058.jpg",
-        "articleHref": "//nashural.ru/Mesta/chanvinskie-pesheri.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 30,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          58.200833,
-          58.143056
-        ]
-      },
-      "properties": {
-        "group": "caves",
-        "iconCaption": "Пещера Чудесница",
-        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm059.jpg",
-        "articleHref": "//nashural.ru/Mesta/chudesnica.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 31,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          58.200833,
-          58.143056
-        ]
-      },
-      "properties": {
-        "group": "caves",
-        "iconCaption": "Пещеры Сухого Лога",
-        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm059.jpg",
-        "articleHref": "//nashural.ru/Mesta/chudesnica.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 32,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.25359,
-          56.46183
-        ]
-      },
-      "properties": {
-        "group": "caves",
-        "iconCaption": "Аракаевская пещера",
-        "previewSrc": "//nashural.ru/assets/uploads/ap02.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/arakaevskaya-peshera/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 33,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.704367,
-          56.18645
-        ]
-      },
-      "properties": {
-        "group": "caves",
-        "iconCaption": "Зотинская пещера",
-        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk044.jpg",
-        "articleHref": "//nashural.ru/pohod/zotinskaya-peshera.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 34,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.661944,
-          56.433056
-        ]
-      },
-      "properties": {
-        "group": "caves",
-        "iconCaption": "Смолинская пещера",
-        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk105.jpg",
-        "articleHref": "//nashural.ru/Mesta/revun-i-smolinskaya.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 35,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.780189,
-          54.898725
-        ]
-      },
-      "properties": {
-        "group": "caves",
-        "iconCaption": "Игнатьевская пещера",
-        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab019.jpg",
-        "articleHref": "//nashural.ru/Mesta/ignatyevskaya_pesh.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 36,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          58.726111,
-          55.138611
-        ]
-      },
-      "properties": {
-        "group": "caves",
-        "iconCaption": "Пещера Кургазак",
-        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab063.jpg",
-        "articleHref": "//nashural.ru/Mesta/kurgazak.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 37,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          58.6157,
-          55.1872
-        ]
-      },
-      "properties": {
-        "group": "caves",
-        "iconCaption": "Сикияз-Тамак",
-        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab068.jpg",
-        "articleHref": "//nashural.ru/Mesta/sikiyaz-tamak.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 38,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.459722,
-          55.715278
-        ]
-      },
-      "properties": {
-        "group": "caves",
-        "iconCaption": "Сугомакская пещера",
-        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab070.jpg",
-        "articleHref": "//nashural.ru/Mesta/sugomak.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 39,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          58.646389,
-          55.154167
-        ]
-      },
-      "properties": {
-        "group": "caves",
-        "iconCaption": "Улуирский пещерный комплекс",
-        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab078.jpg",
-        "articleHref": "//nashural.ru/Mesta/uluir.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 40,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.041168,
-          56.926919
-        ]
-      },
-      "properties": {
-        "group": "caves",
-        "iconCaption": "Пещера Гебауэра",
-        "previewSrc": "//nashural.ru/assets/uploads/Bykovskij-peshhera.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/arheologicheskie-pamyatniki-suholozhya/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 41,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.097883,
-          56.914223
-        ]
-      },
-      "properties": {
-        "group": "caves",
-        "iconCaption": "Грот Безымянный",
-        "previewSrc": "//nashural.ru/assets/uploads/peshera-gebauera03.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/arheologicheskie-pamyatniki-suholozhya/"
-      }
-    }
-  ]
+    "features": [
+        {
+            "type": "Feature",
+            "id": 0,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.293889,
+                    56.498611
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Пещера Дружба",
+                "previewSrc": "//nashural.ru/assets/uploads/peshera-druzhba01.jpg",
+                "articleHref": "//nashural.ru/article/zagadki/legenda-o-belom-speleologe/#id3"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 1,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.262233,
+                    56.458967
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Пещера Мшистая",
+                "previewSrc": "//nashural.ru/assets/uploads/49126969_2150461731701814_5711539486945443840_o-e1547302285588.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/peshehodnye-marshruty-dolina-arakaevskih-peshher/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 2,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    54.235861,
+                    56.902583
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Аскинская ледяная пещера",
+                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya004.jpg",
+                "articleHref": "//nashural.ru/Mesta/askinskaya.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 3,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    53.6011,
+                    56.6467
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Пещера Салавата",
+                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya009.jpg",
+                "articleHref": "//nashural.ru/Mesta/kuk-karauk.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 4,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.143889,
+                    53.629611
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Ишеевские пещеры",
+                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya022.jpg",
+                "articleHref": "//nashural.ru/Mesta/isheevskie-pesheri.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 5,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.063889,
+                    53.044444
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Капова пещера (Шульган-Таш)",
+                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya023.jpg",
+                "articleHref": "//nashural.ru/Mesta/kapova-peshera.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 6,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.168333,
+                    54.289444
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Карламанская пещера",
+                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya024.jpg",
+                "articleHref": "//nashural.ru/Mesta/karlamanskaya-peshera.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 7,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.854444,
+                    54.156944
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Киндерлинская пещера (Победы)",
+                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya025.jpg",
+                "articleHref": "//nashural.ru/Mesta/kinderlinskaya-peshera.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 8,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.103655,
+                    53.036182
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Пещера Грезы",
+                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya047.jpg",
+                "articleHref": "//nashural.ru/Mesta/peshera-grjozy.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 9,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.000617,
+                    54.240717
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Пещера Вертолетная (Ахмеровский провал)",
+                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya048.jpg",
+                "articleHref": "//nashural.ru/Mesta/peshera-vertoletnaya.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 10,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.05507,
+                    53.0446
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Пещера Космонавтов (Кульюрт-Тамак)",
+                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya049.jpg",
+                "articleHref": "//nashural.ru/Mesta/peshera-kosmonavtov.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 11,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.314306,
+                    55.020361
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Пещера Киселевская (Чебаевского)",
+                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya051.jpg",
+                "articleHref": "//nashural.ru/Mesta/kiselevskaya-peshera.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 12,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.422817,
+                    54.484533
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Пещера Охлебининская",
+                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya052.jpg",
+                "articleHref": "//nashural.ru/Mesta/peshera-kiselevskaya.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 13,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.200194,
+                    53.018319
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Пещера Пропащая Яма",
+                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya053.jpg",
+                "articleHref": "//nashural.ru/Mesta/propashaya-yama.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 14,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.124722,
+                    53.026944
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Пещера Сказка",
+                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya054.jpg",
+                "articleHref": "//nashural.ru/Mesta/peshera-skazka.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 15,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.751111,
+                    53.000556
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Пещера Сумган-Кутук",
+                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya055.jpg",
+                "articleHref": "//nashural.ru/Mesta/sumgan-kutuk.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 16,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.413333,
+                    54.849167
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Пещера Сухая Атя",
+                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya056.jpg",
+                "articleHref": "//nashural.ru/Mesta/peshera-suhaya-atya.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 17,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.408271,
+                    53.407419
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Пещера Хазинская",
+                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya057.jpg",
+                "articleHref": "//nashural.ru/Mesta/hazinskaya-i-ilasin.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 18,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.398056,
+                    53.394444
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Пещера Ыласын",
+                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya057.jpg",
+                "articleHref": "//nashural.ru/Mesta/hazinskaya-i-ilasin.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 19,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.007222,
+                    57.440278
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Кунгурская ледяная пещера",
+                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm025.jpg",
+                "articleHref": "//nashural.ru/Mesta/kungurskaya-peshera.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 20,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.888056,
+                    57.182
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Ординская пещера",
+                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm044.jpg",
+                "articleHref": "//nashural.ru/Mesta/ordinskaya-peshera.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 21,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.4502,
+                    58.016409566546
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Пещера Бабиногорская",
+                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm050.jpg",
+                "articleHref": "//nashural.ru/Mesta/babinogorskaya-peshera.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 22,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.9787,
+                    57.608867
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Пещера Большая Мечкинская",
+                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm051.jpg",
+                "articleHref": "//nashural.ru/uralskaya-zima-2012/zimnyaya-skazka.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 23,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.741667,
+                    60.809722
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Пещера Дивья",
+                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm052.jpg",
+                "articleHref": "//nashural.ru/Mesta/divya.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 24,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.656389,
+                    59.088056
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Пещера Кизеловская-Виашерская",
+                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm053.jpg",
+                "articleHref": "//nashural.ru/Mesta/kizelovskaya-peshera.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 25,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.651417,
+                    58.945117
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Пещера Темная",
+                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm054.jpg",
+                "articleHref": "//nashural.ru/Mesta/temnaya.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 26,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.217222,
+                    58.420278
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Пещера Пашийская",
+                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm055.jpg",
+                "articleHref": "//nashural.ru/Mesta/pashiyskaya-peshera.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 27,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.554722,
+                    59.071111
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Пещера Расик",
+                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm056.jpg",
+                "articleHref": "//nashural.ru/Mesta/rasik.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 28,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.604444,
+                    58.844167
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Пещера Российская",
+                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm057.jpg",
+                "articleHref": "//nashural.ru/Mesta/rossiyskaya-peshera.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 29,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.766667,
+                    59.3825
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Пещеры Чаньвинские",
+                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm058.jpg",
+                "articleHref": "//nashural.ru/Mesta/chanvinskie-pesheri.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 30,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.200833,
+                    58.143056
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Пещера Чудесница",
+                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm059.jpg",
+                "articleHref": "//nashural.ru/Mesta/chudesnica.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 31,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.200833,
+                    58.143056
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Пещеры Сухого Лога",
+                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm059.jpg",
+                "articleHref": "//nashural.ru/Mesta/chudesnica.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 32,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.25359,
+                    56.46183
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Аракаевская пещера",
+                "previewSrc": "//nashural.ru/assets/uploads/ap02.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/arakaevskaya-peshera/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 33,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.704367,
+                    56.18645
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Зотинская пещера",
+                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk044.jpg",
+                "articleHref": "//nashural.ru/pohod/zotinskaya-peshera.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 34,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.661944,
+                    56.433056
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Смолинская пещера",
+                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk105.jpg",
+                "articleHref": "//nashural.ru/Mesta/revun-i-smolinskaya.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 35,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.780189,
+                    54.898725
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Игнатьевская пещера",
+                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab019.jpg",
+                "articleHref": "//nashural.ru/Mesta/ignatyevskaya_pesh.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 36,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.726111,
+                    55.138611
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Пещера Кургазак",
+                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab063.jpg",
+                "articleHref": "//nashural.ru/Mesta/kurgazak.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 37,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.6157,
+                    55.1872
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Сикияз-Тамак",
+                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab068.jpg",
+                "articleHref": "//nashural.ru/Mesta/sikiyaz-tamak.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 38,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.459722,
+                    55.715278
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Сугомакская пещера",
+                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab070.jpg",
+                "articleHref": "//nashural.ru/Mesta/sugomak.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 39,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.646389,
+                    55.154167
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Улуирский пещерный комплекс",
+                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab078.jpg",
+                "articleHref": "//nashural.ru/Mesta/uluir.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 40,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.041168,
+                    56.926919
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Пещера Гебауэра",
+                "previewSrc": "//nashural.ru/assets/uploads/Bykovskij-peshhera.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/arheologicheskie-pamyatniki-suholozhya/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 41,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.097883,
+                    56.914223
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Грот Безымянный",
+                "previewSrc": "//nashural.ru/assets/uploads/peshera-gebauera03.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/arheologicheskie-pamyatniki-suholozhya/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 42,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.14069,
+                    58.23839
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Хабарнинское ущелье",
+                "previewSrc": "https://nashural.ru/assets/uploads/DSC_4296-e1591783258958.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/progulka-po-habarninskomu-ushhelyu-dostoprimechatelnosti-gaya/ "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 43,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.605531,
+                    57.606918
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Юмагузинская пещера",
+                "previewSrc": "https://nashural.ru/assets/uploads/31_b-scaled-e1589519757126-2048x1310.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/osvaivaem-okrestnosti-mednogorska-orenburgskaya-oblast-ch-1-yumaguzinskaya-peshhera/  "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 44,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.164242,
+                    57.508863
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Пещера Двухэтажка",
+                "previewSrc": "https://nashural.ru/assets/uploads/1wJcpOQnasI.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/peshera-dvuhetazhka/   "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 45,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.41795,
+                    57.759328
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Пещера тайн",
+                "previewSrc": "https://nashural.ru/assets/uploads/DSC05033-e1586256825609.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/progulochnyj-marshrut-ot-goroda-aleksandrovska-do-peshhery-tajn/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 46,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.376111,
+                    57.758333
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Чаньвинские пещеры",
+                "previewSrc": "https://nashural.ru/assets/uploads/chanvinskie-peshery-logo.jpg",
+                "articleHref": "https://nashural.ru/article/travel/chanvinskie-peshery/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 47,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.945083,
+                    57.651545
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Пещера Темная",
+                "previewSrc": "https://nashural.ru/assets/uploads/temnaya-7.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/peshhera-temnaya/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 48,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.532,
+                    57.3652
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Пещера Губахинская (Мариинская)",
+                "previewSrc": "https://nashural.ru/assets/uploads/peshera-praviy-sapog04-1-e1590046027615.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/peshhery-gubahinskogo-rajona/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 49,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.872496,
+                    57.610002
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Пещера «Грот Дворцовый»",
+                "previewSrc": "https://nashural.ru/assets/uploads/peshera-praviy-sapog04-1-e1590046027615.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/peshhery-gubahinskogo-rajona/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 50,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.8675,
+                    57.651389
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Пещеры Ладейного лога",
+                "previewSrc": "https://nashural.ru/assets/uploads/peshera-praviy-sapog04-1-e1590046027615.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/peshhery-gubahinskogo-rajona/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 51,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.8675,
+                    57.651389
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Пещера Правый Сапог (Холодная)",
+                "previewSrc": "https://nashural.ru/assets/uploads/peshera-praviy-sapog-logo.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/peshera-praviy-sapog/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 52,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.826045,
+                    57.614618
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Пещера Российская",
+                "previewSrc": "https://nashural.ru/assets/uploads/z_89c0c3ca-e1603273676571.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/peshhera-rossijskaya/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 53,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.821164,
+                    57.611989
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Карстовый провал имени Смирнова",
+                "previewSrc": "https://nashural.ru/assets/uploads/IMG_1387.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/dostoprimechatelnosti-v-okrestnostyah-goroda-gubaha/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 54,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.200583,
+                    58.143
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Пещера Чудесница",
+                "previewSrc": "https://nashural.ru/assets/uploads/koRWhM66PA-e1600168795798.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/peshhera-chudesnitsa/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 55,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.456427,
+                    65.523635
+                ]
+            },
+            "properties": {
+                "group": "caves",
+                "iconCaption": "Марьино ущелье",
+                "previewSrc": "https://nashural.ru/assets/uploads/marino-ushhele-e1596184116398.jpg",
+                "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/marshrut-po-isetskomu-2-marino-ushhele/"
+            }
+        }
+    ]
 }

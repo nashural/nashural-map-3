@@ -1,129 +1,197 @@
 {
-  "type": "FeatureCollection",
-  "metadata": {
-    "name": "Мистические места",
-    "creator": "YChebotaev's YMapsML to GeoJSON converter",
-    "id": "mistika"
-  },
-  "features": [
-    {
-      "type": "Feature",
-      "id": 0,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.122024,
-          56.866446
-        ]
-      },
-      "properties": {
-        "group": "mistika",
-        "iconCaption": "Аномальная зона рядом с Бисертью",
-        "previewSrc": "//nashural.ru/assets/uploads/anomalnaya-zona-bisert04.jpg",
-        "articleHref": "//nashural.ru/article/zagadki/anomalnaya-zona-ryadom-s-bisertyu/"
-      }
+    "type": "FeatureCollection",
+    "metadata": {
+        "name": "Мистические места",
+        "creator": "YChebotaev's YMapsML to GeoJSON converter",
+        "id": "mistika"
     },
-    {
-      "type": "Feature",
-      "id": 1,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.724622,
-          56.899531
-        ]
-      },
-      "properties": {
-        "group": "mistika",
-        "iconCaption": "Кости, зубы и бивни мамонта около Галкино",
-        "previewSrc": "//nashural.ru/assets/uploads/arheologiya-kamyshlov06.jpg",
-        "articleHref": "//nashural.ru/interesnoe/arheologicheskie-nahodki-v-kamyshlove/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 2,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.89721,
-          56.931954
-        ]
-      },
-      "properties": {
-        "group": "mistika",
-        "iconCaption": "Черепа у речки Аксаренок",
-        "previewSrc": "//nashural.ru/assets/uploads/arheologiya-kamyshlov03.jpg",
-        "articleHref": "//nashural.ru/interesnoe/arheologicheskie-nahodki-v-kamyshlove/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 3,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.57544395071144,
-          54.19330260941482
-        ]
-      },
-      "properties": {
-        "group": "mistika",
-        "iconCaption": "Ахуновские менгиры",
-        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya005.jpg",
-        "articleHref": "//nashural.ru//Goroda_i_sela/ahunovo.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 4,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.571369,
-          52.649278
-        ]
-      },
-      "properties": {
-        "group": "mistika",
-        "iconCaption": "Аркаим",
-        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab003.jpg",
-        "articleHref": "//nashural.ru/Mesta/arkaim.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 5,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.032313149841315,
-          55.16091339888833
-        ]
-      },
-      "properties": {
-        "group": "mistika",
-        "iconCaption": "Остров Веры",
-        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab053.jpg",
-        "articleHref": "//nashural.ru/Mesta/turgoyak.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 6,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.3256888373225,
-          54.97118756179936
-        ]
-      },
-      "properties": {
-        "group": "mistika",
-        "iconCaption": "Чебаркульский метеорит",
-        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab075.jpg",
-        "articleHref": "//nashural.ru/Mesta/chebarkul.htm"
-      }
-    }
-  ]
+    "features": [
+        {
+            "type": "Feature",
+            "id": 0,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.122024,
+                    56.866446
+                ]
+            },
+            "properties": {
+                "group": "mistika",
+                "iconCaption": "Аномальная зона рядом с Бисертью",
+                "previewSrc": "//nashural.ru/assets/uploads/anomalnaya-zona-bisert04.jpg",
+                "articleHref": "//nashural.ru/article/zagadki/anomalnaya-zona-ryadom-s-bisertyu/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 1,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.724622,
+                    56.899531
+                ]
+            },
+            "properties": {
+                "group": "mistika",
+                "iconCaption": "Кости, зубы и бивни мамонта около Галкино",
+                "previewSrc": "//nashural.ru/assets/uploads/arheologiya-kamyshlov06.jpg",
+                "articleHref": "//nashural.ru/interesnoe/arheologicheskie-nahodki-v-kamyshlove/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 2,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.89721,
+                    56.931954
+                ]
+            },
+            "properties": {
+                "group": "mistika",
+                "iconCaption": "Черепа у речки Аксаренок",
+                "previewSrc": "//nashural.ru/assets/uploads/arheologiya-kamyshlov03.jpg",
+                "articleHref": "//nashural.ru/interesnoe/arheologicheskie-nahodki-v-kamyshlove/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 3,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.575443950711,
+                    54.193302609415
+                ]
+            },
+            "properties": {
+                "group": "mistika",
+                "iconCaption": "Ахуновские менгиры",
+                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya005.jpg",
+                "articleHref": "//nashural.ru//Goroda_i_sela/ahunovo.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 4,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.571369,
+                    52.649278
+                ]
+            },
+            "properties": {
+                "group": "mistika",
+                "iconCaption": "Аркаим",
+                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab003.jpg",
+                "articleHref": "//nashural.ru/Mesta/arkaim.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 5,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.032313149841,
+                    55.160913398888
+                ]
+            },
+            "properties": {
+                "group": "mistika",
+                "iconCaption": "Остров Веры",
+                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab053.jpg",
+                "articleHref": "//nashural.ru/Mesta/turgoyak.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 6,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.325688837323,
+                    54.971187561799
+                ]
+            },
+            "properties": {
+                "group": "mistika",
+                "iconCaption": "Чебаркульский метеорит",
+                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab075.jpg",
+                "articleHref": "//nashural.ru/Mesta/chebarkul.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 7,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.486137442998,
+                    57.574603391756
+                ]
+            },
+            "properties": {
+                "group": "mistika",
+                "iconCaption": "Саринское плато",
+                "previewSrc": "https://nashural.ru/assets/uploads/i-1-4-e1593165469816.jpg",
+                "articleHref": "https://nashural.ru/article/zagadki/proklyataya-trassa-m5-legendy-sarinskogo-plato/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 8,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.601338,
+                    57.014357
+                ]
+            },
+            "properties": {
+                "group": "mistika",
+                "iconCaption": "Памятник Артемию Бабинову",
+                "previewSrc": "https://nashural.ru/assets/uploads/ba.jpg",
+                "articleHref": "https://nashural.ru/interesnoe/kak-tajnye-obryady-vogulov-pomogli-rossiyu-s-sibiryu-svyazat/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 9,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.796605,
+                    56.114392
+                ]
+            },
+            "properties": {
+                "group": "mistika",
+                "iconCaption": "Батин Лог",
+                "previewSrc": "https://nashural.ru/assets/uploads/ba-1-e1588918124317.jpg",
+                "articleHref": "https://nashural.ru/article/zagadki/batin-log-v-gorode-koldunov-legendy-chyormozskogo-rajona/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 10,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.285478,
+                    57.790667
+                ]
+            },
+            "properties": {
+                "group": "mistika",
+                "iconCaption": "«Дом разбойника»",
+                "previewSrc": "https://nashural.ru/assets/uploads/visyachij-most-e1586442807612.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/dorogami-legend-goroda-chusovogo/"
+            }
+        }
+    ]
 }

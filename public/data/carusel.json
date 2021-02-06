@@ -1,622 +1,1217 @@
 {
-  "type": "FeatureCollection",
-  "metadata": {
-    "name": "Развлечения",
-    "creator": "YChebotaev's YMapsML to GeoJSON converter",
-    "id": "carusel"
-  },
-  "features": [
-    {
-      "type": "Feature",
-      "id": 0,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.691564,
-          58.074136
-        ]
-      },
-      "properties": {
-        "group": "carusel",
-        "iconCaption": "Туристический клуб «58-я параллель»",
-        "previewSrc": "//nashural.ru/assets/uploads/58-parallel06.jpg",
-        "articleHref": "//nashural.ru/tours/tk-58-parallel/"
-      }
+    "type": "FeatureCollection",
+    "metadata": {
+        "name": "Развлечения",
+        "creator": "YChebotaev's YMapsML to GeoJSON converter",
+        "id": "carusel"
     },
-    {
-      "type": "Feature",
-      "id": 1,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.675233,
-          58.093087
-        ]
-      },
-      "properties": {
-        "group": "carusel",
-        "iconCaption": "База отдыха «Дальний Хутор»",
-        "previewSrc": "//nashural.ru/assets/uploads/dalniy-hutor-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/baza-otdyha-dalnij-hutor-v-nizhnej-salde/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 2,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.711036,
-          58.059411
-        ]
-      },
-      "properties": {
-        "group": "carusel",
-        "iconCaption": "Турслет НИИМаш",
-        "previewSrc": "//nashural.ru/assets/uploads/u-3-rechki04.jpg",
-        "articleHref": "//nashural.ru/sobytiya/festival-pesni-u-tretej-rechki-i-turslet-niimash/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 3,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.710919,
-          58.06041
-        ]
-      },
-      "properties": {
-        "group": "carusel",
-        "iconCaption": "Фестиваль песни «У Третьей речки»",
-        "previewSrc": "//nashural.ru/assets/uploads/u-3-rechki08.jpg",
-        "articleHref": "//nashural.ru/sobytiya/festival-pesni-u-tretej-rechki-i-turslet-niimash/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 4,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.551377,
-          58.041308
-        ]
-      },
-      "properties": {
-        "group": "carusel",
-        "iconCaption": "Конференция «Грумовские чтения»",
-        "previewSrc": "//nashural.ru/assets/uploads/grumovskie-chteniya01.jpg",
-        "articleHref": "//nashural.ru/sobytiya/grumovskie-chteniya"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 5,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.2408,
-          56.621783
-        ]
-      },
-      "properties": {
-        "group": "carusel",
-        "iconCaption": "Конно-туристическая база отдыха «Новая Ельня»",
-        "previewSrc": "//nashural.ru/assets/uploads/novaya-elnya01.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/novaya-elnya/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 6,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.370069,
-          57.36839
-        ]
-      },
-      "properties": {
-        "group": "carusel",
-        "iconCaption": "Шоколадная мастерская «Chocolate Pepper»",
-        "previewSrc": "//nashural.ru/assets/uploads/chocolate-rezh01.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/shokoladnaya-masterskaya-rezh/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 7,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.367267,
-          57.402914
-        ]
-      },
-      "properties": {
-        "group": "carusel",
-        "iconCaption": "Байк-рок-фестиваль «Рысий след»",
-        "previewSrc": "//nashural.ru/assets/uploads/rysiy-sled03.jpg",
-        "articleHref": "//nashural.ru/sobytiya/baik-rok-festival-rysiy-sled"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 8,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.43853,
-          57.365669
-        ]
-      },
-      "properties": {
-        "group": "carusel",
-        "iconCaption": "Праздник «Сабантуй»",
-        "previewSrc": "//nashural.ru/assets/uploads/sabantuy-rezh03.jpg",
-        "articleHref": "//nashural.ru/sobytiya/sabantuy-v-rezhe/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 9,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.238873,
-          57.399446
-        ]
-      },
-      "properties": {
-        "group": "carusel",
-        "iconCaption": "Фестиваль «Уральский хоровод»",
-        "previewSrc": "//nashural.ru/assets/uploads/uralskiy-horovod02.jpg",
-        "articleHref": "//nashural.ru/sobytiya/festival-uralskiy-horovod-v-rezhe/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 10,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.8302,
-          56.9596
-        ]
-      },
-      "properties": {
-        "group": "carusel",
-        "iconCaption": "Строгановская биеннале",
-        "previewSrc": "//nashural.ru/assets/uploads/sbiennale-a.jpg",
-        "articleHref": "//nashural.ru/sobytiya/stroganovskaya-biennale/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 11,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.931296,
-          56.915896
-        ]
-      },
-      "properties": {
-        "group": "carusel",
-        "iconCaption": "Инновационный культурный центр",
-        "previewSrc": "//nashural.ru/assets/uploads/KcZo-1P-Czs.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/innovatsionnyj-kulturnyj-tsentr-v-pervouralske/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 12,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.929969,
-          56.902487
-        ]
-      },
-      "properties": {
-        "group": "carusel",
-        "iconCaption": "Хаски-парк",
-        "previewSrc": "//nashural.ru/assets/uploads/DSC_0023-1-e1532410539107.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/hasky-park-v-pervouralske/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 13,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.764706,
-          56.614548
-        ]
-      },
-      "properties": {
-        "group": "carusel",
-        "iconCaption": "Ежегодная Красноуфимская ярмарка",
-        "previewSrc": "//nashural.ru/assets/uploads/image-3-1-e1548827871844.jpg",
-        "articleHref": "//nashural.ru/sobytiya/krasnoufimskaya-yarmarka-v-dekabre/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 14,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          58.600706,
-          56.441707
-        ]
-      },
-      "properties": {
-        "group": "carusel",
-        "iconCaption": "«Турнир Косарей»",
-        "previewSrc": "//nashural.ru/assets/uploads/turnir-kosarey-arty02.jpg",
-        "articleHref": "//nashural.ru/sobytiya/turnir-kosarej/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 15,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          58.56249,
-          56.405078
-        ]
-      },
-      "properties": {
-        "group": "carusel",
-        "iconCaption": "Фестиваль песни «Круг друзей»",
-        "previewSrc": "//nashural.ru/assets/uploads/festival-krug-druzey01.jpg",
-        "articleHref": "//nashural.ru/sobytiya/festival-pesni-krug-druzej-v-arti/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 16,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          58.498407,
-          56.40754
-        ]
-      },
-      "properties": {
-        "group": "carusel",
-        "iconCaption": "Арти-трофи",
-        "previewSrc": "//nashural.ru/assets/uploads/arti-trofi03.jpg",
-        "articleHref": "//nashural.ru/sobytiya/arti-trofi/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 17,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          58.159321,
-          56.158956
-        ]
-      },
-      "properties": {
-        "group": "carusel",
-        "iconCaption": "Фестиваль «Ага-Пайрем»",
-        "previewSrc": "//nashural.ru/assets/uploads/aga-payrem02.jpg",
-        "articleHref": "//nashural.ru/sobytiya/festival-aga-pajrem/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 18,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.048344,
-          56.864923
-        ]
-      },
-      "properties": {
-        "group": "carusel",
-        "iconCaption": "Спортивный праздник «Уральский характер»",
-        "previewSrc": "//nashural.ru/assets/uploads/lyzhnja_11-e1551378710569.jpg",
-        "articleHref": "//nashural.ru/sobytiya/sportivnyj-prazdnik-uralskij-harakter-v-biserti/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 19,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.702986,
-          56.845118
-        ]
-      },
-      "properties": {
-        "group": "carusel",
-        "iconCaption": "Джазовый фестиваль «Ural Terra Jazz»",
-        "previewSrc": "//nashural.ru/assets/uploads/uralterrajazz02.jpg",
-        "articleHref": "//nashural.ru/sobytiya/uralterrajazz/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 20,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.70741,
-          56.843988
-        ]
-      },
-      "properties": {
-        "group": "carusel",
-        "iconCaption": "Фестиваль «Земляничный джем»",
-        "previewSrc": "//nashural.ru/assets/uploads/a_21946_52414.jpg",
-        "articleHref": "//nashural.ru/sobytiya/festival-dekorativno-prikladnogo-tvorchestva-i-gastronomii-zemlyanichnyj-dzhem-kamyshlove/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 21,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.772178,
-          56.840232
-        ]
-      },
-      "properties": {
-        "group": "carusel",
-        "iconCaption": "Мотокросс в Камышлове",
-        "previewSrc": "//nashural.ru/assets/uploads/motokross-kamyshlov01.jpg",
-        "articleHref": "//nashural.ru/sobytiya/motokross-v-kamyshlove/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 22,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.931102,
-          57.368548
-        ]
-      },
-      "properties": {
-        "group": "carusel",
-        "iconCaption": "Пешеходный мост через Верхнетагильский пруд",
-        "previewSrc": "//nashural.ru/assets/uploads/most-vtagil01.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/peshehodniy-most-cherez-verhnetagilskiy-prud/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 23,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          65.53783430809843,
-          57.15103379052256
-        ]
-      },
-      "properties": {
-        "group": "carusel",
-        "iconCaption": "Цветной бульвар",
-        "previewSrc": "//o.nashural.ru/mesta-reg/tumen-obl/tyumen014.jpg",
-        "articleHref": "//nashural.ru/Goroda_i_sela/cvetnoy-bulvar.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 24,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          63.06957324465876,
-          57.70440891784438
-        ]
-      },
-      "properties": {
-        "group": "carusel",
-        "iconCaption": "Ирбитская страусиная ферма",
-        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk049.jpg",
-        "articleHref": "//nashural.ru/Goroda_i_sela/strausinaya-ferma.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 25,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.54662315344234,
-          57.03708405998322
-        ]
-      },
-      "properties": {
-        "group": "carusel",
-        "iconCaption": "Коуровская астрономическая обсерватория",
-        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk060.jpg",
-        "articleHref": "//nashural.ru/Goroda_i_sela/kourovskaya-observatoriya.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 26,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.10447451206972,
-          57.254966500377925
-        ]
-      },
-      "properties": {
-        "group": "carusel",
-        "iconCaption": "Театр музыки, драмы и комедии (г. Новоуральск)",
-        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk087.jpg",
-        "articleHref": "//nashural.ru/Spravka/teatr-novouralsk.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 27,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.887778,
-          56.539167
-        ]
-      },
-      "properties": {
-        "group": "carusel",
-        "iconCaption": "Питомник «Холзан»",
-        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk102.jpg",
-        "articleHref": "//nashural.ru/pr/holzan.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 28,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.353654537791144,
-          56.77007696727499
-        ]
-      },
-      "properties": {
-        "group": "carusel",
-        "iconCaption": "Питомник «Эльбрус»",
-        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk103.jpg",
-        "articleHref": "//nashural.ru/uralskaya-zima-2012/puteshestvie-na-haski.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 29,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.54405,
-          57.657317
-        ]
-      },
-      "properties": {
-        "group": "carusel",
-        "iconCaption": "Висимская ферма по разведению оленей, маралов и страусов",
-        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk138.jpg",
-        "articleHref": "//nashural.ru/Krasota/chusovaya-i-ferma.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 30,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.06379449999996,
-          57.772430566834686
-        ]
-      },
-      "properties": {
-        "group": "carusel",
-        "iconCaption": "Частный контактный зоопарк «GreenPoll»",
-        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk139.jpg",
-        "articleHref": "//nashural.ru/Goroda_i_sela/greenpoll.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 31,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.80981715872579,
-          58.26551326751741
-        ]
-      },
-      "properties": {
-        "group": "carusel",
-        "iconCaption": "Чусовской спортивный комплекс «Огонёк»",
-        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk142.jpg",
-        "articleHref": "//nashural.ru/uralskaya-zima-2012/ogonek.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 32,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          58.80090649999997,
-          53.64112328479259
-        ]
-      },
-      "properties": {
-        "group": "carusel",
-        "iconCaption": "Динопарк «Динозаврик»",
-        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab014.jpg",
-        "articleHref": "//nashural.ru/Goroda_i_sela/dinozavrik.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 33,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.15281749999998,
-          55.141220000527944
-        ]
-      },
-      "properties": {
-        "group": "carusel",
-        "iconCaption": "Парк «Бюрократ»",
-        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab062.jpg",
-        "articleHref": "//nashural.ru/Goroda_i_sela/burokrat.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 34,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.54159499999996,
-          55.370766144456255
-        ]
-      },
-      "properties": {
-        "group": "carusel",
-        "iconCaption": "Страусиная ферма (п. Полянный)",
-        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab065.jpg",
-        "articleHref": "//nashural.ru/uralskaya-zima-2012/zimnie-kanikuly.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 35,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.213333,
-          55.013611
-        ]
-      },
-      "properties": {
-        "group": "carusel",
-        "iconCaption": "Этнический центр кочевых народов «АКВИЛОН»",
-        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab091.jpg",
-        "articleHref": "//nashural.ru/Goroda_i_sela/akvilon.htm"
-      }
-    }
-  ]
+    "features": [
+        {
+            "type": "Feature",
+            "id": 0,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.691564,
+                    58.074136
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Туристический клуб «58-я параллель»",
+                "previewSrc": "//nashural.ru/assets/uploads/58-parallel06.jpg",
+                "articleHref": "//nashural.ru/tours/tk-58-parallel/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 1,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.675233,
+                    58.093087
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "База отдыха «Дальний Хутор»",
+                "previewSrc": "//nashural.ru/assets/uploads/dalniy-hutor-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/baza-otdyha-dalnij-hutor-v-nizhnej-salde/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 2,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.711036,
+                    58.059411
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Турслет НИИМаш",
+                "previewSrc": "//nashural.ru/assets/uploads/u-3-rechki04.jpg",
+                "articleHref": "//nashural.ru/sobytiya/festival-pesni-u-tretej-rechki-i-turslet-niimash/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 3,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.710919,
+                    58.06041
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Фестиваль песни «У Третьей речки»",
+                "previewSrc": "//nashural.ru/assets/uploads/u-3-rechki08.jpg",
+                "articleHref": "//nashural.ru/sobytiya/festival-pesni-u-tretej-rechki-i-turslet-niimash/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 4,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.551377,
+                    58.041308
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Конференция «Грумовские чтения»",
+                "previewSrc": "//nashural.ru/assets/uploads/grumovskie-chteniya01.jpg",
+                "articleHref": "//nashural.ru/sobytiya/grumovskie-chteniya"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 5,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.2408,
+                    56.621783
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Конно-туристическая база отдыха «Новая Ельня»",
+                "previewSrc": "//nashural.ru/assets/uploads/novaya-elnya01.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/novaya-elnya/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 6,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.370069,
+                    57.36839
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Шоколадная мастерская «Chocolate Pepper»",
+                "previewSrc": "//nashural.ru/assets/uploads/chocolate-rezh01.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/shokoladnaya-masterskaya-rezh/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 7,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.367267,
+                    57.402914
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Байк-рок-фестиваль «Рысий след»",
+                "previewSrc": "//nashural.ru/assets/uploads/rysiy-sled03.jpg",
+                "articleHref": "//nashural.ru/sobytiya/baik-rok-festival-rysiy-sled"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 8,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.43853,
+                    57.365669
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Праздник «Сабантуй»",
+                "previewSrc": "//nashural.ru/assets/uploads/sabantuy-rezh03.jpg",
+                "articleHref": "//nashural.ru/sobytiya/sabantuy-v-rezhe/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 9,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.238873,
+                    57.399446
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Фестиваль «Уральский хоровод»",
+                "previewSrc": "//nashural.ru/assets/uploads/uralskiy-horovod02.jpg",
+                "articleHref": "//nashural.ru/sobytiya/festival-uralskiy-horovod-v-rezhe/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 10,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.8302,
+                    56.9596
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Строгановская биеннале",
+                "previewSrc": "//nashural.ru/assets/uploads/sbiennale-a.jpg",
+                "articleHref": "//nashural.ru/sobytiya/stroganovskaya-biennale/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 11,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.931296,
+                    56.915896
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Инновационный культурный центр",
+                "previewSrc": "//nashural.ru/assets/uploads/KcZo-1P-Czs.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/innovatsionnyj-kulturnyj-tsentr-v-pervouralske/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 12,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.929969,
+                    56.902487
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Хаски-парк",
+                "previewSrc": "//nashural.ru/assets/uploads/DSC_0023-1-e1532410539107.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/hasky-park-v-pervouralske/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 13,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.764706,
+                    56.614548
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Ежегодная Красноуфимская ярмарка",
+                "previewSrc": "//nashural.ru/assets/uploads/image-3-1-e1548827871844.jpg",
+                "articleHref": "//nashural.ru/sobytiya/krasnoufimskaya-yarmarka-v-dekabre/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 14,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.600706,
+                    56.441707
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "«Турнир Косарей»",
+                "previewSrc": "//nashural.ru/assets/uploads/turnir-kosarey-arty02.jpg",
+                "articleHref": "//nashural.ru/sobytiya/turnir-kosarej/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 15,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.56249,
+                    56.405078
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Фестиваль песни «Круг друзей»",
+                "previewSrc": "//nashural.ru/assets/uploads/festival-krug-druzey01.jpg",
+                "articleHref": "//nashural.ru/sobytiya/festival-pesni-krug-druzej-v-arti/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 16,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.498407,
+                    56.40754
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Арти-трофи",
+                "previewSrc": "//nashural.ru/assets/uploads/arti-trofi03.jpg",
+                "articleHref": "//nashural.ru/sobytiya/arti-trofi/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 17,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.159321,
+                    56.158956
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Фестиваль «Ага-Пайрем»",
+                "previewSrc": "//nashural.ru/assets/uploads/aga-payrem02.jpg",
+                "articleHref": "//nashural.ru/sobytiya/festival-aga-pajrem/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 18,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.048344,
+                    56.864923
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Спортивный праздник «Уральский характер»",
+                "previewSrc": "//nashural.ru/assets/uploads/lyzhnja_11-e1551378710569.jpg",
+                "articleHref": "//nashural.ru/sobytiya/sportivnyj-prazdnik-uralskij-harakter-v-biserti/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 19,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.702986,
+                    56.845118
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Джазовый фестиваль «Ural Terra Jazz»",
+                "previewSrc": "//nashural.ru/assets/uploads/uralterrajazz02.jpg",
+                "articleHref": "//nashural.ru/sobytiya/uralterrajazz/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 20,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.70741,
+                    56.843988
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Фестиваль «Земляничный джем»",
+                "previewSrc": "//nashural.ru/assets/uploads/a_21946_52414.jpg",
+                "articleHref": "//nashural.ru/sobytiya/festival-dekorativno-prikladnogo-tvorchestva-i-gastronomii-zemlyanichnyj-dzhem-kamyshlove/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 21,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.772178,
+                    56.840232
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Мотокросс в Камышлове",
+                "previewSrc": "//nashural.ru/assets/uploads/motokross-kamyshlov01.jpg",
+                "articleHref": "//nashural.ru/sobytiya/motokross-v-kamyshlove/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 22,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.931102,
+                    57.368548
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Пешеходный мост через Верхнетагильский пруд",
+                "previewSrc": "//nashural.ru/assets/uploads/most-vtagil01.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/peshehodniy-most-cherez-verhnetagilskiy-prud/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 23,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    65.537834308098,
+                    57.151033790523
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Цветной бульвар",
+                "previewSrc": "//o.nashural.ru/mesta-reg/tumen-obl/tyumen014.jpg",
+                "articleHref": "//nashural.ru/Goroda_i_sela/cvetnoy-bulvar.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 24,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    63.069573244659,
+                    57.704408917844
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Ирбитская страусиная ферма",
+                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk049.jpg",
+                "articleHref": "//nashural.ru/Goroda_i_sela/strausinaya-ferma.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 25,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.546623153442,
+                    57.037084059983
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Коуровская астрономическая обсерватория",
+                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk060.jpg",
+                "articleHref": "//nashural.ru/Goroda_i_sela/kourovskaya-observatoriya.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 26,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.10447451207,
+                    57.254966500378
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Театр музыки, драмы и комедии (г. Новоуральск)",
+                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk087.jpg",
+                "articleHref": "//nashural.ru/Spravka/teatr-novouralsk.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 27,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.887778,
+                    56.539167
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Питомник «Холзан»",
+                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk102.jpg",
+                "articleHref": "//nashural.ru/pr/holzan.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 28,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.353654537791,
+                    56.770076967275
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Питомник «Эльбрус»",
+                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk103.jpg",
+                "articleHref": "//nashural.ru/uralskaya-zima-2012/puteshestvie-na-haski.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 29,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.54405,
+                    57.657317
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Висимская ферма по разведению оленей, маралов и страусов",
+                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk138.jpg",
+                "articleHref": "//nashural.ru/Krasota/chusovaya-i-ferma.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 30,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.0637945,
+                    57.772430566835
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Частный контактный зоопарк «GreenPoll»",
+                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk139.jpg",
+                "articleHref": "//nashural.ru/Goroda_i_sela/greenpoll.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 31,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.809817158726,
+                    58.265513267517
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Чусовской спортивный комплекс «Огонёк»",
+                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk142.jpg",
+                "articleHref": "//nashural.ru/uralskaya-zima-2012/ogonek.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 32,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.8009065,
+                    53.641123284793
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Динопарк «Динозаврик»",
+                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab014.jpg",
+                "articleHref": "//nashural.ru/Goroda_i_sela/dinozavrik.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 33,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.1528175,
+                    55.141220000528
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Парк «Бюрократ»",
+                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab062.jpg",
+                "articleHref": "//nashural.ru/Goroda_i_sela/burokrat.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 34,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.541595,
+                    55.370766144456
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Страусиная ферма (п. Полянный)",
+                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab065.jpg",
+                "articleHref": "//nashural.ru/uralskaya-zima-2012/zimnie-kanikuly.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 35,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.213333,
+                    55.013611
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Этнический центр кочевых народов «АКВИЛОН»",
+                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab091.jpg",
+                "articleHref": "//nashural.ru/Goroda_i_sela/akvilon.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 36,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.505426171326,
+                    57.350598581313
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Горнолыжная база «Кувандык365»",
+                "previewSrc": "https://nashural.ru/assets/uploads/RF4J7izdnFs-e1593680902770.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/kruglogodichnaya-gornolyzhnaya-baza-kuvandyk365-v-orenburgskoj-oblasti/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 37,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.488475131402,
+                    57.378876526486
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Центр творчества и досуга",
+                "previewSrc": "https://nashural.ru/assets/uploads/IMG_1185-1-e1599113768282.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/voplotit-mechty-v-teatre/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 38,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.161347,
+                    54.997272
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Парк им. Персиянова",
+                "previewSrc": "https://nashural.ru/assets/uploads/DSC02778-scaled-e1590385278146-1773x700.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/chem-zanyatsya-v-sol-iletske/  "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 39,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.153471,
+                    55.004764
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Старая Мельница",
+                "previewSrc": "https://nashural.ru/assets/uploads/DSC02778-scaled-e1590385278146-1773x700.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/chem-zanyatsya-v-sol-iletske/  "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 40,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.145861,
+                    54.999399
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Курорт «Соль-Илецк»",
+                "previewSrc": "https://nashural.ru/assets/uploads/DSC02699-scaled-e1590046469563.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/sol-iletsk-istoriya-stanovleniya-kurorta/ "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 41,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.154473,
+                    54.98949
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Курорт",
+                "previewSrc": "https://nashural.ru/assets/uploads/DSC02699-scaled-e1590046469563.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/sol-iletsk-istoriya-stanovleniya-kurorta/ "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 42,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.033560030683,
+                    59.879759915949
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Фестиваль граффити «Город-Арт»",
+                "previewSrc": "https://nashural.ru/assets/uploads/40645199-e1600243938857.jpg",
+                "articleHref": "https://nashural.ru/sobytiya/gorod-art-festival-graffiti-v-yasnom/ "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 43,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.034469,
+                    59.877747
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Инновационный центр",
+                "previewSrc": "https://nashural.ru/assets/uploads/1-h8fFIj88-1.jpg",
+                "articleHref": "https://nashural.ru/projects/malye-goroda/dostoprimechatelnosti-yasnogo/innovatsionnyj-tsentr-doroga-v-budushhee-yasnogo/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 44,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.040472,
+                    59.874883
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Физкультурно-оздоровительный комплекс",
+                "previewSrc": "https://nashural.ru/assets/uploads/1-140.jpg",
+                "articleHref": "https://nashural.ru/projects/malye-goroda/dostoprimechatelnosti-yasnogo/fok-massovogo-poseshheniya-v-yasnom/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 45,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.035142,
+                    59.871714
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Детская школа искусств",
+                "previewSrc": "https://nashural.ru/assets/uploads/4jJFk3QQZA-e1609143327665-2048x937.jpg",
+                "articleHref": "https://nashural.ru/projects/malye-goroda/dostoprimechatelnosti-yasnogo/shkola-iskusstv-v-zdanii-byvshego-gorkoma-partii/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 46,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.077009,
+                    54.664819
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Военно-спортивный клуб",
+                "previewSrc": "https://nashural.ru/assets/uploads/e893c3bdf09aa55e0acfefded911d33d-e1587124505862.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/voenno-sportivnyj-klub-patriot-i-ego-rol-v-vospitanii-molodezhi-g-vereshhagino/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 47,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.0773,
+                    54.682402
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Станция Юных туристов",
+                "previewSrc": "https://nashural.ru/assets/uploads/DSC05093-1-scaled-e1587375344202-2048x1110.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/istoriya-stantsii-yunyh-turistov-v-g-vereshhagino/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 48,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.078849,
+                    54.648479
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Дворец досуга",
+                "previewSrc": "https://nashural.ru/assets/uploads/orkestr-1-e1587379169340.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/istoriya-sozdaniya-orkestra-narodnyh-instrumentov-v-mbuk-dvorets-dosuga-v-g-vereshhagino/ "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 49,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.86405,
+                    57.578917
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Горнолыжный центр «Губаха»",
+                "previewSrc": "https://nashural.ru/assets/uploads/kY5wT4-NIsk-e1590124501658.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gornolyzhnyj-tsentr-gubaha-v-permskom-krae/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 50,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.695918,
+                    55.24146
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Конно-спортивный клуб «Маркиз»",
+                "previewSrc": "https://nashural.ru/assets/uploads/kon-e1587704972432.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/konno-sportivnyj-klub-markiz-v-permskom-krae/ "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 51,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.413433,
+                    56.706904
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "«Строгановская регата»",
+                "previewSrc": "https://nashural.ru/assets/uploads/stroganovskaya-regata-logo.jpg",
+                "articleHref": "https://nashural.ru/sobytiya/stroganovskaya-regata-v-usole/ "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 52,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.410579,
+                    56.696276
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Фестиваль колокольной музыки «Звоны России-2020» в Усолье",
+                "previewSrc": "https://nashural.ru/assets/uploads/vCjGhMpR2zE-e1587735894311.jpg",
+                "articleHref": "https://nashural.ru/sobytiya/festival-kolokolnoj-muzyki-zvony-rossii-2020-v-usole/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 53,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.411623,
+                    56.71016
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Соревнования по сноукайтингу «Строгановская миля»",
+                "previewSrc": "https://nashural.ru/assets/uploads/str.jpg",
+                "articleHref": "https://nashural.ru/sobytiya/festival-stroganovskaya-milya/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 54,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.412649,
+                    56.705862
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Фестиваль «Любимовский пикник» в Усолье",
+                "previewSrc": "https://nashural.ru/assets/uploads/lyubi-e1587965900934.jpg",
+                "articleHref": "https://nashural.ru/sobytiya/festival-lyubimovskij-piknik-v-usole/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 55,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.566526,
+                    55.696646
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Ежегодный фестиваль «Театральная пестрядь»",
+                "previewSrc": "https://nashural.ru/assets/uploads/d76ac0_288e33e7d08e48499106989271d357a0-mv2-e1600172001341.jpg",
+                "articleHref": "https://nashural.ru/sobytiya/ezhegodnyj-festival-teatralnaya-pestryad-v-ilinskom-rajone/  "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 56,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.778594,
+                    56.152952
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Гостевой дом «Усадьба Лазаревых»",
+                "previewSrc": "https://nashural.ru/assets/uploads/62206168_431716747680012_8813205907010855395_n-e1589350758571.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gostevoj-dom-usadba-lazarevyh-vintazhnyj-otdyh-v-dome-xix-veka/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 57,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.574635,
+                    55.396546
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Рыболовно-туристическая база «Обватур»",
+                "previewSrc": "https://nashural.ru/assets/uploads/obva-e1589521672156.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/rybolovno-turisticheskaya-baza-obvatur-v-sele-krivets/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 58,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.523157,
+                    56.079516
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "«Льняница – богатая девица»: народный праздник льна",
+                "previewSrc": "https://nashural.ru/assets/uploads/lnyani.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/lnyanitsa-bogataya-devitsa-narodnyj-prazdnik-lna-v-chernushke/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 59,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.517511,
+                    56.075022
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Фестиваль этнокультур «На земле единой – в семье Прикамской»",
+                "previewSrc": "https://nashural.ru/assets/uploads/na-zem-e1586237367168.jpg",
+                "articleHref": "https://nashural.ru/sobytiya/festival-etnokultur-na-zemle-edinoj-v-seme-prikamskoj/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 60,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.919269,
+                    55.583272
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Праздник «Барда-зиен»",
+                "previewSrc": "https://nashural.ru/assets/uploads/zien-barda.jpg",
+                "articleHref": "https://nashural.ru/sobytiya/prazdnik-barda-zien/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 61,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.545924,
+                    56.136832
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Фестиваль «Зверевские шаньги»",
+                "previewSrc": "https://nashural.ru/assets/uploads/zv-e1586328970829.jpg",
+                "articleHref": "https://nashural.ru/sobytiya/festival-zverevskie-shangi/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 62,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.304041,
+                    57.830949
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Экстрим-фестиваль «Смотрины. Летний фристайл»",
+                "previewSrc": "https://nashural.ru/assets/uploads/fristajl-1.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/gorod-chusovoj-stal-stolitsej-letnego-fristajla/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 63,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.311507,
+                    57.855652
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Чусовской спортивный комплекс «Огонек»",
+                "previewSrc": "https://nashural.ru/assets/uploads/37-4.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/ogonek/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 64,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.271866,
+                    57.801238
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Спортивный комплекс",
+                "previewSrc": "https://nashural.ru/assets/uploads/sport-kompleks-e1586449157125.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/istoriya-sportivnogo-kompleksa-goroda-chusovogo/ "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 65,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.644342,
+                    69.240867
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Издательский центр «Наша жизнь»",
+                "previewSrc": "https://nashural.ru/assets/uploads/Kak-obychno-fotografiya-na-pamyat-e1599718118638.jpg",
+                "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/kulturnaya-zhizn-sela-ne-menee-aktivna-i-plodotvorna-chem-v-gorode/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 66,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.052495,
+                    66.590124
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Домик Хоббита",
+                "previewSrc": "https://nashural.ru/assets/uploads/DSC_4361-scaled-e1605083256437-1806x700.jpg",
+                "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/eshhe-odno-otkrytie-v-tyumenskoj-oblasti-uporovskij-rajon-chast-2/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 67,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.31453,
+                    66.264785
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Школа искусств",
+                "previewSrc": "https://nashural.ru/assets/uploads/DSC_4306-scaled-e1604916393462-1796x700.jpg",
+                "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/eshhe-odno-otkrytie-v-tyumenskoj-oblasti-uporovskij-rajon-chast-1/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 68,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.313754,
+                    66.263985
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Дом культуры",
+                "previewSrc": "https://nashural.ru/assets/uploads/DSC_4306-scaled-e1604916393462-1796x700.jpg",
+                "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/eshhe-odno-otkrytie-v-tyumenskoj-oblasti-uporovskij-rajon-chast-1/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 69,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.314286,
+                    66.264928
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Детская игровая площадка",
+                "previewSrc": "https://nashural.ru/assets/uploads/DSC_4306-scaled-e1604916393462-1796x700.jpg",
+                "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/eshhe-odno-otkrytie-v-tyumenskoj-oblasti-uporovskij-rajon-chast-1/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 70,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.641886,
+                    66.291395
+                ]
+            },
+            "properties": {
+                "group": "carusel",
+                "iconCaption": "Спортивная школа",
+                "previewSrc": "https://nashural.ru/assets/uploads/JelUTcRPZgI-e1598517137262.jpg",
+                "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/chtoby-stat-chempionom-neobyazatelno-roditsya-v-stolitse/"
+            }
+        }
+    ]
 }

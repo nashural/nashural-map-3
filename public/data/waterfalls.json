@@ -1,214 +1,231 @@
 {
-  "type": "FeatureCollection",
-  "metadata": {
-    "name": "Водопады и фонтаны",
-    "creator": "YChebotaev's YMapsML to GeoJSON converter",
-    "id": "waterfalls"
-  },
-  "features": [
-    {
-      "type": "Feature",
-      "id": 0,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.270999,
-          54.555664
-        ]
-      },
-      "properties": {
-        "group": "waterfalls",
-        "iconCaption": "Водопад Атыш",
-        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya007.jpg",
-        "articleHref": "//nashural.ru/Mesta/atish.htm"
-      }
+    "type": "FeatureCollection",
+    "metadata": {
+        "name": "Водопады и фонтаны",
+        "creator": "YChebotaev's YMapsML to GeoJSON converter",
+        "id": "waterfalls"
     },
-    {
-      "type": "Feature",
-      "id": 1,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          58.3722,
-          52.757544
-        ]
-      },
-      "properties": {
-        "group": "waterfalls",
-        "iconCaption": "Водопад Гадельша",
-        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya008.jpg",
-        "articleHref": "//nashural.ru/Mesta/vdp-gadelsha.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 2,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          56.684561,
-          53.600986
-        ]
-      },
-      "properties": {
-        "group": "waterfalls",
-        "iconCaption": "Водопад Кук-Караук",
-        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya009.jpg",
-        "articleHref": "//nashural.ru/Mesta/kuk-karauk.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 3,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          56.624382,
-          53.144911
-        ]
-      },
-      "properties": {
-        "group": "waterfalls",
-        "iconCaption": "Водопад Куперля",
-        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya010.jpg",
-        "articleHref": "//nashural.ru/Mesta/kuperlya.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 4,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          58.511811,
-          53.488211
-        ]
-      },
-      "properties": {
-        "group": "waterfalls",
-        "iconCaption": "Водопад Могак",
-        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya011.jpg",
-        "articleHref": "//nashural.ru/Mesta/mogak.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 5,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          54.50945,
-          54.284883
-        ]
-      },
-      "properties": {
-        "group": "waterfalls",
-        "iconCaption": "Водопад Шарлама",
-        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya036.jpg",
-        "articleHref": "//nashural.ru/Mesta/ozero-aslikul.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 6,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.474722,
-          57.190556
-        ]
-      },
-      "properties": {
-        "group": "waterfalls",
-        "iconCaption": "Водопад Плакун",
-        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm009.jpg",
-        "articleHref": "//nashural.ru/Mesta/plakun.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 7,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          54.95020350578494,
-          57.03963361550587
-        ]
-      },
-      "properties": {
-        "group": "waterfalls",
-        "iconCaption": "Долина водопадов",
-        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm016.jpg",
-        "articleHref": "//nashural.ru/Mesta/dolina-vodopadov.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 8,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          54.352778,
-          57.896667
-        ]
-      },
-      "properties": {
-        "group": "waterfalls",
-        "iconCaption": "Канал Копань",
-        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm022.jpg",
-        "articleHref": "//nashural.ru/Mesta/kopan.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 9,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          58.787989,
-          60.165052
-        ]
-      },
-      "properties": {
-        "group": "waterfalls",
-        "iconCaption": "Жигаланские водопады",
-        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm082.jpg",
-        "articleHref": "//nashural.ru/Mesta/kvarkush.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 10,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          58.931,
-          54.842717
-        ]
-      },
-      "properties": {
-        "group": "waterfalls",
-        "iconCaption": "Фонтан в НП «Зюраткуль»",
-        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab083.jpg",
-        "articleHref": "//nashural.ru/Mesta/fontan-zuratkul.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 11,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.97955,
-          56.923133
-        ]
-      },
-      "properties": {
-        "group": "waterfalls",
-        "iconCaption": "Шатский водопад",
-        "previewSrc": "//nashural.ru/assets/uploads/shata-vodopad2.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/dostoprimechatelnosti-suholozhya-part3/"
-      }
-    }
-  ]
+    "features": [
+        {
+            "type": "Feature",
+            "id": 0,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.270999,
+                    54.555664
+                ]
+            },
+            "properties": {
+                "group": "waterfalls",
+                "iconCaption": "Водопад Атыш",
+                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya007.jpg",
+                "articleHref": "//nashural.ru/Mesta/atish.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 1,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.3722,
+                    52.757544
+                ]
+            },
+            "properties": {
+                "group": "waterfalls",
+                "iconCaption": "Водопад Гадельша",
+                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya008.jpg",
+                "articleHref": "//nashural.ru/Mesta/vdp-gadelsha.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 2,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.684561,
+                    53.600986
+                ]
+            },
+            "properties": {
+                "group": "waterfalls",
+                "iconCaption": "Водопад Кук-Караук",
+                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya009.jpg",
+                "articleHref": "//nashural.ru/Mesta/kuk-karauk.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 3,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.624382,
+                    53.144911
+                ]
+            },
+            "properties": {
+                "group": "waterfalls",
+                "iconCaption": "Водопад Куперля",
+                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya010.jpg",
+                "articleHref": "//nashural.ru/Mesta/kuperlya.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 4,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.511811,
+                    53.488211
+                ]
+            },
+            "properties": {
+                "group": "waterfalls",
+                "iconCaption": "Водопад Могак",
+                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya011.jpg",
+                "articleHref": "//nashural.ru/Mesta/mogak.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 5,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    54.50945,
+                    54.284883
+                ]
+            },
+            "properties": {
+                "group": "waterfalls",
+                "iconCaption": "Водопад Шарлама",
+                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya036.jpg",
+                "articleHref": "//nashural.ru/Mesta/ozero-aslikul.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 6,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.474722,
+                    57.190556
+                ]
+            },
+            "properties": {
+                "group": "waterfalls",
+                "iconCaption": "Водопад Плакун",
+                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm009.jpg",
+                "articleHref": "//nashural.ru/Mesta/plakun.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 7,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    54.950203505785,
+                    57.039633615506
+                ]
+            },
+            "properties": {
+                "group": "waterfalls",
+                "iconCaption": "Долина водопадов",
+                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm016.jpg",
+                "articleHref": "//nashural.ru/Mesta/dolina-vodopadov.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 8,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    54.352778,
+                    57.896667
+                ]
+            },
+            "properties": {
+                "group": "waterfalls",
+                "iconCaption": "Канал Копань",
+                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm022.jpg",
+                "articleHref": "//nashural.ru/Mesta/kopan.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 9,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.787989,
+                    60.165052
+                ]
+            },
+            "properties": {
+                "group": "waterfalls",
+                "iconCaption": "Жигаланские водопады",
+                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm082.jpg",
+                "articleHref": "//nashural.ru/Mesta/kvarkush.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 10,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.931,
+                    54.842717
+                ]
+            },
+            "properties": {
+                "group": "waterfalls",
+                "iconCaption": "Фонтан в НП «Зюраткуль»",
+                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab083.jpg",
+                "articleHref": "//nashural.ru/Mesta/fontan-zuratkul.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 11,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.97955,
+                    56.923133
+                ]
+            },
+            "properties": {
+                "group": "waterfalls",
+                "iconCaption": "Шатский водопад",
+                "previewSrc": "//nashural.ru/assets/uploads/shata-vodopad2.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/dostoprimechatelnosti-suholozhya-part3/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 12,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.33946,
+                    57.839565
+                ]
+            },
+            "properties": {
+                "group": "waterfalls",
+                "iconCaption": "Саринский пруд",
+                "previewSrc": "https://nashural.ru/assets/uploads/tPV6Uh6y_k0-e1594017914964.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/marshrut-vyhodnogo-dnya-sarinskie-lesa-i-vodopad/"
+            }
+        }
+    ]
 }

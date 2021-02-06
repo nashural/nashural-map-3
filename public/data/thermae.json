@@ -1,622 +1,758 @@
 {
-  "type": "FeatureCollection",
-  "metadata": {
-    "name": "Источники",
-    "creator": "YChebotaev's YMapsML to GeoJSON converter",
-    "id": "thermae"
-  },
-  "features": [
-    {
-      "type": "Feature",
-      "id": 0,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.723571,
-          58.004485
-        ]
-      },
-      "properties": {
-        "group": "thermae",
-        "iconCaption": "Нелобское месторождение подземных радоновых минеральных вод",
-        "previewSrc": "//nashural.ru/assets/uploads/neloba01.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/nelobskoe-mestorozhdenie-podzemnyh-radonovyh-mineralnyh-vod/"
-      }
+    "type": "FeatureCollection",
+    "metadata": {
+        "name": "Источники",
+        "creator": "YChebotaev's YMapsML to GeoJSON converter",
+        "id": "thermae"
     },
-    {
-      "type": "Feature",
-      "id": 1,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.257967,
-          56.4636
-        ]
-      },
-      "properties": {
-        "group": "thermae",
-        "iconCaption": "Аракаевский грифон",
-        "previewSrc": "//nashural.ru/assets/uploads/49643814_1980614342054699_283527348307886080_o.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/peshehodnye-marshruty-dolina-arakaevskih-peshher/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 2,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.788611,
-          56.505278
-        ]
-      },
-      "properties": {
-        "group": "thermae",
-        "iconCaption": "Источник Платонида",
-        "previewSrc": "//nashural.ru/assets/uploads/platonida-02.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/istochnik-platonida/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 3,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          58.603194,
-          56.448484
-        ]
-      },
-      "properties": {
-        "group": "thermae",
-        "iconCaption": "Ключик Степана Разина",
-        "previewSrc": "//nashural.ru/assets/uploads/kluchik-stepana-razina01.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/klyuchik-stepana-razina/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 4,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.151962,
-          56.838727
-        ]
-      },
-      "properties": {
-        "group": "thermae",
-        "iconCaption": "Святой источник",
-        "previewSrc": "//nashural.ru/assets/uploads/kirgishany07.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/selo-kirgishany/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 5,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          58.135956,
-          55.273677
-        ]
-      },
-      "properties": {
-        "group": "thermae",
-        "iconCaption": "Источник Кургазак",
-        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya016.jpg",
-        "articleHref": "//nashural.ru/Mesta/yangantau.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 6,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          56.679615,
-          55.37666
-        ]
-      },
-      "properties": {
-        "group": "thermae",
-        "iconCaption": "Источник Красный Ключ",
-        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya028.jpg",
-        "articleHref": "//nashural.ru/Mesta/krasniy-kluch.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 7,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          65.434722,
-          57.244722
-        ]
-      },
-      "properties": {
-        "group": "thermae",
-        "iconCaption": "Тюменские горячие источники",
-        "previewSrc": "//o.nashural.ru/mesta-reg/tumen-obl/tyumen009.jpg",
-        "articleHref": "//nashural.ru/Mesta/tum-goryach-istochniki.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 8,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.788611,
-          56.505
-        ]
-      },
-      "properties": {
-        "group": "thermae",
-        "iconCaption": "Источник Платониды",
-        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk050.jpg",
-        "articleHref": "//nashural.ru/Mesta/platonida.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 9,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.07238206874724,
-          57.12616849919733
-        ]
-      },
-      "properties": {
-        "group": "thermae",
-        "iconCaption": "Святые источники села Тарасково",
-        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk118.jpg",
-        "articleHref": "//nashural.ru/Mesta/taraskovo.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 10,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          63.8626755,
-          58.10279751748796
-        ]
-      },
-      "properties": {
-        "group": "thermae",
-        "iconCaption": "Туринские горячие источники",
-        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk134.jpg",
-        "articleHref": "//nashural.ru/Goroda_i_sela/gorod-turinsk.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 11,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.249134,
-          56.886493
-        ]
-      },
-      "properties": {
-        "group": "thermae",
-        "iconCaption": "Никольский ключ",
-        "previewSrc": "//nashural.ru/assets/uploads/rodniky-suhoy-log07.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rodniky-suholozhya/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 12,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.134459,
-          56.918479
-        ]
-      },
-      "properties": {
-        "group": "thermae",
-        "iconCaption": "Родник Ильин",
-        "previewSrc": "//nashural.ru/assets/uploads/rodniky-suhoy-log-logo.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rodniky-suholozhya/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 13,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.133232,
-          56.922333
-        ]
-      },
-      "properties": {
-        "group": "thermae",
-        "iconCaption": "Свято-Троицкий родник",
-        "previewSrc": "//nashural.ru/assets/uploads/rodniky-suhoy-log-logo.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rodniky-suholozhya/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 14,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.989252,
-          57.067806
-        ]
-      },
-      "properties": {
-        "group": "thermae",
-        "iconCaption": "Родник",
-        "previewSrc": "//nashural.ru/assets/uploads/rodniky-suhoy-log-logo.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rodniky-suholozhya/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 15,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.182255,
-          56.850467
-        ]
-      },
-      "properties": {
-        "group": "thermae",
-        "iconCaption": "Алешкин ключ",
-        "previewSrc": "//nashural.ru/assets/uploads/rodniky-suhoy-log-logo.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rodniky-suholozhya/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 16,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.944004,
-          56.940634
-        ]
-      },
-      "properties": {
-        "group": "thermae",
-        "iconCaption": "Студенческий родник",
-        "previewSrc": "//nashural.ru/assets/uploads/rodniky-suhoy-log-logo.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rodniky-suholozhya/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 17,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.113651,
-          56.911539
-        ]
-      },
-      "properties": {
-        "group": "thermae",
-        "iconCaption": "Троицкий родник",
-        "previewSrc": "//nashural.ru/assets/uploads/rodniky-suhoy-log-logo.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rodniky-suholozhya/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 18,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.115277,
-          56.917662
-        ]
-      },
-      "properties": {
-        "group": "thermae",
-        "iconCaption": "Горбуновский родник",
-        "previewSrc": "//nashural.ru/assets/uploads/rodniky-suhoy-log-logo.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rodniky-suholozhya/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 19,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.104324,
-          56.915852
-        ]
-      },
-      "properties": {
-        "group": "thermae",
-        "iconCaption": "Пантелеев ключ",
-        "previewSrc": "//nashural.ru/assets/uploads/rodniky-suhoy-log06.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rodniky-suholozhya/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 20,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.142271,
-          56.920172
-        ]
-      },
-      "properties": {
-        "group": "thermae",
-        "iconCaption": "Серебряный родник",
-        "previewSrc": "//nashural.ru/assets/uploads/rodniky-suhoy-log08.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rodniky-suholozhya/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 21,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.118933,
-          56.921504
-        ]
-      },
-      "properties": {
-        "group": "thermae",
-        "iconCaption": "Родник Памяти",
-        "previewSrc": "//nashural.ru/assets/uploads/rodniky-suhoy-log-logo.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rodniky-suholozhya/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 22,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.132821,
-          56.918993
-        ]
-      },
-      "properties": {
-        "group": "thermae",
-        "iconCaption": "Учительский родник",
-        "previewSrc": "//nashural.ru/assets/uploads/rodniky-suhoy-log-logo.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rodniky-suholozhya/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 23,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.235364,
-          56.859852
-        ]
-      },
-      "properties": {
-        "group": "thermae",
-        "iconCaption": "У плотины",
-        "previewSrc": "//nashural.ru/assets/uploads/rodniky-suhoy-log-logo.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rodniky-suholozhya/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 24,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.231555,
-          56.889842
-        ]
-      },
-      "properties": {
-        "group": "thermae",
-        "iconCaption": "Память",
-        "previewSrc": "//nashural.ru/assets/uploads/rodniky-suhoy-log-logo.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rodniky-suholozhya/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 25,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.214532,
-          56.895359
-        ]
-      },
-      "properties": {
-        "group": "thermae",
-        "iconCaption": "Росинка",
-        "previewSrc": "//nashural.ru/assets/uploads/rodniky-suhoy-log-logo.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rodniky-suholozhya/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 26,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.01215,
-          56.92508
-        ]
-      },
-      "properties": {
-        "group": "thermae",
-        "iconCaption": "Родник",
-        "previewSrc": "//nashural.ru/assets/uploads/rodniky-suhoy-log-logo.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rodniky-suholozhya/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 27,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.016831,
-          56.912856
-        ]
-      },
-      "properties": {
-        "group": "thermae",
-        "iconCaption": "Гортоповский родник",
-        "previewSrc": "//nashural.ru/assets/uploads/rodniky-suhoy-log-logo.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rodniky-suholozhya/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 28,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.29026,
-          56.854005
-        ]
-      },
-      "properties": {
-        "group": "thermae",
-        "iconCaption": "У Серковых (У Самаркандки)",
-        "previewSrc": "//nashural.ru/assets/uploads/rodniky-suhoy-log-logo.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rodniky-suholozhya/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 29,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.291086,
-          56.848163
-        ]
-      },
-      "properties": {
-        "group": "thermae",
-        "iconCaption": "У Окининых (Нохринский)",
-        "previewSrc": "//nashural.ru/assets/uploads/rodniky-suhoy-log01.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rodniky-suholozhya/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 30,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.30324,
-          56.845175
-        ]
-      },
-      "properties": {
-        "group": "thermae",
-        "iconCaption": "На семи ключах",
-        "previewSrc": "//nashural.ru/assets/uploads/rodniky-suhoy-log-logo.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rodniky-suholozhya/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 31,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.302714,
-          56.848646
-        ]
-      },
-      "properties": {
-        "group": "thermae",
-        "iconCaption": "Барский ключ",
-        "previewSrc": "//nashural.ru/assets/uploads/rodniky-suhoy-log-logo.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rodniky-suholozhya/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 32,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.298434,
-          56.846632
-        ]
-      },
-      "properties": {
-        "group": "thermae",
-        "iconCaption": "Винный ключ",
-        "previewSrc": "//nashural.ru/assets/uploads/rodniky-suhoy-log02.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rodniky-suholozhya/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 33,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.298434,
-          56.846652
-        ]
-      },
-      "properties": {
-        "group": "thermae",
-        "iconCaption": "Глазной ключ",
-        "previewSrc": "//nashural.ru/assets/uploads/rodniky-suhoy-log-logo.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rodniky-suholozhya/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 34,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.297078,
-          56.847361
-        ]
-      },
-      "properties": {
-        "group": "thermae",
-        "iconCaption": "У околицы",
-        "previewSrc": "//nashural.ru/assets/uploads/rodniky-suhoy-log-logo.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rodniky-suholozhya/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 35,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.97955,
-          56.923133
-        ]
-      },
-      "properties": {
-        "group": "thermae",
-        "iconCaption": "На Шатском водопаде",
-        "previewSrc": "//nashural.ru/assets/uploads/rodniky-suhoy-log-logo.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rodniky-suholozhya/"
-      }
-    }
-  ]
+    "features": [
+        {
+            "type": "Feature",
+            "id": 0,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.723571,
+                    58.004485
+                ]
+            },
+            "properties": {
+                "group": "thermae",
+                "iconCaption": "Нелобское месторождение подземных радоновых минеральных вод",
+                "previewSrc": "//nashural.ru/assets/uploads/neloba01.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/nelobskoe-mestorozhdenie-podzemnyh-radonovyh-mineralnyh-vod/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 1,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.257967,
+                    56.4636
+                ]
+            },
+            "properties": {
+                "group": "thermae",
+                "iconCaption": "Аракаевский грифон",
+                "previewSrc": "//nashural.ru/assets/uploads/49643814_1980614342054699_283527348307886080_o.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/peshehodnye-marshruty-dolina-arakaevskih-peshher/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 2,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.788611,
+                    56.505278
+                ]
+            },
+            "properties": {
+                "group": "thermae",
+                "iconCaption": "Источник Платонида",
+                "previewSrc": "//nashural.ru/assets/uploads/platonida-02.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/istochnik-platonida/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 3,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.603194,
+                    56.448484
+                ]
+            },
+            "properties": {
+                "group": "thermae",
+                "iconCaption": "Ключик Степана Разина",
+                "previewSrc": "//nashural.ru/assets/uploads/kluchik-stepana-razina01.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/klyuchik-stepana-razina/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 4,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.151962,
+                    56.838727
+                ]
+            },
+            "properties": {
+                "group": "thermae",
+                "iconCaption": "Святой источник",
+                "previewSrc": "//nashural.ru/assets/uploads/kirgishany07.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/selo-kirgishany/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 5,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.135956,
+                    55.273677
+                ]
+            },
+            "properties": {
+                "group": "thermae",
+                "iconCaption": "Источник Кургазак",
+                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya016.jpg",
+                "articleHref": "//nashural.ru/Mesta/yangantau.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 6,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.679615,
+                    55.37666
+                ]
+            },
+            "properties": {
+                "group": "thermae",
+                "iconCaption": "Источник Красный Ключ",
+                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya028.jpg",
+                "articleHref": "//nashural.ru/Mesta/krasniy-kluch.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 7,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    65.434722,
+                    57.244722
+                ]
+            },
+            "properties": {
+                "group": "thermae",
+                "iconCaption": "Тюменские горячие источники",
+                "previewSrc": "//o.nashural.ru/mesta-reg/tumen-obl/tyumen009.jpg",
+                "articleHref": "//nashural.ru/Mesta/tum-goryach-istochniki.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 8,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.788611,
+                    56.505
+                ]
+            },
+            "properties": {
+                "group": "thermae",
+                "iconCaption": "Источник Платониды",
+                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk050.jpg",
+                "articleHref": "//nashural.ru/Mesta/platonida.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 9,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.072382068747,
+                    57.126168499197
+                ]
+            },
+            "properties": {
+                "group": "thermae",
+                "iconCaption": "Святые источники села Тарасково",
+                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk118.jpg",
+                "articleHref": "//nashural.ru/Mesta/taraskovo.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 10,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    63.8626755,
+                    58.102797517488
+                ]
+            },
+            "properties": {
+                "group": "thermae",
+                "iconCaption": "Туринские горячие источники",
+                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk134.jpg",
+                "articleHref": "//nashural.ru/Goroda_i_sela/gorod-turinsk.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 11,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.249134,
+                    56.886493
+                ]
+            },
+            "properties": {
+                "group": "thermae",
+                "iconCaption": "Никольский ключ",
+                "previewSrc": "//nashural.ru/assets/uploads/rodniky-suhoy-log07.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rodniky-suholozhya/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 12,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.134459,
+                    56.918479
+                ]
+            },
+            "properties": {
+                "group": "thermae",
+                "iconCaption": "Родник Ильин",
+                "previewSrc": "//nashural.ru/assets/uploads/rodniky-suhoy-log-logo.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rodniky-suholozhya/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 13,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.133232,
+                    56.922333
+                ]
+            },
+            "properties": {
+                "group": "thermae",
+                "iconCaption": "Свято-Троицкий родник",
+                "previewSrc": "//nashural.ru/assets/uploads/rodniky-suhoy-log-logo.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rodniky-suholozhya/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 14,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.989252,
+                    57.067806
+                ]
+            },
+            "properties": {
+                "group": "thermae",
+                "iconCaption": "Родник",
+                "previewSrc": "//nashural.ru/assets/uploads/rodniky-suhoy-log-logo.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rodniky-suholozhya/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 15,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.182255,
+                    56.850467
+                ]
+            },
+            "properties": {
+                "group": "thermae",
+                "iconCaption": "Алешкин ключ",
+                "previewSrc": "//nashural.ru/assets/uploads/rodniky-suhoy-log-logo.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rodniky-suholozhya/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 16,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.944004,
+                    56.940634
+                ]
+            },
+            "properties": {
+                "group": "thermae",
+                "iconCaption": "Студенческий родник",
+                "previewSrc": "//nashural.ru/assets/uploads/rodniky-suhoy-log-logo.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rodniky-suholozhya/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 17,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.113651,
+                    56.911539
+                ]
+            },
+            "properties": {
+                "group": "thermae",
+                "iconCaption": "Троицкий родник",
+                "previewSrc": "//nashural.ru/assets/uploads/rodniky-suhoy-log-logo.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rodniky-suholozhya/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 18,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.115277,
+                    56.917662
+                ]
+            },
+            "properties": {
+                "group": "thermae",
+                "iconCaption": "Горбуновский родник",
+                "previewSrc": "//nashural.ru/assets/uploads/rodniky-suhoy-log-logo.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rodniky-suholozhya/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 19,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.104324,
+                    56.915852
+                ]
+            },
+            "properties": {
+                "group": "thermae",
+                "iconCaption": "Пантелеев ключ",
+                "previewSrc": "//nashural.ru/assets/uploads/rodniky-suhoy-log06.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rodniky-suholozhya/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 20,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.142271,
+                    56.920172
+                ]
+            },
+            "properties": {
+                "group": "thermae",
+                "iconCaption": "Серебряный родник",
+                "previewSrc": "//nashural.ru/assets/uploads/rodniky-suhoy-log08.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rodniky-suholozhya/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 21,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.118933,
+                    56.921504
+                ]
+            },
+            "properties": {
+                "group": "thermae",
+                "iconCaption": "Родник Памяти",
+                "previewSrc": "//nashural.ru/assets/uploads/rodniky-suhoy-log-logo.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rodniky-suholozhya/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 22,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.132821,
+                    56.918993
+                ]
+            },
+            "properties": {
+                "group": "thermae",
+                "iconCaption": "Учительский родник",
+                "previewSrc": "//nashural.ru/assets/uploads/rodniky-suhoy-log-logo.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rodniky-suholozhya/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 23,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.235364,
+                    56.859852
+                ]
+            },
+            "properties": {
+                "group": "thermae",
+                "iconCaption": "У плотины",
+                "previewSrc": "//nashural.ru/assets/uploads/rodniky-suhoy-log-logo.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rodniky-suholozhya/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 24,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.231555,
+                    56.889842
+                ]
+            },
+            "properties": {
+                "group": "thermae",
+                "iconCaption": "Память",
+                "previewSrc": "//nashural.ru/assets/uploads/rodniky-suhoy-log-logo.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rodniky-suholozhya/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 25,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.214532,
+                    56.895359
+                ]
+            },
+            "properties": {
+                "group": "thermae",
+                "iconCaption": "Росинка",
+                "previewSrc": "//nashural.ru/assets/uploads/rodniky-suhoy-log-logo.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rodniky-suholozhya/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 26,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.01215,
+                    56.92508
+                ]
+            },
+            "properties": {
+                "group": "thermae",
+                "iconCaption": "Родник",
+                "previewSrc": "//nashural.ru/assets/uploads/rodniky-suhoy-log-logo.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rodniky-suholozhya/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 27,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.016831,
+                    56.912856
+                ]
+            },
+            "properties": {
+                "group": "thermae",
+                "iconCaption": "Гортоповский родник",
+                "previewSrc": "//nashural.ru/assets/uploads/rodniky-suhoy-log-logo.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rodniky-suholozhya/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 28,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.29026,
+                    56.854005
+                ]
+            },
+            "properties": {
+                "group": "thermae",
+                "iconCaption": "У Серковых (У Самаркандки)",
+                "previewSrc": "//nashural.ru/assets/uploads/rodniky-suhoy-log-logo.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rodniky-suholozhya/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 29,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.291086,
+                    56.848163
+                ]
+            },
+            "properties": {
+                "group": "thermae",
+                "iconCaption": "У Окининых (Нохринский)",
+                "previewSrc": "//nashural.ru/assets/uploads/rodniky-suhoy-log01.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rodniky-suholozhya/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 30,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.30324,
+                    56.845175
+                ]
+            },
+            "properties": {
+                "group": "thermae",
+                "iconCaption": "На семи ключах",
+                "previewSrc": "//nashural.ru/assets/uploads/rodniky-suhoy-log-logo.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rodniky-suholozhya/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 31,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.302714,
+                    56.848646
+                ]
+            },
+            "properties": {
+                "group": "thermae",
+                "iconCaption": "Барский ключ",
+                "previewSrc": "//nashural.ru/assets/uploads/rodniky-suhoy-log-logo.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rodniky-suholozhya/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 32,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.298434,
+                    56.846632
+                ]
+            },
+            "properties": {
+                "group": "thermae",
+                "iconCaption": "Винный ключ",
+                "previewSrc": "//nashural.ru/assets/uploads/rodniky-suhoy-log02.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rodniky-suholozhya/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 33,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.298434,
+                    56.846652
+                ]
+            },
+            "properties": {
+                "group": "thermae",
+                "iconCaption": "Глазной ключ",
+                "previewSrc": "//nashural.ru/assets/uploads/rodniky-suhoy-log-logo.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rodniky-suholozhya/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 34,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.297078,
+                    56.847361
+                ]
+            },
+            "properties": {
+                "group": "thermae",
+                "iconCaption": "У околицы",
+                "previewSrc": "//nashural.ru/assets/uploads/rodniky-suhoy-log-logo.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rodniky-suholozhya/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 35,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.97955,
+                    56.923133
+                ]
+            },
+            "properties": {
+                "group": "thermae",
+                "iconCaption": "На Шатском водопаде",
+                "previewSrc": "//nashural.ru/assets/uploads/rodniky-suhoy-log-logo.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/rodniky-suholozhya/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 36,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    53.560993,
+                    52.288036
+                ]
+            },
+            "properties": {
+                "group": "thermae",
+                "iconCaption": "Священный источник «Бабья каша»",
+                "previewSrc": "https://nashural.ru/assets/uploads/07_b-e1598507747958-2048x962.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/svyashhennyj-istochnik-babya-kasha/ "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 37,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.28389,
+                    56.604444
+                ]
+            },
+            "properties": {
+                "group": "thermae",
+                "iconCaption": "Целебные грязи ручья Тузлукколь",
+                "previewSrc": "https://nashural.ru/assets/uploads/20200815_174907-e1598247037952.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/tajny-orenburgskih-stepej/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 38,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.933056,
+                    56.6625
+                ]
+            },
+            "properties": {
+                "group": "thermae",
+                "iconCaption": "Андреевский родник",
+                "previewSrc": "https://nashural.ru/assets/uploads/IMG_2736-2-e1592803817857.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/svyatye-istochniki-saraktashskogo-rajona/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 39,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.655201,
+                    56.695976
+                ]
+            },
+            "properties": {
+                "group": "thermae",
+                "iconCaption": "Святой источник Табынской иконы Божией Матери",
+                "previewSrc": "https://nashural.ru/assets/uploads/IMG_2736-2-e1592803817857.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/svyatye-istochniki-saraktashskogo-rajona/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 40,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.845112,
+                    56.39793
+                ]
+            },
+            "properties": {
+                "group": "thermae",
+                "iconCaption": "Родник Придорожный",
+                "previewSrc": "https://nashural.ru/assets/uploads/IMG_2736-2-e1592803817857.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/svyatye-istochniki-saraktashskogo-rajona/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 41,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.012148,
+                    54.649242
+                ]
+            },
+            "properties": {
+                "group": "thermae",
+                "iconCaption": "Кувинский пруд",
+                "previewSrc": "https://nashural.ru/assets/uploads/DSC_3651-scaled-e1603437339204-2048x901.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/za-svyatoj-vodoj-na-vyhodnye-marshrut-po-rodnikam-kudymkarskogo-rajona/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 42,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.922997,
+                    54.653945
+                ]
+            },
+            "properties": {
+                "group": "thermae",
+                "iconCaption": "Истоник в Кекуре",
+                "previewSrc": "https://nashural.ru/assets/uploads/DSC_3651-scaled-e1603437339204-2048x901.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/za-svyatoj-vodoj-na-vyhodnye-marshrut-po-rodnikam-kudymkarskogo-rajona/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 43,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.940768,
+                    54.0851
+                ]
+            },
+            "properties": {
+                "group": "thermae",
+                "iconCaption": "Проня-ключ в Самково",
+                "previewSrc": "https://nashural.ru/assets/uploads/DSC_3651-scaled-e1603437339204-2048x901.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/za-svyatoj-vodoj-na-vyhodnye-marshrut-po-rodnikam-kudymkarskogo-rajona/"
+            }
+        }
+    ]
 }

@@ -1,1693 +1,3716 @@
 {
-  "type": "FeatureCollection",
-  "metadata": {
-    "name": "Где поесть?",
-    "creator": "YChebotaev's YMapsML to GeoJSON converter",
-    "id": "restaurant"
-  },
-  "features": [
-    {
-      "type": "Feature",
-      "id": 0,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.061688,
-          56.829537
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Три пескаря»",
-        "previewSrc": "//nashural.ru/assets/uploads/poselok-bisert-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-biserti/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 1,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.039769,
-          56.830118
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе-гостиница «Капучино»",
-        "previewSrc": "//nashural.ru/assets/uploads/poselok-bisert-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-biserti/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 2,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          58.797253,
-          56.832731
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе-гостиница «Три медведя»",
-        "previewSrc": "//nashural.ru/assets/uploads/poselok-bisert-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-biserti/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 3,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.701823,
-          56.846268
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Ресторан «Пельменная»",
-        "previewSrc": "//nashural.ru/assets/uploads/kamishlov-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-kamyshlove/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 4,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.706755,
-          56.845012
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Столовая №1 «Оригинал»",
-        "previewSrc": "//nashural.ru/assets/uploads/kamishlov-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-kamyshlove/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 5,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.73162,
-          56.835564
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Ресторан «Ленский»",
-        "previewSrc": "//nashural.ru/assets/uploads/kamishlov-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-kamyshlove/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 6,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.707222,
-          56.844904
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Ресторан «Кондитерский Цех»",
-        "previewSrc": "//nashural.ru/assets/uploads/kamishlov-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-kamyshlove/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 7,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.705488,
-          56.844171
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Пиццарица»",
-        "previewSrc": "//nashural.ru/assets/uploads/kamishlov-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-kamyshlove/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 8,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.705982,
-          56.840527
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Камыш»",
-        "previewSrc": "//nashural.ru/assets/uploads/kamishlov-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-kamyshlove/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 9,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.714435,
-          56.842009
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Паровоз»",
-        "previewSrc": "//nashural.ru/assets/uploads/kamishlov-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-kamyshlove/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 10,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.062686,
-          56.845799
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Бар «Погребок»",
-        "previewSrc": "//nashural.ru/assets/uploads/pelmennaya-bisert03.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/pelmennaya-v-biserti/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 11,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.702685,
-          56.8461
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Бар «Погребок»",
-        "previewSrc": "//nashural.ru/assets/uploads/kamishlov-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-kamyshlove/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 12,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.70936,
-          56.841069
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Internet-Cafe Yama",
-        "previewSrc": "//nashural.ru/assets/uploads/kamishlov-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-kamyshlove/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 13,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.720822,
-          56.843595
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Ресторан быстрого питания «Камышловское потребительское общество»",
-        "previewSrc": "//nashural.ru/assets/uploads/kamishlov-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-kamyshlove/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 14,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.719807,
-          56.844171
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе-кофейня «Камышловское потребительское общество»",
-        "previewSrc": "//nashural.ru/assets/uploads/kamishlov-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-kamyshlove/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 15,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.714229,
-          56.842738
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Уют»",
-        "previewSrc": "//nashural.ru/assets/uploads/kamishlov-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-kamyshlove/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 16,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.727865,
-          56.837115
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Ленский К-777»",
-        "previewSrc": "//nashural.ru/assets/uploads/kamishlov-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-kamyshlove/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 17,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.70459,
-          56.844476
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Доставка еды, кафе, пиццерия «ФУД Экспресс»",
-        "previewSrc": "//nashural.ru/assets/uploads/kamishlov-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-kamyshlove/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 18,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.725664,
-          56.849054
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе",
-        "previewSrc": "//nashural.ru/assets/uploads/kamishlov-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-kamyshlove/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 19,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.933251,
-          57.371501
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «На Садовой»",
-        "previewSrc": "//nashural.ru/assets/uploads/verhniy-tagil-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-verhnem-tagile/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 20,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.93503,
-          57.370555
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Бар «Волна»",
-        "previewSrc": "//nashural.ru/assets/uploads/verhniy-tagil-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-verhnem-tagile/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 21,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.958889,
-          57.378819
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Клен»",
-        "previewSrc": "//nashural.ru/assets/uploads/verhniy-tagil-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-verhnem-tagile/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 22,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          58.531789,
-          56.41765
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Гурман»",
-        "previewSrc": "//nashural.ru/assets/uploads/turnir-kosarey-arty-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-arti/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 23,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          58.531385,
-          56.41661
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Винтаж»",
-        "previewSrc": "//nashural.ru/assets/uploads/turnir-kosarey-arty-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-arti/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 24,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          58.55361,
-          56.426338
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Кругосветка»",
-        "previewSrc": "//nashural.ru/assets/uploads/turnir-kosarey-arty-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-arti/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 25,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          58.532131,
-          56.416704
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Встреча»",
-        "previewSrc": "//nashural.ru/assets/uploads/turnir-kosarey-arty-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-arti/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 26,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          58.53117,
-          56.430863
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Столовая «Манчажская»",
-        "previewSrc": "//nashural.ru/assets/uploads/turnir-kosarey-arty-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-arti/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 27,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          58.533595,
-          56.419015
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Малахит»",
-        "previewSrc": "//nashural.ru/assets/uploads/turnir-kosarey-arty-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-arti/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 28,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          58.517919,
-          56.426248
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Фаворит»",
-        "previewSrc": "//nashural.ru/assets/uploads/turnir-kosarey-arty-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-arti/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 29,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.764224,
-          56.612251
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Каспий»",
-        "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-krasnoufimske/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 30,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.759418,
-          56.600356
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Провинция»",
-        "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-krasnoufimske/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 31,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.762778,
-          56.624069
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Буфет",
-        "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-krasnoufimske/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 32,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.759418,
-          56.600356
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Провинция»",
-        "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-krasnoufimske/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 33,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.770081,
-          56.620939
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "«Бистро»",
-        "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-krasnoufimske/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 34,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.772587,
-          56.615377
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Закусочная «Навруз»",
-        "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-krasnoufimske/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 35,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.773818,
-          56.616977
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Закусочная «Уральские пельмени»",
-        "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-krasnoufimske/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 36,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.771303,
-          56.620924
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Горчица»",
-        "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-krasnoufimske/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 37,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.771572,
-          56.620364
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Жар-птица»",
-        "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-krasnoufimske/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 38,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.759023,
-          56.600168
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Скиф»",
-        "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-krasnoufimske/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 39,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.766614,
-          56.617368
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Лакомка»",
-        "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-krasnoufimske/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 40,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.773001,
-          56.616239
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Уют»",
-        "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-krasnoufimske/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 41,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.771159,
-          56.61875
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе-столовая «Перекресток»",
-        "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-krasnoufimske/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 42,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.764862,
-          56.609913
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Ресторан «Екатерининский»",
-        "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-krasnoufimske/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 43,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.769695,
-          56.615753
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Столовая",
-        "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-krasnoufimske/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 44,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.772426,
-          56.619607
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Трактир «Медный грош»",
-        "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-krasnoufimske/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 45,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.774671,
-          56.617744
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Чебуречная",
-        "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-krasnoufimske/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 46,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.764916,
-          56.621404
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Чебуречная",
-        "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-krasnoufimske/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 47,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.767188,
-          56.641397
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Столовая на Волжской",
-        "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-krasnoufimske/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 48,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.772426,
-          56.619607
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Столовая «Ярославна»",
-        "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-krasnoufimske/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 49,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.759023,
-          56.600168
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Медведь»",
-        "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-krasnoufimske/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 50,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.769713,
-          56.63463
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Столовая, закусочная",
-        "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-krasnoufimske/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 51,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.809356,
-          56.960804
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Пельменная (Билимбаевское Потребительское Общество «Общепит»)",
-        "previewSrc": "//nashural.ru/assets/uploads/bilimbay-logotip.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-bilimbae/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 52,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.809886,
-          56.960319
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «ЛожкаВилка»",
-        "previewSrc": "//nashural.ru/assets/uploads/bilimbay-logotip.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-bilimbae/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 53,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.819444,
-          56.964657
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Аленушка»",
-        "previewSrc": "//nashural.ru/assets/uploads/bilimbay-logotip.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-bilimbae/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 54,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.824636,
-          56.962468
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Домашняя Кухня»",
-        "previewSrc": "//nashural.ru/assets/uploads/bilimbay-logotip.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-bilimbae/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 55,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.829163,
-          56.962866
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе",
-        "previewSrc": "//nashural.ru/assets/uploads/bilimbay-logotip.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-bilimbae/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 56,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.39534,
-          57.358444
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Гавань»",
-        "previewSrc": "//nashural.ru/assets/uploads/rezh-mk-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-rezhe/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 57,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.394316,
-          57.360187
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Венеция»",
-        "previewSrc": "//nashural.ru/assets/uploads/rezh-mk-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-rezhe/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 58,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.373996,
-          57.369744
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Ресторан «Околица»",
-        "previewSrc": "//nashural.ru/assets/uploads/rezh-mk-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-rezhe/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 59,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.391298,
-          57.373175
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Шоколад»",
-        "previewSrc": "//nashural.ru/assets/uploads/rezh-mk-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-rezhe/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 60,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.396337,
-          57.373937
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе-клуб «Своиданаши»",
-        "previewSrc": "//nashural.ru/assets/uploads/rezh-mk-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-rezhe/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 61,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.430141,
-          57.365002
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Зимний Сад»",
-        "previewSrc": "//nashural.ru/assets/uploads/rezh-mk-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-rezhe/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 62,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.383788,
-          57.373243
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Кулинария»",
-        "previewSrc": "//nashural.ru/assets/uploads/rezh-mk-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-rezhe/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 63,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.380293,
-          57.371307
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Империя Вкуса»",
-        "previewSrc": "//nashural.ru/assets/uploads/rezh-mk-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-rezhe/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 64,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.389959,
-          57.373316
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Нозоми»",
-        "previewSrc": "//nashural.ru/assets/uploads/rezh-mk-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-rezhe/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 65,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.423547,
-          57.369657
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Памир»",
-        "previewSrc": "//nashural.ru/assets/uploads/rezh-mk-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-rezhe/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 66,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.379925,
-          57.373398
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Шашлычный домик»",
-        "previewSrc": "//nashural.ru/assets/uploads/rezh-mk-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-rezhe/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 67,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.340157,
-          57.344158
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Золушка»",
-        "previewSrc": "//nashural.ru/assets/uploads/rezh-mk-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-rezhe/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 68,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.394918,
-          57.35941
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Анюта»",
-        "previewSrc": "//nashural.ru/assets/uploads/rezh-mk-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-rezhe/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 69,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.377922,
-          57.372899
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафетерий «Лакомка»",
-        "previewSrc": "//nashural.ru/assets/uploads/rezh-mk-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-rezhe/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 70,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.397532,
-          57.36007
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Пышка»",
-        "previewSrc": "//nashural.ru/assets/uploads/rezh-mk-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-rezhe/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 71,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.427832,
-          57.370928
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Столовая «По-домашнему.ТУР»",
-        "previewSrc": "//nashural.ru/assets/uploads/rezh-mk-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-rezhe/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 72,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.297298,
-          57.310271
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «74 км»",
-        "previewSrc": "//nashural.ru/assets/uploads/rezh-mk-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-rezhe/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 73,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.387489,
-          57.372239
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Первый крафтовый спорт-бар",
-        "previewSrc": "//nashural.ru/assets/uploads/rezh-mk-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-rezhe/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 74,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.301322,
-          56.658528
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Столовая «Бисер»",
-        "previewSrc": "//nashural.ru/assets/uploads/niznie-sergy-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-nizhnih-sergah/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 75,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.297208,
-          56.666073
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Лерин»",
-        "previewSrc": "//nashural.ru/assets/uploads/niznie-sergy-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-nizhnih-sergah/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 76,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.295941,
-          56.66305
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Алекс»",
-        "previewSrc": "//nashural.ru/assets/uploads/niznie-sergy-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-nizhnih-sergah/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 77,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.320681,
-          56.67907
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Гладиатор»",
-        "previewSrc": "//nashural.ru/assets/uploads/niznie-sergy-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-nizhnih-sergah/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 78,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.567812,
-          58.052703
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Ресторан «Bellissimo»",
-        "previewSrc": "//nashural.ru/assets/uploads/gostinitsa-zavodskaya-vsalda-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-nizhnej-i-verhnej-salde/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 79,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.58453,
-          58.053322
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Долина вкуса»",
-        "previewSrc": "//nashural.ru/assets/uploads/gostinitsa-zavodskaya-vsalda-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-nizhnej-i-verhnej-salde/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 80,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.560841,
-          58.053688
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Ресторан «Изысканный вкус»",
-        "previewSrc": "//nashural.ru/assets/uploads/gostinitsa-zavodskaya-vsalda-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-nizhnej-i-verhnej-salde/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 81,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.561605,
-          58.052945
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Ресторан «Rich House»",
-        "previewSrc": "//nashural.ru/assets/uploads/gostinitsa-zavodskaya-vsalda-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-nizhnej-i-verhnej-salde/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 82,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.575789,
-          58.048545
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Есть поесть»",
-        "previewSrc": "//nashural.ru/assets/uploads/gostinitsa-zavodskaya-vsalda-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-nizhnej-i-verhnej-salde/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 83,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.560841,
-          58.053688
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Ресторан «Уральский»",
-        "previewSrc": "//nashural.ru/assets/uploads/gostinitsa-zavodskaya-vsalda-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-nizhnej-i-verhnej-salde/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 84,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.581745,
-          58.04884
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Loft»",
-        "previewSrc": "//nashural.ru/assets/uploads/gostinitsa-zavodskaya-vsalda-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-nizhnej-i-verhnej-salde/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 85,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.589848,
-          58.051983
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Девичья башня»",
-        "previewSrc": "//nashural.ru/assets/uploads/gostinitsa-zavodskaya-vsalda-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-nizhnej-i-verhnej-salde/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 86,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.546953,
-          58.047583
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Юность»",
-        "previewSrc": "//nashural.ru/assets/uploads/gostinitsa-zavodskaya-vsalda-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-nizhnej-i-verhnej-salde/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 87,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.58453,
-          58.053322
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Royal»",
-        "previewSrc": "//nashural.ru/assets/uploads/gostinitsa-zavodskaya-vsalda-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-nizhnej-i-verhnej-salde/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 88,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.582491,
-          58.050702
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Перекресток»",
-        "previewSrc": "//nashural.ru/assets/uploads/gostinitsa-zavodskaya-vsalda-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-nizhnej-i-verhnej-salde/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 89,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.560841,
-          58.053688
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Столовая ВСМПО-Ависма корпорация",
-        "previewSrc": "//nashural.ru/assets/uploads/gostinitsa-zavodskaya-vsalda-logo.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-nizhnej-i-verhnej-salde/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 90,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.033656,
-          56.911957
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Ресторан «Вкусный дом»",
-        "previewSrc": "//nashural.ru/assets/uploads/mk-suhoy-log.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-suhom-logu/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 91,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.027898,
-          56.897787
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Столовая №15",
-        "previewSrc": "//nashural.ru/assets/uploads/mk-suhoy-log.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-suhom-logu/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 92,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.039747,
-          56.912807
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Столовая",
-        "previewSrc": "//nashural.ru/assets/uploads/mk-suhoy-log.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-suhom-logu/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 93,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.038785,
-          56.909215
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Дом кофемана»",
-        "previewSrc": "//nashural.ru/assets/uploads/mk-suhoy-log.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-suhom-logu/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 94,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.031428,
-          56.90318
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Zen»",
-        "previewSrc": "//nashural.ru/assets/uploads/mk-suhoy-log.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-suhom-logu/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 95,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.040429,
-          56.906502
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Сплав»",
-        "previewSrc": "//nashural.ru/assets/uploads/mk-suhoy-log.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-suhom-logu/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 96,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.02867,
-          56.910276
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Чародейка»",
-        "previewSrc": "//nashural.ru/assets/uploads/mk-suhoy-log.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-suhom-logu/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 97,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.034959,
-          56.908453
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Уральский дворик»",
-        "previewSrc": "//nashural.ru/assets/uploads/mk-suhoy-log.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-suhom-logu/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 98,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.034608,
-          56.904462
-        ]
-      },
-      "properties": {
-        "group": "restaurant",
-        "iconCaption": "Кафе «Loft»",
-        "previewSrc": "//nashural.ru/assets/uploads/mk-suhoy-log.jpg",
-        "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-suhom-logu/"
-      }
-    }
-  ]
+    "type": "FeatureCollection",
+    "metadata": {
+        "name": "Где поесть?",
+        "creator": "YChebotaev's YMapsML to GeoJSON converter",
+        "id": "restaurant"
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "id": 0,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.061688,
+                    56.829537
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Три пескаря»",
+                "previewSrc": "//nashural.ru/assets/uploads/poselok-bisert-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-biserti/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 1,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.039769,
+                    56.830118
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе-гостиница «Капучино»",
+                "previewSrc": "//nashural.ru/assets/uploads/poselok-bisert-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-biserti/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 2,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.797253,
+                    56.832731
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе-гостиница «Три медведя»",
+                "previewSrc": "//nashural.ru/assets/uploads/poselok-bisert-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-biserti/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 3,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.701823,
+                    56.846268
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Ресторан «Пельменная»",
+                "previewSrc": "//nashural.ru/assets/uploads/kamishlov-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-kamyshlove/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 4,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.706755,
+                    56.845012
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Столовая №1 «Оригинал»",
+                "previewSrc": "//nashural.ru/assets/uploads/kamishlov-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-kamyshlove/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 5,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.73162,
+                    56.835564
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Ресторан «Ленский»",
+                "previewSrc": "//nashural.ru/assets/uploads/kamishlov-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-kamyshlove/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 6,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.707222,
+                    56.844904
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Ресторан «Кондитерский Цех»",
+                "previewSrc": "//nashural.ru/assets/uploads/kamishlov-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-kamyshlove/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 7,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.705488,
+                    56.844171
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Пиццарица»",
+                "previewSrc": "//nashural.ru/assets/uploads/kamishlov-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-kamyshlove/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 8,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.705982,
+                    56.840527
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Камыш»",
+                "previewSrc": "//nashural.ru/assets/uploads/kamishlov-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-kamyshlove/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 9,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.714435,
+                    56.842009
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Паровоз»",
+                "previewSrc": "//nashural.ru/assets/uploads/kamishlov-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-kamyshlove/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 10,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.062686,
+                    56.845799
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Бар «Погребок»",
+                "previewSrc": "//nashural.ru/assets/uploads/pelmennaya-bisert03.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/pelmennaya-v-biserti/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 11,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.702685,
+                    56.8461
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Бар «Погребок»",
+                "previewSrc": "//nashural.ru/assets/uploads/kamishlov-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-kamyshlove/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 12,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.70936,
+                    56.841069
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Internet-Cafe Yama",
+                "previewSrc": "//nashural.ru/assets/uploads/kamishlov-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-kamyshlove/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 13,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.720822,
+                    56.843595
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Ресторан быстрого питания «Камышловское потребительское общество»",
+                "previewSrc": "//nashural.ru/assets/uploads/kamishlov-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-kamyshlove/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 14,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.719807,
+                    56.844171
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе-кофейня «Камышловское потребительское общество»",
+                "previewSrc": "//nashural.ru/assets/uploads/kamishlov-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-kamyshlove/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 15,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.714229,
+                    56.842738
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Уют»",
+                "previewSrc": "//nashural.ru/assets/uploads/kamishlov-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-kamyshlove/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 16,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.727865,
+                    56.837115
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Ленский К-777»",
+                "previewSrc": "//nashural.ru/assets/uploads/kamishlov-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-kamyshlove/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 17,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.70459,
+                    56.844476
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Доставка еды, кафе, пиццерия «ФУД Экспресс»",
+                "previewSrc": "//nashural.ru/assets/uploads/kamishlov-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-kamyshlove/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 18,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.725664,
+                    56.849054
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе",
+                "previewSrc": "//nashural.ru/assets/uploads/kamishlov-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-kamyshlove/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 19,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.933251,
+                    57.371501
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «На Садовой»",
+                "previewSrc": "//nashural.ru/assets/uploads/verhniy-tagil-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-verhnem-tagile/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 20,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.93503,
+                    57.370555
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Бар «Волна»",
+                "previewSrc": "//nashural.ru/assets/uploads/verhniy-tagil-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-verhnem-tagile/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 21,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.958889,
+                    57.378819
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Клен»",
+                "previewSrc": "//nashural.ru/assets/uploads/verhniy-tagil-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-verhnem-tagile/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 22,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.531789,
+                    56.41765
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Гурман»",
+                "previewSrc": "//nashural.ru/assets/uploads/turnir-kosarey-arty-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-arti/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 23,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.531385,
+                    56.41661
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Винтаж»",
+                "previewSrc": "//nashural.ru/assets/uploads/turnir-kosarey-arty-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-arti/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 24,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.55361,
+                    56.426338
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Кругосветка»",
+                "previewSrc": "//nashural.ru/assets/uploads/turnir-kosarey-arty-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-arti/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 25,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.532131,
+                    56.416704
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Встреча»",
+                "previewSrc": "//nashural.ru/assets/uploads/turnir-kosarey-arty-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-arti/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 26,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.53117,
+                    56.430863
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Столовая «Манчажская»",
+                "previewSrc": "//nashural.ru/assets/uploads/turnir-kosarey-arty-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-arti/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 27,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.533595,
+                    56.419015
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Малахит»",
+                "previewSrc": "//nashural.ru/assets/uploads/turnir-kosarey-arty-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-arti/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 28,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.517919,
+                    56.426248
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Фаворит»",
+                "previewSrc": "//nashural.ru/assets/uploads/turnir-kosarey-arty-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-arti/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 29,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.764224,
+                    56.612251
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Каспий»",
+                "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-krasnoufimske/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 30,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.759418,
+                    56.600356
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Провинция»",
+                "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-krasnoufimske/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 31,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.762778,
+                    56.624069
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Буфет",
+                "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-krasnoufimske/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 32,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.759418,
+                    56.600356
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Провинция»",
+                "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-krasnoufimske/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 33,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.770081,
+                    56.620939
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "«Бистро»",
+                "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-krasnoufimske/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 34,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.772587,
+                    56.615377
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Закусочная «Навруз»",
+                "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-krasnoufimske/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 35,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.773818,
+                    56.616977
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Закусочная «Уральские пельмени»",
+                "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-krasnoufimske/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 36,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.771303,
+                    56.620924
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Горчица»",
+                "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-krasnoufimske/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 37,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.771572,
+                    56.620364
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Жар-птица»",
+                "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-krasnoufimske/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 38,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.759023,
+                    56.600168
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Скиф»",
+                "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-krasnoufimske/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 39,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.766614,
+                    56.617368
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Лакомка»",
+                "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-krasnoufimske/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 40,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.773001,
+                    56.616239
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Уют»",
+                "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-krasnoufimske/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 41,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.771159,
+                    56.61875
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе-столовая «Перекресток»",
+                "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-krasnoufimske/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 42,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.764862,
+                    56.609913
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Ресторан «Екатерининский»",
+                "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-krasnoufimske/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 43,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.769695,
+                    56.615753
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Столовая",
+                "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-krasnoufimske/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 44,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.772426,
+                    56.619607
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Трактир «Медный грош»",
+                "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-krasnoufimske/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 45,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.774671,
+                    56.617744
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Чебуречная",
+                "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-krasnoufimske/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 46,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.764916,
+                    56.621404
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Чебуречная",
+                "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-krasnoufimske/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 47,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.767188,
+                    56.641397
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Столовая на Волжской",
+                "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-krasnoufimske/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 48,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.772426,
+                    56.619607
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Столовая «Ярославна»",
+                "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-krasnoufimske/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 49,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.759023,
+                    56.600168
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Медведь»",
+                "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-krasnoufimske/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 50,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.769713,
+                    56.63463
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Столовая, закусочная",
+                "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-krasnoufimske/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 51,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.809356,
+                    56.960804
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Пельменная (Билимбаевское Потребительское Общество «Общепит»)",
+                "previewSrc": "//nashural.ru/assets/uploads/bilimbay-logotip.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-bilimbae/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 52,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.809886,
+                    56.960319
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «ЛожкаВилка»",
+                "previewSrc": "//nashural.ru/assets/uploads/bilimbay-logotip.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-bilimbae/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 53,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.819444,
+                    56.964657
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Аленушка»",
+                "previewSrc": "//nashural.ru/assets/uploads/bilimbay-logotip.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-bilimbae/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 54,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.824636,
+                    56.962468
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Домашняя Кухня»",
+                "previewSrc": "//nashural.ru/assets/uploads/bilimbay-logotip.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-bilimbae/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 55,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.829163,
+                    56.962866
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе",
+                "previewSrc": "//nashural.ru/assets/uploads/bilimbay-logotip.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-bilimbae/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 56,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.39534,
+                    57.358444
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Гавань»",
+                "previewSrc": "//nashural.ru/assets/uploads/rezh-mk-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-rezhe/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 57,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.394316,
+                    57.360187
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Венеция»",
+                "previewSrc": "//nashural.ru/assets/uploads/rezh-mk-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-rezhe/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 58,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.373996,
+                    57.369744
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Ресторан «Околица»",
+                "previewSrc": "//nashural.ru/assets/uploads/rezh-mk-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-rezhe/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 59,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.391298,
+                    57.373175
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Шоколад»",
+                "previewSrc": "//nashural.ru/assets/uploads/rezh-mk-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-rezhe/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 60,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.396337,
+                    57.373937
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе-клуб «Своиданаши»",
+                "previewSrc": "//nashural.ru/assets/uploads/rezh-mk-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-rezhe/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 61,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.430141,
+                    57.365002
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Зимний Сад»",
+                "previewSrc": "//nashural.ru/assets/uploads/rezh-mk-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-rezhe/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 62,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.383788,
+                    57.373243
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Кулинария»",
+                "previewSrc": "//nashural.ru/assets/uploads/rezh-mk-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-rezhe/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 63,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.380293,
+                    57.371307
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Империя Вкуса»",
+                "previewSrc": "//nashural.ru/assets/uploads/rezh-mk-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-rezhe/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 64,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.389959,
+                    57.373316
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Нозоми»",
+                "previewSrc": "//nashural.ru/assets/uploads/rezh-mk-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-rezhe/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 65,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.423547,
+                    57.369657
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Памир»",
+                "previewSrc": "//nashural.ru/assets/uploads/rezh-mk-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-rezhe/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 66,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.379925,
+                    57.373398
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Шашлычный домик»",
+                "previewSrc": "//nashural.ru/assets/uploads/rezh-mk-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-rezhe/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 67,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.340157,
+                    57.344158
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Золушка»",
+                "previewSrc": "//nashural.ru/assets/uploads/rezh-mk-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-rezhe/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 68,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.394918,
+                    57.35941
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Анюта»",
+                "previewSrc": "//nashural.ru/assets/uploads/rezh-mk-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-rezhe/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 69,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.377922,
+                    57.372899
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафетерий «Лакомка»",
+                "previewSrc": "//nashural.ru/assets/uploads/rezh-mk-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-rezhe/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 70,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.397532,
+                    57.36007
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Пышка»",
+                "previewSrc": "//nashural.ru/assets/uploads/rezh-mk-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-rezhe/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 71,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.427832,
+                    57.370928
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Столовая «По-домашнему.ТУР»",
+                "previewSrc": "//nashural.ru/assets/uploads/rezh-mk-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-rezhe/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 72,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.297298,
+                    57.310271
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «74 км»",
+                "previewSrc": "//nashural.ru/assets/uploads/rezh-mk-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-rezhe/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 73,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.387489,
+                    57.372239
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Первый крафтовый спорт-бар",
+                "previewSrc": "//nashural.ru/assets/uploads/rezh-mk-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-rezhe/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 74,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.301322,
+                    56.658528
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Столовая «Бисер»",
+                "previewSrc": "//nashural.ru/assets/uploads/niznie-sergy-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-nizhnih-sergah/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 75,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.297208,
+                    56.666073
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Лерин»",
+                "previewSrc": "//nashural.ru/assets/uploads/niznie-sergy-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-nizhnih-sergah/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 76,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.295941,
+                    56.66305
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Алекс»",
+                "previewSrc": "//nashural.ru/assets/uploads/niznie-sergy-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-nizhnih-sergah/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 77,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.320681,
+                    56.67907
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Гладиатор»",
+                "previewSrc": "//nashural.ru/assets/uploads/niznie-sergy-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-nizhnih-sergah/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 78,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.567812,
+                    58.052703
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Ресторан «Bellissimo»",
+                "previewSrc": "//nashural.ru/assets/uploads/gostinitsa-zavodskaya-vsalda-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-nizhnej-i-verhnej-salde/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 79,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.58453,
+                    58.053322
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Долина вкуса»",
+                "previewSrc": "//nashural.ru/assets/uploads/gostinitsa-zavodskaya-vsalda-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-nizhnej-i-verhnej-salde/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 80,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.560841,
+                    58.053688
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Ресторан «Изысканный вкус»",
+                "previewSrc": "//nashural.ru/assets/uploads/gostinitsa-zavodskaya-vsalda-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-nizhnej-i-verhnej-salde/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 81,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.561605,
+                    58.052945
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Ресторан «Rich House»",
+                "previewSrc": "//nashural.ru/assets/uploads/gostinitsa-zavodskaya-vsalda-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-nizhnej-i-verhnej-salde/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 82,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.575789,
+                    58.048545
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Есть поесть»",
+                "previewSrc": "//nashural.ru/assets/uploads/gostinitsa-zavodskaya-vsalda-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-nizhnej-i-verhnej-salde/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 83,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.560841,
+                    58.053688
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Ресторан «Уральский»",
+                "previewSrc": "//nashural.ru/assets/uploads/gostinitsa-zavodskaya-vsalda-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-nizhnej-i-verhnej-salde/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 84,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.581745,
+                    58.04884
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Loft»",
+                "previewSrc": "//nashural.ru/assets/uploads/gostinitsa-zavodskaya-vsalda-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-nizhnej-i-verhnej-salde/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 85,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.589848,
+                    58.051983
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Девичья башня»",
+                "previewSrc": "//nashural.ru/assets/uploads/gostinitsa-zavodskaya-vsalda-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-nizhnej-i-verhnej-salde/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 86,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.546953,
+                    58.047583
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Юность»",
+                "previewSrc": "//nashural.ru/assets/uploads/gostinitsa-zavodskaya-vsalda-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-nizhnej-i-verhnej-salde/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 87,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.58453,
+                    58.053322
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Royal»",
+                "previewSrc": "//nashural.ru/assets/uploads/gostinitsa-zavodskaya-vsalda-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-nizhnej-i-verhnej-salde/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 88,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.582491,
+                    58.050702
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Перекресток»",
+                "previewSrc": "//nashural.ru/assets/uploads/gostinitsa-zavodskaya-vsalda-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-nizhnej-i-verhnej-salde/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 89,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.560841,
+                    58.053688
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Столовая ВСМПО-Ависма корпорация",
+                "previewSrc": "//nashural.ru/assets/uploads/gostinitsa-zavodskaya-vsalda-logo.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-nizhnej-i-verhnej-salde/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 90,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.033656,
+                    56.911957
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Ресторан «Вкусный дом»",
+                "previewSrc": "//nashural.ru/assets/uploads/mk-suhoy-log.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-suhom-logu/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 91,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.027898,
+                    56.897787
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Столовая №15",
+                "previewSrc": "//nashural.ru/assets/uploads/mk-suhoy-log.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-suhom-logu/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 92,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.039747,
+                    56.912807
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Столовая",
+                "previewSrc": "//nashural.ru/assets/uploads/mk-suhoy-log.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-suhom-logu/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 93,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.038785,
+                    56.909215
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Дом кофемана»",
+                "previewSrc": "//nashural.ru/assets/uploads/mk-suhoy-log.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-suhom-logu/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 94,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.031428,
+                    56.90318
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Zen»",
+                "previewSrc": "//nashural.ru/assets/uploads/mk-suhoy-log.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-suhom-logu/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 95,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.040429,
+                    56.906502
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Сплав»",
+                "previewSrc": "//nashural.ru/assets/uploads/mk-suhoy-log.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-suhom-logu/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 96,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.02867,
+                    56.910276
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Чародейка»",
+                "previewSrc": "//nashural.ru/assets/uploads/mk-suhoy-log.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-suhom-logu/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 97,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.034959,
+                    56.908453
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Уральский дворик»",
+                "previewSrc": "//nashural.ru/assets/uploads/mk-suhoy-log.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-suhom-logu/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 98,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.034608,
+                    56.904462
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Loft»",
+                "previewSrc": "//nashural.ru/assets/uploads/mk-suhoy-log.jpg",
+                "articleHref": "//nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-suhom-logu/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 99,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.464789650762,
+                    58.44875021295
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Чайхана «Караван»",
+                "previewSrc": "https://nashural.ru/assets/uploads/1524893108_photo_2018-04-26_20-01-47-3-e1592806000842.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/chajhana-karavan-v-gorode-gae-oazis-uyuta/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 100,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.459002805913,
+                    58.429994347079
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Гриль-бар «Медведъ»",
+                "previewSrc": "https://nashural.ru/assets/uploads/oblozhka-4.jpg",
+                "articleHref": "https://nashural.ru/projects/malye-goroda/gde-poest-i-ostanovitsya-na-nochleg-v-gorode-gaj-orenburgskaya-oblast/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 101,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.463705003618,
+                    58.442486144073
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Суши бар & Пиццерия",
+                "previewSrc": "https://nashural.ru/assets/uploads/oblozhka-4.jpg",
+                "articleHref": "https://nashural.ru/projects/malye-goroda/gde-poest-i-ostanovitsya-na-nochleg-v-gorode-gaj-orenburgskaya-oblast/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 102,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.463705003618,
+                    58.442486144073
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «M-lunch»",
+                "previewSrc": "https://nashural.ru/assets/uploads/oblozhka-4.jpg",
+                "articleHref": "https://nashural.ru/projects/malye-goroda/gde-poest-i-ostanovitsya-na-nochleg-v-gorode-gaj-orenburgskaya-oblast/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 103,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.459860793607,
+                    58.43357858391
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Рестобар «Сова»",
+                "previewSrc": "https://nashural.ru/assets/uploads/oblozhka-4.jpg",
+                "articleHref": "https://nashural.ru/projects/malye-goroda/gde-poest-i-ostanovitsya-na-nochleg-v-gorode-gaj-orenburgskaya-oblast/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 104,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.474595359923,
+                    58.462674977527
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Домашняя кухня",
+                "previewSrc": "https://nashural.ru/assets/uploads/oblozhka-4.jpg",
+                "articleHref": "https://nashural.ru/projects/malye-goroda/gde-poest-i-ostanovitsya-na-nochleg-v-gorode-gaj-orenburgskaya-oblast/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 105,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.474595359923,
+                    58.462674977527
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «ЖИШИ СУШИ»",
+                "previewSrc": "https://nashural.ru/assets/uploads/oblozhka-4.jpg",
+                "articleHref": "https://nashural.ru/projects/malye-goroda/gde-poest-i-ostanovitsya-na-nochleg-v-gorode-gaj-orenburgskaya-oblast/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 106,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.482795905152,
+                    57.371430698164
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Додо Пицца»",
+                "previewSrc": "https://nashural.ru/assets/uploads/i-1-3-e1593760363641.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-kuvandyke-stolovye-kafe-restorany/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 107,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.480435161355,
+                    57.368333069328
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Теремок»",
+                "previewSrc": "https://nashural.ru/assets/uploads/i-1-3-e1593760363641.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-kuvandyke-stolovye-kafe-restorany/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 108,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.477940854281,
+                    57.346661640492
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Суши-Бар «Жиши Суши»",
+                "previewSrc": "https://nashural.ru/assets/uploads/i-1-3-e1593760363641.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-kuvandyke-stolovye-kafe-restorany/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 109,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.488543301784,
+                    57.379640955837
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Панорама»",
+                "previewSrc": "https://nashural.ru/assets/uploads/i-1-3-e1593760363641.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-kuvandyke-stolovye-kafe-restorany/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 110,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.4795426252,
+                    57.34431348282
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Шашлычная точка»",
+                "previewSrc": "https://nashural.ru/assets/uploads/i-1-3-e1593760363641.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-kuvandyke-stolovye-kafe-restorany/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 111,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.478307405338,
+                    57.340963770138
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Местный базар",
+                "previewSrc": "https://nashural.ru/assets/uploads/106349722_2902020689924064_5584080897119149397_o.jpg",
+                "articleHref": "https://nashural.ru/article/travel/gotovyj-marshrut-ot-anny-trepalovoj-v-kuvandyk-polzujtes-na-zdorove/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 112,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.453464536655,
+                    57.665488398163
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Семейная сыроварня Молостовых",
+                "previewSrc": "https://nashural.ru/assets/uploads/IMG_20200519_183955-e1589951570758.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/varit-syr-po-orenburzhski/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 113,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.426909,
+                    57.572029
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Облака»",
+                "previewSrc": "https://nashural.ru/assets/uploads/foto-7-e1589883600809.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/gde-poest-i-otdohnut-v-mednogorske/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 114,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.406744,
+                    57.589169
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Лофт» ",
+                "previewSrc": "https://nashural.ru/assets/uploads/foto-7-e1589883600809.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/gde-poest-i-otdohnut-v-mednogorske/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 115,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.399681,
+                    57.596032
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе-бар «Гараж»",
+                "previewSrc": "https://nashural.ru/assets/uploads/foto-7-e1589883600809.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/gde-poest-i-otdohnut-v-mednogorske/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 116,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.402097,
+                    57.586977
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Ресторан «Кружка» ",
+                "previewSrc": "https://nashural.ru/assets/uploads/foto-7-e1589883600809.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/gde-poest-i-otdohnut-v-mednogorske/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 117,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.405834,
+                    57.584839
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Time» ",
+                "previewSrc": "https://nashural.ru/assets/uploads/foto-7-e1589883600809.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/gde-poest-i-otdohnut-v-mednogorske/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 118,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.402811,
+                    57.586528
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Пышка» ",
+                "previewSrc": "https://nashural.ru/assets/uploads/foto-7-e1589883600809.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/gde-poest-i-otdohnut-v-mednogorske/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 119,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.403142,
+                    57.582674
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Суши-бар «Тобико» ",
+                "previewSrc": "https://nashural.ru/assets/uploads/foto-7-e1589883600809.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/gde-poest-i-otdohnut-v-mednogorske/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 120,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.40235,
+                    57.586232
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Огонек» ",
+                "previewSrc": "https://nashural.ru/assets/uploads/foto-7-e1589883600809.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/gde-poest-i-otdohnut-v-mednogorske/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 121,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.78719,
+                    56.356232
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Трапезная «Русский дворик»",
+                "previewSrc": "https://nashural.ru/assets/uploads/trapeza-stojnka2-e1592805526545.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-saraktashe-stolovye-kafe-restorany/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 122,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.781267,
+                    56.358307
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Семь пятниц»",
+                "previewSrc": "https://nashural.ru/assets/uploads/trapeza-stojnka2-e1592805526545.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-saraktashe-stolovye-kafe-restorany/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 123,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.79051,
+                    56.339451
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Тала»",
+                "previewSrc": "https://nashural.ru/assets/uploads/trapeza-stojnka2-e1592805526545.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-saraktashe-stolovye-kafe-restorany/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 124,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.163257,
+                    54.977246
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Ресторан «Олива»",
+                "previewSrc": "https://nashural.ru/assets/uploads/7ZCWx70gTyM-e1591353320411.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/gde-vkusno-poest-v-sol-iletske/ "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 125,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.151424,
+                    54.992103
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Ривьера»",
+                "previewSrc": "https://nashural.ru/assets/uploads/7ZCWx70gTyM-e1591353320411.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/gde-vkusno-poest-v-sol-iletske/ "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 126,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.153642,
+                    55.006315
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Ресторан «Старая Мельница»",
+                "previewSrc": "https://nashural.ru/assets/uploads/7ZCWx70gTyM-e1591353320411.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/gde-vkusno-poest-v-sol-iletske/ "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 127,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.158032,
+                    55.016502
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Шик&Лад»",
+                "previewSrc": "https://nashural.ru/assets/uploads/7ZCWx70gTyM-e1591353320411.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/gde-vkusno-poest-v-sol-iletske/ "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 128,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.15776,
+                    54.99921
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Ресторан «Lounge club infinity»",
+                "previewSrc": "https://nashural.ru/assets/uploads/7ZCWx70gTyM-e1591353320411.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/gde-vkusno-poest-v-sol-iletske/ "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 129,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.17192,
+                    55.010456
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Столовая «Сандал»",
+                "previewSrc": "https://nashural.ru/assets/uploads/7ZCWx70gTyM-e1591353320411.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/gde-vkusno-poest-v-sol-iletske/ "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 130,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.172496,
+                    55.012226
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Чайхана «Ташкент»",
+                "previewSrc": "https://nashural.ru/assets/uploads/7ZCWx70gTyM-e1591353320411.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/gde-vkusno-poest-v-sol-iletske/ "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 131,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.035801,
+                    59.883008
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Ресторан «Москва»",
+                "previewSrc": "https://nashural.ru/assets/uploads/oblozhka-6.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/gde-poest-i-ostanovitsya-na-nochleg-v-gorode-yasnyj-orenburgskaya-oblast/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 132,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.036051,
+                    59.876576
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Лютик»",
+                "previewSrc": "https://nashural.ru/assets/uploads/oblozhka-6.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/gde-poest-i-ostanovitsya-na-nochleg-v-gorode-yasnyj-orenburgskaya-oblast/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 133,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.031451,
+                    59.878984
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Смак»",
+                "previewSrc": "https://nashural.ru/assets/uploads/oblozhka-6.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/gde-poest-i-ostanovitsya-na-nochleg-v-gorode-yasnyj-orenburgskaya-oblast/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 134,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.035575,
+                    59.875122
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Суши-бар «ЖИШИ СУШИ»",
+                "previewSrc": "https://nashural.ru/assets/uploads/oblozhka-6.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/gde-poest-i-ostanovitsya-na-nochleg-v-gorode-yasnyj-orenburgskaya-oblast/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 135,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.035439,
+                    59.875859
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Суши-бар «Hajime»",
+                "previewSrc": "https://nashural.ru/assets/uploads/oblozhka-6.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/gde-poest-i-ostanovitsya-na-nochleg-v-gorode-yasnyj-orenburgskaya-oblast/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 136,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.032726,
+                    59.880825
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Ресторан «Сказка»",
+                "previewSrc": "https://nashural.ru/assets/uploads/oblozhka-6.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/gde-poest-i-ostanovitsya-na-nochleg-v-gorode-yasnyj-orenburgskaya-oblast/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 137,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.033864,
+                    59.869471
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Пиццерия «DiNa Pizza»",
+                "previewSrc": "https://nashural.ru/assets/uploads/oblozhka-6.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/gde-poest-i-ostanovitsya-na-nochleg-v-gorode-yasnyj-orenburgskaya-oblast/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 138,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.163383,
+                    57.585871
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «GiuseHALL»",
+                "previewSrc": "https://nashural.ru/assets/uploads/golubye-ozera-aleksandrovska02-1-e1584015430956.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-aleksandrovske-stolovye-kafe-restorany/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 139,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.160155,
+                    57.585558
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Место встречи»",
+                "previewSrc": "https://nashural.ru/assets/uploads/golubye-ozera-aleksandrovska02-1-e1584015430956.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-aleksandrovske-stolovye-kafe-restorany/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 140,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.166615,
+                    57.593077
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Рандеву»",
+                "previewSrc": "https://nashural.ru/assets/uploads/golubye-ozera-aleksandrovska02-1-e1584015430956.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-aleksandrovske-stolovye-kafe-restorany/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 141,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.162438,
+                    57.575595
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Для Друзей»",
+                "previewSrc": "https://nashural.ru/assets/uploads/golubye-ozera-aleksandrovska02-1-e1584015430956.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-aleksandrovske-stolovye-kafe-restorany/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 142,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.076606,
+                    54.662153
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Сакура»",
+                "previewSrc": "https://nashural.ru/assets/uploads/b09fd5bf46d77f139f377b5f5898f72c-1-1.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-vereshhagino-stolovye-kafe-restorany/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 143,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.080099,
+                    54.661021
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Блинный дворик»",
+                "previewSrc": "https://nashural.ru/assets/uploads/b09fd5bf46d77f139f377b5f5898f72c-1-1.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-vereshhagino-stolovye-kafe-restorany/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 144,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.076877,
+                    54.660437
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Shauroom»",
+                "previewSrc": "https://nashural.ru/assets/uploads/b09fd5bf46d77f139f377b5f5898f72c-1-1.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-vereshhagino-stolovye-kafe-restorany/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 145,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.078548,
+                    54.656233
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Шаурма Gold»",
+                "previewSrc": "https://nashural.ru/assets/uploads/b09fd5bf46d77f139f377b5f5898f72c-1-1.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-vereshhagino-stolovye-kafe-restorany/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 146,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.078167,
+                    54.673436
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Пельменная",
+                "previewSrc": "https://nashural.ru/assets/uploads/b09fd5bf46d77f139f377b5f5898f72c-1-1.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-vereshhagino-stolovye-kafe-restorany/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 147,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.081679,
+                    54.659251
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Форвард»",
+                "previewSrc": "https://nashural.ru/assets/uploads/b09fd5bf46d77f139f377b5f5898f72c-1-1.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-vereshhagino-stolovye-kafe-restorany/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 148,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.835527,
+                    57.551934
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Апельсин»",
+                "previewSrc": "https://nashural.ru/assets/uploads/gub-1-e1589978136248.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-gubahe-stolovye-kafe-restorany/ "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 149,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.835895,
+                    57.55595
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Гранат»",
+                "previewSrc": "https://nashural.ru/assets/uploads/gub-1-e1589978136248.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-gubahe-stolovye-kafe-restorany/ "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 150,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.835644,
+                    57.551189
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Plov Love»",
+                "previewSrc": "https://nashural.ru/assets/uploads/gub-1-e1589978136248.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-gubahe-stolovye-kafe-restorany/ "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 151,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.835527,
+                    57.551934
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Суши-бар «Васаби»",
+                "previewSrc": "https://nashural.ru/assets/uploads/gub-1-e1589978136248.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-gubahe-stolovye-kafe-restorany/ "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 152,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.834759,
+                    57.550218
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Столовая № 5",
+                "previewSrc": "https://nashural.ru/assets/uploads/gub-1-e1589978136248.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-gubahe-stolovye-kafe-restorany/ "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 153,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.838084,
+                    57.55418
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Лепешка»",
+                "previewSrc": "https://nashural.ru/assets/uploads/gub-1-e1589978136248.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-gubahe-stolovye-kafe-restorany/ "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 154,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.864045,
+                    57.578677
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кофейня «Red Cup»",
+                "previewSrc": "https://nashural.ru/assets/uploads/gub-1-e1589978136248.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-gubahe-stolovye-kafe-restorany/ "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 155,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.832426,
+                    57.559498
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Пышка»",
+                "previewSrc": "https://nashural.ru/assets/uploads/gub-1-e1589978136248.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-gubahe-stolovye-kafe-restorany/ "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 156,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.402174,
+                    57.077345
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Столовая № 10",
+                "previewSrc": "https://nashural.ru/assets/uploads/20160802_122729-1-e1600941818179.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-krasnovisherske-stolovye-kafe-restorany/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 157,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.405863,
+                    57.082205
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Столовая",
+                "previewSrc": "https://nashural.ru/assets/uploads/20160802_122729-1-e1600941818179.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-krasnovisherske-stolovye-kafe-restorany/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 158,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.417934,
+                    57.091494
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Брусника»",
+                "previewSrc": "https://nashural.ru/assets/uploads/20160802_122729-1-e1600941818179.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-krasnovisherske-stolovye-kafe-restorany/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 159,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.41235,
+                    57.0849
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Ветлан»",
+                "previewSrc": "https://nashural.ru/assets/uploads/20160802_122729-1-e1600941818179.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-krasnovisherske-stolovye-kafe-restorany/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 160,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.414891,
+                    57.081765
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Карусель»",
+                "previewSrc": "https://nashural.ru/assets/uploads/20160802_122729-1-e1600941818179.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-krasnovisherske-stolovye-kafe-restorany/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 161,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.013718,
+                    54.662692
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Национальнöй»",
+                "previewSrc": "https://nashural.ru/assets/uploads/yaLF83A37uE-e1590583233589.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-kudymkare-stolovye-kafe-restorany/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 162,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.015678,
+                    54.657517
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Глюкоза»",
+                "previewSrc": "https://nashural.ru/assets/uploads/yaLF83A37uE-e1590583233589.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-kudymkare-stolovye-kafe-restorany/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 163,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.026309,
+                    54.657014
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Янтарь»",
+                "previewSrc": "https://nashural.ru/assets/uploads/yaLF83A37uE-e1590583233589.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-kudymkare-stolovye-kafe-restorany/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 164,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.010109,
+                    54.660545
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе-клуб «Метелица»",
+                "previewSrc": "https://nashural.ru/assets/uploads/yaLF83A37uE-e1590583233589.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-kudymkare-stolovye-kafe-restorany/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 165,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.011212,
+                    54.658595
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Столовая «Парма»",
+                "previewSrc": "https://nashural.ru/assets/uploads/yaLF83A37uE-e1590583233589.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-kudymkare-stolovye-kafe-restorany/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 166,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.979384,
+                    54.661686
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Атлант»",
+                "previewSrc": "https://nashural.ru/assets/uploads/yaLF83A37uE-e1590583233589.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-kudymkare-stolovye-kafe-restorany/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 167,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.017225,
+                    54.658137
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Суши-бар «Сакура»",
+                "previewSrc": "https://nashural.ru/assets/uploads/yaLF83A37uE-e1590583233589.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-kudymkare-stolovye-kafe-restorany/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 168,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.014863,
+                    54.66235
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Ваниль»",
+                "previewSrc": "https://nashural.ru/assets/uploads/yaLF83A37uE-e1590583233589.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-kudymkare-stolovye-kafe-restorany/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 169,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.883966,
+                    54.7173
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Столовая «Юность»",
+                "previewSrc": "https://nashural.ru/assets/uploads/94668717_139214017656422_677388662005649140_n-e1587615563120.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-ostanovitsya-v-ochyore-gostinitsy-oteli-hostely/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 170,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.883191,
+                    54.715027
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Латина»",
+                "previewSrc": "https://nashural.ru/assets/uploads/94668717_139214017656422_677388662005649140_n-e1587615563120.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-ostanovitsya-v-ochyore-gostinitsy-oteli-hostely/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 171,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.88198,
+                    54.713159
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Bizon»",
+                "previewSrc": "https://nashural.ru/assets/uploads/94668717_139214017656422_677388662005649140_n-e1587615563120.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-ostanovitsya-v-ochyore-gostinitsy-oteli-hostely/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 172,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.882583,
+                    54.715225
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Суши-бар «Сакура»",
+                "previewSrc": "https://nashural.ru/assets/uploads/94668717_139214017656422_677388662005649140_n-e1587615563120.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-ostanovitsya-v-ochyore-gostinitsy-oteli-hostely/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 173,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.427673,
+                    56.680802
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Rich»",
+                "previewSrc": "https://nashural.ru/assets/uploads/usole-zimoy-logo.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-usole-stolovye-kafe-restorany/ "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 174,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.413027,
+                    56.683488
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Старый город»",
+                "previewSrc": "https://nashural.ru/assets/uploads/usole-zimoy-logo.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-usole-stolovye-kafe-restorany/ "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 175,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.429343,
+                    56.65361
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Столовая",
+                "previewSrc": "https://nashural.ru/assets/uploads/usole-zimoy-logo.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-usole-stolovye-kafe-restorany/ "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 176,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.571033,
+                    55.689655
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Березка»",
+                "previewSrc": "https://nashural.ru/assets/uploads/DSC_5739-scaled-e1608104851533-2048x952.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/trudnosti-malyh-gorodov-i-neozhidannye-otkrytiya-v-poselke-ilinskij/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 177,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.78919,
+                    56.158692
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Веселая картошка»",
+                "previewSrc": "https://nashural.ru/assets/uploads/IMG_20201005_114105-scaled-e1604388970288-2048x926.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/mesta-otdyha-v-g-chermoze/ "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 178,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.520022,
+                    56.08061
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Вагончик быстрого питания «BurgerBro»",
+                "previewSrc": "https://nashural.ru/assets/uploads/gost-e1586156658856.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/oteli-i-gostinitsy-v-chernushke-opisanie-kontakty-i-foto/  "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 179,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.536411,
+                    56.102907
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Жар-птица»",
+                "previewSrc": "https://nashural.ru/assets/uploads/gost-e1586156658856.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/oteli-i-gostinitsy-v-chernushke-opisanie-kontakty-i-foto/  "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 180,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.517887,
+                    56.092944
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Шашлычный дворик»",
+                "previewSrc": "https://nashural.ru/assets/uploads/gost-e1586156658856.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/oteli-i-gostinitsy-v-chernushke-opisanie-kontakty-i-foto/  "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 181,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.518165,
+                    56.075679
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Счастье есть»",
+                "previewSrc": "https://nashural.ru/assets/uploads/gost-e1586156658856.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/oteli-i-gostinitsy-v-chernushke-opisanie-kontakty-i-foto/  "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 182,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.535224,
+                    56.096609
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Столовая «Весна»",
+                "previewSrc": "https://nashural.ru/assets/uploads/gost-e1586156658856.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/oteli-i-gostinitsy-v-chernushke-opisanie-kontakty-i-foto/  "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 183,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.500751,
+                    56.078751
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Столовая № 1",
+                "previewSrc": "https://nashural.ru/assets/uploads/gost-e1586156658856.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/oteli-i-gostinitsy-v-chernushke-opisanie-kontakty-i-foto/  "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 184,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.516194,
+                    56.077269
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Southern Fried Chicken»",
+                "previewSrc": "https://nashural.ru/assets/uploads/gost-e1586156658856.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/oteli-i-gostinitsy-v-chernushke-opisanie-kontakty-i-foto/  "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 185,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.511828,
+                    56.063938
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «1000 и 1 ночь»",
+                "previewSrc": "https://nashural.ru/assets/uploads/gost-e1586156658856.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/oteli-i-gostinitsy-v-chernushke-opisanie-kontakty-i-foto/  "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 186,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.51237,
+                    56.074134
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Love Sushi»",
+                "previewSrc": "https://nashural.ru/assets/uploads/gost-e1586156658856.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/oteli-i-gostinitsy-v-chernushke-opisanie-kontakty-i-foto/  "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 187,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.494028,
+                    56.091336
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Столовая «Домашняя кухня»",
+                "previewSrc": "https://nashural.ru/assets/uploads/gost-e1586156658856.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/oteli-i-gostinitsy-v-chernushke-opisanie-kontakty-i-foto/  "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 188,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.513383,
+                    56.062608
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Япончик»",
+                "previewSrc": "https://nashural.ru/assets/uploads/gost-e1586156658856.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/oteli-i-gostinitsy-v-chernushke-opisanie-kontakty-i-foto/  "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 189,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.289233,
+                    57.819057
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Эрмитаж»",
+                "previewSrc": "https://nashural.ru/assets/uploads/G6DYOcREoIs-e1583242075689.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-chusovom-stolovye-kafe-restorany/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 190,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.294393,
+                    57.814871
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Столовая «Вкуснота»",
+                "previewSrc": "https://nashural.ru/assets/uploads/G6DYOcREoIs-e1583242075689.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-chusovom-stolovye-kafe-restorany/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 191,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.274811,
+                    57.813964
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Столовая «Гости»",
+                "previewSrc": "https://nashural.ru/assets/uploads/G6DYOcREoIs-e1583242075689.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-chusovom-stolovye-kafe-restorany/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 192,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.27376,
+                    57.809858
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Вкусно есть»",
+                "previewSrc": "https://nashural.ru/assets/uploads/G6DYOcREoIs-e1583242075689.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-chusovom-stolovye-kafe-restorany/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 193,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.299988,
+                    57.811323
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Галактика»",
+                "previewSrc": "https://nashural.ru/assets/uploads/G6DYOcREoIs-e1583242075689.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-chusovom-stolovye-kafe-restorany/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 194,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.306665,
+                    57.810604
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Столовая «Энергетик»",
+                "previewSrc": "https://nashural.ru/assets/uploads/G6DYOcREoIs-e1583242075689.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-chusovom-stolovye-kafe-restorany/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 195,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.272899,
+                    57.807262
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Суши Мастер»",
+                "previewSrc": "https://nashural.ru/assets/uploads/G6DYOcREoIs-e1583242075689.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-chusovom-stolovye-kafe-restorany/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 196,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.294322,
+                    57.833718
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Привет обед»",
+                "previewSrc": "https://nashural.ru/assets/uploads/G6DYOcREoIs-e1583242075689.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-chusovom-stolovye-kafe-restorany/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 197,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.297955,
+                    57.816515
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Шафран»",
+                "previewSrc": "https://nashural.ru/assets/uploads/G6DYOcREoIs-e1583242075689.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-chusovom-stolovye-kafe-restorany/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 198,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.262485,
+                    57.823432
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Огни Баку»",
+                "previewSrc": "https://nashural.ru/assets/uploads/G6DYOcREoIs-e1583242075689.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-chusovom-stolovye-kafe-restorany/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 199,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.283172,
+                    70.408971
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Drive Café»",
+                "previewSrc": "https://nashural.ru/assets/uploads/abatskoe.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-i-ostanovitsya-na-noch-v-sele-abatskoe-tyumenskaya-oblast/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 200,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.282581,
+                    70.43003
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Пельменная",
+                "previewSrc": "https://nashural.ru/assets/uploads/abatskoe.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-i-ostanovitsya-na-noch-v-sele-abatskoe-tyumenskaya-oblast/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 201,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.280565,
+                    70.436764
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Ресторан быстрого питания «Кристалл»",
+                "previewSrc": "https://nashural.ru/assets/uploads/abatskoe.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-i-ostanovitsya-na-noch-v-sele-abatskoe-tyumenskaya-oblast/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 202,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.281468,
+                    70.43578
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Вояж»",
+                "previewSrc": "https://nashural.ru/assets/uploads/abatskoe.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-i-ostanovitsya-na-noch-v-sele-abatskoe-tyumenskaya-oblast/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 203,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.283316,
+                    70.460762
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Мельница»",
+                "previewSrc": "https://nashural.ru/assets/uploads/abatskoe.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-i-ostanovitsya-na-noch-v-sele-abatskoe-tyumenskaya-oblast/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 204,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.282277,
+                    70.430257
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Империал»",
+                "previewSrc": "https://nashural.ru/assets/uploads/abatskoe.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-i-ostanovitsya-na-noch-v-sele-abatskoe-tyumenskaya-oblast/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 205,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.513255,
+                    66.536227
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «CafeMed»",
+                "previewSrc": "https://nashural.ru/assets/uploads/Zavodoukovsk.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-i-ostanovitsya-na-nochleg-v-zavodoukovske/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 206,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.510702,
+                    66.536365
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Суши-бар «Вселенная вкуса»",
+                "previewSrc": "https://nashural.ru/assets/uploads/Zavodoukovsk.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-i-ostanovitsya-na-nochleg-v-zavodoukovske/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 207,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.513023,
+                    66.53959
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Пиццерия «FieroPizza»",
+                "previewSrc": "https://nashural.ru/assets/uploads/Zavodoukovsk.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-i-ostanovitsya-na-nochleg-v-zavodoukovske/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 208,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.513308,
+                    66.527099
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Шулаверы»",
+                "previewSrc": "https://nashural.ru/assets/uploads/Zavodoukovsk.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-i-ostanovitsya-na-nochleg-v-zavodoukovske/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 209,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.513276,
+                    66.536166
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Наши люди»",
+                "previewSrc": "https://nashural.ru/assets/uploads/Zavodoukovsk.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-i-ostanovitsya-na-nochleg-v-zavodoukovske/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 210,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.514102,
+                    66.533578
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Столовая «У Саныча»",
+                "previewSrc": "https://nashural.ru/assets/uploads/Zavodoukovsk.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-i-ostanovitsya-na-nochleg-v-zavodoukovske/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 211,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.513023,
+                    66.53959
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Тридевятое царство»",
+                "previewSrc": "https://nashural.ru/assets/uploads/Zavodoukovsk.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-i-ostanovitsya-na-nochleg-v-zavodoukovske/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 212,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.510326,
+                    66.538469
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кофейня «YourTime кофе & вафли»",
+                "previewSrc": "https://nashural.ru/assets/uploads/Zavodoukovsk.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-i-ostanovitsya-na-nochleg-v-zavodoukovske/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 213,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.509863,
+                    66.537163
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Суши-бар «Суши Мастер»",
+                "previewSrc": "https://nashural.ru/assets/uploads/Zavodoukovsk.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-i-ostanovitsya-na-nochleg-v-zavodoukovske/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 214,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.646453,
+                    69.232073
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Грибок»",
+                "previewSrc": "https://nashural.ru/assets/uploads/IMG_20201001_113928-scaled-e1602591376562-1892x700.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/v-selo-kazanskoe-za-sladkim-karasem/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 215,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.649168,
+                    69.216929
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе",
+                "previewSrc": "https://nashural.ru/assets/uploads/IMG_20201001_113928-scaled-e1602591376562-1892x700.jpg",
+                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/v-selo-kazanskoe-za-sladkim-karasem/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 216,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.313092,
+                    66.268205
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе «Упорово»",
+                "previewSrc": "https://nashural.ru/assets/uploads/oblozhka-2.jpg",
+                "articleHref": "https://nashural.ru/projects/malye-goroda/dostoprimechatelnosti-uporovo/gde-poest-i-ostanovitsya-na-nochleg-v-uporovo-tyumenskaya-oblast/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 217,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.304392,
+                    66.26637
+                ]
+            },
+            "properties": {
+                "group": "restaurant",
+                "iconCaption": "Кафе",
+                "previewSrc": "https://nashural.ru/assets/uploads/oblozhka-2.jpg",
+                "articleHref": "https://nashural.ru/projects/malye-goroda/dostoprimechatelnosti-uporovo/gde-poest-i-ostanovitsya-na-nochleg-v-uporovo-tyumenskaya-oblast/"
+            }
+        }
+    ]
 }

@@ -1,520 +1,1472 @@
 {
-  "type": "FeatureCollection",
-  "metadata": {
-    "name": "Памятники и арт-объекты",
-    "creator": "YChebotaev's YMapsML to GeoJSON converter",
-    "id": "monuments"
-  },
-  "features": [
-    {
-      "type": "Feature",
-      "id": 0,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.718942,
-          58.071602
-        ]
-      },
-      "properties": {
-        "group": "monuments",
-        "iconCaption": "Памятник металлургам",
-        "previewSrc": "//nashural.ru/assets/uploads/DSC_5829-e1551210786197.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/top-17-dostoprimechatelnostej-nizhnej-saldy/"
-      }
+    "type": "FeatureCollection",
+    "metadata": {
+        "name": "Памятники и арт-объекты",
+        "creator": "YChebotaev's YMapsML to GeoJSON converter",
+        "id": "monuments"
     },
-    {
-      "type": "Feature",
-      "id": 1,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.764964,
-          58.074311
-        ]
-      },
-      "properties": {
-        "group": "monuments",
-        "iconCaption": "Памятник австрийским военнопленным",
-        "previewSrc": "//nashural.ru/assets/uploads/nsalda-avstria-logo.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/pamyatnik-avstrijskim-voennoplennym-v-nizhnej-salde/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 2,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.054105,
-          56.861738
-        ]
-      },
-      "properties": {
-        "group": "monuments",
-        "iconCaption": "Три столпа России",
-        "previewSrc": "//nashural.ru/assets/uploads/try-stolpa-rossiya01.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/tri-stolpa-rossii-v-biserti/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 3,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.928767,
-          57.390996
-        ]
-      },
-      "properties": {
-        "group": "monuments",
-        "iconCaption": "Кузова яма",
-        "previewSrc": "//nashural.ru/assets/uploads/kuzova-yama08.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/kuzova-yama/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 4,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.07724275402824,
-          58.209359067487696
-        ]
-      },
-      "properties": {
-        "group": "monuments",
-        "iconCaption": "Островок с памятником Ермаку",
-        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm008.jpg",
-        "articleHref": "//nashural.ru/Goroda_i_sela/v-chus-gor.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 5,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.035887,
-          56.905883
-        ]
-      },
-      "properties": {
-        "group": "monuments",
-        "iconCaption": "Памятник Ленину в Сухом Логу",
-        "previewSrc": "//nashural.ru/assets/uploads/lenin-suhoy-log01.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/leninskie-mesta-suholozhya/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 6,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.281187,
-          56.849709
-        ]
-      },
-      "properties": {
-        "group": "monuments",
-        "iconCaption": "Бюст Ленину, с. Филатовское",
-        "previewSrc": "//nashural.ru/assets/uploads/lenin-suhoy-log02.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/leninskie-mesta-suholozhya/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 7,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.99453,
-          56.919704
-        ]
-      },
-      "properties": {
-        "group": "monuments",
-        "iconCaption": "Памятники героям Великой Отечественной войны Сухоложья",
-        "previewSrc": "//nashural.ru/assets/uploads/suhoy-log-pamyatniky-wow11.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/pamyatniki-wow-suhoylog/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 8,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.038846,
-          56.90889
-        ]
-      },
-      "properties": {
-        "group": "monuments",
-        "iconCaption": "Памятники героям Великой Отечественной войны Сухоложья",
-        "previewSrc": "//nashural.ru/assets/uploads/suhoy-log-pamyatniky-wow13.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/pamyatniki-wow-suhoylog/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 9,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.297078,
-          56.847361
-        ]
-      },
-      "properties": {
-        "group": "monuments",
-        "iconCaption": "Памятники героям Великой Отечественной войны Сухоложья",
-        "previewSrc": "//nashural.ru/assets/uploads/suhoy-log-pamyatniky-wow07.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/pamyatniki-wow-suhoylog/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 10,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.218152,
-          56.891696
-        ]
-      },
-      "properties": {
-        "group": "monuments",
-        "iconCaption": "Памятники героям Великой Отечественной войны Сухоложья",
-        "previewSrc": "//nashural.ru/assets/uploads/suhoy-log-pamyatniky-wow02.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/pamyatniki-wow-suhoylog/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 11,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.121907,
-          56.921351
-        ]
-      },
-      "properties": {
-        "group": "monuments",
-        "iconCaption": "Памятники героям Великой Отечественной войны Сухоложья",
-        "previewSrc": "//nashural.ru/assets/uploads/suhoy-log-pamyatniky-wow08.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/pamyatniki-wow-suhoylog/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 12,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.994382,
-          57.065614
-        ]
-      },
-      "properties": {
-        "group": "monuments",
-        "iconCaption": "Памятники героям Великой Отечественной войны Сухоложья",
-        "previewSrc": "//nashural.ru/assets/uploads/suhoy-log-pamyatniky-wow-logo.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/pamyatniki-wow-suhoylog/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 13,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.949664,
-          56.98552
-        ]
-      },
-      "properties": {
-        "group": "monuments",
-        "iconCaption": "Памятники героям Великой Отечественной войны Сухоложья",
-        "previewSrc": "//nashural.ru/assets/uploads/suhoy-log-pamyatniky-wow-logo.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/pamyatniki-wow-suhoylog/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 14,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.944956,
-          56.943212
-        ]
-      },
-      "properties": {
-        "group": "monuments",
-        "iconCaption": "Памятники героям Великой Отечественной войны Сухоложья",
-        "previewSrc": "//nashural.ru/assets/uploads/suhoy-log-pamyatniky-wow05.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/pamyatniki-wow-suhoylog/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 15,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.799007,
-          56.927192
-        ]
-      },
-      "properties": {
-        "group": "monuments",
-        "iconCaption": "Памятники героям Великой Отечественной войны Сухоложья",
-        "previewSrc": "//nashural.ru/assets/uploads/suhoy-log-pamyatniky-wow-logo.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/pamyatniki-wow-suhoylog/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 16,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.039449,
-          56.912266
-        ]
-      },
-      "properties": {
-        "group": "monuments",
-        "iconCaption": "Памятники героям Великой Отечественной войны Сухоложья",
-        "previewSrc": "//nashural.ru/assets/uploads/suhoy-log-pamyatniky-wow-logo.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/pamyatniki-wow-suhoylog/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 17,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.034507,
-          56.908906
-        ]
-      },
-      "properties": {
-        "group": "monuments",
-        "iconCaption": "Памятники героям Великой Отечественной войны Сухоложья",
-        "previewSrc": "//nashural.ru/assets/uploads/suhoy-log-pamyatniky-wow-logo.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/pamyatniki-wow-suhoylog/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 18,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.277001,
-          56.917372
-        ]
-      },
-      "properties": {
-        "group": "monuments",
-        "iconCaption": "Памятники героям Великой Отечественной войны Сухоложья",
-        "previewSrc": "//nashural.ru/assets/uploads/suhoy-log-pamyatniky-wow-logo.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/pamyatniki-wow-suhoylog/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 19,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.350465,
-          56.891278
-        ]
-      },
-      "properties": {
-        "group": "monuments",
-        "iconCaption": "Памятники героям Великой Отечественной войны Сухоложья",
-        "previewSrc": "//nashural.ru/assets/uploads/suhoy-log-pamyatniky-wow-logo.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/pamyatniki-wow-suhoylog/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 20,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.142271,
-          56.920172
-        ]
-      },
-      "properties": {
-        "group": "monuments",
-        "iconCaption": "Памятники героям Великой Отечественной войны Сухоложья",
-        "previewSrc": "//nashural.ru/assets/uploads/suhoy-log-pamyatniky-wow-logo.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/pamyatniki-wow-suhoylog/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 21,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.275213,
-          57.093834
-        ]
-      },
-      "properties": {
-        "group": "monuments",
-        "iconCaption": "Памятники героям Великой Отечественной войны Сухоложья",
-        "previewSrc": "//nashural.ru/assets/uploads/suhoy-log-pamyatniky-wow-logo.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/pamyatniki-wow-suhoylog/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 22,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.2725,
-          57.09692
-        ]
-      },
-      "properties": {
-        "group": "monuments",
-        "iconCaption": "Памятники героям Великой Отечественной войны Сухоложья",
-        "previewSrc": "//nashural.ru/assets/uploads/suhoy-log-pamyatniky-wow-logo.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/pamyatniki-wow-suhoylog/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 23,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.19538,
-          57.071515
-        ]
-      },
-      "properties": {
-        "group": "monuments",
-        "iconCaption": "Памятники героям Великой Отечественной войны Сухоложья",
-        "previewSrc": "//nashural.ru/assets/uploads/suhoy-log-pamyatniky-wow03.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/pamyatniki-wow-suhoylog/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 24,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.010219,
-          56.936877
-        ]
-      },
-      "properties": {
-        "group": "monuments",
-        "iconCaption": "Памятники героям Великой Отечественной войны Сухоложья",
-        "previewSrc": "//nashural.ru/assets/uploads/suhoy-log-pamyatniky-wow-logo.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/pamyatniki-wow-suhoylog/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 25,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.032982,
-          56.904526
-        ]
-      },
-      "properties": {
-        "group": "monuments",
-        "iconCaption": "Памятники героям Великой Отечественной войны Сухоложья",
-        "previewSrc": "//nashural.ru/assets/uploads/suhoy-log-pamyatniky-wow-logo.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/pamyatniki-wow-suhoylog/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 26,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.382436,
-          56.848384
-        ]
-      },
-      "properties": {
-        "group": "monuments",
-        "iconCaption": "Памятники героям Великой Отечественной войны Сухоложья",
-        "previewSrc": "//nashural.ru/assets/uploads/suhoy-log-pamyatniky-wow-logo.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/pamyatniki-wow-suhoylog/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 27,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.049921,
-          56.897404
-        ]
-      },
-      "properties": {
-        "group": "monuments",
-        "iconCaption": "Памятники героям Великой Отечественной войны Сухоложья",
-        "previewSrc": "//nashural.ru/assets/uploads/suhoy-log-pamyatniky-wow-logo.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/pamyatniki-wow-suhoylog/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 28,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.035193,
-          56.919788
-        ]
-      },
-      "properties": {
-        "group": "monuments",
-        "iconCaption": "Памятники героям Великой Отечественной войны Сухоложья",
-        "previewSrc": "//nashural.ru/assets/uploads/suhoy-log-pamyatniky-wow-logo.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/pamyatniki-wow-suhoylog/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 29,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.039953,
-          56.904797
-        ]
-      },
-      "properties": {
-        "group": "monuments",
-        "iconCaption": "Памятники героям Великой Отечественной войны Сухоложья",
-        "previewSrc": "//nashural.ru/assets/uploads/suhoy-log-pamyatniky-wow-logo.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/pamyatniki-wow-suhoylog/"
-      }
-    }
-  ]
+    "features": [
+        {
+            "type": "Feature",
+            "id": 0,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.718942,
+                    58.071602
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Памятник металлургам",
+                "previewSrc": "//nashural.ru/assets/uploads/DSC_5829-e1551210786197.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/top-17-dostoprimechatelnostej-nizhnej-saldy/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 1,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.764964,
+                    58.074311
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Памятник австрийским военнопленным",
+                "previewSrc": "//nashural.ru/assets/uploads/nsalda-avstria-logo.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/pamyatnik-avstrijskim-voennoplennym-v-nizhnej-salde/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 2,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.054105,
+                    56.861738
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Три столпа России",
+                "previewSrc": "//nashural.ru/assets/uploads/try-stolpa-rossiya01.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/tri-stolpa-rossii-v-biserti/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 3,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.928767,
+                    57.390996
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Кузова яма",
+                "previewSrc": "//nashural.ru/assets/uploads/kuzova-yama08.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/kuzova-yama/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 4,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.077242754028,
+                    58.209359067488
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Островок с памятником Ермаку",
+                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm008.jpg",
+                "articleHref": "//nashural.ru/Goroda_i_sela/v-chus-gor.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 5,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.035887,
+                    56.905883
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Памятник Ленину в Сухом Логу",
+                "previewSrc": "//nashural.ru/assets/uploads/lenin-suhoy-log01.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/leninskie-mesta-suholozhya/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 6,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.281187,
+                    56.849709
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Бюст Ленину, с. Филатовское",
+                "previewSrc": "//nashural.ru/assets/uploads/lenin-suhoy-log02.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/leninskie-mesta-suholozhya/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 7,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.99453,
+                    56.919704
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Памятники героям Великой Отечественной войны Сухоложья",
+                "previewSrc": "//nashural.ru/assets/uploads/suhoy-log-pamyatniky-wow11.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/pamyatniki-wow-suhoylog/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 8,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.038846,
+                    56.90889
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Памятники героям Великой Отечественной войны Сухоложья",
+                "previewSrc": "//nashural.ru/assets/uploads/suhoy-log-pamyatniky-wow13.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/pamyatniki-wow-suhoylog/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 9,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.297078,
+                    56.847361
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Памятники героям Великой Отечественной войны Сухоложья",
+                "previewSrc": "//nashural.ru/assets/uploads/suhoy-log-pamyatniky-wow07.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/pamyatniki-wow-suhoylog/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 10,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.218152,
+                    56.891696
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Памятники героям Великой Отечественной войны Сухоложья",
+                "previewSrc": "//nashural.ru/assets/uploads/suhoy-log-pamyatniky-wow02.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/pamyatniki-wow-suhoylog/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 11,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.121907,
+                    56.921351
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Памятники героям Великой Отечественной войны Сухоложья",
+                "previewSrc": "//nashural.ru/assets/uploads/suhoy-log-pamyatniky-wow08.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/pamyatniki-wow-suhoylog/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 12,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.994382,
+                    57.065614
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Памятники героям Великой Отечественной войны Сухоложья",
+                "previewSrc": "//nashural.ru/assets/uploads/suhoy-log-pamyatniky-wow-logo.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/pamyatniki-wow-suhoylog/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 13,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.949664,
+                    56.98552
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Памятники героям Великой Отечественной войны Сухоложья",
+                "previewSrc": "//nashural.ru/assets/uploads/suhoy-log-pamyatniky-wow-logo.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/pamyatniki-wow-suhoylog/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 14,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.944956,
+                    56.943212
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Памятники героям Великой Отечественной войны Сухоложья",
+                "previewSrc": "//nashural.ru/assets/uploads/suhoy-log-pamyatniky-wow05.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/pamyatniki-wow-suhoylog/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 15,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.799007,
+                    56.927192
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Памятники героям Великой Отечественной войны Сухоложья",
+                "previewSrc": "//nashural.ru/assets/uploads/suhoy-log-pamyatniky-wow-logo.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/pamyatniki-wow-suhoylog/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 16,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.039449,
+                    56.912266
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Памятники героям Великой Отечественной войны Сухоложья",
+                "previewSrc": "//nashural.ru/assets/uploads/suhoy-log-pamyatniky-wow-logo.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/pamyatniki-wow-suhoylog/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 17,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.034507,
+                    56.908906
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Памятники героям Великой Отечественной войны Сухоложья",
+                "previewSrc": "//nashural.ru/assets/uploads/suhoy-log-pamyatniky-wow-logo.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/pamyatniki-wow-suhoylog/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 18,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.277001,
+                    56.917372
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Памятники героям Великой Отечественной войны Сухоложья",
+                "previewSrc": "//nashural.ru/assets/uploads/suhoy-log-pamyatniky-wow-logo.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/pamyatniki-wow-suhoylog/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 19,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.350465,
+                    56.891278
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Памятники героям Великой Отечественной войны Сухоложья",
+                "previewSrc": "//nashural.ru/assets/uploads/suhoy-log-pamyatniky-wow-logo.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/pamyatniki-wow-suhoylog/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 20,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.142271,
+                    56.920172
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Памятники героям Великой Отечественной войны Сухоложья",
+                "previewSrc": "//nashural.ru/assets/uploads/suhoy-log-pamyatniky-wow-logo.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/pamyatniki-wow-suhoylog/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 21,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.275213,
+                    57.093834
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Памятники героям Великой Отечественной войны Сухоложья",
+                "previewSrc": "//nashural.ru/assets/uploads/suhoy-log-pamyatniky-wow-logo.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/pamyatniki-wow-suhoylog/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 22,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.2725,
+                    57.09692
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Памятники героям Великой Отечественной войны Сухоложья",
+                "previewSrc": "//nashural.ru/assets/uploads/suhoy-log-pamyatniky-wow-logo.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/pamyatniki-wow-suhoylog/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 23,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.19538,
+                    57.071515
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Памятники героям Великой Отечественной войны Сухоложья",
+                "previewSrc": "//nashural.ru/assets/uploads/suhoy-log-pamyatniky-wow03.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/pamyatniki-wow-suhoylog/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 24,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.010219,
+                    56.936877
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Памятники героям Великой Отечественной войны Сухоложья",
+                "previewSrc": "//nashural.ru/assets/uploads/suhoy-log-pamyatniky-wow-logo.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/pamyatniki-wow-suhoylog/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 25,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.032982,
+                    56.904526
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Памятники героям Великой Отечественной войны Сухоложья",
+                "previewSrc": "//nashural.ru/assets/uploads/suhoy-log-pamyatniky-wow-logo.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/pamyatniki-wow-suhoylog/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 26,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.382436,
+                    56.848384
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Памятники героям Великой Отечественной войны Сухоложья",
+                "previewSrc": "//nashural.ru/assets/uploads/suhoy-log-pamyatniky-wow-logo.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/pamyatniki-wow-suhoylog/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 27,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.049921,
+                    56.897404
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Памятники героям Великой Отечественной войны Сухоложья",
+                "previewSrc": "//nashural.ru/assets/uploads/suhoy-log-pamyatniky-wow-logo.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/pamyatniki-wow-suhoylog/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 28,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.035193,
+                    56.919788
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Памятники героям Великой Отечественной войны Сухоложья",
+                "previewSrc": "//nashural.ru/assets/uploads/suhoy-log-pamyatniky-wow-logo.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/pamyatniki-wow-suhoylog/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 29,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.039953,
+                    56.904797
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Памятники героям Великой Отечественной войны Сухоложья",
+                "previewSrc": "//nashural.ru/assets/uploads/suhoy-log-pamyatniky-wow-logo.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/pamyatniki-wow-suhoylog/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 30,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    52.792855,
+                    52.265941
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Памятник Филиппу Андреевичу Малявину",
+                "previewSrc": "https://nashural.ru/assets/uploads/Pamyatnik-Filippu-Malyavinu-1-e1596171761213.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/o-rodine-zhivopistsa-filippa-malyavina/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 31,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.47282314531,
+                    58.451540069328
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Памятник шахтеру-первопроходцу",
+                "previewSrc": "https://nashural.ru/assets/uploads/h-18783-e1591784022125.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/na-svidanie-k-shahteru-istoriya-pamyatnika-v-gorode-gae/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 32,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.466271973781,
+                    58.446117695135
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Памятник «Гайское созвездие»",
+                "previewSrc": "https://nashural.ru/assets/uploads/h-18806-e1592915809428.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/kak-zazhigalis-gajskie-zvezdy-chast-1/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 33,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.466236885416,
+                    58.451538776887
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Памятник Солдату-Строителю",
+                "previewSrc": "https://nashural.ru/assets/uploads/1380709269_dscn8583.jpg-e1594376729279.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/istoriya-pamyatnika-soldatu-stroitelyu/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 34,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.348724283844,
+                    58.735936487683
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Обелиск «Памяти воинам-землякам, павшим в боях за Родину в Великой Отечественной войне»",
+                "previewSrc": "https://nashural.ru/assets/uploads/gayskiy_go_s._bannoe-e1594708351274.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/nebanalnye-istorii-poyavleniya-pamyatnikov-velikoj-otechestvennoj-vojny-v-gajskom-rajone/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 35,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.474896,
+                    57.362802
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Холм Славы",
+                "previewSrc": "https://nashural.ru/assets/uploads/i-9-e1593149111711.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/holm-slavy-v-gorode-kuvandyke/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 36,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.474953349529,
+                    57.36307238282
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Памятник Родина-Мать",
+                "previewSrc": "https://nashural.ru/assets/uploads/106349722_2902020689924064_5584080897119149397_o.jpg",
+                "articleHref": "https://nashural.ru/article/travel/gotovyj-marshrut-ot-anny-trepalovoj-v-kuvandyk-polzujtes-na-zdorove/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 37,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.392315,
+                    57.589206
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Металлургический ковш",
+                "previewSrc": "https://nashural.ru/assets/uploads/Kovsh-e1588751348569-1750x700.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/nezauryadnyj-art-obekt-mednogorska-orenburgskaya-oblast/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 38,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.413384439997,
+                    57.588342890646
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Мемориал «Колокол памяти»",
+                "previewSrc": "https://nashural.ru/assets/uploads/5-62-scaled-e1589259060280-2048x1003.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/memorial-kolokol-pamyati-v-mednogorske-orenburgskaya-oblast/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 39,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.405154664978,
+                    57.587664342313
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Памятник Пушка КС-19",
+                "previewSrc": "https://nashural.ru/assets/uploads/1-108-e1589344936663.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/zheleznyj-hranitel-istorii-v-mednogorske/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 40,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.403137,
+                    57.583646
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Капсула времени",
+                "previewSrc": "https://nashural.ru/assets/uploads/SAM_04831-e1589345554101.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/chto-skryvaet-kapsula-vremeni-dostoprimechatelnosti-mednogorska/  "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 41,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.388458,
+                    57.598182
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Въездной знак",
+                "previewSrc": "https://nashural.ru/assets/uploads/3.1-e1589346635576-1619x700.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/vizitnaya-kartochka-mednogorska/ "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 42,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.155348559213,
+                    54.995375368122
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Памятник первому члену-корреспонденту Академии наук России Петру Ивановичу Рычкову",
+                "previewSrc": "https://nashural.ru/assets/uploads/DSC03042-scaled-e1590641846207-1819x700.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/pamyatnik-kolumbu-orenburgskogo-kraya/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 43,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.1584,
+                    54.969431
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Памятник Герою Советского Союза Вячеславу Александрову",
+                "previewSrc": "https://nashural.ru/assets/uploads/park-gornyakov-pamyatnik-aleksandrovu-6-1-e1590037795208.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/pamyatnik-geroyu-sovetskogo-soyuza-v-sol-iletske/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 44,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.155305,
+                    54.994665
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Арт-объект «Черный дельфин».",
+                "previewSrc": "https://nashural.ru/assets/uploads/DSC03062-scaled-e1591246885835-1958x700.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/suveniry-ot-masterov-iz-chernogo-delfina/ "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 45,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.038612,
+                    59.86955
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Мемориал «Сквер Славы»",
+                "previewSrc": "https://nashural.ru/assets/uploads/dscn9075-e1597909635497.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/memorial-skver-slavy-v-yasnom/ "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 46,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.079262,
+                    54.678394
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "АРТ-Верещагино",
+                "previewSrc": "https://nashural.ru/assets/uploads/de4gD0cHlGQ-e1586848811515.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/festival-art-vereshhagino-territoriya-vdohnovenij-i-sozidaniya/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 47,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.079195,
+                    54.644285
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Памятник Ульяне Громовой",
+                "previewSrc": "https://nashural.ru/assets/uploads/DSC_6344-scaled-e1607673785161-2048x911.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/istoriya-pamyatnika-ulyane-gromovoj-v-g-vereshhagino/ "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 48,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.839431,
+                    57.554403
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Легенда о волшебных жерновах",
+                "previewSrc": "https://nashural.ru/assets/uploads/IMG_20201007_135014-scaled-e1603783215143-1638x700.jpg",
+                "articleHref": "https://nashural.ru/interesnoe/legenda-o-volshebnyh-zhernovah/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 49,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.869667,
+                    57.628611
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Декорации крепостной стены",
+                "previewSrc": "https://nashural.ru/assets/uploads/serdtse-parmy-logo.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/mesta-gde-snimali-film-serdtse-parmy-po-romanu-alekseya-ivanova/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 50,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.675632,
+                    57.635354
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Декорации крепости в Усьве",
+                "previewSrc": "https://nashural.ru/assets/uploads/serdtse-parmy-logo.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/mesta-gde-snimali-film-serdtse-parmy-po-romanu-alekseya-ivanova/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 51,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.83943,
+                    57.554404
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Бивни мамонта, Уральский океан",
+                "previewSrc": "https://nashural.ru/assets/uploads/h2wZfxfbtjk-e1590051708325.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/doistoricheskoe-nasledie-gubahi-gde-v-gorode-najti-ptitseyashhera-i-sherstistogo-nosoroga/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 52,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.829316,
+                    57.557376
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Памятник Пермскому периоду",
+                "previewSrc": "https://nashural.ru/assets/uploads/h2wZfxfbtjk-e1590051708325.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/doistoricheskoe-nasledie-gubahi-gde-v-gorode-najti-ptitseyashhera-i-sherstistogo-nosoroga/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 53,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.83824,
+                    57.557694
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Радужный птицеящер",
+                "previewSrc": "https://nashural.ru/assets/uploads/h2wZfxfbtjk-e1590051708325.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/doistoricheskoe-nasledie-gubahi-gde-v-gorode-najti-ptitseyashhera-i-sherstistogo-nosoroga/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 54,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.836051383049,
+                    57.553506849545
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Шерстистый носорог и пещерный лев",
+                "previewSrc": "https://nashural.ru/assets/uploads/h2wZfxfbtjk-e1590051708325.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/doistoricheskoe-nasledie-gubahi-gde-v-gorode-najti-ptitseyashhera-i-sherstistogo-nosoroga/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 55,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.415374,
+                    57.083989
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Памятник жертвам политических репрессий",
+                "previewSrc": "https://nashural.ru/assets/uploads/20160802_130818-e1504141974487-1-1-e1586516346127.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/pamyatnik-zhertvam-politicheskih-repressij-v-krasnovisherske/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 56,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.014501,
+                    54.662781
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Памятник Кудым-Ошу",
+                "previewSrc": "https://nashural.ru/assets/uploads/5tEvd8_9oSU-e1583408205512.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/kudymkar/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 57,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.012254,
+                    54.654894
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Парк имени И. Я. Кривощекова",
+                "previewSrc": "https://nashural.ru/assets/uploads/5tEvd8_9oSU-e1583408205512.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/kudymkar/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 58,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.010642,
+                    54.665414
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Коми-Пермяцкий краеведческий музей им. П. И. Субботина-Пермяка",
+                "previewSrc": "https://nashural.ru/assets/uploads/5tEvd8_9oSU-e1583408205512.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/kudymkar/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 59,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.903139,
+                    54.708039
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Надпись из деревьев",
+                "previewSrc": "https://nashural.ru/assets/uploads/Nadpis-Kuznetsov-1-e1585723227922.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/zateryatsya-v-bukvah-po-doroge-iz-permi-v-kudymkar/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 60,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.881425,
+                    54.717183
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Солнечные часы",
+                "previewSrc": "https://nashural.ru/assets/uploads/92520008_2854762831274280_2092512242044629645_n-e1587029871809.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/solnechnye-chasy-v-gorode-ochyor-pamyatnik-ocherskoj-stariny/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 61,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.436797,
+                    56.67599
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Памятник «космическим пришельцам»",
+                "previewSrc": "https://nashural.ru/assets/uploads/DSC_6633-scaled-e1607754830439-2048x911.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/pamyatnik-kosmicheskim-prisheltsam-v-usole/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 62,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.775578,
+                    56.148178
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Памятник летчику",
+                "previewSrc": "https://nashural.ru/assets/uploads/Alleya-gorodskogo-sada-1-scaled-e1586437039791-2048x1003.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/v-kazhdom-gorode-svoi-geroi-pamyatnik-letchiku-v-g-chermoze/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 63,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.775784,
+                    56.149727
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Памятник доктору Альберту Сергеевичу Шрамму",
+                "previewSrc": "https://nashural.ru/assets/uploads/1.-Zdanie-hrama-Rozhdestva-Bogoroditsy-2020-scaled-e1585211442829-2048x1110.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/g-chyormoz-istoriko-arhitekturnoe-nasledie-goroda/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 64,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.517556,
+                    56.071324
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Арт-объект «Формула нефти»",
+                "previewSrc": "https://nashural.ru/assets/uploads/i-3-e1585312850699.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/art-obekt-formula-nefti-v-chernushke/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 65,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.521656,
+                    56.077041
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Памятник Петру и Февронии",
+                "previewSrc": "https://nashural.ru/assets/uploads/fevr-e1585722898934.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/skver-petra-i-fevronii-v-chernushke-park-semejnyh-tsennostej/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 66,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.521323,
+                    56.079685
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Площадь победы в Чернушке",
+                "previewSrc": "https://nashural.ru/assets/uploads/plo-e1585651666414.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/ploshhad-pobedy-v-chernushke-chto-posmotret-i-foto/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 67,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.51817,
+                    56.083118
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Арт-объект «Дерево жизни»",
+                "previewSrc": "https://nashural.ru/assets/uploads/DSC_5089-scaled-e1606892882638-2048x922.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/art-obekt-derevo-zhizni-v-chernushke/ "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 68,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.521722,
+                    56.078921
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Памятник жертвам политических репрессий",
+                "previewSrc": "https://nashural.ru/assets/uploads/pam.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/bronzovaya-pamyat-na-ulitsah-goroda-pamyatniki-chernushki/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 69,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.524235,
+                    56.076062
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Памятник «Летчикам-землякам»",
+                "previewSrc": "https://nashural.ru/assets/uploads/pam.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/bronzovaya-pamyat-na-ulitsah-goroda-pamyatniki-chernushki/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 70,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.517535,
+                    56.075023
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Памятник нефтяникам-первопроходцам",
+                "previewSrc": "https://nashural.ru/assets/uploads/pam.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/bronzovaya-pamyat-na-ulitsah-goroda-pamyatniki-chernushki/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 71,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.515294,
+                    56.084155
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Памятник водителям-первопроходцам",
+                "previewSrc": "https://nashural.ru/assets/uploads/pam.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/bronzovaya-pamyat-na-ulitsah-goroda-pamyatniki-chernushki/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 72,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.268178,
+                    57.809595
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Беседка «Ворота во Францию»",
+                "previewSrc": "https://nashural.ru/assets/uploads/12-45.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/samyj-korotkij-put-vo-frantsiyu-cherez-chusovoj-gorodskie-legendy-g-chusovogo-ch-1/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 73,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.312788,
+                    57.857599
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Памятник Александру Грину",
+                "previewSrc": "https://nashural.ru/assets/uploads/pamyatnik-Grinu-1-e1586239926977.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/pamyatnik-aleksandru-grinu-v-parke-reki-chusovoj//"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 74,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.290099,
+                    57.840567
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Нулевой километр",
+                "previewSrc": "https://nashural.ru/assets/uploads/1-102-e1586350303334.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/obnulyaem-problemy-i-proveryaem-na-sebe-dejstvie-nulevogo-kilometra-gorodskie-legendy-chusovogo-permskij-kraj-ch-2/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 75,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.282141,
+                    57.801224
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Вантовый мост",
+                "previewSrc": "https://nashural.ru/assets/uploads/visyachij-most-e1586442807612.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/dorogami-legend-goroda-chusovogo/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 76,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.303977,
+                    57.767472
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Арка «Красная звезда»",
+                "previewSrc": "https://nashural.ru/assets/uploads/visyachij-most-e1586442807612.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/dorogami-legend-goroda-chusovogo/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 77,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.284612,
+                    70.467866
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Памятник жертвам Гражданской войны",
+                "previewSrc": "https://nashural.ru/assets/uploads/Prilozhenie-7.4-e1591691530453.jpg",
+                "articleHref": "https://nashural.ru/article/istoriya-urala/tragediya-odnogo-sibirskogo-sela/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 78,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.283605,
+                    70.421619
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Скульптура мамонта",
+                "previewSrc": "https://nashural.ru/assets/uploads/2m-e1592896971311.jpg",
+                "articleHref": "https://nashural.ru/interesnoe/zdes-zhili-mamonty-sherstistye-nosorogi-i-peshhernye-lvy/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 79,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.510523,
+                    66.540156
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Фонтан «Рог Изобилия»",
+                "previewSrc": "https://nashural.ru/assets/uploads/11-Fontan-e1588850152892.jpg",
+                "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/rog-izobiliya-v-tyumenskoj-glubinke/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 80,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.512606,
+                    66.541312
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Мемориал Великой Отечественной войны",
+                "previewSrc": "https://nashural.ru/assets/uploads/243622_b7b8169816ab-e1588848263901.jpg",
+                "articleHref": "https://nashural.ru/article/istoriya-urala/sibiryachki-v-vojske-polskom-k-75-letiyu-velikoj-pobedy/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 81,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.523309,
+                    66.478722
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Братская могила разведчиков",
+                "previewSrc": "https://nashural.ru/assets/uploads/2197836581285612856081652-4-e1595832047179.jpg",
+                "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/vremya-kotoroe-razdelilo-lyudej-na-belyh-i-krasnyh-2/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 82,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.512753,
+                    66.541471
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Привокзальная площадь",
+                "previewSrc": "https://nashural.ru/assets/uploads/2-Vasilii-Fedorovich-Vilkov-e1588853815384.jpg",
+                "articleHref": "https://nashural.ru/article/istoriya-urala/pismo-s-fronta-k-75-letiyu-velikoj-pobedy/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 83,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.641445,
+                    69.231142
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Герой Советского Союза Степан Григорьевич Санников",
+                "previewSrc": "https://nashural.ru/assets/uploads/S.G.-Sannikov--e1589453173747.jpg",
+                "articleHref": "https://nashural.ru/culture/ural-characters/pomkomvzvoda-sannikov-geroj-o-kotorom-pomnyat-na-ego-maloj-rodine-k-75-letiyu-velikoj-pobedy/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 84,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.679301,
+                    69.201798
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Мемориал маршалу Советского Союза Константину Константиновичу Рокоссовскому",
+                "previewSrc": "https://nashural.ru/assets/uploads/DSC_2536-1-scaled-e1603801231459-2048x982.jpg",
+                "articleHref": "https://nashural.ru/projects/malye-goroda/dostoprimechatelnosti-kazanskogo/kazanka-lyudi-istoriya-nashe-vremya-chast-3/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 85,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.655022,
+                    66.312616
+                ]
+            },
+            "properties": {
+                "group": "monuments",
+                "iconCaption": "Последний в СССР памятник В. И. Ленин",
+                "previewSrc": "https://nashural.ru/assets/uploads/1-128-e1597908007203.jpg",
+                "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/hochesh-luchshe-uznat-yalutorovsk-projdis-po-voznesenskoj/"
+            }
+        }
+    ]
 }

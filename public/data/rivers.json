@@ -1,1761 +1,2475 @@
 {
-  "type": "FeatureCollection",
-  "metadata": {
-    "name": "Озера и реки",
-    "creator": "YChebotaev's YMapsML to GeoJSON converter",
-    "id": "rivers"
-  },
-  "features": [
-    {
-      "type": "Feature",
-      "id": 0,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          56.449469,
-          60.466692
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Озеро мертвой воды",
-        "previewSrc": "//nashural.ru/assets/uploads/cherdynskiy-rayon02.jpg",
-        "articleHref": "//nashural.ru/article/travel/samaya-trudnodostupnaya-dostoprimechatelnost-rossii-i-ozero-mertvoj-vody/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 1,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.717971,
-          58.071078
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Заводской пруд",
-        "previewSrc": "//nashural.ru/assets/uploads/DSC_5802-e1551210699551.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/top-17-dostoprimechatelnostej-nizhnej-saldy/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 2,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.305278,
-          56.521667
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Бобровое озеро",
-        "previewSrc": "//nashural.ru/assets/uploads/IMG_2284-e1542727846822.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/novyj-marshrut-v-parke-oleni-ruchi-demidovskaya-tropa/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 3,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.347586,
-          57.361218
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Река Реж",
-        "previewSrc": "//nashural.ru/assets/uploads/rez-4-1.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/reka-rez/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 4,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.936007,
-          56.916561
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Нижне-Шайтанский пруд",
-        "previewSrc": "//nashural.ru/assets/uploads/a6e8CxG4JAc.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/innovatsionnyj-kulturnyj-tsentr-v-pervouralske/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 5,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          58.592076,
-          56.429035
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Река Уфа",
-        "previewSrc": "//nashural.ru/assets/uploads/pristan-arty07.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/reka-ufa/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 6,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          58.656512,
-          56.438224
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Река Югуш",
-        "previewSrc": "//nashural.ru/assets/uploads/reka-yugush02.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/reka-yugush/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 7,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.124665,
-          56.857288
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Река Бисерть",
-        "previewSrc": "//nashural.ru/assets/uploads/reka-bisert02.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/reka-bisert/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 8,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.960065,
-          57.365469
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Верхнетагильский пруд",
-        "previewSrc": "//nashural.ru/assets/uploads/prud-vtagil04.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/verhnetagilskiy-prud/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 9,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          71.43962349999998,
-          63.53804213334712
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Озеро Нумто",
-        "previewSrc": "//o.nashural.ru/mesta-reg/hmao-yanao/hmao007.jpg",
-        "articleHref": "//nashural.ru/Mesta/numto.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 10,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          65.65757199999996,
-          66.69073066849442
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Река Собь",
-        "previewSrc": "//o.nashural.ru/mesta-reg/hmao-yanao/hmao009.jpg",
-        "articleHref": "//nashural.ru/Mesta/reka-sob.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 11,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.0149783415157,
-          65.3379935188309
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Река Тыкотлова",
-        "previewSrc": "//o.nashural.ru/mesta-reg/hmao-yanao/hmao010.jpg",
-        "articleHref": "//nashural.ru/Mesta/tykotlova.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 12,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          66.75822720615817,
-          66.87526980601926
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Река Харбей",
-        "previewSrc": "//o.nashural.ru/mesta-reg/hmao-yanao/hmao011.jpg",
-        "articleHref": "//nashural.ru/Mesta/reka-harbey.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 13,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.87410850212398,
-          54.35579501208241
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Голубое озеро около Уфы",
-        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya012.jpg",
-        "articleHref": "//nashural.ru/Mesta/goluboe-ozero.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 14,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.08007041326596,
-          55.77204517993035
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Долгобродское водохранилище",
-        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya019.jpg",
-        "articleHref": "//nashural.ru/Mesta/dolgobrod.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 15,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          56.445956213867156,
-          53.05065234711462
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Нугушское водохранилище",
-        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya035.jpg",
-        "articleHref": "//nashural.ru/Mesta/nugush.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 16,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          54.57672749999996,
-          54.31303605179409
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Озеро Аслыкуль",
-        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya036.jpg",
-        "articleHref": "//nashural.ru/Mesta/ozero-aslikul.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 17,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.705205,
-          54.72007747333115
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Озеро Аушкуль",
-        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya037.jpg",
-        "articleHref": "//nashural.ru/Mesta/aushkul.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 18,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          58.6298,
-          53.596703
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Озеро Банное (Яктыкуль)",
-        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya038.jpg",
-        "articleHref": "//nashural.ru/Mesta/bannoe.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 19,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.60174099999995,
-          54.67318214891017
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Озеро Ворожеич (Карагайкуль)",
-        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya039.jpg",
-        "articleHref": "//nashural.ru/Mesta/vorozeich.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 20,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.357,
-          54.434
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Озеро Калкан",
-        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya040.jpg",
-        "articleHref": "//nashural.ru/Mesta/kalkan.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 21,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          54.06198399999995,
-          54.50103557153737
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Озеро Кандрыкуль",
-        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya041.jpg",
-        "articleHref": "//nashural.ru/Mesta/ozero-kandrikul.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 22,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          58.795009500000035,
-          53.43834436478906
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Озеро Мулдаккуль",
-        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya042.jpg",
-        "articleHref": "//nashural.ru/Mesta/ozero-muldakkul.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 23,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          58.25344649999997,
-          52.837399354678475
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Озеро Талкас",
-        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya044.jpg",
-        "articleHref": "//nashural.ru/Mesta/talkas.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 24,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.066014259149384,
-          55.23780800929268
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Озеро-родник Сарва",
-        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya045.jpg",
-        "articleHref": "//nashural.ru/Mesta/sarva.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 25,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.41497699999998,
-          54.39983167612118
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Озеро Ургун",
-        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya046.jpg",
-        "articleHref": "//nashural.ru/Mesta/urgun.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 26,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          56.5490874760741,
-          55.40509919390584
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Павловское водохранилище",
-        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya047.jpg",
-        "articleHref": "//nashural.ru/Mesta/pavlovskoe-vodohranilishe.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 27,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          53.603889,
-          55.887222
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Река Белая (Агидель)",
-        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya058.jpg",
-        "articleHref": "//nashural.ru/Mesta/reka-belaya.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 28,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          56.508611,
-          54.5125
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Река Инзер",
-        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya059.jpg",
-        "articleHref": "//nashural.ru/Mesta/reka-inzer.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 29,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.732117,
-          54.818333
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Река Куряк",
-        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya060.jpg",
-        "articleHref": "//nashural.ru/travel/kuryak-spasibo-chto-jivoy.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 30,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.874999499999944,
-          52.34559937839419
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Река Сакмара",
-        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya061.jpg",
-        "articleHref": "//nashural.ru/Mesta/sakmara.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 31,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          56.970833,
-          55.705556
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Река Юрюзань",
-        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya062.jpg",
-        "articleHref": "//nashural.ru/Mesta/limonovskiy.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 32,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          56.727118693115216,
-          52.97947326125574
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Юмагузинское водохранилище",
-        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya069.jpg",
-        "articleHref": "//nashural.ru/Mesta/yumaguzinskoe-vdhr.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 33,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.990278,
-          66.503889
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Река Лемва (Черемуховая)",
-        "previewSrc": "//o.nashural.ru/mesta-reg/komi/komi012.jpg",
-        "articleHref": "//nashural.ru/Krasota/lemva.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 34,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.541667,
-          55.125
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Озеро Горькое",
-        "previewSrc": "//o.nashural.ru/mesta-reg/kurganskaya-obl/kurgan006.jpg",
-        "articleHref": "//nashural.ru/Mesta/gorkoe.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 35,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.950556,
-          55.239167
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Озеро Медвежье",
-        "previewSrc": "//o.nashural.ru/mesta-reg/kurganskaya-obl/kurgan007.jpg",
-        "articleHref": "//nashural.ru/Mesta/medvezie.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 36,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          58.77407669593569,
-          51.78449393304561
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Ириклинское водохранилище",
-        "previewSrc": "//o.nashural.ru/mesta-reg/orenb-obl/orenburg006.jpg",
-        "articleHref": "//nashural.ru/Mesta/iriklinskoe-vdhr.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 37,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.1635435,
-          51.10920161546889
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Кумакское водохранилище",
-        "previewSrc": "//o.nashural.ru/mesta-reg/orenb-obl/orenburg011.jpg",
-        "articleHref": "//nashural.ru/Mesta/kumakskoe-vdhr.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 38,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          58.6961721377202,
-          51.29136847842415
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Река Урал",
-        "previewSrc": "//o.nashural.ru/mesta-reg/orenb-obl/orenburg017.jpg",
-        "articleHref": "//nashural.ru/Mesta/reka-ural.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 39,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.00137899999997,
-          51.1496370200335
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Озеро Развал",
-        "previewSrc": "//o.nashural.ru/mesta-reg/orenb-obl/orenburg019.jpg",
-        "articleHref": "//nashural.ru/Mesta/sol-ileck.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 40,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          58.164444,
-          60.284722
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Река Акчим",
-        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm001.jpg",
-        "articleHref": "//nashural.ru/Mesta/akchim.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 41,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          52.96182600000001,
-          60.22030293681622
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Адово озеро",
-        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm002.jpg",
-        "articleHref": "//nashural.ru/Mesta/adovo-ozero.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 42,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.972211,
-          58.269685
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Голубое озеро (р. Чусовая)",
-        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm012.jpg",
-        "articleHref": "//nashural.ru/Mesta/goluboe-ozero-chusovaya.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 43,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          56.954767,
-          58.781833
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Дурнятская котловина",
-        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm017.jpg",
-        "articleHref": "//nashural.ru/Mesta/durnyatskaya-kotlovina.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 44,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          56.33444953374564,
-          58.11670654185895
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Камское водохранилище",
-        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm039.jpg",
-        "articleHref": "//nashural.ru/Mesta/strelka.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 45,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          56.818351999999976,
-          60.14321710126551
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Озеро Нюхти",
-        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm043.jpg",
-        "articleHref": "//nashural.ru/Mesta/nuhti.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 46,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          56.43447281750481,
-          57.673866021523345
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Река Бабка",
-        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm065.jpg",
-        "articleHref": "//nashural.ru/Mesta/reka-babka.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 47,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.721213,
-          60.837689
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Река Березовая",
-        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm066.jpg",
-        "articleHref": "//nashural.ru/Mesta/berezovaya.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 48,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.883074,
-          58.446517
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Река Вижай",
-        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm067.jpg",
-        "articleHref": "//nashural.ru/Mesta/reka-vizay.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 49,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          56.438889,
-          59.903889
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Река Вишера",
-        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm068.jpg",
-        "articleHref": "//nashural.ru/Mesta/reka-vishera.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 50,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          56.990556,
-          60.188056
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Река Глухая Вильва",
-        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm069.jpg",
-        "articleHref": "//nashural.ru/Mesta/vilva.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 51,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          58.203901,
-          58.233108
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Река Койва",
-        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm070.jpg",
-        "articleHref": "//nashural.ru/Mesta/reka-koiva.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 52,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          56.629722,
-          58.893611
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Река Косьва",
-        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm071.jpg",
-        "articleHref": "//nashural.ru/Mesta/kosva.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 53,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          56.637778,
-          58.107778
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Река Сылва",
-        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm072.jpg",
-        "articleHref": "//nashural.ru/Mesta/silva.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 54,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.57051,
-          58.65228
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Река Усьва",
-        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm073.jpg",
-        "articleHref": "//nashural.ru/Mesta/usva.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 55,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          54.844892,
-          57.880528
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Торсуновское озеро",
-        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm081.jpg",
-        "articleHref": "//nashural.ru/Mesta/torsunovskoe-ozero.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 56,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.914167,
-          58.921111
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Широковское водохранилище",
-        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm095.jpg",
-        "articleHref": "//nashural.ru/Mesta/shirokovskoe-vdhr.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 57,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          65.737222,
-          57.064167
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Андреевские озера",
-        "previewSrc": "//o.nashural.ru/mesta-reg/tumen-obl/tyumen002.jpg",
-        "articleHref": "//nashural.ru/Mesta/andreevskie-ozera.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 58,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.267874772949234,
-          56.866711727261894
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Белоярское водохранилище",
-        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk012.jpg",
-        "articleHref": "//nashural.ru/Mesta/beloyarka.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 59,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.12956493408192,
-          56.779492810957265
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Волчихинское водохранилище",
-        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk025.jpg",
-        "articleHref": "//nashural.ru/Mesta/volchihinskoe.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 60,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.20067946105685,
-          57.71514031859632
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Карьер «Лазурный»",
-        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk054.jpg",
-        "articleHref": "//nashural.ru/Mesta/lazurniy-karer.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 61,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.808888,
-          56.942942
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Галкинский карьер",
-        "previewSrc": "//nashural.ru/assets/uploads/DSC00048.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/suhorechenskij-i-galkinskie-karery/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 62,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.770679,
-          56.957785
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Сухореченский карьер",
-        "previewSrc": "//nashural.ru/assets/uploads/0_b26c3_d4946dd1_orig.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/suhorechenskij-i-galkinskie-karery/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 63,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.10651857569636,
-          57.42951692098137
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Липовский карьер",
-        "previewSrc": "//nashural.ru/assets/uploads/lipovskiy-karyer-2.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/lipovskiy-karyer/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 64,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.538889,
-          56.475
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Озеро Асбест-камень",
-        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk088.jpg",
-        "articleHref": "//nashural.ru/Mesta/asbest-kamen.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 65,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.519444,
-          57.341667
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Озеро Аятское",
-        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk089.jpg",
-        "articleHref": "//nashural.ru/Mesta/ayatskoe-ozero.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 66,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.530556,
-          57.736111
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Озеро Бездонное",
-        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk090.jpg",
-        "articleHref": "//nashural.ru/Mesta/bezdonnoe.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 67,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.422222,
-          56.999444
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Озеро Исетское",
-        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk091.jpg",
-        "articleHref": "//nashural.ru/Mesta/isetskoe_ozero.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 68,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.582222,
-          57.591389
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Озеро Молтаево",
-        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk092.jpg",
-        "articleHref": "//nashural.ru/Mesta/moltaevo.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 69,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.317222,
-          56.895278
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Озеро Песчаное",
-        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk093.jpg",
-        "articleHref": "//nashural.ru/Mesta/ozero-peschanoe.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 70,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.183056,
-          57.133333
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Озеро Таватуй",
-        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk094.jpg",
-        "articleHref": "//nashural.ru/Mesta/tavatui.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 71,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.7275,
-          56.492778
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Озеро Тальков Камень",
-        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk095.jpg",
-        "articleHref": "//nashural.ru/Mesta/talkov-kamen.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 72,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.176944,
-          56.515833
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Озеро Щучье",
-        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk096.jpg",
-        "articleHref": "//nashural.ru/Mesta/ozero-shuchye.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 73,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.598611,
-          56.433333
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Порог Ревун",
-        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk105.jpg",
-        "articleHref": "//nashural.ru/Mesta/revun-i-smolinskaya.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 74,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.533397,
-          60.61988
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Река Ивдель",
-        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk109.jpg",
-        "articleHref": "//nashural.ru/Mesta/reka-ivdel.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 75,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.310833,
-          57.911667
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Река Нейва",
-        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk110.jpg",
-        "articleHref": "//nashural.ru/Mesta/reka-neiva.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 76,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.379585,
-          56.662305
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Река Серга",
-        "previewSrc": "//nashural.ru/assets/uploads/serga-18.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/serga/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 77,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.334444,
-          59.549722
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Река Сосьва",
-        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk113.jpg",
-        "articleHref": "//nashural.ru/Mesta/sosva.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 78,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          56.637778,
-          58.107778
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Река Сылва",
-        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk114.jpg",
-        "articleHref": "//nashural.ru/Mesta/silva.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 79,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          56.381667,
-          58.16
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Река Чусовая",
-        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk115.jpg",
-        "articleHref": "//nashural.ru/Mesta/chusovaya.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 80,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.71352175976554,
-          57.090183399385594
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Рефтинское водохранилище",
-        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk116.jpg",
-        "articleHref": "//nashural.ru/Mesta/reftinskoe-vdhr.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 81,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          65.71058649999995,
-          58.19532112834003
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Шайтанское озеро",
-        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk146.jpg",
-        "articleHref": "//nashural.ru/Mesta/shaitan-ozero.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 82,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.39641349999999,
-          55.397454432585356
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Аргазинское водохранилище",
-        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab002.jpg",
-        "articleHref": "//nashural.ru/Mesta/argazi.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 83,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.5980675,
-          55.678737572422044
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Каолиновый карьер",
-        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab004.jpg",
-        "articleHref": "//nashural.ru/Konkursi/neizvestnie-mesta/bali.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 84,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.51916849999996,
-          55.9962587843183
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Озеро Аракуль",
-        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab044.jpg",
-        "articleHref": "//nashural.ru/Mesta/arakul.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 85,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.90759099999994,
-          55.97354908569228
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Озеро Большие Аллаки",
-        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab045.jpg",
-        "articleHref": "//nashural.ru/Mesta/bol-allaki.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 86,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.39409600000002,
-          55.06314521721519
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Озеро Большой Сунукуль",
-        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab046.jpg",
-        "articleHref": "//nashural.ru/Mesta/ozero-bol-sunukul.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 87,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.835869499999994,
-          55.95011081512675
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Озеро Большой Кисегач",
-        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab047.jpg",
-        "articleHref": "//nashural.ru/Mesta/bol-kisegach.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 88,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.879284999999925,
-          55.94235500849737
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Озеро Кисегач",
-        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab048.png",
-        "articleHref": "//nashural.ru/Krasota/kisegach.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 89,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.30391399999992,
-          54.99689801160911
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Озеро Еловое",
-        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab050.jpg",
-        "articleHref": "//nashural.ru/Mesta/elovoe.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 90,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.220005878417936,
-          54.9054839674363
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Озеро Зюраткуль",
-        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab050.jpg",
-        "articleHref": "//nashural.ru/Mesta/zuratkul.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 91,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.51992299999988,
-          56.151341335217566
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Озеро Иткуль",
-        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab051.jpg",
-        "articleHref": "//nashural.ru/Mesta/itkul.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 92,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.05801849999992,
-          55.156335332538234
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Озеро Тургояк",
-        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab053.jpg",
-        "articleHref": "//nashural.ru/Mesta/turgoyak.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 93,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.743689071777325,
-          55.81837943189041
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Озеро Иртяш",
-        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab056.jpg",
-        "articleHref": "//nashural.ru/Mesta/irtyash.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 94,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.8442783674927,
-          54.99008875529802
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Озеро Песчаное",
-        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab057.jpg",
-        "articleHref": "//nashural.ru/Konkursi/uralskaya-zima-2013/ozero-peschannoe.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 95,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.746684499999944,
-          56.11627201608791
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Озеро Синара",
-        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab058.jpg",
-        "articleHref": "//nashural.ru/Mesta/sinara.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 96,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          60.49762320898437,
-          55.51775672997213
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Озеро Увильды",
-        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab059.jpg",
-        "articleHref": "//nashural.ru/Mesta/uvildi.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 97,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          58.649972,
-          55.168984
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Река Ай",
-        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab066.jpg",
-        "articleHref": "//nashural.ru/Mesta/reka-ai.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 98,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.35333049999993,
-          56.26393230236233
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Река Багаряк",
-        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab067.jpg",
-        "articleHref": "//nashural.ru/Krasota/krasoty-pojmy-reki-bagarjak.htm"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 99,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.219266,
-          57.164139
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Озеро Ирбитское",
-        "previewSrc": "//nashural.ru/assets/uploads/ozero-irbitskoe01.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/arheologicheskie-pamyatniki-suholozhya/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 100,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.779298,
-          56.881429
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Озеро Беткулово",
-        "previewSrc": "//nashural.ru/assets/uploads/ozero-betkulovo03.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/arheologicheskie-pamyatniki-suholozhya/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 101,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.956442,
-          57.030253
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Озеро Гальяново",
-        "previewSrc": "//nashural.ru/assets/uploads/Rudyanskoe-1-1.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/dostoprimechatelnosti-suholozhya-part1/"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 102,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.113146,
-          56.906896
-        ]
-      },
-      "properties": {
-        "group": "rivers",
-        "iconCaption": "Заброшенные карьеры рудника «Белая глина»",
-        "previewSrc": "//nashural.ru/assets/uploads/rudnik-sinka.jpg",
-        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/dostoprimechatelnosti-suholozhya-part1/"
-      }
-    }
-  ]
+    "type": "FeatureCollection",
+    "metadata": {
+        "name": "Озера и реки",
+        "creator": "YChebotaev's YMapsML to GeoJSON converter",
+        "id": "rivers"
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "id": 0,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.449469,
+                    60.466692
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Озеро мертвой воды",
+                "previewSrc": "//nashural.ru/assets/uploads/cherdynskiy-rayon02.jpg",
+                "articleHref": "//nashural.ru/article/travel/samaya-trudnodostupnaya-dostoprimechatelnost-rossii-i-ozero-mertvoj-vody/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 1,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.717971,
+                    58.071078
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Заводской пруд",
+                "previewSrc": "//nashural.ru/assets/uploads/DSC_5802-e1551210699551.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/top-17-dostoprimechatelnostej-nizhnej-saldy/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 2,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.305278,
+                    56.521667
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Бобровое озеро",
+                "previewSrc": "//nashural.ru/assets/uploads/IMG_2284-e1542727846822.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/novyj-marshrut-v-parke-oleni-ruchi-demidovskaya-tropa/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 3,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.347586,
+                    57.361218
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Река Реж",
+                "previewSrc": "//nashural.ru/assets/uploads/rez-4-1.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/reka-rez/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 4,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.936007,
+                    56.916561
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Нижне-Шайтанский пруд",
+                "previewSrc": "//nashural.ru/assets/uploads/a6e8CxG4JAc.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/innovatsionnyj-kulturnyj-tsentr-v-pervouralske/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 5,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.592076,
+                    56.429035
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Река Уфа",
+                "previewSrc": "//nashural.ru/assets/uploads/pristan-arty07.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/reka-ufa/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 6,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.656512,
+                    56.438224
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Река Югуш",
+                "previewSrc": "//nashural.ru/assets/uploads/reka-yugush02.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/reka-yugush/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 7,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.124665,
+                    56.857288
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Река Бисерть",
+                "previewSrc": "//nashural.ru/assets/uploads/reka-bisert02.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/reka-bisert/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 8,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.960065,
+                    57.365469
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Верхнетагильский пруд",
+                "previewSrc": "//nashural.ru/assets/uploads/prud-vtagil04.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/verhnetagilskiy-prud/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 9,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    71.4396235,
+                    63.538042133347
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Озеро Нумто",
+                "previewSrc": "//o.nashural.ru/mesta-reg/hmao-yanao/hmao007.jpg",
+                "articleHref": "//nashural.ru/Mesta/numto.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 10,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    65.657572,
+                    66.690730668494
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Река Собь",
+                "previewSrc": "//o.nashural.ru/mesta-reg/hmao-yanao/hmao009.jpg",
+                "articleHref": "//nashural.ru/Mesta/reka-sob.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 11,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.014978341516,
+                    65.337993518831
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Река Тыкотлова",
+                "previewSrc": "//o.nashural.ru/mesta-reg/hmao-yanao/hmao010.jpg",
+                "articleHref": "//nashural.ru/Mesta/tykotlova.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 12,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    66.758227206158,
+                    66.875269806019
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Река Харбей",
+                "previewSrc": "//o.nashural.ru/mesta-reg/hmao-yanao/hmao011.jpg",
+                "articleHref": "//nashural.ru/Mesta/reka-harbey.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 13,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.874108502124,
+                    54.355795012082
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Голубое озеро около Уфы",
+                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya012.jpg",
+                "articleHref": "//nashural.ru/Mesta/goluboe-ozero.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 14,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.080070413266,
+                    55.77204517993
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Долгобродское водохранилище",
+                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya019.jpg",
+                "articleHref": "//nashural.ru/Mesta/dolgobrod.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 15,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.445956213867,
+                    53.050652347115
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Нугушское водохранилище",
+                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya035.jpg",
+                "articleHref": "//nashural.ru/Mesta/nugush.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 16,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    54.5767275,
+                    54.313036051794
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Озеро Аслыкуль",
+                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya036.jpg",
+                "articleHref": "//nashural.ru/Mesta/ozero-aslikul.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 17,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.705205,
+                    54.720077473331
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Озеро Аушкуль",
+                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya037.jpg",
+                "articleHref": "//nashural.ru/Mesta/aushkul.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 18,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.6298,
+                    53.596703
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Озеро Банное (Яктыкуль)",
+                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya038.jpg",
+                "articleHref": "//nashural.ru/Mesta/bannoe.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 19,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.601741,
+                    54.67318214891
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Озеро Ворожеич (Карагайкуль)",
+                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya039.jpg",
+                "articleHref": "//nashural.ru/Mesta/vorozeich.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 20,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.357,
+                    54.434
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Озеро Калкан",
+                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya040.jpg",
+                "articleHref": "//nashural.ru/Mesta/kalkan.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 21,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    54.061984,
+                    54.501035571537
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Озеро Кандрыкуль",
+                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya041.jpg",
+                "articleHref": "//nashural.ru/Mesta/ozero-kandrikul.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 22,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.7950095,
+                    53.438344364789
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Озеро Мулдаккуль",
+                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya042.jpg",
+                "articleHref": "//nashural.ru/Mesta/ozero-muldakkul.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 23,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.2534465,
+                    52.837399354678
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Озеро Талкас",
+                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya044.jpg",
+                "articleHref": "//nashural.ru/Mesta/talkas.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 24,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.066014259149,
+                    55.237808009293
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Озеро-родник Сарва",
+                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya045.jpg",
+                "articleHref": "//nashural.ru/Mesta/sarva.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 25,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.414977,
+                    54.399831676121
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Озеро Ургун",
+                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya046.jpg",
+                "articleHref": "//nashural.ru/Mesta/urgun.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 26,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.549087476074,
+                    55.405099193906
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Павловское водохранилище",
+                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya047.jpg",
+                "articleHref": "//nashural.ru/Mesta/pavlovskoe-vodohranilishe.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 27,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    53.603889,
+                    55.887222
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Река Белая (Агидель)",
+                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya058.jpg",
+                "articleHref": "//nashural.ru/Mesta/reka-belaya.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 28,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.508611,
+                    54.5125
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Река Инзер",
+                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya059.jpg",
+                "articleHref": "//nashural.ru/Mesta/reka-inzer.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 29,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.732117,
+                    54.818333
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Река Куряк",
+                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya060.jpg",
+                "articleHref": "//nashural.ru/travel/kuryak-spasibo-chto-jivoy.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 30,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.8749995,
+                    52.345599378394
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Река Сакмара",
+                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya061.jpg",
+                "articleHref": "//nashural.ru/Mesta/sakmara.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 31,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.970833,
+                    55.705556
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Река Юрюзань",
+                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya062.jpg",
+                "articleHref": "//nashural.ru/Mesta/limonovskiy.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 32,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.727118693115,
+                    52.979473261256
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Юмагузинское водохранилище",
+                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya069.jpg",
+                "articleHref": "//nashural.ru/Mesta/yumaguzinskoe-vdhr.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 33,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.990278,
+                    66.503889
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Река Лемва (Черемуховая)",
+                "previewSrc": "//o.nashural.ru/mesta-reg/komi/komi012.jpg",
+                "articleHref": "//nashural.ru/Krasota/lemva.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 34,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.541667,
+                    55.125
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Озеро Горькое",
+                "previewSrc": "//o.nashural.ru/mesta-reg/kurganskaya-obl/kurgan006.jpg",
+                "articleHref": "//nashural.ru/Mesta/gorkoe.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 35,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.950556,
+                    55.239167
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Озеро Медвежье",
+                "previewSrc": "//o.nashural.ru/mesta-reg/kurganskaya-obl/kurgan007.jpg",
+                "articleHref": "//nashural.ru/Mesta/medvezie.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 36,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.774076695936,
+                    51.784493933046
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Ириклинское водохранилище",
+                "previewSrc": "//o.nashural.ru/mesta-reg/orenb-obl/orenburg006.jpg",
+                "articleHref": "//nashural.ru/Mesta/iriklinskoe-vdhr.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 37,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.1635435,
+                    51.109201615469
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Кумакское водохранилище",
+                "previewSrc": "//o.nashural.ru/mesta-reg/orenb-obl/orenburg011.jpg",
+                "articleHref": "//nashural.ru/Mesta/kumakskoe-vdhr.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 38,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.69617213772,
+                    51.291368478424
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Река Урал",
+                "previewSrc": "//o.nashural.ru/mesta-reg/orenb-obl/orenburg017.jpg",
+                "articleHref": "//nashural.ru/Mesta/reka-ural.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 39,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.001379,
+                    51.149637020034
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Озеро Развал",
+                "previewSrc": "//o.nashural.ru/mesta-reg/orenb-obl/orenburg019.jpg",
+                "articleHref": "//nashural.ru/Mesta/sol-ileck.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 40,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.164444,
+                    60.284722
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Река Акчим",
+                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm001.jpg",
+                "articleHref": "//nashural.ru/Mesta/akchim.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 41,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    52.961826,
+                    60.220302936816
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Адово озеро",
+                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm002.jpg",
+                "articleHref": "//nashural.ru/Mesta/adovo-ozero.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 42,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.972211,
+                    58.269685
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Голубое озеро (р. Чусовая)",
+                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm012.jpg",
+                "articleHref": "//nashural.ru/Mesta/goluboe-ozero-chusovaya.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 43,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.954767,
+                    58.781833
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Дурнятская котловина",
+                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm017.jpg",
+                "articleHref": "//nashural.ru/Mesta/durnyatskaya-kotlovina.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 44,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.334449533746,
+                    58.116706541859
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Камское водохранилище",
+                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm039.jpg",
+                "articleHref": "//nashural.ru/Mesta/strelka.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 45,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.818352,
+                    60.143217101266
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Озеро Нюхти",
+                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm043.jpg",
+                "articleHref": "//nashural.ru/Mesta/nuhti.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 46,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.434472817505,
+                    57.673866021523
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Река Бабка",
+                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm065.jpg",
+                "articleHref": "//nashural.ru/Mesta/reka-babka.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 47,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.721213,
+                    60.837689
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Река Березовая",
+                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm066.jpg",
+                "articleHref": "//nashural.ru/Mesta/berezovaya.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 48,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.883074,
+                    58.446517
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Река Вижай",
+                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm067.jpg",
+                "articleHref": "//nashural.ru/Mesta/reka-vizay.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 49,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.438889,
+                    59.903889
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Река Вишера",
+                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm068.jpg",
+                "articleHref": "//nashural.ru/Mesta/reka-vishera.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 50,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.990556,
+                    60.188056
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Река Глухая Вильва",
+                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm069.jpg",
+                "articleHref": "//nashural.ru/Mesta/vilva.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 51,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.203901,
+                    58.233108
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Река Койва",
+                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm070.jpg",
+                "articleHref": "//nashural.ru/Mesta/reka-koiva.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 52,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.629722,
+                    58.893611
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Река Косьва",
+                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm071.jpg",
+                "articleHref": "//nashural.ru/Mesta/kosva.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 53,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.637778,
+                    58.107778
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Река Сылва",
+                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm072.jpg",
+                "articleHref": "//nashural.ru/Mesta/silva.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 54,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.57051,
+                    58.65228
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Река Усьва",
+                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm073.jpg",
+                "articleHref": "//nashural.ru/Mesta/usva.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 55,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    54.844892,
+                    57.880528
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Торсуновское озеро",
+                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm081.jpg",
+                "articleHref": "//nashural.ru/Mesta/torsunovskoe-ozero.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 56,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.914167,
+                    58.921111
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Широковское водохранилище",
+                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm095.jpg",
+                "articleHref": "//nashural.ru/Mesta/shirokovskoe-vdhr.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 57,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    65.737222,
+                    57.064167
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Андреевские озера",
+                "previewSrc": "//o.nashural.ru/mesta-reg/tumen-obl/tyumen002.jpg",
+                "articleHref": "//nashural.ru/Mesta/andreevskie-ozera.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 58,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.267874772949,
+                    56.866711727262
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Белоярское водохранилище",
+                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk012.jpg",
+                "articleHref": "//nashural.ru/Mesta/beloyarka.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 59,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.129564934082,
+                    56.779492810957
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Волчихинское водохранилище",
+                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk025.jpg",
+                "articleHref": "//nashural.ru/Mesta/volchihinskoe.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 60,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.200679461057,
+                    57.715140318596
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Карьер «Лазурный»",
+                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk054.jpg",
+                "articleHref": "//nashural.ru/Mesta/lazurniy-karer.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 61,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.808888,
+                    56.942942
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Галкинский карьер",
+                "previewSrc": "//nashural.ru/assets/uploads/DSC00048.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/suhorechenskij-i-galkinskie-karery/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 62,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.770679,
+                    56.957785
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Сухореченский карьер",
+                "previewSrc": "//nashural.ru/assets/uploads/0_b26c3_d4946dd1_orig.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/suhorechenskij-i-galkinskie-karery/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 63,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.106518575696,
+                    57.429516920981
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Липовский карьер",
+                "previewSrc": "//nashural.ru/assets/uploads/lipovskiy-karyer-2.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/lipovskiy-karyer/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 64,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.538889,
+                    56.475
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Озеро Асбест-камень",
+                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk088.jpg",
+                "articleHref": "//nashural.ru/Mesta/asbest-kamen.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 65,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.519444,
+                    57.341667
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Озеро Аятское",
+                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk089.jpg",
+                "articleHref": "//nashural.ru/Mesta/ayatskoe-ozero.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 66,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.530556,
+                    57.736111
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Озеро Бездонное",
+                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk090.jpg",
+                "articleHref": "//nashural.ru/Mesta/bezdonnoe.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 67,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.422222,
+                    56.999444
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Озеро Исетское",
+                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk091.jpg",
+                "articleHref": "//nashural.ru/Mesta/isetskoe_ozero.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 68,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.582222,
+                    57.591389
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Озеро Молтаево",
+                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk092.jpg",
+                "articleHref": "//nashural.ru/Mesta/moltaevo.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 69,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.317222,
+                    56.895278
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Озеро Песчаное",
+                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk093.jpg",
+                "articleHref": "//nashural.ru/Mesta/ozero-peschanoe.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 70,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.183056,
+                    57.133333
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Озеро Таватуй",
+                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk094.jpg",
+                "articleHref": "//nashural.ru/Mesta/tavatui.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 71,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.7275,
+                    56.492778
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Озеро Тальков Камень",
+                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk095.jpg",
+                "articleHref": "//nashural.ru/Mesta/talkov-kamen.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 72,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.176944,
+                    56.515833
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Озеро Щучье",
+                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk096.jpg",
+                "articleHref": "//nashural.ru/Mesta/ozero-shuchye.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 73,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.598611,
+                    56.433333
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Порог Ревун",
+                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk105.jpg",
+                "articleHref": "//nashural.ru/Mesta/revun-i-smolinskaya.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 74,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.533397,
+                    60.61988
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Река Ивдель",
+                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk109.jpg",
+                "articleHref": "//nashural.ru/Mesta/reka-ivdel.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 75,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.310833,
+                    57.911667
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Река Нейва",
+                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk110.jpg",
+                "articleHref": "//nashural.ru/Mesta/reka-neiva.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 76,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.379585,
+                    56.662305
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Река Серга",
+                "previewSrc": "//nashural.ru/assets/uploads/serga-18.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/serga/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 77,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.334444,
+                    59.549722
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Река Сосьва",
+                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk113.jpg",
+                "articleHref": "//nashural.ru/Mesta/sosva.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 78,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.637778,
+                    58.107778
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Река Сылва",
+                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk114.jpg",
+                "articleHref": "//nashural.ru/Mesta/silva.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 79,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.381667,
+                    58.16
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Река Чусовая",
+                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk115.jpg",
+                "articleHref": "//nashural.ru/Mesta/chusovaya.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 80,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.713521759766,
+                    57.090183399386
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Рефтинское водохранилище",
+                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk116.jpg",
+                "articleHref": "//nashural.ru/Mesta/reftinskoe-vdhr.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 81,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    65.7105865,
+                    58.19532112834
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Шайтанское озеро",
+                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk146.jpg",
+                "articleHref": "//nashural.ru/Mesta/shaitan-ozero.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 82,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.3964135,
+                    55.397454432585
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Аргазинское водохранилище",
+                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab002.jpg",
+                "articleHref": "//nashural.ru/Mesta/argazi.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 83,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.5980675,
+                    55.678737572422
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Каолиновый карьер",
+                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab004.jpg",
+                "articleHref": "//nashural.ru/Konkursi/neizvestnie-mesta/bali.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 84,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.5191685,
+                    55.996258784318
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Озеро Аракуль",
+                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab044.jpg",
+                "articleHref": "//nashural.ru/Mesta/arakul.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 85,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.907591,
+                    55.973549085692
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Озеро Большие Аллаки",
+                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab045.jpg",
+                "articleHref": "//nashural.ru/Mesta/bol-allaki.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 86,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.394096,
+                    55.063145217215
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Озеро Большой Сунукуль",
+                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab046.jpg",
+                "articleHref": "//nashural.ru/Mesta/ozero-bol-sunukul.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 87,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.8358695,
+                    55.950110815127
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Озеро Большой Кисегач",
+                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab047.jpg",
+                "articleHref": "//nashural.ru/Mesta/bol-kisegach.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 88,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.879285,
+                    55.942355008497
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Озеро Кисегач",
+                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab048.png",
+                "articleHref": "//nashural.ru/Krasota/kisegach.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 89,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.303914,
+                    54.996898011609
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Озеро Еловое",
+                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab050.jpg",
+                "articleHref": "//nashural.ru/Mesta/elovoe.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 90,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.220005878418,
+                    54.905483967436
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Озеро Зюраткуль",
+                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab050.jpg",
+                "articleHref": "//nashural.ru/Mesta/zuratkul.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 91,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.519923,
+                    56.151341335218
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Озеро Иткуль",
+                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab051.jpg",
+                "articleHref": "//nashural.ru/Mesta/itkul.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 92,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.0580185,
+                    55.156335332538
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Озеро Тургояк",
+                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab053.jpg",
+                "articleHref": "//nashural.ru/Mesta/turgoyak.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 93,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.743689071777,
+                    55.81837943189
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Озеро Иртяш",
+                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab056.jpg",
+                "articleHref": "//nashural.ru/Mesta/irtyash.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 94,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.844278367493,
+                    54.990088755298
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Озеро Песчаное",
+                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab057.jpg",
+                "articleHref": "//nashural.ru/Konkursi/uralskaya-zima-2013/ozero-peschannoe.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 95,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.7466845,
+                    56.116272016088
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Озеро Синара",
+                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab058.jpg",
+                "articleHref": "//nashural.ru/Mesta/sinara.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 96,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.497623208984,
+                    55.517756729972
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Озеро Увильды",
+                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab059.jpg",
+                "articleHref": "//nashural.ru/Mesta/uvildi.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 97,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.649972,
+                    55.168984
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Река Ай",
+                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab066.jpg",
+                "articleHref": "//nashural.ru/Mesta/reka-ai.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 98,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.3533305,
+                    56.263932302362
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Река Багаряк",
+                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab067.jpg",
+                "articleHref": "//nashural.ru/Krasota/krasoty-pojmy-reki-bagarjak.htm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 99,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.219266,
+                    57.164139
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Озеро Ирбитское",
+                "previewSrc": "//nashural.ru/assets/uploads/ozero-irbitskoe01.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/arheologicheskie-pamyatniki-suholozhya/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 100,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.779298,
+                    56.881429
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Озеро Беткулово",
+                "previewSrc": "//nashural.ru/assets/uploads/ozero-betkulovo03.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/arheologicheskie-pamyatniki-suholozhya/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 101,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    61.956442,
+                    57.030253
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Озеро Гальяново",
+                "previewSrc": "//nashural.ru/assets/uploads/Rudyanskoe-1-1.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/dostoprimechatelnosti-suholozhya-part1/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 102,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.113146,
+                    56.906896
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Заброшенные карьеры рудника «Белая глина»",
+                "previewSrc": "//nashural.ru/assets/uploads/rudnik-sinka.jpg",
+                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/dostoprimechatelnosti-suholozhya-part1/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 103,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    53.86546,
+                    52.632609
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Озеро Любви",
+                "previewSrc": "https://nashural.ru/assets/uploads/starinnaya-vetla-na-beregu-ozera-e1604316510797.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/nelegkij-razgovor-u-ozera-lyubvi/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 104,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.038666460974,
+                    59.089101116396
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Озеро Базар-Бикет",
+                "previewSrc": "https://nashural.ru/assets/uploads/63_b-e1589263430724-2048x1080.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/krasivaya-legenda-ob-ozere-bazar-biket/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 105,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.460708019033,
+                    58.433976745206
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Памятник выстоявшим и победившим",
+                "previewSrc": "https://nashural.ru/assets/uploads/47115941081_d5d32ea1b6_b-e1594375169430.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/progulki-po-gorodu-gaj-pamyatnik-vystoyavshim-i-pobedivshim/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 106,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.494656203952,
+                    57.380121458107
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Река Сакмара",
+                "previewSrc": "https://nashural.ru/assets/uploads/106349722_2902020689924064_5584080897119149397_o.jpg",
+                "articleHref": "https://nashural.ru/article/travel/gotovyj-marshrut-ot-anny-trepalovoj-v-kuvandyk-polzujtes-na-zdorove/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 107,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.635269556524,
+                    57.891420237594
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Река Губерля",
+                "previewSrc": "https://nashural.ru/assets/uploads/tD2io-GDJMc-e1593500498778.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/karagajskij-bor-i-reka-guberlya/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 108,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.412771,
+                    57.585787
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Река Блява",
+                "previewSrc": "https://nashural.ru/assets/uploads/31_b-scaled-e1589519757126-2048x1310.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/osvaivaem-okrestnosti-mednogorska-ch-3-otdyh-u-reki-blyavy/ "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 109,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.798655,
+                    56.41298
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Река Сакмара",
+                "previewSrc": "https://nashural.ru/assets/uploads/84338956_2902019953257471_6932164618203276433_o-1.jpg",
+                "articleHref": "https://nashural.ru/mesta/bashkortostan/reka-sakmara/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 110,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.893273,
+                    56.534379
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Река Ассель",
+                "previewSrc": "https://nashural.ru/assets/uploads/864280_original-e1591341810633.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/alyanka-i-assel-soyuz-krasoty-i-duhovnogo-bogatstva/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 111,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.945549,
+                    55.980888
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Озеро Каменное",
+                "previewSrc": "https://nashural.ru/assets/uploads/uywRagWYhwQ-e1591866341330.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/oni-soshlis-volna-i-kamen-ozero-kamennoe-i-gora-kamennaya/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 112,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.149767,
+                    55.001119
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Озера Развал (Соленка)",
+                "previewSrc": "https://nashural.ru/assets/uploads/sol-ileck-4.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/sol-ileck/ "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 113,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    50.90153,
+                    60.13247
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Озеро Каменное",
+                "previewSrc": "https://nashural.ru/assets/uploads/20200727_1345112656-e1597829491871.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/marshrut-vyhodnogo-dnya-kamennoe-ozero-i-zabroshennaya-shtolnya/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 114,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.088756,
+                    60.129134
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Кумакское водохранилище",
+                "previewSrc": "https://nashural.ru/assets/uploads/kumakskoe-3.jpg",
+                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/kumakskoe-vdhr/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 115,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.188783,
+                    57.488017
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Шавринский водоем",
+                "previewSrc": "https://nashural.ru/assets/uploads/golubye-ozera-aleksandrovska-logo.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/golubie-ozera-aleksandrovska/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 116,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.20545,
+                    57.490517
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Морозовский водоем",
+                "previewSrc": "https://nashural.ru/assets/uploads/golubye-ozera-aleksandrovska-logo.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/golubie-ozera-aleksandrovska/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 117,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.179464,
+                    57.565506
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Александровский пруд",
+                "previewSrc": "https://nashural.ru/assets/uploads/D0BZHw49b2o-e1586764030858.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/gorodskoj-prud-goroda-aleksandrovska/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 118,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.989099,
+                    54.382998
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Пруд Водокачка",
+                "previewSrc": "https://nashural.ru/assets/uploads/IMG-20190908-WA0040-1-e1587116745762.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/vodoemy-poselka-borodulino-vereshhaginskij-rajon-permskogo-kraya/ "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 119,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.993673,
+                    54.359101
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Пруд Силинский",
+                "previewSrc": "https://nashural.ru/assets/uploads/IMG-20190908-WA0040-1-e1587116745762.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/vodoemy-poselka-borodulino-vereshhaginskij-rajon-permskogo-kraya/ "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 120,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.994061,
+                    54.392421
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Пруд Федотовский",
+                "previewSrc": "https://nashural.ru/assets/uploads/IMG-20190908-WA0040-1-e1587116745762.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/vodoemy-poselka-borodulino-vereshhaginskij-rajon-permskogo-kraya/ "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 121,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.99764,
+                    54.373927
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Пруд Керосинка",
+                "previewSrc": "https://nashural.ru/assets/uploads/IMG-20190908-WA0040-1-e1587116745762.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/vodoemy-poselka-borodulino-vereshhaginskij-rajon-permskogo-kraya/ "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 122,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.978903,
+                    54.381651
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Пруд Звонариха",
+                "previewSrc": "https://nashural.ru/assets/uploads/IMG-20190908-WA0040-1-e1587116745762.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/vodoemy-poselka-borodulino-vereshhaginskij-rajon-permskogo-kraya/ "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 123,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.978968,
+                    54.381513
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Пруд Абрамиха",
+                "previewSrc": "https://nashural.ru/assets/uploads/IMG-20190908-WA0040-1-e1587116745762.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/vodoemy-poselka-borodulino-vereshhaginskij-rajon-permskogo-kraya/ "
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 124,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.86542,
+                    57.572013
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Река Косьва",
+                "previewSrc": "https://nashural.ru/assets/uploads/gubaha-e1588158774583.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/reka-kosva-chto-posmotret-v-gubahinskom-rajone/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 125,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.905365,
+                    57.896582
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Широковское водохранилище",
+                "previewSrc": "https://nashural.ru/assets/uploads/hhrSZoVWRkk-e1600421815356.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/shirokovskoe-vodohranilishhe/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 126,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.144126,
+                    56.818666
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Озеро Нюхти",
+                "previewSrc": "https://nashural.ru/assets/uploads/KQws-eqQ_uk-e1600946555180.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/ozero-nyuhti/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 127,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.294772,
+                    58.168145
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Река Акчим",
+                "previewSrc": "https://nashural.ru/assets/uploads/12315415-1068x712.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/reka-akchim/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 128,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.412888,
+                    57.072119
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Река Вишера",
+                "previewSrc": "https://nashural.ru/assets/uploads/770275-1068x712.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/reka-vishera/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 129,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.005656,
+                    54.652321
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Река Иньва",
+                "previewSrc": "https://nashural.ru/assets/uploads/IMG_20190915_171700-1-scaled-e1587473209484-2048x1116.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/reka-inva-znakomimsya-s-rekami-permskogo-kraya/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 130,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.221042,
+                    52.962908
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Адово озеро",
+                "previewSrc": "https://nashural.ru/assets/uploads/02-7.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/adovo-ozero/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 131,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.898118,
+                    54.345501
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Канал Копань",
+                "previewSrc": "https://nashural.ru/assets/uploads/kopa-e1600071550626.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/kanal-kopan/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 132,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.880669,
+                    54.844888
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Черное озеро",
+                "previewSrc": "https://nashural.ru/assets/uploads/ozeroch.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/zagadki-chernogo-ozera-otkuda-ono-vzyalos-i-kto-v-nem-obitaet/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 133,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.88788,
+                    54.673139
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Очерский пруд",
+                "previewSrc": "https://nashural.ru/assets/uploads/ochersk-2-e1588751571823.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/ocherskij-prud-i-ego-dostoprimechatelnosti/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 134,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.876737,
+                    54.711569
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Река Очёр",
+                "previewSrc": "https://nashural.ru/assets/uploads/xyO08DPpnUM-e1587470673474.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/reka-ocher-v-permskom-krae/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 135,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.4345,
+                    56.729
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Белое море Березников",
+                "previewSrc": "https://nashural.ru/assets/uploads/beloe-more-bereznikov-logo.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/beloe-more-bereznikov/#4"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 136,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.789964,
+                    56.06083
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Чёрмозский пруд",
+                "previewSrc": "https://nashural.ru/assets/uploads/cherm-Anton-Hudyakov-e1588916488319.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/chyormozskij-prud-rozhdenie-smert-i-vozrozhdenie/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 137,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.766029,
+                    56.135676
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Подгора",
+                "previewSrc": "https://nashural.ru/assets/uploads/podgor-e1589520328371.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/podgora-uteryannaya-istoriya-chyormoza-ili-uralskaya-atlantida/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 138,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.282986,
+                    57.801706
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Река Чусовая",
+                "previewSrc": "https://nashural.ru/assets/uploads/chusovaya-re.jpg",
+                "articleHref": "https://nashural.ru/mesta/permskij-kraj/chusovaya/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 139,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.201125,
+                    70.635558
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Река Абак",
+                "previewSrc": "https://nashural.ru/assets/uploads/aba-e1589806102796.jpg",
+                "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/reka-abak-v-tyumenskoj-oblasti/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 140,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.394341,
+                    66.656098
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Река Карпуниха",
+                "previewSrc": "https://nashural.ru/assets/uploads/11-Fontan-e1588850152892.jpg",
+                "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/rog-izobiliya-v-tyumenskoj-glubinke/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 141,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.521287,
+                    66.401404
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Река Тобол",
+                "previewSrc": "https://nashural.ru/assets/uploads/Kosulya_III-e1595484042985.jpg",
+                "articleHref": "https://nashural.ru/interesnoe/miss-gratsiya-sibiri/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 142,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.410936,
+                    66.652265
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Река Бегила",
+                "previewSrc": "https://nashural.ru/assets/uploads/11-Fontan-e1588850152892.jpg",
+                "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/rog-izobiliya-v-tyumenskoj-glubinke/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 143,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.465514,
+                    69.248529
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Озеро Убиенное",
+                "previewSrc": "https://nashural.ru/assets/uploads/i-3-5-e1600241109709.jpg",
+                "articleHref": "https://nashural.ru/interesnoe/ozero-s-neveselym-nazvaniem-ubiennoe/"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 144,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.577595,
+                    66.046008
+                ]
+            },
+            "properties": {
+                "group": "rivers",
+                "iconCaption": "Озеро Сингуль",
+                "previewSrc": "https://nashural.ru/assets/uploads/i-4-5-e1599134697425.jpg",
+                "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/singul-ozero-populyarnoe-so-svoej-legendoj-i-dazhe-s-zagadkoj/"
+            }
+        }
+    ]
 }
