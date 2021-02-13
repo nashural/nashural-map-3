@@ -1,1132 +1,1132 @@
 {
-    "type": "FeatureCollection",
-    "metadata": {
-        "name": "Парки и ущелья",
-        "creator": "YChebotaev's YMapsML to GeoJSON converter",
-        "id": "parks"
+  "type": "FeatureCollection",
+  "metadata": {
+    "name": "Парки и ущелья",
+    "creator": "YChebotaev's YMapsML to GeoJSON converter",
+    "id": "parks"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 0,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.070328,
+          60.715702
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Парк металлургов",
+        "previewSrc": "//nashural.ru/assets/uploads/DSC_5794-e1551210511590.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/top-17-dostoprimechatelnostej-nizhnej-saldy/"
+      }
     },
-    "features": [
-        {
-            "type": "Feature",
-            "id": 0,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    60.715702,
-                    58.070328
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Парк металлургов",
-                "previewSrc": "//nashural.ru/assets/uploads/DSC_5794-e1551210511590.jpg",
-                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/top-17-dostoprimechatelnostej-nizhnej-saldy/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 1,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    60.685896,
-                    58.065539
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Нижнесалдинская кедровая роща",
-                "previewSrc": "//nashural.ru/assets/uploads/DSC_5949-e1550991234292.jpg",
-                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/kedrovaya-roshha-v-nizhnej-salde-foto-opisanie-kak-dobratsya/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 2,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.80924,
-                    56.955508
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Билимбаевская дача",
-                "previewSrc": "//nashural.ru/assets/uploads/bilimbaevskaya-dacha-logo.jpg",
-                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/bilimbaevskaya-dacha/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 3,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.778,
-                    56.495914
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Сабарский заказник",
-                "previewSrc": "//nashural.ru/assets/uploads/sabarskiy-zakaznik.jpg",
-                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/sabarskiy-landshaftniy-zakaznik/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 4,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.777222,
-                    56.761667
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Урочище Русиново",
-                "previewSrc": "//nashural.ru/assets/uploads/rusinovo07.jpg",
-                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/urochishe-rusinovo/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 5,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    63.8,
-                    56.927762
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Припышминские боры",
-                "previewSrc": "//nashural.ru/assets/uploads/pripyshminskie-bory06.jpg",
-                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/pripyshminskie-bory/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 6,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    62.755757,
-                    56.802558
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Камышловский бор",
-                "previewSrc": "//nashural.ru/assets/uploads/kamyshlovskiy-bor03.jpg",
-                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/kamyshlovskiy-bor/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 7,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.848,
-                    57.3947
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Висимский заповедник",
-                "previewSrc": "//nashural.ru/assets/uploads/visimskiy-zapovednik01.jpg",
-                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/visimskiy-zapovednik/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 8,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    56.576226008057,
-                    53.560211854149
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Гумеровское ущелье",
-                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya017.jpg",
-                "articleHref": "//nashural.ru/Mesta/gumerovo.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 9,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.524854745185,
-                    53.448086301886
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Кужановские лиственницы",
-                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya029.jpg",
-                "articleHref": "//nashural.ru/Mesta/kujanovskie.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 10,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    56.868158799103,
-                    52.577075119771
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Природный парк «Мурадымовское ущелье»",
-                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya034.jpg",
-                "articleHref": "//nashural.ru/Mesta/muradimovskoe-ushelye.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 11,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    56.833129,
-                    61.822144486088
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Лосеферма Печоро-Илычского заповедника",
-                "previewSrc": "//o.nashural.ru/mesta-reg/komi/komi010.jpg",
-                "articleHref": "//nashural.ru/Mesta/loseferma.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 12,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.216667,
-                    63.983333
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Национальный парк «Югыд ва»",
-                "previewSrc": "//o.nashural.ru/mesta-reg/komi/komi011.jpg",
-                "articleHref": "//nashural.ru/Mesta/ugidva.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 13,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    64.7968,
-                    54.4683
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Лес «Ленину 100 лет»",
-                "previewSrc": "//o.nashural.ru/mesta-reg/kurganskaya-obl/kurgan005.jpg",
-                "articleHref": "//nashural.ru/Mesta/les-leninu-100-let.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 14,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    52.115278,
-                    53.004167
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Бузулукский бор",
-                "previewSrc": "//o.nashural.ru/mesta-reg/orenb-obl/orenburg002.jpg",
-                "articleHref": "//nashural.ru/Mesta/buzulukskiy-bor.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 15,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    56.927222,
-                    51.180556
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Кзыладырское карстовое поле",
-                "previewSrc": "//o.nashural.ru/mesta-reg/orenb-obl/orenburg007.jpg",
-                "articleHref": "//nashural.ru/Mesta/kziladirskoe-pole.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 16,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    61.748889,
-                    37.430278
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Общий Сырт",
-                "previewSrc": "//o.nashural.ru/mesta-reg/orenb-obl/orenburg014.jpg",
-                "articleHref": "//nashural.ru/Mesta/obshiy-syrt.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 17,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    57.581667,
-                    58.853333
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Ладейный Лог",
-                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm028.jpg",
-                "articleHref": "//nashural.ru/Mesta/lodejnyj-log.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 18,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    65.522222,
-                    56.455556
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Марьино ущелье",
-                "previewSrc": "//o.nashural.ru/mesta-reg/tumen-obl/tyumen005.jpg",
-                "articleHref": "//nashural.ru/Mesta/maryino-ushelye.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 19,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.228105162197,
-                    56.523117855177
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Природный парк «Оленьи Ручьи»",
-                "previewSrc": "//nashural.ru/assets/uploads/serga-3.jpg",
-                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/olen-ruchyi/#id2"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 20,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.28785571562,
-                    56.62720976423
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Провал горы Орловой",
-                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk107.jpg",
-                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/orlov_proval/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 21,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    60.982517,
-                    57.257917
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Копи Семенихи",
-                "previewSrc": "//nashural.ru/assets/uploads/img_04731-11-e1551289806370.jpg",
-                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/kopi-semeniha-i-dedushka-lenin-rezhevskoj-rajon/#id2"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 22,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    60.403856,
-                    57.035872200232
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Самоцветные копи Мурзинки",
-                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk117.jpg",
-                "articleHref": "//nashural.ru/Goroda_i_sela/murzinka.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 23,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    60.158478265196,
-                    55.015449327412
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Ильменский минералогический заповедник",
-                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab020.jpg",
-                "articleHref": "//nashural.ru/Mesta/ilmeni.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 24,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.607139637695,
-                    56.05058771644
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Заколдованный лес Нязепетровска",
-                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab041.jpg",
-                "articleHref": "//nashural.ru/Konkursi/uralskaya-zima-2013/nyazepetrovsk.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 25,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.696241510258,
-                    55.153087823058
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Фриденталь",
-                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab086.jpg",
-                "articleHref": "//nashural.ru/Konkursi/uralskaya-zima-2013/friedental.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 26,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    53.86337,
-                    52.635347
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Аксаковский парк",
-                "previewSrc": "https://nashural.ru/assets/uploads/1378553_1467585100134227_1444439838_n-e1597987234871.jpg",
-                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/po-tropinkam-aksakovskogo-parka-fotografii-kak-dobratsya/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 27,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    53.031141,
-                    52.109105
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Национальный парк «Бузулукский бор»",
-                "previewSrc": "https://nashural.ru/assets/uploads/0_15d7ed_33541d36_orig.jpg",
-                "articleHref": "https://nashural.ru/mesta/np-buzukukskiy-bor"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 28,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    51.23498,
-                    57.85503
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Долина Тюльпанов",
-                "previewSrc": "https://nashural.ru/assets/uploads/guberlinskie-gory-logo.jpg",
-                "articleHref": "https://nashural.ru/article/travel/article-travel-guberlinskie-gory-granitsa-sng-dolina-tyulpanov/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 29,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    51.09815,
-                    57.661986
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Айтуарская степь",
-                "previewSrc": "https://nashural.ru/assets/uploads/aituarskaya-step-logo.jpg",
-                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/aituarskaya-step/#3"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 30,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    51.666337204648,
-                    57.447405096767
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Государственный природный заповедник «Шайтан-Тау»",
-                "previewSrc": "https://nashural.ru/assets/uploads/shaitantau01-1068x660.jpg",
-                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/shaitantau/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 31,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    51.398037,
-                    57.837824
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Саринские леса",
-                "previewSrc": "https://nashural.ru/assets/uploads/tPV6Uh6y_k0-e1594017914964.jpg",
-                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/marshrut-vyhodnogo-dnya-sarinskie-lesa-i-vodopad/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 32,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    51.6349,
-                    57.890401
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Карагайский бор",
-                "previewSrc": "https://nashural.ru/assets/uploads/tD2io-GDJMc-e1593500498778.jpg",
-                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/karagajskij-bor-i-reka-guberlya/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 33,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    51.576389,
-                    57.993889
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Ущелье Каменные Ворота",
-                "previewSrc": "https://nashural.ru/assets/uploads/1259547_original-e1594100290488.jpg",
-                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/ushhele-kamennye-vorota-opisanie-kak-dobratsya-foto/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 34,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    51.375222,
-                    57.090065
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Кзыладырское карстовое поле",
-                "previewSrc": "https://nashural.ru/assets/uploads/mihail-stepanov-e1594198026868.jpg",
-                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/peshhery-kzyladyrskogo-karstovogo-polya/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 35,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    51.423833,
-                    57.562099
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Железнодорожный тоннель Медногорска",
-                "previewSrc": "https://nashural.ru/assets/uploads/1.1-1-e1588165660351.jpg",
-                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/mednogorskij-aksakal/ "
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 36,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    52.008837,
-                    56.432689
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Саракташская дубовая роща",
-                "previewSrc": "https://nashural.ru/assets/uploads/gjKdW-QtfbI-e1592396439379.jpg",
-                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/starozhily-orenburzhya-dubravy-saraktashskogo-rajona/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 37,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    51.156224,
-                    54.995503
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Сквер «Борцам революции»",
-                "previewSrc": "https://nashural.ru/assets/uploads/DSC02905-scaled-e1590727397433-2048x384.jpg",
-                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/zloveshhaya-istoriya-o-neupokoennyh-dushah/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 38,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    51.05771558161,
-                    55.109288877548
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Кумакская пустыня",
-                "previewSrc": "https://nashural.ru/assets/uploads/tayny-orenburgskih-stepey-logo.jpg",
-                "articleHref": "https://nashural.ru/article/travel/tayny-orenburgskoy-stepy/ "
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 39,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    51.271432,
-                    54.916275
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Природный парк «Боевая гора»",
-                "previewSrc": "https://nashural.ru/assets/uploads/tayny-orenburgskih-stepey-logo.jpg",
-                "articleHref": "https://nashural.ru/article/travel/tayny-orenburgskoy-stepy/ "
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 40,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    51.148784,
-                    55.003568
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Парк путешественников им. Федора Конюхова",
-                "previewSrc": "https://nashural.ru/assets/uploads/IMG_20200529_103655-e1590731334849.jpg",
-                "articleHref": "https://nashural.ru/news/park-puteshestvennikov-im-fedora-konyuhova-progulka-po-sol-iletsku/ "
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 41,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    51.238626,
-                    60.029287
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Кумакские лески",
-                "previewSrc": "https://nashural.ru/assets/uploads/vbrZrWwy-nA-e1600334257815.jpg",
-                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/kumakskie-leski-opisanie-i-foto/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 42,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.223911,
-                    57.429944
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Сад поэта",
-                "previewSrc": "https://nashural.ru/assets/uploads/sad-po-e1586428107642.jpg",
-                "articleHref": "https://nashural.ru/mesta/permskij-kraj/sad-poeta-v-aleksandrovske-derevya-zhivushhie-v-lirike-pasternaka/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 43,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.078915,
-                    54.655636
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Забытый сад",
-                "previewSrc": "https://nashural.ru/assets/uploads/DSC04129-1-e1587127062486.jpg",
-                "articleHref": "https://nashural.ru/mesta/permskij-kraj/zabytyj-sad-g-vereshhagino-permskij-kraj//"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 44,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.076537,
-                    54.665993
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Сквер Победы",
-                "previewSrc": "https://nashural.ru/assets/uploads/pamyatnik-VOV-e1587131688935.jpg",
-                "articleHref": "https://nashural.ru/mesta/permskij-kraj/progulki-po-vereshhagino-alleya-pobedy-i-pamyatnik-pogibshim-voinam/  "
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 45,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    60.414603,
-                    57.077921
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "«Вишера-Порт»",
-                "previewSrc": "https://nashural.ru/assets/uploads/IMG_4068-scaled-e1587548454842-2048x982.jpg",
-                "articleHref": "https://nashural.ru/mesta/permskij-kraj/vishera-port-vorota-dlya-puteshestviya-vo-vremeni-i-v-prostranstve/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 46,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    60.402894,
-                    57.08075
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Вишерский заповедник",
-                "previewSrc": "https://nashural.ru/assets/uploads/32280730537_c736b15c36_b-e1586522231117.jpg",
-                "articleHref": "https://nashural.ru/mesta/permskij-kraj/krasnovishersk-priglashaet-turistov-pogulyat-v-ekoparke-vishera/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 47,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.02,
-                    54.06
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "«Буждомский ельник»",
-                "previewSrc": "https://nashural.ru/assets/uploads/DSC05225-scaled-e1587471073331-2048x1080.jpg",
-                "articleHref": "https://nashural.ru/mesta/permskij-kraj/progulka-po-buzhdomskomu-elniku/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 48,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.01304,
-                    54.665969
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Парк Победы",
-                "previewSrc": "https://nashural.ru/assets/uploads/stella-pobedy-e1585652027884.jpg",
-                "articleHref": "https://nashural.ru/mesta/permskij-kraj/g-kudymkar-progulka-v-park-pobedy-k-zvezdochke/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 49,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.969467,
-                    54.566013
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Этнопарк Пешнигорт",
-                "previewSrc": "https://nashural.ru/assets/uploads/yhEP_6mnzCs-e1590573630139.jpg",
-                "articleHref": "https://nashural.ru/mesta/permskij-kraj/peshnigort-zemlya-zagadochnogo-naroda-chud/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 50,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.004117,
-                    55.854393
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Этнопарк «Страна Вису»",
-                "previewSrc": "https://nashural.ru/assets/uploads/DSC_3844-scaled-e1603436007922-1619x700.jpg",
-                "articleHref": "https://nashural.ru/mesta/permskij-kraj/etnograficheskaya-masterskaya-ambar-muzej-pod-otkrytym-nebom-strana-visu/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 51,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    57.819809,
-                    54.71013
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Ежовское местонахождение пермских ящеров",
-                "previewSrc": "https://nashural.ru/assets/uploads/ezhovskoe-mestonahozhdenie-logo.jpg",
-                "articleHref": "https://nashural.ru/mesta/permskij-kraj/ezhovskoe-mestonahozhdenie/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 52,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    57.882196,
-                    54.714704
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Парк Пермского периода",
-                "previewSrc": "https://nashural.ru/assets/uploads/pa-e1588751265947.jpg",
-                "articleHref": "https://nashural.ru/mesta/permskij-kraj/park-permskogo-perioda-v-ochere-istoriya-chto-posmotret-i-foto/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 53,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    57.876796,
-                    54.711359
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Павловская аллея",
-                "previewSrc": "https://nashural.ru/assets/uploads/pavlov.jpg",
-                "articleHref": "https://nashural.ru/mesta/permskij-kraj/rebyata-trudno-nam-no-pomyanut-nas-potom-dobrym-slovom-pavlovskaya-alleya-v-gorode-ochyor/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 54,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.566484,
-                    55.684061
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Ботанический сад «Кузьминка»",
-                "previewSrc": "https://nashural.ru/assets/uploads/IMG-20200913-WA0032-e1600153843982.jpg",
-                "articleHref": "https://nashural.ru/mesta/permskij-kraj/poselok-ilinskij/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 55,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    56.521572,
-                    56.076914
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Сквер Петра и Февронии",
-                "previewSrc": "https://nashural.ru/assets/uploads/fevr-e1585722898934.jpg",
-                "articleHref": "https://nashural.ru/mesta/permskij-kraj/skver-petra-i-fevronii-v-chernushke-park-semejnyh-tsennostej/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 56,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.263143,
-                    57.814566
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Городской парк культуры и отдыха",
-                "previewSrc": "https://nashural.ru/assets/uploads/DSC_3128-scaled-e1603032478674-2048x860.jpg",
-                "articleHref": "https://nashural.ru/projects/malye-goroda/dostoprimechatelnosti-chusovogo/gorodskoj-park-kultury-i-otdyha-v-chusovom-portal-v-neizvedannuyu-tajgu/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 57,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.295357,
-                    57.831005
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Исторический сквер",
-                "previewSrc": "https://nashural.ru/assets/uploads/120620757_3374875665930413_4585859881664138074_o.jpg",
-                "articleHref": "https://nashural.ru/projects/malye-goroda/dostoprimechatelnosti-chusovogo/istoricheskij-skver-v-gorode-chusovom/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 58,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    56.38883,
-                    70.513993
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Государственный комплексный зоологический заказник регионального значения «Ереминский»",
-                "previewSrc": "https://nashural.ru/assets/uploads/i-18-e1590736440460.jpg",
-                "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/zdes-sohranyayut-zhivotnyh-i-rasteniya-zemli-sibirskoj/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 59,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    56.339795,
-                    70.702907
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Памятник природы регионального значения «Гусиный остров»",
-                "previewSrc": "https://nashural.ru/assets/uploads/2Gusinyj-ostrov-bereg-sejchas-scaled-e1591166407429-2048x931.jpg",
-                "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/pamyatnik-prirody-regionalnogo-znacheniya-gusinyj-ostrov/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 60,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    56.505018,
-                    66.563424
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Колмаковский парк",
-                "previewSrc": "https://nashural.ru/assets/uploads/10-proekt-parka-e1588851365905.jpg",
-                "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/zelenyj-ugolok-v-tsentre-zavodoukovska/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 61,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    55.452486,
-                    69.484825
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Зоологический заказник «Афонский»",
-                "previewSrc": "https://nashural.ru/assets/uploads/Sergej-Potapov-2-e1600075699757-1629x700.jpg",
-                "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/zhit-v-garmonii-s-prirodoj-vzaimovygodno/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 62,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    55.60075,
-                    68.901058
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Заказник «Дубынский»",
-                "previewSrc": "https://nashural.ru/assets/uploads/Sergej-Potapov-1-e1600077044776.jpg",
-                "articleHref": "https://nashural.ru/projects/malye-goroda/dostoprimechatelnosti-kazanskogo/zakaznik-dubynskij-otdyh-sbor-gribov-i-fotosemka-razreshayutsya/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 63,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    56.453275,
-                    65.523486
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Ингальская долина",
-                "previewSrc": "https://nashural.ru/assets/uploads/priroda-Priisetya-scaled-e1596183559913-1629x700.jpg",
-                "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/sibirskaya-shvejtsariya/ "
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 64,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    56.65438,
-                    66.315141
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Городской сад",
-                "previewSrc": "https://nashural.ru/assets/uploads/1-128-e1597908007203.jpg",
-                "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/hochesh-luchshe-uznat-yalutorovsk-projdis-po-voznesenskoj/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 65,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    56.653591,
-                    66.313367
-                ]
-            },
-            "properties": {
-                "group": "parks",
-                "iconCaption": "Сквер имени Саввы Мамонтова",
-                "previewSrc": "https://nashural.ru/assets/uploads/1-Usadba-scaled-e1598859888607-2048x691.jpg",
-                "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/vyhodets-iz-sibirskogo-gorodka-stavshij-vydayushhimsya-synom-rossii/ "
-            }
-        }
-    ]
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.065539,
+          60.685896
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Нижнесалдинская кедровая роща",
+        "previewSrc": "//nashural.ru/assets/uploads/DSC_5949-e1550991234292.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/kedrovaya-roshha-v-nizhnej-salde-foto-opisanie-kak-dobratsya/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.955508,
+          59.80924
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Билимбаевская дача",
+        "previewSrc": "//nashural.ru/assets/uploads/bilimbaevskaya-dacha-logo.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/bilimbaevskaya-dacha/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.495914,
+          58.778
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Сабарский заказник",
+        "previewSrc": "//nashural.ru/assets/uploads/sabarskiy-zakaznik.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/sabarskiy-landshaftniy-zakaznik/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.761667,
+          58.777222
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Урочище Русиново",
+        "previewSrc": "//nashural.ru/assets/uploads/rusinovo07.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/urochishe-rusinovo/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.927762,
+          63.8
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Припышминские боры",
+        "previewSrc": "//nashural.ru/assets/uploads/pripyshminskie-bory06.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/pripyshminskie-bory/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.802558,
+          62.755757
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Камышловский бор",
+        "previewSrc": "//nashural.ru/assets/uploads/kamyshlovskiy-bor03.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/kamyshlovskiy-bor/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.3947,
+          59.848
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Висимский заповедник",
+        "previewSrc": "//nashural.ru/assets/uploads/visimskiy-zapovednik01.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/visimskiy-zapovednik/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.56021185414871,
+          56.57622600805666
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Гумеровское ущелье",
+        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya017.jpg",
+        "articleHref": "//nashural.ru/Mesta/gumerovo.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4480863018855,
+          58.52485474518512
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Кужановские лиственницы",
+        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya029.jpg",
+        "articleHref": "//nashural.ru/Mesta/kujanovskie.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.57707511977148,
+          56.86815879910278
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Природный парк «Мурадымовское ущелье»",
+        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya034.jpg",
+        "articleHref": "//nashural.ru/Mesta/muradimovskoe-ushelye.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          61.82214448608841,
+          56.83312900000001
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Лосеферма Печоро-Илычского заповедника",
+        "previewSrc": "//o.nashural.ru/mesta-reg/komi/komi010.jpg",
+        "articleHref": "//nashural.ru/Mesta/loseferma.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.983333,
+          59.216667
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Национальный парк «Югыд ва»",
+        "previewSrc": "//o.nashural.ru/mesta-reg/komi/komi011.jpg",
+        "articleHref": "//nashural.ru/Mesta/ugidva.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.4683,
+          64.7968
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Лес «Ленину 100 лет»",
+        "previewSrc": "//o.nashural.ru/mesta-reg/kurganskaya-obl/kurgan005.jpg",
+        "articleHref": "//nashural.ru/Mesta/les-leninu-100-let.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.004167,
+          52.115278
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Бузулукский бор",
+        "previewSrc": "//o.nashural.ru/mesta-reg/orenb-obl/orenburg002.jpg",
+        "articleHref": "//nashural.ru/Mesta/buzulukskiy-bor.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.180556,
+          56.927222
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Кзыладырское карстовое поле",
+        "previewSrc": "//o.nashural.ru/mesta-reg/orenb-obl/orenburg007.jpg",
+        "articleHref": "//nashural.ru/Mesta/kziladirskoe-pole.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.430278,
+          61.748889
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Общий Сырт",
+        "previewSrc": "//o.nashural.ru/mesta-reg/orenb-obl/orenburg014.jpg",
+        "articleHref": "//nashural.ru/Mesta/obshiy-syrt.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.853333,
+          57.581667
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Ладейный Лог",
+        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm028.jpg",
+        "articleHref": "//nashural.ru/Mesta/lodejnyj-log.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.455556,
+          65.522222
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Марьино ущелье",
+        "previewSrc": "//o.nashural.ru/mesta-reg/tumen-obl/tyumen005.jpg",
+        "articleHref": "//nashural.ru/Mesta/maryino-ushelye.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.52311785517711,
+          59.22810516219678
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Природный парк «Оленьи Ручьи»",
+        "previewSrc": "//nashural.ru/assets/uploads/serga-3.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/olen-ruchyi/#id2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.627209764229704,
+          59.28785571562009
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Провал горы Орловой",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk107.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/orlov_proval/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.257917,
+          60.982517
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Копи Семенихи",
+        "previewSrc": "//nashural.ru/assets/uploads/img_04731-11-e1551289806370.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/kopi-semeniha-i-dedushka-lenin-rezhevskoj-rajon/#id2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.03587220023235,
+          60.403855999999884
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Самоцветные копи Мурзинки",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk117.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/murzinka.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.01544932741248,
+          60.15847826519593
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Ильменский минералогический заповедник",
+        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab020.jpg",
+        "articleHref": "//nashural.ru/Mesta/ilmeni.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.05058771643951,
+          59.607139637695276
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Заколдованный лес Нязепетровска",
+        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab041.jpg",
+        "articleHref": "//nashural.ru/Konkursi/uralskaya-zima-2013/nyazepetrovsk.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.15308782305784,
+          59.69624151025758
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Фриденталь",
+        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab086.jpg",
+        "articleHref": "//nashural.ru/Konkursi/uralskaya-zima-2013/friedental.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.86337,
+          52.635347
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Аксаковский парк",
+        "previewSrc": "https://nashural.ru/assets/uploads/1378553_1467585100134227_1444439838_n-e1597987234871.jpg",
+        "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/po-tropinkam-aksakovskogo-parka-fotografii-kak-dobratsya/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.031141,
+          52.109105
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Национальный парк «Бузулукский бор»",
+        "previewSrc": "https://nashural.ru/assets/uploads/0_15d7ed_33541d36_orig.jpg",
+        "articleHref": "https://nashural.ru/mesta/np-buzukukskiy-bor"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.23498,
+          57.85503
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Долина Тюльпанов",
+        "previewSrc": "https://nashural.ru/assets/uploads/guberlinskie-gory-logo.jpg",
+        "articleHref": "https://nashural.ru/article/travel/article-travel-guberlinskie-gory-granitsa-sng-dolina-tyulpanov/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 29,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.09815,
+          57.661986
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Айтуарская степь",
+        "previewSrc": "https://nashural.ru/assets/uploads/aituarskaya-step-logo.jpg",
+        "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/aituarskaya-step/#3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 30,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.666337204648,
+          57.447405096767
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Государственный природный заповедник «Шайтан-Тау»",
+        "previewSrc": "https://nashural.ru/assets/uploads/shaitantau01-1068x660.jpg",
+        "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/shaitantau/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 31,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.398037,
+          57.837824
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Саринские леса",
+        "previewSrc": "https://nashural.ru/assets/uploads/tPV6Uh6y_k0-e1594017914964.jpg",
+        "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/marshrut-vyhodnogo-dnya-sarinskie-lesa-i-vodopad/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 32,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.6349,
+          57.890401
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Карагайский бор",
+        "previewSrc": "https://nashural.ru/assets/uploads/tD2io-GDJMc-e1593500498778.jpg",
+        "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/karagajskij-bor-i-reka-guberlya/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 33,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.576389,
+          57.993889
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Ущелье Каменные Ворота",
+        "previewSrc": "https://nashural.ru/assets/uploads/1259547_original-e1594100290488.jpg",
+        "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/ushhele-kamennye-vorota-opisanie-kak-dobratsya-foto/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 34,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.375222,
+          57.090065
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Кзыладырское карстовое поле",
+        "previewSrc": "https://nashural.ru/assets/uploads/mihail-stepanov-e1594198026868.jpg",
+        "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/peshhery-kzyladyrskogo-karstovogo-polya/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 35,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.423833,
+          57.562099
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Железнодорожный тоннель Медногорска",
+        "previewSrc": "https://nashural.ru/assets/uploads/1.1-1-e1588165660351.jpg",
+        "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/mednogorskij-aksakal/ "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 36,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.008837,
+          56.432689
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Саракташская дубовая роща",
+        "previewSrc": "https://nashural.ru/assets/uploads/gjKdW-QtfbI-e1592396439379.jpg",
+        "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/starozhily-orenburzhya-dubravy-saraktashskogo-rajona/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 37,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.156224,
+          54.995503
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Сквер «Борцам революции»",
+        "previewSrc": "https://nashural.ru/assets/uploads/DSC02905-scaled-e1590727397433-2048x384.jpg",
+        "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/zloveshhaya-istoriya-o-neupokoennyh-dushah/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 38,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.05771558161,
+          55.109288877548
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Кумакская пустыня",
+        "previewSrc": "https://nashural.ru/assets/uploads/tayny-orenburgskih-stepey-logo.jpg",
+        "articleHref": "https://nashural.ru/article/travel/tayny-orenburgskoy-stepy/ "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 39,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.271432,
+          54.916275
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Природный парк «Боевая гора»",
+        "previewSrc": "https://nashural.ru/assets/uploads/tayny-orenburgskih-stepey-logo.jpg",
+        "articleHref": "https://nashural.ru/article/travel/tayny-orenburgskoy-stepy/ "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 40,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.148784,
+          55.003568
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Парк путешественников им. Федора Конюхова",
+        "previewSrc": "https://nashural.ru/assets/uploads/IMG_20200529_103655-e1590731334849.jpg",
+        "articleHref": "https://nashural.ru/news/park-puteshestvennikov-im-fedora-konyuhova-progulka-po-sol-iletsku/ "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 41,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.238626,
+          60.029287
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Кумакские лески",
+        "previewSrc": "https://nashural.ru/assets/uploads/vbrZrWwy-nA-e1600334257815.jpg",
+        "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/kumakskie-leski-opisanie-i-foto/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 42,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.223911,
+          57.429944
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Сад поэта",
+        "previewSrc": "https://nashural.ru/assets/uploads/sad-po-e1586428107642.jpg",
+        "articleHref": "https://nashural.ru/mesta/permskij-kraj/sad-poeta-v-aleksandrovske-derevya-zhivushhie-v-lirike-pasternaka/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 43,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.078915,
+          54.655636
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Забытый сад",
+        "previewSrc": "https://nashural.ru/assets/uploads/DSC04129-1-e1587127062486.jpg",
+        "articleHref": "https://nashural.ru/mesta/permskij-kraj/zabytyj-sad-g-vereshhagino-permskij-kraj//"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 44,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.076537,
+          54.665993
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Сквер Победы",
+        "previewSrc": "https://nashural.ru/assets/uploads/pamyatnik-VOV-e1587131688935.jpg",
+        "articleHref": "https://nashural.ru/mesta/permskij-kraj/progulki-po-vereshhagino-alleya-pobedy-i-pamyatnik-pogibshim-voinam/  "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 45,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.414603,
+          57.077921
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "«Вишера-Порт»",
+        "previewSrc": "https://nashural.ru/assets/uploads/IMG_4068-scaled-e1587548454842-2048x982.jpg",
+        "articleHref": "https://nashural.ru/mesta/permskij-kraj/vishera-port-vorota-dlya-puteshestviya-vo-vremeni-i-v-prostranstve/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 46,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.402894,
+          57.08075
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Вишерский заповедник",
+        "previewSrc": "https://nashural.ru/assets/uploads/32280730537_c736b15c36_b-e1586522231117.jpg",
+        "articleHref": "https://nashural.ru/mesta/permskij-kraj/krasnovishersk-priglashaet-turistov-pogulyat-v-ekoparke-vishera/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 47,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.02,
+          54.06
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "«Буждомский ельник»",
+        "previewSrc": "https://nashural.ru/assets/uploads/DSC05225-scaled-e1587471073331-2048x1080.jpg",
+        "articleHref": "https://nashural.ru/mesta/permskij-kraj/progulka-po-buzhdomskomu-elniku/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 48,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.01304,
+          54.665969
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Парк Победы",
+        "previewSrc": "https://nashural.ru/assets/uploads/stella-pobedy-e1585652027884.jpg",
+        "articleHref": "https://nashural.ru/mesta/permskij-kraj/g-kudymkar-progulka-v-park-pobedy-k-zvezdochke/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 49,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.969467,
+          54.566013
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Этнопарк Пешнигорт",
+        "previewSrc": "https://nashural.ru/assets/uploads/yhEP_6mnzCs-e1590573630139.jpg",
+        "articleHref": "https://nashural.ru/mesta/permskij-kraj/peshnigort-zemlya-zagadochnogo-naroda-chud/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 50,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.004117,
+          55.854393
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Этнопарк «Страна Вису»",
+        "previewSrc": "https://nashural.ru/assets/uploads/DSC_3844-scaled-e1603436007922-1619x700.jpg",
+        "articleHref": "https://nashural.ru/mesta/permskij-kraj/etnograficheskaya-masterskaya-ambar-muzej-pod-otkrytym-nebom-strana-visu/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 51,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.819809,
+          54.71013
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Ежовское местонахождение пермских ящеров",
+        "previewSrc": "https://nashural.ru/assets/uploads/ezhovskoe-mestonahozhdenie-logo.jpg",
+        "articleHref": "https://nashural.ru/mesta/permskij-kraj/ezhovskoe-mestonahozhdenie/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.882196,
+          54.714704
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Парк Пермского периода",
+        "previewSrc": "https://nashural.ru/assets/uploads/pa-e1588751265947.jpg",
+        "articleHref": "https://nashural.ru/mesta/permskij-kraj/park-permskogo-perioda-v-ochere-istoriya-chto-posmotret-i-foto/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 53,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.876796,
+          54.711359
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Павловская аллея",
+        "previewSrc": "https://nashural.ru/assets/uploads/pavlov.jpg",
+        "articleHref": "https://nashural.ru/mesta/permskij-kraj/rebyata-trudno-nam-no-pomyanut-nas-potom-dobrym-slovom-pavlovskaya-alleya-v-gorode-ochyor/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 54,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.566484,
+          55.684061
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Ботанический сад «Кузьминка»",
+        "previewSrc": "https://nashural.ru/assets/uploads/IMG-20200913-WA0032-e1600153843982.jpg",
+        "articleHref": "https://nashural.ru/mesta/permskij-kraj/poselok-ilinskij/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.521572,
+          56.076914
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Сквер Петра и Февронии",
+        "previewSrc": "https://nashural.ru/assets/uploads/fevr-e1585722898934.jpg",
+        "articleHref": "https://nashural.ru/mesta/permskij-kraj/skver-petra-i-fevronii-v-chernushke-park-semejnyh-tsennostej/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 56,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.263143,
+          57.814566
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Городской парк культуры и отдыха",
+        "previewSrc": "https://nashural.ru/assets/uploads/DSC_3128-scaled-e1603032478674-2048x860.jpg",
+        "articleHref": "https://nashural.ru/projects/malye-goroda/dostoprimechatelnosti-chusovogo/gorodskoj-park-kultury-i-otdyha-v-chusovom-portal-v-neizvedannuyu-tajgu/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 57,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.295357,
+          57.831005
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Исторический сквер",
+        "previewSrc": "https://nashural.ru/assets/uploads/120620757_3374875665930413_4585859881664138074_o.jpg",
+        "articleHref": "https://nashural.ru/projects/malye-goroda/dostoprimechatelnosti-chusovogo/istoricheskij-skver-v-gorode-chusovom/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 58,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.38883,
+          70.513993
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Государственный комплексный зоологический заказник регионального значения «Ереминский»",
+        "previewSrc": "https://nashural.ru/assets/uploads/i-18-e1590736440460.jpg",
+        "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/zdes-sohranyayut-zhivotnyh-i-rasteniya-zemli-sibirskoj/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 59,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.339795,
+          70.702907
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Памятник природы регионального значения «Гусиный остров»",
+        "previewSrc": "https://nashural.ru/assets/uploads/2Gusinyj-ostrov-bereg-sejchas-scaled-e1591166407429-2048x931.jpg",
+        "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/pamyatnik-prirody-regionalnogo-znacheniya-gusinyj-ostrov/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 60,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.505018,
+          66.563424
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Колмаковский парк",
+        "previewSrc": "https://nashural.ru/assets/uploads/10-proekt-parka-e1588851365905.jpg",
+        "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/zelenyj-ugolok-v-tsentre-zavodoukovska/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 61,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.452486,
+          69.484825
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Зоологический заказник «Афонский»",
+        "previewSrc": "https://nashural.ru/assets/uploads/Sergej-Potapov-2-e1600075699757-1629x700.jpg",
+        "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/zhit-v-garmonii-s-prirodoj-vzaimovygodno/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 62,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.60075,
+          68.901058
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Заказник «Дубынский»",
+        "previewSrc": "https://nashural.ru/assets/uploads/Sergej-Potapov-1-e1600077044776.jpg",
+        "articleHref": "https://nashural.ru/projects/malye-goroda/dostoprimechatelnosti-kazanskogo/zakaznik-dubynskij-otdyh-sbor-gribov-i-fotosemka-razreshayutsya/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 63,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.453275,
+          65.523486
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Ингальская долина",
+        "previewSrc": "https://nashural.ru/assets/uploads/priroda-Priisetya-scaled-e1596183559913-1629x700.jpg",
+        "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/sibirskaya-shvejtsariya/ "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 64,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.65438,
+          66.315141
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Городской сад",
+        "previewSrc": "https://nashural.ru/assets/uploads/1-128-e1597908007203.jpg",
+        "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/hochesh-luchshe-uznat-yalutorovsk-projdis-po-voznesenskoj/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 65,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.653591,
+          66.313367
+        ]
+      },
+      "properties": {
+        "group": "parks",
+        "iconCaption": "Сквер имени Саввы Мамонтова",
+        "previewSrc": "https://nashural.ru/assets/uploads/1-Usadba-scaled-e1598859888607-2048x691.jpg",
+        "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/vyhodets-iz-sibirskogo-gorodka-stavshij-vydayushhimsya-synom-rossii/ "
+      }
+    }
+  ]
 }

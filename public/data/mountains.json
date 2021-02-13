@@ -1,2492 +1,2492 @@
 {
-    "type": "FeatureCollection",
-    "metadata": {
-        "name": "Горы и скалы",
-        "creator": "YChebotaev's YMapsML to GeoJSON converter",
-        "id": "mountains"
+  "type": "FeatureCollection",
+  "metadata": {
+    "name": "Горы и скалы",
+    "creator": "YChebotaev's YMapsML to GeoJSON converter",
+    "id": "mountains"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 0,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.356944,
+          61.366667
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Скалы Пять Братьев",
+        "previewSrc": "//nashural.ru/assets/uploads/skaly-pyat-bratev01.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/skaly-pyat-bratev-i-belyj-kamen/"
+      }
     },
-    "features": [
-        {
-            "type": "Feature",
-            "id": 0,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    61.366667,
-                    57.356944
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Скалы Пять Братьев",
-                "previewSrc": "//nashural.ru/assets/uploads/skaly-pyat-bratev01.jpg",
-                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/skaly-pyat-bratev-i-belyj-kamen/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 1,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.839447,
-                    56.945095
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Скала Дюжонок",
-                "previewSrc": "//nashural.ru/assets/uploads/skala-duzhonok-logo.jpg",
-                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/skala-dyuzhonok/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 2,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.742718,
-                    56.975534
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гора Теплая",
-                "previewSrc": "//nashural.ru/assets/uploads/DSC_0094-2-e1550490696279.jpg",
-                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/gora-teplaya/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 3,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    57.745649,
-                    56.60483
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гора Сосновая",
-                "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-mesta07.jpg",
-                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/krasnoufimsk-priroda/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 4,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    57.743396,
-                    56.606712
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гора Березовая",
-                "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-mesta06.jpg",
-                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/krasnoufimsk-priroda/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 5,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    57.780676,
-                    56.592907
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гора Юртовская",
-                "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-mesta05.jpg",
-                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/krasnoufimsk-priroda/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 6,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    57.761123,
-                    56.617986
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гора Дивья",
-                "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-mesta04.jpg",
-                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/krasnoufimsk-priroda/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 7,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    57.755838,
-                    56.632497
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гора Могильная",
-                "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-mesta02.jpg",
-                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/krasnoufimsk-priroda/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 8,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    57.746242,
-                    56.647308
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Атаманская гора",
-                "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-mesta02.jpg",
-                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/krasnoufimsk-priroda/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 9,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    57.787778,
-                    56.721944
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гора Титечная",
-                "previewSrc": "//nashural.ru/assets/uploads/aleks_prud_1_max-e1550764736487.jpg",
-                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/selo-aleksandrovskoe/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 10,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.848037,
-                    56.48688
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Каменный ложок",
-                "previewSrc": "//nashural.ru/assets/uploads/kamen-lozhok01.jpg",
-                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/kamenniy-lozhok/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 11,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    55.825245,
-                    57.919888
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гора Ежовая",
-                "previewSrc": "//nashural.ru/assets/uploads/ezovaya-4.jpg",
-                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/ezovaya/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 12,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.883728027344,
-                    57.370930358444
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гора Лубная",
-                "previewSrc": "//nashural.ru/assets/uploads/gora-lubnaya01.jpg",
-                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/gora-lubnaya/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 13,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    64.4171515,
-                    66.650435623233
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гора Пайер",
-                "previewSrc": "//o.nashural.ru/mesta-reg/hmao-yanao/hmao003.jpg",
-                "articleHref": "//nashural.ru/Mesta/payer.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 14,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    57.665092531494,
-                    54.113710397008
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Хребет Караташ",
-                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya001.jpg",
-                "articleHref": "//nashural.ru/travel/aigir.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 15,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    60.99395,
-                    57.320983
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Адуйский камень",
-                "previewSrc": "//nashural.ru/assets/uploads/image-12.jpg",
-                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/udivitelnaya-nahodka-adujskogo-idola-v-okrestnostyah-rezha/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 16,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.255929810489,
-                    53.871181282517
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Арский Камень",
-                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya003.jpg",
-                "articleHref": "//nashural.ru/Mesta/arskiy-kamen.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 17,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    53.6011,
-                    56.6467
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Скала Килим-Ускан",
-                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya009.jpg",
-                "articleHref": "//nashural.ru/Mesta/kuk-karauk.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 18,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.838889,
-                    54.533333
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гора Иремель",
-                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya021.jpg",
-                "articleHref": "//nashural.ru/Mesta/iremel.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 19,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    53.488056,
-                    54.513056
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гора Нарыш-Тау",
-                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya014.jpg",
-                "articleHref": "//nashural.ru/Mesta/gora-narysh-tau.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 20,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    55.048611,
-                    53.986944
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гора Сусак-Тау",
-                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya015.jpg",
-                "articleHref": "//nashural.ru/Mesta/susak-tau.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 21,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    55.048611,
-                    53.986944
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гора Янгантау",
-                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya016.jpg",
-                "articleHref": "//nashural.ru/Mesta/yangantau.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 22,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.362222,
-                    54.263889
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Инзерские Зубчатки",
-                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya020.jpg",
-                "articleHref": "//nashural.ru/Mesta/inzer-zubchatki.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 23,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.6891,
-                    54.72705
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гора Ауштау",
-                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya037.jpg",
-                "articleHref": "//nashural.ru/Mesta/aushkul.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 24,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.366944,
-                    53.108889
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Хребет Ирендык",
-                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya044.jpg",
-                "articleHref": "//nashural.ru/Mesta/talkas.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 25,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    55.024444,
-                    58.145278
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Большой Лимоновский гребень",
-                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya062.jpg",
-                "articleHref": "//nashural.ru/Mesta/limonovskiy.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 26,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.15,
-                    55.040278
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Жеребчиковый гребень",
-                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya062.jpg",
-                "articleHref": "//nashural.ru/Mesta/limonovskiy.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 27,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    56.0975,
-                    53.741667
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Шихан Юрактау",
-                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya063.jpg",
-                "articleHref": "//nashural.ru/Mesta/sterlitamakskie-shihani.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 28,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    56.083333,
-                    53.7
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Шихан Куштау",
-                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya063.jpg",
-                "articleHref": "//nashural.ru/Mesta/sterlitamakskie-shihani.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 29,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    56.098889,
-                    53.554444
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Шихан Тратау",
-                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya063.jpg",
-                "articleHref": "//nashural.ru/Mesta/sterlitamakskie-shihani.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 30,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    56.0825,
-                    53.649722
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Шихан Шахтау",
-                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya063.jpg",
-                "articleHref": "//nashural.ru/Mesta/sterlitamakskie-shihani.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 31,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.633611,
-                    54.783333
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Хребет Нурали",
-                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya065.jpg",
-                "articleHref": "//nashural.ru/Konkursi/uralskaya-zima-2013/nurali.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 32,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    57.911944,
-                    51.932222
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Хребет Шайтан-Тау",
-                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya066.jpg",
-                "articleHref": "//nashural.ru/Mesta/shaitantau.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 33,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.55,
-                    48.65
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Мугоджарские горы",
-                "previewSrc": "//o.nashural.ru/mesta-reg/kazahstan/kazahstan001.jpg",
-                "articleHref": "//nashural.ru/Mesta/mugodzari.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 34,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.762778,
-                    65.047778
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гора Манарага",
-                "previewSrc": "//o.nashural.ru/mesta-reg/komi/komi004.jpg",
-                "articleHref": "//nashural.ru/Mesta/manaraga.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 35,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    60.116667,
-                    65.033333
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гора Народная",
-                "previewSrc": "//o.nashural.ru/mesta-reg/komi/komi005.jpg",
-                "articleHref": "//nashural.ru/Mesta/narodnaya.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 36,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.298,
-                    62.2579
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Столбы выветривания Мань-Пупу-Нер",
-                "previewSrc": "//o.nashural.ru/mesta-reg/komi/komi013.jpg",
-                "articleHref": "//nashural.ru/Mesta/man-pupu-ner.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 37,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    54.218056,
-                    51.677778
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Берег сокровищ",
-                "previewSrc": "//o.nashural.ru/mesta-reg/orenb-obl/orenburg001.jpg",
-                "articleHref": "//nashural.ru/Mesta/bereg-sokrovish-i-melovie-gori.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 38,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    54.022778,
-                    51.693889
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Чесноковские меловые (Белые) горы",
-                "previewSrc": "//o.nashural.ru/mesta-reg/orenb-obl/orenburg001.jpg",
-                "articleHref": "//nashural.ru/Mesta/bereg-sokrovish-i-melovie-gori.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 39,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.65,
-                    51.15
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гора Полковник",
-                "previewSrc": "//o.nashural.ru/mesta-reg/orenb-obl/orenburg003.jpg",
-                "articleHref": "//nashural.ru/Mesta/gora-polkovnik.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 40,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.35,
-                    51.333333
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Губерлинские горы",
-                "previewSrc": "//o.nashural.ru/mesta-reg/orenb-obl/orenburg005.jpg",
-                "articleHref": "//nashural.ru/Mesta/guberlinskie-gori.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 41,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    56.373889148315,
-                    51.82743224144
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Красная гора (Саракташ)",
-                "previewSrc": "//o.nashural.ru/mesta-reg/orenb-obl/orenburg008.jpg",
-                "articleHref": "//nashural.ru/Goroda_i_sela/krasnaya-gora.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 42,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    54.201111,
-                    51.476389
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Красная Круча",
-                "previewSrc": "//o.nashural.ru/mesta-reg/orenb-obl/orenburg009.jpg",
-                "articleHref": "//nashural.ru/Mesta/krasnaya-krucha.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 43,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    57.905888882406,
-                    51.174206826926
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Участок Хмелевка-Казачья Губерля",
-                "previewSrc": "//o.nashural.ru/mesta-reg/orenb-obl/orenburg020.jpg",
-                "articleHref": "//nashural.ru/Mesta/guberlinskie-gory.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 44,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    56.160378917142,
-                    52.3413071132
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Хребет Малый Накас",
-                "previewSrc": "//o.nashural.ru/mesta-reg/orenb-obl/orenburg022.jpg",
-                "articleHref": "//nashural.ru/Mesta/maliy-nakas.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 45,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    57.469947207403,
-                    51.441852382321
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Перевал Кувандык-Медногорск",
-                "previewSrc": "//o.nashural.ru/mesta-reg/orenb-obl/orenburg024.jpg",
-                "articleHref": "//nashural.ru/Mesta/pereval-kyvandyk.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 46,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    55.9532385,
-                    57.929501190399
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гляденовская гора",
-                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm011.jpg",
-                "articleHref": "//nashural.ru/Mesta/glyadenovskaya-gora.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 47,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.181389,
-                    58.615
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гора Колпаки",
-                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm013.jpg",
-                "articleHref": "//nashural.ru/Mesta/kolpaki.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 48,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    57.584167,
-                    58.856111
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гора Крестовая",
-                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm014.jpg",
-                "articleHref": "//nashural.ru/Mesta/krestovaya.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 49,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.551944,
-                    59.162778
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гора Ослянка",
-                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm015.jpg",
-                "articleHref": "//nashural.ru/Mesta/oslyanka.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 50,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    57.633056,
-                    58.722222
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Каменный Город (Чертово Городище)",
-                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm019.jpg",
-                "articleHref": "//nashural.ru/Mesta/kamenniy-gorod.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 51,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    57.10139,
-                    60.47898
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Камень Ветлан",
-                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm020.jpg",
-                "articleHref": "//nashural.ru/Mesta/vetlan.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 52,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    57.12083,
-                    57.38113
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Камень Ермак",
-                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm021.jpg",
-                "articleHref": "//nashural.ru/Mesta/kamen-ermak.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 53,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    56.3487125,
-                    58.166765018215
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Мыс Стрелка",
-                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm039.jpg",
-                "articleHref": "//nashural.ru/Mesta/strelka.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 54,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    57.0068,
-                    60.48275
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Полюдов камень",
-                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm061.jpg",
-                "articleHref": "//nashural.ru/Mesta/poludov-kamen.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 55,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    57.611433,
-                    60.332832
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Помяненный камень",
-                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm062.jpg",
-                "articleHref": "//nashural.ru/Mesta/pomyanenniy-kamen.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 56,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.725,
-                    60.201667
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Хребет Кваркуш",
-                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm082.jpg",
-                "articleHref": "//nashural.ru/Mesta/kvarkush.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 57,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    56.739857,
-                    60.678126
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Узкая улочка",
-                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm083.jpg",
-                "articleHref": "//nashural.ru/Mesta/uzkaya_ulochka.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 58,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    57.7188,
-                    58.734367
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Шумихинские скалы",
-                "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm096.jpg",
-                "articleHref": "//nashural.ru/Mesta/shumihinskie-skaly.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 59,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    60.086389,
-                    56.475278
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гора Азов",
-                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk001.jpg",
-                "articleHref": "//nashural.ru/Mesta/azov.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 60,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    57.625278,
-                    56.477222
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Аликаев Камень",
-                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk005.jpg",
-                "articleHref": "//nashural.ru/Mesta/alikaev_kamen.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 61,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    60.41645,
-                    56.89066
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Палкинские каменные палатки",
-                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk018.jpg",
-                "articleHref": "//nashural.ru/klassnie-progulki/palkino.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 62,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.7025,
-                    57.658056
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гора Белая",
-                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk027.jpg",
-                "articleHref": "//nashural.ru/Mesta/gora-belaya.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 63,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.7025,
-                    57.658056
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гора Белая",
-                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk027.jpg",
-                "articleHref": "//nashural.ru/Mesta/gora-belaya.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 64,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.7025,
-                    57.658056
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гора Бессонова",
-                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk028.jpg",
-                "articleHref": "//nashural.ru/Konkursi/luchshe-gor-tolko-gory/chetyre-nazvaniya.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 65,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    60.002222,
-                    56.827778
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гора Волчиха",
-                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk029.jpg",
-                "articleHref": "//nashural.ru/Krasota/volchiha.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 66,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    60.634167,
-                    56.619167
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гора Высокая (Змеиная горка)",
-                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk030.jpg",
-                "articleHref": "//nashural.ru/Mesta/visokaya_gora.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 67,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.851667,
-                    57.767222
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гора Дыроватик",
-                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk031.jpg",
-                "articleHref": "//nashural.ru/Mesta/dyrovatik-lipovaya.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 68,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.898889,
-                    57.745
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гора Липовая",
-                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk031.jpg",
-                "articleHref": "//nashural.ru/Mesta/dyrovatik-lipovaya.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 69,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.950556,
-                    57.447778
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гора Ежовая",
-                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk032.jpg",
-                "articleHref": "//nashural.ru/Mesta/ezovaya.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 70,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.38359,
-                    58.77074
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гора Качканар",
-                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk033.jpg",
-                "articleHref": "//nashural.ru/Krasota/kachkanar.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 71,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.552833,
-                    59.541383
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гора Острый Тур",
-                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk034.jpg",
-                "articleHref": "//nashural.ru/Mesta/gora-ostryj-tur.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 72,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.73836,
-                    56.52287
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гора Шунут",
-                "previewSrc": "//nashural.ru/assets/uploads/shunut-2.jpg",
-                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/shunut/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 73,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    60.425,
-                    56.922222
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Еловый мыс",
-                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk042.jpg",
-                "articleHref": "//nashural.ru/Mesta/eloviy-mis.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 74,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.92147136855,
-                    57.637867859007
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Камень Дождевой и пещера Шамана",
-                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk052.jpg",
-                "articleHref": "//nashural.ru/Mesta/kamen-dozdevoi.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 75,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.134167,
-                    59.626
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Конжаковский Камень",
-                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk057.jpg",
-                "articleHref": "//nashural.ru/Mesta/konzakovskiy-kamen.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 76,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    60.159717,
-                    58.285483351752
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Кырманские скалы",
-                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk065.jpg",
-                "articleHref": "//nashural.ru/Mesta/kirman.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 77,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    60.162167,
-                    57.0249
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Скала Кобылья голова",
-                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk065.jpg",
-                "articleHref": "//nashural.ru/Mesta/kirman.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 78,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    60.501111,
-                    56.418889
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Марков Камень",
-                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk070.jpg",
-                "articleHref": "//nashural.ru/Mesta/markov_kamen.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 79,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.881111,
-                    58.019722
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Медведь-Камень",
-                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk072.jpg",
-                "articleHref": "//nashural.ru/Mesta/medved_kamen.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 80,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.468167,
-                    57.89435
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Перевал Синие Горы",
-                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk100.jpg",
-                "articleHref": "//nashural.ru/pohod/pereval-sinie-gory.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 81,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.4875,
-                    57.868056
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Скала Корабль",
-                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk100.jpg",
-                "articleHref": "//nashural.ru/pohod/pereval-sinie-gory.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 82,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    60.337167,
-                    56.883667
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Северские каменные палатки",
-                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk120.jpg",
-                "articleHref": "//nashural.ru/Krasota/severskie-palatki.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 83,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    60.347222,
-                    56.941667
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Скалы Чертово Городище",
-                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk123.jpg",
-                "articleHref": "//nashural.ru/Mesta/chertovo.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 84,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    60.343611,
-                    56.985556
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Скалы Петра Гронского (Петрогром)",
-                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk124.jpg",
-                "articleHref": "//nashural.ru/Mesta/petrogrom.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 85,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    60.230278,
-                    57.240278
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Скалы Семь Братьев",
-                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk125.jpg",
-                "articleHref": "//nashural.ru/Mesta/sem_bratyev.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 86,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    60.248889,
-                    56.887778
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гора Соколиный Камень",
-                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk127.jpg",
-                "articleHref": "//nashural.ru/Mesta/sokoliniy_kamen.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 87,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    60.011944,
-                    56.750833
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Урочище Каменное",
-                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk135.jpg",
-                "articleHref": "//nashural.ru/Konkursi/luchshe-gor-tolko-gory/urochishe-kamennoe.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 88,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    61.002217,
-                    57.377517
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Шайтанская писаница",
-                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk145.jpg",
-                "articleHref": "//nashural.ru/Mesta/shaitan-kamen.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 89,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.80854,
-                    55.13042
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Александровская сопка",
-                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab001.jpg",
-                "articleHref": "//nashural.ru/Mesta/aleksandrovskaya-sopka.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 90,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    60.620556,
-                    55.958611
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Вишневые горы",
-                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab009.jpg",
-                "articleHref": "//nashural.ru/Mesta/vishnevie-gori.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 91,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    60.451229,
-                    55.750200656353
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гора Егоза",
-                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab010.jpg",
-                "articleHref": "//nashural.ru/Krasota/egoza-kaolinoviy-karer.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 92,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.773056,
-                    55.128611
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гора Семибратка",
-                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab011.jpg",
-                "articleHref": "//nashural.ru/Konkursi/uralskaya-zima-2013/rassvet-na-semibratke.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 93,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.7925,
-                    55.259722
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Национальный парк «Таганай»",
-                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab038.jpg",
-                "articleHref": "//nashural.ru/Mesta/taganai.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 94,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    60.4937,
-                    55.9818
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Аракульский Шихан",
-                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab044.jpg",
-                "articleHref": "//nashural.ru/Mesta/arakul.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 95,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    60.525833,
-                    56.120833
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Скала Шайтан-Камень",
-                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab051.jpg",
-                "articleHref": "//nashural.ru/Mesta/itkul.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 96,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    60.468333,
-                    56.237222
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гора Буланый камень",
-                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab052.jpg",
-                "articleHref": "//nashural.ru/Konkursi/luchshe-gor-tolko-gory/bulan-kamen.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 97,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.707023164124,
-                    55.338498808907
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Техногенные разломы в поселке Магнитка",
-                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab054.jpg",
-                "articleHref": "//nashural.ru/Mesta/razlomi.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 98,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.975833,
-                    55.166389
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Хребет Заозерный",
-                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab055.jpg",
-                "articleHref": "//nashural.ru/Mesta/hrebet-zaozerniy.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 99,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    60.497623208984,
-                    55.517756729972
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Откликной Гребень",
-                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab060.jpg",
-                "articleHref": "//nashural.ru/Konkursi/luchshe-gor-tolko-gory/greben-otkliknoj.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 100,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    60.438889,
-                    55.723889
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гора Сугомак",
-                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab069.jpg",
-                "articleHref": "//nashural.ru/Konkursi/uralskaya-zima-2013/sugomak.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 101,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    60.113611,
-                    54.909722
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Чашковский хребет",
-                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab074.jpg",
-                "articleHref": "//nashural.ru/Mesta/chashkovka.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 102,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.707222,
-                    55.277778
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Черная скала",
-                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab077.jpg",
-                "articleHref": "//nashural.ru/Konkursi/uralskaya-zima-2013/chernaya-skala.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 103,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.973056,
-                    54.871389
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Устиновский каньон",
-                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab082.jpg",
-                "articleHref": "//nashural.ru/Mesta/ustinovskiy-kanyon.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 104,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    60.204444,
-                    55.254167
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Хребет Ишкуль",
-                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab088.jpg",
-                "articleHref": "//nashural.ru/Mesta/ishkul.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 105,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59,
-                    54.75
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Хребет Нургуш",
-                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab089.jpg",
-                "articleHref": "//nashural.ru/travel/gora-nurgush.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 106,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.5,
-                    55.038889
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Хребет Уреньга",
-                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab090.jpg",
-                "articleHref": "//nashural.ru/Konkursi/luchshe-gor-tolko-gory/hrebet-urenga.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 107,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    62.105,
-                    56.9138
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Скалы «Три сестры»",
-                "previewSrc": "//nashural.ru/assets/uploads/mesta-suhoylog04.jpg",
-                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/dostoprimechatelnosti-suholozhya-part2/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 108,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    61.938933,
-                    56.969367
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Дивья гора",
-                "previewSrc": "//nashural.ru/assets/uploads/Rudyanskoe-2-1.jpg",
-                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/dostoprimechatelnosti-suholozhya-part1/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 109,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    51.333348975078,
-                    58.350008444969
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Губерлинские горы",
-                "previewSrc": "https://nashural.ru/assets/uploads/15_b-scaled-e1589348074766-1867x700.jpg",
-                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/rodniki-guberlinskih-gor/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 110,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    51.118016,
-                    57.903206
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гора Поперечная",
-                "previewSrc": "https://nashural.ru/assets/uploads/aleks-1.jpg",
-                "articleHref": "https://nashural.ru/article/travel/guberlinskie-gory-na-granitse-s-kazahstanom/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 111,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    51.154912439298,
-                    58.65263795344
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гора Полковник",
-                "previewSrc": "https://nashural.ru/assets/uploads/gp17-1-e1589805788106.jpg",
-                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/gora-polkovnik/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 112,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    51.196976,
-                    56.89715
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Кзыладырское карстовое поле",
-                "previewSrc": "https://nashural.ru/assets/uploads/3mqKjRFnS9E.jpg",
-                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/kziladirskoe-pole/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 113,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    51.598212142476,
-                    54.526181170573
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Хребет Шайтантау",
-                "previewSrc": "https://nashural.ru/assets/uploads/ce8a4a154c8da46b01bc95ed26eb7675-1068x746.jpg",
-                "articleHref": "https://nashural.ru/mesta/bashkortostan/hrebet-shajtantau/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 114,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    51.441042,
-                    57.469582
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Перевал Кувандык-Медногорск",
-                "previewSrc": "https://nashural.ru/assets/uploads/19_b-scaled-e1589263901446-2048x967.jpg",
-                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/pereval-kyvandyk/ "
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 115,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    51.320414,
-                    57.511815
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гора «Шапка Мономаха»",
-                "previewSrc": "https://nashural.ru/assets/uploads/88725661-e1588913216414.jpg",
-                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/osvaivaem-okrestnosti-mednogorska-orenburgskaya-oblast-ch-2-legenda-o-gore-shapka-monomaha/ "
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 116,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    51.605403,
-                    57.606983
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гора Белошапка",
-                "previewSrc": "https://nashural.ru/assets/uploads/image_27092016175237_14749807573296-e1588924658819.jpg",
-                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/gde-zhivut-shhedrye-kozochki-dayushhie-puh-dlya-orenburgskogo-platka/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 117,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    51.880925,
-                    56.212231
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гора Самбула",
-                "previewSrc": "https://nashural.ru/assets/uploads/jZfXNO6oyjA-e1591598306802.jpg",
-                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/gora-sambula-v-orenburgskoj-oblasti/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 118,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    51.830195,
-                    56.377638
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Красная гора",
-                "previewSrc": "https://nashural.ru/assets/uploads/ULrW8xGXtY-e1599736880581.jpg",
-                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/krasnaya-gora/ "
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 119,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    52.203962,
-                    56.713051
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гора Каменная",
-                "previewSrc": "https://nashural.ru/assets/uploads/uywRagWYhwQ-e1591866341330.jpg",
-                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/oni-soshlis-volna-i-kamen-ozero-kamennoe-i-gora-kamennaya/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 120,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    51.544354,
-                    56.720707
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Хребет Карамурунтау",
-                "previewSrc": "https://nashural.ru/assets/uploads/oj2iNUmSDvs.jpg",
-                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/hrebet-karamuruntau-spyashhij-drakon-orenburzhya/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 121,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    52.031209,
-                    56.340281
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Козьи горы",
-                "previewSrc": "https://nashural.ru/assets/uploads/2PnHK2cRJIw-e1592375811792.jpg",
-                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/kozi-gory-opisanie-foto-kak-dobratsya/ "
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 122,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    51.932318,
-                    56.656963
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Андреевские Шишки",
-                "previewSrc": "https://nashural.ru/assets/uploads/bC-XJn6oyM0.jpg",
-                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/andreevskie-shishki-barhatnye-holmy-na-granitse-s-bashkiriej/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 123,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    51.435028,
-                    55.433156
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Змеиная гора",
-                "previewSrc": "https://nashural.ru/assets/uploads/DSC04544-2048x1363-1-e1590641310845-1648x700.jpg",
-                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/tajny-zmeinoj-gory/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 124,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    51.08432,
-                    55.658944
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Покровские меловые горы",
-                "previewSrc": "https://nashural.ru/assets/uploads/pokrovskie-melovye-gory-logo.jpg",
-                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/pokrovskie-melovye-gory/ "
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 125,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    51.417808184393,
-                    55.402453112758
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Змеиная (Ханская) гора",
-                "previewSrc": "https://nashural.ru/assets/uploads/tayny-orenburgskih-stepey-logo.jpg",
-                "articleHref": "https://nashural.ru/article/travel/tayny-orenburgskoy-stepy/ "
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 126,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    51.298389,
-                    55.432277
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Урочище Святой камень",
-                "previewSrc": "https://nashural.ru/assets/uploads/tayny-orenburgskih-stepey-logo.jpg",
-                "articleHref": "https://nashural.ru/article/travel/tayny-orenburgskoy-stepy/ "
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 127,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    51.270658,
-                    55.429766
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Урочище Прохладное",
-                "previewSrc": "https://nashural.ru/assets/uploads/tayny-orenburgskih-stepey-logo.jpg",
-                "articleHref": "https://nashural.ru/article/travel/tayny-orenburgskoy-stepy/ "
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 128,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    51.441618854445,
-                    55.448860598163
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Букобайские яры ",
-                "previewSrc": "https://nashural.ru/assets/uploads/x_bdaf7c0e-e1590728978272.jpg",
-                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/dostoprimechatelnost-orenburzhya-otmechennaya-v-national-geographic/  "
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 129,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    50.984945,
-                    60.131934
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Заброшенная штольня",
-                "previewSrc": "https://nashural.ru/assets/uploads/20200727_1345112656-e1597829491871.jpg",
-                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/marshrut-vyhodnogo-dnya-kamennoe-ozero-i-zabroshennaya-shtolnya/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 130,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    51.229714,
-                    59.892352
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Марьин утес",
-                "previewSrc": "https://nashural.ru/assets/uploads/Kamennye-utesy-na-reke-Kumak-e1601278739664.jpg",
-                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/dve-legendy-na-odnu-maryu/ "
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 131,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.853404,
-                    57.581819
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гора Крестовая и Рудянский спой",
-                "previewSrc": "https://nashural.ru/assets/uploads/DSC04182-1068x611.jpg",
-                "articleHref": "https://nashural.ru/mesta/permskij-kraj/gora-krestovaya/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 132,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.858233,
-                    57.606454
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гора Ладейная",
-                "previewSrc": "https://nashural.ru/assets/uploads/kh4VvVb-GCA-e1589872126464.jpg",
-                "articleHref": "https://nashural.ru/mesta/permskij-kraj/gora-ladejnaya/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 133,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    60.2439,
-                    57.268
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Большеколчимский карстовый мост",
-                "previewSrc": "https://nashural.ru/assets/uploads/DSCN4725-scaled-e1587730398764-2048x1157.jpg",
-                "articleHref": "https://nashural.ru/mesta/permskij-kraj/bolshekolchimskij-karstovyj-most/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 134,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    60.476712,
-                    57.099619
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Камень Ветлан на реке Вишере",
-                "previewSrc": "https://nashural.ru/assets/uploads/BPgSEQ2d6pY-e1599828015955.jpg",
-                "articleHref": "https://nashural.ru/mesta/permskij-kraj/kamen-vetlan-na-reke-vishere/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 135,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    60.484588,
-                    57.004485
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гора Полюдов камень",
-                "previewSrc": "https://nashural.ru/assets/uploads/jAgwxjUgstA-e1600171962319.jpg",
-                "articleHref": "https://nashural.ru/mesta/permskij-kraj/gora-polyudov-kamen/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 136,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    60.330555,
-                    57.609909
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Помяненный (Колчимский) камень",
-                "previewSrc": "https://nashural.ru/assets/uploads/118866239_321613302265407_7679905241726318627_n-e1600692842405.jpg",
-                "articleHref": "https://nashural.ru/mesta/permskij-kraj/pomyanennyj-kolchimskij-kamen/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 137,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    57.875326,
-                    54.731054
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гора Кокуй",
-                "previewSrc": "https://nashural.ru/assets/uploads/DSC_5467-scaled-e1607669175889-1647x700.jpg",
-                "articleHref": "https://nashural.ru/mesta/permskij-kraj/gora-kokuj-muzej-rastitelnyh-drevnostej-pod-otkrytym-nebom/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 138,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.435422,
-                    55.831481
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Легенда о богатырском камне",
-                "previewSrc": "https://nashural.ru/assets/uploads/IMG_20201008_092842-scaled-e1604407903578-2048x798.jpg",
-                "articleHref": "https://nashural.ru/projects/malye-goroda/dostoprimechatelnosti-chermoza/legenda-o-bogatyrskom-kamne-s-vasilevskoe-ilinskij-rajon/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 139,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    56.668302,
-                    56.110439
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гора Капкан",
-                "previewSrc": "https://nashural.ru/assets/uploads/kap.jpg",
-                "articleHref": "https://nashural.ru/mesta/permskij-kraj/vershina-chernushinskogo-rajona-gora-kapkan/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 140,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.2692597,
-                    57.9536382
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Малые Глухие камни",
-                "previewSrc": "https://nashural.ru/assets/uploads/malye-gluhie-kamny-logo.jpg",
-                "articleHref": "https://nashural.ru/mesta/permskij-kraj/malye-gluhie-kamny/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 141,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.201567,
-                    58.142528
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Кладовый камень",
-                "previewSrc": "https://nashural.ru/assets/uploads/kladoviy-kamen-logo.jpg",
-                "articleHref": "https://nashural.ru/mesta/permskij-kraj/kladoviy-kamen/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 142,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.29242,
-                    57.843183
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гора Вышим",
-                "previewSrc": "https://nashural.ru/assets/uploads/DSC_3066-scaled-e1603031200393-2048x838.jpg",
-                "articleHref": "https://nashural.ru/projects/malye-goroda/dostoprimechatelnosti-chusovogo/gora-vyshim-v-chusovom/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 143,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    55.97829,
-                    69.470149
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Гора любви",
-                "previewSrc": "https://nashural.ru/assets/uploads/04_kuchum_gora-e1591088963326.jpg",
-                "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/ishimskie-bugry-zdes-lyubov-vstrechaetsya-s-istoriej/ "
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 144,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    55.895171,
-                    69.492549
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Кучум-гора",
-                "previewSrc": "https://nashural.ru/assets/uploads/04_kuchum_gora-e1591088963326.jpg",
-                "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/ishimskie-bugry-zdes-lyubov-vstrechaetsya-s-istoriej/ "
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 145,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    55.988324,
-                    69.467284
-                ]
-            },
-            "properties": {
-                "group": "mountains",
-                "iconCaption": "Синицинский бор",
-                "previewSrc": "https://nashural.ru/assets/uploads/04_kuchum_gora-e1591088963326.jpg",
-                "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/ishimskie-bugry-zdes-lyubov-vstrechaetsya-s-istoriej/ "
-            }
-        }
-    ]
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.945095,
+          59.839447
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Скала Дюжонок",
+        "previewSrc": "//nashural.ru/assets/uploads/skala-duzhonok-logo.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/skala-dyuzhonok/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.975534,
+          59.742718
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гора Теплая",
+        "previewSrc": "//nashural.ru/assets/uploads/DSC_0094-2-e1550490696279.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/gora-teplaya/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.60483,
+          57.745649
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гора Сосновая",
+        "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-mesta07.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/krasnoufimsk-priroda/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.606712,
+          57.743396
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гора Березовая",
+        "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-mesta06.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/krasnoufimsk-priroda/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.592907,
+          57.780676
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гора Юртовская",
+        "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-mesta05.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/krasnoufimsk-priroda/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.617986,
+          57.761123
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гора Дивья",
+        "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-mesta04.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/krasnoufimsk-priroda/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.632497,
+          57.755838
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гора Могильная",
+        "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-mesta02.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/krasnoufimsk-priroda/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.647308,
+          57.746242
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Атаманская гора",
+        "previewSrc": "//nashural.ru/assets/uploads/krasnoufimsk-mesta02.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/krasnoufimsk-priroda/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.721944,
+          57.787778
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гора Титечная",
+        "previewSrc": "//nashural.ru/assets/uploads/aleks_prud_1_max-e1550764736487.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/selo-aleksandrovskoe/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.48688,
+          58.848037
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Каменный ложок",
+        "previewSrc": "//nashural.ru/assets/uploads/kamen-lozhok01.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/kamenniy-lozhok/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.919888,
+          55.825245
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гора Ежовая",
+        "previewSrc": "//nashural.ru/assets/uploads/ezovaya-4.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/ezovaya/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.37093035844432,
+          59.88372802734375
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гора Лубная",
+        "previewSrc": "//nashural.ru/assets/uploads/gora-lubnaya01.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/gora-lubnaya/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          66.65043562323322,
+          64.4171514999999
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гора Пайер",
+        "previewSrc": "//o.nashural.ru/mesta-reg/hmao-yanao/hmao003.jpg",
+        "articleHref": "//nashural.ru/Mesta/payer.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.1137103970082,
+          57.665092531494054
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Хребет Караташ",
+        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya001.jpg",
+        "articleHref": "//nashural.ru/travel/aigir.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.320983,
+          60.99395
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Адуйский камень",
+        "previewSrc": "//nashural.ru/assets/uploads/image-12.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/udivitelnaya-nahodka-adujskogo-idola-v-okrestnostyah-rezha/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.87118128251713,
+          58.25592981048853
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Арский Камень",
+        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya003.jpg",
+        "articleHref": "//nashural.ru/Mesta/arskiy-kamen.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.6467,
+          53.6011
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Скала Килим-Ускан",
+        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya009.jpg",
+        "articleHref": "//nashural.ru/Mesta/kuk-karauk.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.533333,
+          58.838889
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гора Иремель",
+        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya021.jpg",
+        "articleHref": "//nashural.ru/Mesta/iremel.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.513056,
+          53.488056
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гора Нарыш-Тау",
+        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya014.jpg",
+        "articleHref": "//nashural.ru/Mesta/gora-narysh-tau.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.986944,
+          55.048611
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гора Сусак-Тау",
+        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya015.jpg",
+        "articleHref": "//nashural.ru/Mesta/susak-tau.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.986944,
+          55.048611
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гора Янгантау",
+        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya016.jpg",
+        "articleHref": "//nashural.ru/Mesta/yangantau.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.263889,
+          58.362222
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Инзерские Зубчатки",
+        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya020.jpg",
+        "articleHref": "//nashural.ru/Mesta/inzer-zubchatki.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.72705,
+          59.6891
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гора Ауштау",
+        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya037.jpg",
+        "articleHref": "//nashural.ru/Mesta/aushkul.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.108889,
+          58.366944
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Хребет Ирендык",
+        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya044.jpg",
+        "articleHref": "//nashural.ru/Mesta/talkas.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.145278,
+          55.024444
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Большой Лимоновский гребень",
+        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya062.jpg",
+        "articleHref": "//nashural.ru/Mesta/limonovskiy.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.040278,
+          58.15
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Жеребчиковый гребень",
+        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya062.jpg",
+        "articleHref": "//nashural.ru/Mesta/limonovskiy.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.741667,
+          56.0975
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Шихан Юрактау",
+        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya063.jpg",
+        "articleHref": "//nashural.ru/Mesta/sterlitamakskie-shihani.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.7,
+          56.083333
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Шихан Куштау",
+        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya063.jpg",
+        "articleHref": "//nashural.ru/Mesta/sterlitamakskie-shihani.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 29,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.554444,
+          56.098889
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Шихан Тратау",
+        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya063.jpg",
+        "articleHref": "//nashural.ru/Mesta/sterlitamakskie-shihani.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 30,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.649722,
+          56.0825
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Шихан Шахтау",
+        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya063.jpg",
+        "articleHref": "//nashural.ru/Mesta/sterlitamakskie-shihani.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 31,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.783333,
+          59.633611
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Хребет Нурали",
+        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya065.jpg",
+        "articleHref": "//nashural.ru/Konkursi/uralskaya-zima-2013/nurali.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 32,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.932222,
+          57.911944
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Хребет Шайтан-Тау",
+        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya066.jpg",
+        "articleHref": "//nashural.ru/Mesta/shaitantau.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 33,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.65,
+          58.55
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Мугоджарские горы",
+        "previewSrc": "//o.nashural.ru/mesta-reg/kazahstan/kazahstan001.jpg",
+        "articleHref": "//nashural.ru/Mesta/mugodzari.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 34,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          65.047778,
+          59.762778
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гора Манарага",
+        "previewSrc": "//o.nashural.ru/mesta-reg/komi/komi004.jpg",
+        "articleHref": "//nashural.ru/Mesta/manaraga.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 35,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          65.033333,
+          60.116667
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гора Народная",
+        "previewSrc": "//o.nashural.ru/mesta-reg/komi/komi005.jpg",
+        "articleHref": "//nashural.ru/Mesta/narodnaya.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 36,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.2579,
+          59.298
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Столбы выветривания Мань-Пупу-Нер",
+        "previewSrc": "//o.nashural.ru/mesta-reg/komi/komi013.jpg",
+        "articleHref": "//nashural.ru/Mesta/man-pupu-ner.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 37,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.677778,
+          54.218056
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Берег сокровищ",
+        "previewSrc": "//o.nashural.ru/mesta-reg/orenb-obl/orenburg001.jpg",
+        "articleHref": "//nashural.ru/Mesta/bereg-sokrovish-i-melovie-gori.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 38,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.693889,
+          54.022778
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Чесноковские меловые (Белые) горы",
+        "previewSrc": "//o.nashural.ru/mesta-reg/orenb-obl/orenburg001.jpg",
+        "articleHref": "//nashural.ru/Mesta/bereg-sokrovish-i-melovie-gori.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 39,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.15,
+          58.65
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гора Полковник",
+        "previewSrc": "//o.nashural.ru/mesta-reg/orenb-obl/orenburg003.jpg",
+        "articleHref": "//nashural.ru/Mesta/gora-polkovnik.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 40,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.333333,
+          58.35
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Губерлинские горы",
+        "previewSrc": "//o.nashural.ru/mesta-reg/orenb-obl/orenburg005.jpg",
+        "articleHref": "//nashural.ru/Mesta/guberlinskie-gori.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 41,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.82743224144017,
+          56.37388914831536
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Красная гора (Саракташ)",
+        "previewSrc": "//o.nashural.ru/mesta-reg/orenb-obl/orenburg008.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/krasnaya-gora.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 42,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.476389,
+          54.201111
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Красная Круча",
+        "previewSrc": "//o.nashural.ru/mesta-reg/orenb-obl/orenburg009.jpg",
+        "articleHref": "//nashural.ru/Mesta/krasnaya-krucha.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 43,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.174206826926245,
+          57.90588888240605
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Участок Хмелевка-Казачья Губерля",
+        "previewSrc": "//o.nashural.ru/mesta-reg/orenb-obl/orenburg020.jpg",
+        "articleHref": "//nashural.ru/Mesta/guberlinskie-gory.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 44,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.34130711319985,
+          56.16037891714153
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Хребет Малый Накас",
+        "previewSrc": "//o.nashural.ru/mesta-reg/orenb-obl/orenburg022.jpg",
+        "articleHref": "//nashural.ru/Mesta/maliy-nakas.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 45,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.44185238232099,
+          57.469947207403315
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Перевал Кувандык-Медногорск",
+        "previewSrc": "//o.nashural.ru/mesta-reg/orenb-obl/orenburg024.jpg",
+        "articleHref": "//nashural.ru/Mesta/pereval-kyvandyk.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 46,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.92950119039875,
+          55.95323849999995
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гляденовская гора",
+        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm011.jpg",
+        "articleHref": "//nashural.ru/Mesta/glyadenovskaya-gora.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 47,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.615,
+          59.181389
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гора Колпаки",
+        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm013.jpg",
+        "articleHref": "//nashural.ru/Mesta/kolpaki.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 48,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.856111,
+          57.584167
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гора Крестовая",
+        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm014.jpg",
+        "articleHref": "//nashural.ru/Mesta/krestovaya.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 49,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.162778,
+          58.551944
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гора Ослянка",
+        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm015.jpg",
+        "articleHref": "//nashural.ru/Mesta/oslyanka.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 50,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.722222,
+          57.633056
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Каменный Город (Чертово Городище)",
+        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm019.jpg",
+        "articleHref": "//nashural.ru/Mesta/kamenniy-gorod.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 51,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.47898,
+          57.10139
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Камень Ветлан",
+        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm020.jpg",
+        "articleHref": "//nashural.ru/Mesta/vetlan.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.38113,
+          57.12083
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Камень Ермак",
+        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm021.jpg",
+        "articleHref": "//nashural.ru/Mesta/kamen-ermak.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 53,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.16676501821457,
+          56.34871249999994
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Мыс Стрелка",
+        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm039.jpg",
+        "articleHref": "//nashural.ru/Mesta/strelka.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 54,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.48275,
+          57.0068
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Полюдов камень",
+        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm061.jpg",
+        "articleHref": "//nashural.ru/Mesta/poludov-kamen.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.332832,
+          57.611433
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Помяненный камень",
+        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm062.jpg",
+        "articleHref": "//nashural.ru/Mesta/pomyanenniy-kamen.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 56,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.201667,
+          58.725
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Хребет Кваркуш",
+        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm082.jpg",
+        "articleHref": "//nashural.ru/Mesta/kvarkush.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 57,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.678126,
+          56.739857
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Узкая улочка",
+        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm083.jpg",
+        "articleHref": "//nashural.ru/Mesta/uzkaya_ulochka.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 58,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.734367,
+          57.7188
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Шумихинские скалы",
+        "previewSrc": "//o.nashural.ru/mesta-reg/perm-kray/perm096.jpg",
+        "articleHref": "//nashural.ru/Mesta/shumihinskie-skaly.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 59,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.475278,
+          60.086389
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гора Азов",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk001.jpg",
+        "articleHref": "//nashural.ru/Mesta/azov.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 60,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.477222,
+          57.625278
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Аликаев Камень",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk005.jpg",
+        "articleHref": "//nashural.ru/Mesta/alikaev_kamen.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 61,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.89066,
+          60.41645
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Палкинские каменные палатки",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk018.jpg",
+        "articleHref": "//nashural.ru/klassnie-progulki/palkino.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 62,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.658056,
+          59.7025
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гора Белая",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk027.jpg",
+        "articleHref": "//nashural.ru/Mesta/gora-belaya.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 63,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.658056,
+          59.7025
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гора Белая",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk027.jpg",
+        "articleHref": "//nashural.ru/Mesta/gora-belaya.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 64,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.658056,
+          59.7025
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гора Бессонова",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk028.jpg",
+        "articleHref": "//nashural.ru/Konkursi/luchshe-gor-tolko-gory/chetyre-nazvaniya.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 65,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.827778,
+          60.002222
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гора Волчиха",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk029.jpg",
+        "articleHref": "//nashural.ru/Krasota/volchiha.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 66,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.619167,
+          60.634167
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гора Высокая (Змеиная горка)",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk030.jpg",
+        "articleHref": "//nashural.ru/Mesta/visokaya_gora.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 67,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.767222,
+          59.851667
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гора Дыроватик",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk031.jpg",
+        "articleHref": "//nashural.ru/Mesta/dyrovatik-lipovaya.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.745,
+          59.898889
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гора Липовая",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk031.jpg",
+        "articleHref": "//nashural.ru/Mesta/dyrovatik-lipovaya.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 69,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.447778,
+          59.950556
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гора Ежовая",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk032.jpg",
+        "articleHref": "//nashural.ru/Mesta/ezovaya.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 70,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.77074,
+          59.38359
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гора Качканар",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk033.jpg",
+        "articleHref": "//nashural.ru/Krasota/kachkanar.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 71,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.541383,
+          58.552833
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гора Острый Тур",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk034.jpg",
+        "articleHref": "//nashural.ru/Mesta/gora-ostryj-tur.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 72,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.52287,
+          59.73836
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гора Шунут",
+        "previewSrc": "//nashural.ru/assets/uploads/shunut-2.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/shunut/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 73,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.922222,
+          60.425
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Еловый мыс",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk042.jpg",
+        "articleHref": "//nashural.ru/Mesta/eloviy-mis.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 74,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.63786785900712,
+          58.921471368549895
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Камень Дождевой и пещера Шамана",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk052.jpg",
+        "articleHref": "//nashural.ru/Mesta/kamen-dozdevoi.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 75,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.626,
+          59.134167
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Конжаковский Камень",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk057.jpg",
+        "articleHref": "//nashural.ru/Mesta/konzakovskiy-kamen.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 76,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.285483351752134,
+          60.159717
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Кырманские скалы",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk065.jpg",
+        "articleHref": "//nashural.ru/Mesta/kirman.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 77,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.0249,
+          60.162167
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Скала Кобылья голова",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk065.jpg",
+        "articleHref": "//nashural.ru/Mesta/kirman.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 78,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.418889,
+          60.501111
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Марков Камень",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk070.jpg",
+        "articleHref": "//nashural.ru/Mesta/markov_kamen.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 79,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.019722,
+          59.881111
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Медведь-Камень",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk072.jpg",
+        "articleHref": "//nashural.ru/Mesta/medved_kamen.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 80,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.89435,
+          59.468167
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Перевал Синие Горы",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk100.jpg",
+        "articleHref": "//nashural.ru/pohod/pereval-sinie-gory.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 81,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.868056,
+          59.4875
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Скала Корабль",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk100.jpg",
+        "articleHref": "//nashural.ru/pohod/pereval-sinie-gory.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 82,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.883667,
+          60.337167
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Северские каменные палатки",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk120.jpg",
+        "articleHref": "//nashural.ru/Krasota/severskie-palatki.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 83,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.941667,
+          60.347222
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Скалы Чертово Городище",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk123.jpg",
+        "articleHref": "//nashural.ru/Mesta/chertovo.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 84,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.985556,
+          60.343611
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Скалы Петра Гронского (Петрогром)",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk124.jpg",
+        "articleHref": "//nashural.ru/Mesta/petrogrom.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 85,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.240278,
+          60.230278
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Скалы Семь Братьев",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk125.jpg",
+        "articleHref": "//nashural.ru/Mesta/sem_bratyev.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 86,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.887778,
+          60.248889
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гора Соколиный Камень",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk127.jpg",
+        "articleHref": "//nashural.ru/Mesta/sokoliniy_kamen.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 87,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.750833,
+          60.011944
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Урочище Каменное",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk135.jpg",
+        "articleHref": "//nashural.ru/Konkursi/luchshe-gor-tolko-gory/urochishe-kamennoe.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 88,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.377517,
+          61.002217
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Шайтанская писаница",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk145.jpg",
+        "articleHref": "//nashural.ru/Mesta/shaitan-kamen.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 89,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.13042,
+          59.80854
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Александровская сопка",
+        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab001.jpg",
+        "articleHref": "//nashural.ru/Mesta/aleksandrovskaya-sopka.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 90,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.958611,
+          60.620556
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Вишневые горы",
+        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab009.jpg",
+        "articleHref": "//nashural.ru/Mesta/vishnevie-gori.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 91,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.75020065635326,
+          60.451229000000005
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гора Егоза",
+        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab010.jpg",
+        "articleHref": "//nashural.ru/Krasota/egoza-kaolinoviy-karer.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 92,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.128611,
+          59.773056
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гора Семибратка",
+        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab011.jpg",
+        "articleHref": "//nashural.ru/Konkursi/uralskaya-zima-2013/rassvet-na-semibratke.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 93,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.259722,
+          59.7925
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Национальный парк «Таганай»",
+        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab038.jpg",
+        "articleHref": "//nashural.ru/Mesta/taganai.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 94,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.9818,
+          60.4937
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Аракульский Шихан",
+        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab044.jpg",
+        "articleHref": "//nashural.ru/Mesta/arakul.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 95,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.120833,
+          60.525833
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Скала Шайтан-Камень",
+        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab051.jpg",
+        "articleHref": "//nashural.ru/Mesta/itkul.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 96,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.237222,
+          60.468333
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гора Буланый камень",
+        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab052.jpg",
+        "articleHref": "//nashural.ru/Konkursi/luchshe-gor-tolko-gory/bulan-kamen.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 97,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.33849880890737,
+          59.707023164123505
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Техногенные разломы в поселке Магнитка",
+        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab054.jpg",
+        "articleHref": "//nashural.ru/Mesta/razlomi.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 98,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.166389,
+          59.975833
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Хребет Заозерный",
+        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab055.jpg",
+        "articleHref": "//nashural.ru/Mesta/hrebet-zaozerniy.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 99,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.51775672997213,
+          60.49762320898437
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Откликной Гребень",
+        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab060.jpg",
+        "articleHref": "//nashural.ru/Konkursi/luchshe-gor-tolko-gory/greben-otkliknoj.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 100,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.723889,
+          60.438889
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гора Сугомак",
+        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab069.jpg",
+        "articleHref": "//nashural.ru/Konkursi/uralskaya-zima-2013/sugomak.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 101,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.909722,
+          60.113611
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Чашковский хребет",
+        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab074.jpg",
+        "articleHref": "//nashural.ru/Mesta/chashkovka.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 102,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.277778,
+          59.707222
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Черная скала",
+        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab077.jpg",
+        "articleHref": "//nashural.ru/Konkursi/uralskaya-zima-2013/chernaya-skala.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 103,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.871389,
+          59.973056
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Устиновский каньон",
+        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab082.jpg",
+        "articleHref": "//nashural.ru/Mesta/ustinovskiy-kanyon.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 104,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.254167,
+          60.204444
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Хребет Ишкуль",
+        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab088.jpg",
+        "articleHref": "//nashural.ru/Mesta/ishkul.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 105,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.75,
+          59
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Хребет Нургуш",
+        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab089.jpg",
+        "articleHref": "//nashural.ru/travel/gora-nurgush.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 106,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.038889,
+          59.5
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Хребет Уреньга",
+        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab090.jpg",
+        "articleHref": "//nashural.ru/Konkursi/luchshe-gor-tolko-gory/hrebet-urenga.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 107,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.9138,
+          62.105
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Скалы «Три сестры»",
+        "previewSrc": "//nashural.ru/assets/uploads/mesta-suhoylog04.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/dostoprimechatelnosti-suholozhya-part2/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 108,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.969367,
+          61.938933
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Дивья гора",
+        "previewSrc": "//nashural.ru/assets/uploads/Rudyanskoe-2-1.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/dostoprimechatelnosti-suholozhya-part1/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 109,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.333348975078,
+          58.350008444969
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Губерлинские горы",
+        "previewSrc": "https://nashural.ru/assets/uploads/15_b-scaled-e1589348074766-1867x700.jpg",
+        "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/rodniki-guberlinskih-gor/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 110,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.118016,
+          57.903206
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гора Поперечная",
+        "previewSrc": "https://nashural.ru/assets/uploads/aleks-1.jpg",
+        "articleHref": "https://nashural.ru/article/travel/guberlinskie-gory-na-granitse-s-kazahstanom/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 111,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.154912439298,
+          58.65263795344
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гора Полковник",
+        "previewSrc": "https://nashural.ru/assets/uploads/gp17-1-e1589805788106.jpg",
+        "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/gora-polkovnik/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 112,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.196976,
+          56.89715
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Кзыладырское карстовое поле",
+        "previewSrc": "https://nashural.ru/assets/uploads/3mqKjRFnS9E.jpg",
+        "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/kziladirskoe-pole/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 113,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.598212142476,
+          54.526181170573
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Хребет Шайтантау",
+        "previewSrc": "https://nashural.ru/assets/uploads/ce8a4a154c8da46b01bc95ed26eb7675-1068x746.jpg",
+        "articleHref": "https://nashural.ru/mesta/bashkortostan/hrebet-shajtantau/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 114,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.441042,
+          57.469582
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Перевал Кувандык-Медногорск",
+        "previewSrc": "https://nashural.ru/assets/uploads/19_b-scaled-e1589263901446-2048x967.jpg",
+        "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/pereval-kyvandyk/ "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 115,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.320414,
+          57.511815
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гора «Шапка Мономаха»",
+        "previewSrc": "https://nashural.ru/assets/uploads/88725661-e1588913216414.jpg",
+        "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/osvaivaem-okrestnosti-mednogorska-orenburgskaya-oblast-ch-2-legenda-o-gore-shapka-monomaha/ "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 116,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.605403,
+          57.606983
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гора Белошапка",
+        "previewSrc": "https://nashural.ru/assets/uploads/image_27092016175237_14749807573296-e1588924658819.jpg",
+        "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/gde-zhivut-shhedrye-kozochki-dayushhie-puh-dlya-orenburgskogo-platka/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 117,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.880925,
+          56.212231
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гора Самбула",
+        "previewSrc": "https://nashural.ru/assets/uploads/jZfXNO6oyjA-e1591598306802.jpg",
+        "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/gora-sambula-v-orenburgskoj-oblasti/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 118,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.830195,
+          56.377638
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Красная гора",
+        "previewSrc": "https://nashural.ru/assets/uploads/ULrW8xGXtY-e1599736880581.jpg",
+        "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/krasnaya-gora/ "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 119,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.203962,
+          56.713051
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гора Каменная",
+        "previewSrc": "https://nashural.ru/assets/uploads/uywRagWYhwQ-e1591866341330.jpg",
+        "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/oni-soshlis-volna-i-kamen-ozero-kamennoe-i-gora-kamennaya/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 120,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.544354,
+          56.720707
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Хребет Карамурунтау",
+        "previewSrc": "https://nashural.ru/assets/uploads/oj2iNUmSDvs.jpg",
+        "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/hrebet-karamuruntau-spyashhij-drakon-orenburzhya/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 121,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.031209,
+          56.340281
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Козьи горы",
+        "previewSrc": "https://nashural.ru/assets/uploads/2PnHK2cRJIw-e1592375811792.jpg",
+        "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/kozi-gory-opisanie-foto-kak-dobratsya/ "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 122,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.932318,
+          56.656963
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Андреевские Шишки",
+        "previewSrc": "https://nashural.ru/assets/uploads/bC-XJn6oyM0.jpg",
+        "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/andreevskie-shishki-barhatnye-holmy-na-granitse-s-bashkiriej/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 123,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.435028,
+          55.433156
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Змеиная гора",
+        "previewSrc": "https://nashural.ru/assets/uploads/DSC04544-2048x1363-1-e1590641310845-1648x700.jpg",
+        "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/tajny-zmeinoj-gory/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 124,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.08432,
+          55.658944
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Покровские меловые горы",
+        "previewSrc": "https://nashural.ru/assets/uploads/pokrovskie-melovye-gory-logo.jpg",
+        "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/pokrovskie-melovye-gory/ "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 125,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.417808184393,
+          55.402453112758
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Змеиная (Ханская) гора",
+        "previewSrc": "https://nashural.ru/assets/uploads/tayny-orenburgskih-stepey-logo.jpg",
+        "articleHref": "https://nashural.ru/article/travel/tayny-orenburgskoy-stepy/ "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 126,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.298389,
+          55.432277
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Урочище Святой камень",
+        "previewSrc": "https://nashural.ru/assets/uploads/tayny-orenburgskih-stepey-logo.jpg",
+        "articleHref": "https://nashural.ru/article/travel/tayny-orenburgskoy-stepy/ "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 127,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.270658,
+          55.429766
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Урочище Прохладное",
+        "previewSrc": "https://nashural.ru/assets/uploads/tayny-orenburgskih-stepey-logo.jpg",
+        "articleHref": "https://nashural.ru/article/travel/tayny-orenburgskoy-stepy/ "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 128,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.441618854445,
+          55.448860598163
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Букобайские яры ",
+        "previewSrc": "https://nashural.ru/assets/uploads/x_bdaf7c0e-e1590728978272.jpg",
+        "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/dostoprimechatelnost-orenburzhya-otmechennaya-v-national-geographic/  "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 129,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.984945,
+          60.131934
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Заброшенная штольня",
+        "previewSrc": "https://nashural.ru/assets/uploads/20200727_1345112656-e1597829491871.jpg",
+        "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/marshrut-vyhodnogo-dnya-kamennoe-ozero-i-zabroshennaya-shtolnya/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 130,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.229714,
+          59.892352
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Марьин утес",
+        "previewSrc": "https://nashural.ru/assets/uploads/Kamennye-utesy-na-reke-Kumak-e1601278739664.jpg",
+        "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/dve-legendy-na-odnu-maryu/ "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 131,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.853404,
+          57.581819
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гора Крестовая и Рудянский спой",
+        "previewSrc": "https://nashural.ru/assets/uploads/DSC04182-1068x611.jpg",
+        "articleHref": "https://nashural.ru/mesta/permskij-kraj/gora-krestovaya/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 132,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.858233,
+          57.606454
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гора Ладейная",
+        "previewSrc": "https://nashural.ru/assets/uploads/kh4VvVb-GCA-e1589872126464.jpg",
+        "articleHref": "https://nashural.ru/mesta/permskij-kraj/gora-ladejnaya/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 133,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.2439,
+          57.268
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Большеколчимский карстовый мост",
+        "previewSrc": "https://nashural.ru/assets/uploads/DSCN4725-scaled-e1587730398764-2048x1157.jpg",
+        "articleHref": "https://nashural.ru/mesta/permskij-kraj/bolshekolchimskij-karstovyj-most/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 134,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.476712,
+          57.099619
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Камень Ветлан на реке Вишере",
+        "previewSrc": "https://nashural.ru/assets/uploads/BPgSEQ2d6pY-e1599828015955.jpg",
+        "articleHref": "https://nashural.ru/mesta/permskij-kraj/kamen-vetlan-na-reke-vishere/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 135,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.484588,
+          57.004485
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гора Полюдов камень",
+        "previewSrc": "https://nashural.ru/assets/uploads/jAgwxjUgstA-e1600171962319.jpg",
+        "articleHref": "https://nashural.ru/mesta/permskij-kraj/gora-polyudov-kamen/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 136,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.330555,
+          57.609909
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Помяненный (Колчимский) камень",
+        "previewSrc": "https://nashural.ru/assets/uploads/118866239_321613302265407_7679905241726318627_n-e1600692842405.jpg",
+        "articleHref": "https://nashural.ru/mesta/permskij-kraj/pomyanennyj-kolchimskij-kamen/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 137,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.875326,
+          54.731054
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гора Кокуй",
+        "previewSrc": "https://nashural.ru/assets/uploads/DSC_5467-scaled-e1607669175889-1647x700.jpg",
+        "articleHref": "https://nashural.ru/mesta/permskij-kraj/gora-kokuj-muzej-rastitelnyh-drevnostej-pod-otkrytym-nebom/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 138,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.435422,
+          55.831481
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Легенда о богатырском камне",
+        "previewSrc": "https://nashural.ru/assets/uploads/IMG_20201008_092842-scaled-e1604407903578-2048x798.jpg",
+        "articleHref": "https://nashural.ru/projects/malye-goroda/dostoprimechatelnosti-chermoza/legenda-o-bogatyrskom-kamne-s-vasilevskoe-ilinskij-rajon/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 139,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.668302,
+          56.110439
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гора Капкан",
+        "previewSrc": "https://nashural.ru/assets/uploads/kap.jpg",
+        "articleHref": "https://nashural.ru/mesta/permskij-kraj/vershina-chernushinskogo-rajona-gora-kapkan/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 140,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.2692597,
+          57.9536382
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Малые Глухие камни",
+        "previewSrc": "https://nashural.ru/assets/uploads/malye-gluhie-kamny-logo.jpg",
+        "articleHref": "https://nashural.ru/mesta/permskij-kraj/malye-gluhie-kamny/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 141,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.201567,
+          58.142528
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Кладовый камень",
+        "previewSrc": "https://nashural.ru/assets/uploads/kladoviy-kamen-logo.jpg",
+        "articleHref": "https://nashural.ru/mesta/permskij-kraj/kladoviy-kamen/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 142,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.29242,
+          57.843183
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гора Вышим",
+        "previewSrc": "https://nashural.ru/assets/uploads/DSC_3066-scaled-e1603031200393-2048x838.jpg",
+        "articleHref": "https://nashural.ru/projects/malye-goroda/dostoprimechatelnosti-chusovogo/gora-vyshim-v-chusovom/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 143,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.97829,
+          69.470149
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Гора любви",
+        "previewSrc": "https://nashural.ru/assets/uploads/04_kuchum_gora-e1591088963326.jpg",
+        "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/ishimskie-bugry-zdes-lyubov-vstrechaetsya-s-istoriej/ "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 144,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.895171,
+          69.492549
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Кучум-гора",
+        "previewSrc": "https://nashural.ru/assets/uploads/04_kuchum_gora-e1591088963326.jpg",
+        "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/ishimskie-bugry-zdes-lyubov-vstrechaetsya-s-istoriej/ "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 145,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.988324,
+          69.467284
+        ]
+      },
+      "properties": {
+        "group": "mountains",
+        "iconCaption": "Синицинский бор",
+        "previewSrc": "https://nashural.ru/assets/uploads/04_kuchum_gora-e1591088963326.jpg",
+        "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/ishimskie-bugry-zdes-lyubov-vstrechaetsya-s-istoriej/ "
+      }
+    }
+  ]
 }

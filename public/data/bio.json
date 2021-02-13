@@ -1,1047 +1,1047 @@
 {
-    "type": "FeatureCollection",
-    "metadata": {
-        "name": "Уральский характер",
-        "creator": "YChebotaev's YMapsML to GeoJSON converter",
-        "id": "bio"
+  "type": "FeatureCollection",
+  "metadata": {
+    "name": "Уральский характер",
+    "creator": "YChebotaev's YMapsML to GeoJSON converter",
+    "id": "bio"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 0,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.941133,
+          61.998544
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Головина Надежда Никитична",
+        "previewSrc": "//nashural.ru/assets/uploads/golovina-logo.jpg",
+        "articleHref": "//nashural.ru/culture/ural-characters/golovina-nadezhda/"
+      }
     },
-    "features": [
-        {
-            "type": "Feature",
-            "id": 0,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    61.998544,
-                    56.941133
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Головина Надежда Никитична",
-                "previewSrc": "//nashural.ru/assets/uploads/golovina-logo.jpg",
-                "articleHref": "//nashural.ru/culture/ural-characters/golovina-nadezhda/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 1,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    60.736423,
-                    58.088548
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Бортнов Петр Степанович",
-                "previewSrc": "//nashural.ru/assets/uploads/bpsb1.jpg",
-                "articleHref": "//nashural.ru/culture/artists/saldinskoe-detstvo-uralskogo-hudozhnika-p-s-bortnova-1918-1913-g-g/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 2,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    60.715204,
-                    58.07281
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Род Соловьёвых",
-                "previewSrc": "//nashural.ru/assets/uploads/solovyevy.jpg",
-                "articleHref": "//nashural.ru/culture/ural-characters/rod-solovyovyh/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 3,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    61.420219,
-                    57.363164
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Феоктистова Галина Николаевна",
-                "previewSrc": "//nashural.ru/assets/uploads/blokada-leningrada-rezh01.jpg",
-                "articleHref": "//nashural.ru/culture/world-war/blokadnyj-leningrad-vospominaniya-zhitelnits-rezha/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 4,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    61.395756,
-                    57.36145
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Нестеренко Ольга Васильевна",
-                "previewSrc": "//nashural.ru/assets/uploads/blokada-leningrada-rezh02.jpg",
-                "articleHref": "//nashural.ru/culture/world-war/blokadnyj-leningrad-vospominaniya-zhitelnits-rezha/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 5,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    61.398068,
-                    57.359214
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Тамара Русакова",
-                "previewSrc": "//nashural.ru/assets/uploads/rusakova02.jpg",
-                "articleHref": "//nashural.ru/culture/ural-characters/tamara-rusakova/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 6,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.946784,
-                    56.896832
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Захарченко Игорь",
-                "previewSrc": "//o.nashural.ru/ural_characters/zaharchenko/2.jpg",
-                "articleHref": "//nashural.ru/culture/ural-characters/zaharchenko/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 7,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.81195,
-                    56.966692
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "«Пугачевский полковник» Дементий Верхоланцев",
-                "previewSrc": "//nashural.ru/assets/uploads/b00001865.jpg",
-                "articleHref": "//nashural.ru/culture/ural-characters/pugachevskij-polkovnik-dementij-verholantsev/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 8,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    57.601422,
-                    56.462297
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Якимов Евсей Дмитриевич",
-                "previewSrc": "//nashural.ru/assets/uploads/yakimov.jpg",
-                "articleHref": "//nashural.ru/culture/artists/yakimov-evsey/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 9,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    57.766103,
-                    56.620887
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Алевтина Игнатьевна Трофимова",
-                "previewSrc": "//nashural.ru/assets/uploads/trofimova-logo.jpg",
-                "articleHref": "//nashural.ru/culture/artists/uskolzayushhaya-krasota/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 10,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.133674,
-                    56.410062
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Татьяна Мешавкина",
-                "previewSrc": "//nashural.ru/assets/uploads/meshavkina.jpg",
-                "articleHref": "//nashural.ru/culture/ural-characters/tatyana-meshavkina/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 11,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.587719,
-                    56.325389
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Народный ансамбль «Ныжыл сем»",
-                "previewSrc": "//nashural.ru/assets/uploads/mary-arti02.jpg",
-                "articleHref": "//nashural.ru/culture/ural-characters/narodnyj-ansambl-nyzhyl-sem-i-vyshivka-so-smyslom/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 12,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.552679,
-                    56.428412
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Сергей Леонтьев",
-                "previewSrc": "//nashural.ru/assets/uploads/arty-pechniky01.jpg",
-                "articleHref": "//nashural.ru/culture/ural-characters/russkaya-pech-i-artinskie-pechniki/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 13,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.513073,
-                    56.427118
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Петр Другов",
-                "previewSrc": "//nashural.ru/assets/uploads/arty-pechniky02.jpg",
-                "articleHref": "//nashural.ru/culture/ural-characters/russkaya-pech-i-artinskie-pechniki/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 14,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.549814,
-                    56.421207
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Художник и поэт Татьяна Кулешова",
-                "previewSrc": "//nashural.ru/assets/uploads/tatiana-kuleshova07.jpg",
-                "articleHref": "//nashural.ru/culture/artists/tatyana-kuleshova/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 15,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.554567,
-                    56.451179
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Милая Пристань: семья Шевалдиных",
-                "previewSrc": "//nashural.ru/assets/uploads/milaya-pristan01.jpg",
-                "articleHref": "//nashural.ru/culture/ural-characters/milaya-pristan-semya-shevaldinyh/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 16,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.052052,
-                    56.849994
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Александр Русинов",
-                "previewSrc": "//nashural.ru/assets/uploads/Aleksandr-Ivanovich-Rusinov-e1551353633648.jpg",
-                "articleHref": "//nashural.ru/culture/ural-characters/aleksandr-rusinov/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 17,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.81749,
-                    56.703291
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Патриот из Соснового Бора: Валентин Семенович Волков",
-                "previewSrc": "//nashural.ru/assets/uploads/sosnoviy-bor02.jpg",
-                "articleHref": "//nashural.ru/article/istoriya-urala/patriot-iz-sosnovogo-bora-valentin-semenovich-volkov/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 18,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.611597,
-                    56.818357
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Летчик и камнерез: Уткин Александр Васильевич",
-                "previewSrc": "//nashural.ru/assets/uploads/alexander-utkin01.jpg",
-                "articleHref": "//nashural.ru/culture/ural-characters/utkin-aleksandr/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 19,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    62.732549,
-                    56.837644
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Камышловские авиаторы",
-                "previewSrc": "//nashural.ru/assets/uploads/avia-kamyshlov01.jpg",
-                "articleHref": "//nashural.ru/culture/ural-characters/kamyshlovskie-aviatory/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 20,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    62.711435,
-                    56.841522
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Павел Бучельников",
-                "previewSrc": "//nashural.ru/assets/uploads/buchelnikov01.jpg",
-                "articleHref": "//nashural.ru/culture/ural-characters/pavel-buchelnikov/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 21,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    62.586767,
-                    56.816374
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Альберт Николаевич Макарян",
-                "previewSrc": "//nashural.ru/assets/uploads/IMG_5856-e1551179858812.jpg",
-                "articleHref": "//nashural.ru/culture/ural-characters/albert-nikolaevich-makaryan/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 22,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.950626,
-                    57.377936
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Владимир Анатольевич Громковский",
-                "previewSrc": "//nashural.ru/assets/uploads/gromkovskij.jpg",
-                "articleHref": "//nashural.ru/culture/ural-characters/vladimir-gromkovskij/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 23,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.928997,
-                    57.375432
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Михаил Григорьевич Алексеев",
-                "previewSrc": "//nashural.ru/assets/uploads/Alekseev.jpg",
-                "articleHref": "//nashural.ru/culture/ural-characters/mihail-alekseev/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 24,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.947021,
-                    57.372001
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Александр Иванович Винокуров",
-                "previewSrc": "//nashural.ru/assets/uploads/vinokurov.jpg",
-                "articleHref": "//nashural.ru/culture/ural-characters/aleksandr-vinokurov/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 25,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    57.772992,
-                    56.638501
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Юрий Дружинин",
-                "previewSrc": "//nashural.ru/assets/uploads/IMG_7921-e1551182239789.jpg",
-                "articleHref": "//nashural.ru/culture/ural-characters/yurij-druzhinin/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 26,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    60.709305,
-                    58.071825
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Нина Степановна Гусева",
-                "previewSrc": "//nashural.ru/assets/uploads/nsalda-babushka10.jpg",
-                "articleHref": "//nashural.ru/culture/ural-characters/nizhnesaldintsy-v-gody-velikoj-otechestvennoj-vojny/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 27,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    51.480871497289,
-                    58.456390991945
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Художник-камнерез Юрий Шевцов",
-                "previewSrc": "https://nashural.ru/assets/uploads/8FR8leXD6GE-e1592386883302.jpg",
-                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/lyubite-florentijskuyu-mozaiku-togda-edem-v-gaj/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 28,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    51.481612697908,
-                    57.369500773838
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Тренер по борьбе самбо и дзюдо Рафаиль Баширов",
-                "previewSrc": "https://nashural.ru/assets/uploads/DSC03439-e1599025044554.jpg",
-                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/pedagog-sportsmen-i-pochetnyj-zhitel-kuvandyka/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 29,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    51.457692,
-                    57.575587
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Актер Алексей Манцыгин",
-                "previewSrc": "https://nashural.ru/assets/uploads/Aleksej-Mantsygin-e1589777420935.jpg",
-                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/mednogorsk-gorod-gde-rozhdayutsya-zvezdy/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 30,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    51.458014,
-                    57.575566
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Урал Япанов",
-                "previewSrc": "https://nashural.ru/assets/uploads/0-1.jpg",
-                "articleHref": "https://nashural.ru/projects/malye-goroda/dostoprimechatelnosti-mednogorska/ural-yapanov-master-rezby-po-derevu/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 31,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    51.155043,
-                    54.996973
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Фотограф Олег Грачев",
-                "previewSrc": "https://nashural.ru/assets/uploads/47052454_627346984355575_3855502802004475904_n.jpg",
-                "articleHref": "https://nashural.ru/culture/photographers/oleg-grachev-fotograf-volshebnik-iz-sol-iletska/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 32,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    51.030667,
-                    59.876701
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Народный вокальный казахский ансамбль «Сагыныш»",
-                "previewSrc": "https://nashural.ru/assets/uploads/Nats.-kollektiv-e1608718650879.jpg",
-                "articleHref": "https://nashural.ru/projects/malye-goroda/dostoprimechatelnosti-yasnogo/esli-schastliv-sam-schastem-podelis-s-drugim/ "
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 33,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    51.030772,
-                    59.876786
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Таксидермист Екатерина Юрьевна Вилкина",
-                "previewSrc": "https://nashural.ru/assets/uploads/1-144.jpg",
-                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/taksidermist-iz-goroda-yasnogo/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 34,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.218544,
-                    57.438684
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Всеволодо-Вильва",
-                "previewSrc": "https://nashural.ru/assets/uploads/vs.jpg",
-                "articleHref": "https://nashural.ru/interesnoe/legenda-ob-uralskom-robin-gude-i-blagorodnom-startse-kotoryj-vehi-prodaval/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 35,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.218544,
-                    57.438684
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Всеволодо-Вильва",
-                "previewSrc": "https://nashural.ru/assets/uploads/Vsevolodo-Vilvenskii-zavod-v-1920-godu-e1586861934498.jpg",
-                "articleHref": "https://nashural.ru/interesnoe/lyudi-kotorye-postroili-vsevolodo-vilvu/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 36,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.009368,
-                    54.654316
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Николай Кузнецов",
-                "previewSrc": "https://nashural.ru/assets/uploads/dom-kuznetsova-1-1-e1585751672130.jpg",
-                "articleHref": "https://nashural.ru/mesta/permskij-kraj/kudymkarskie-stranitsy-zhizni-razvedchika-nikolaya-kuznetsova/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 37,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    57.885263,
-                    54.716096
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Обычаи удмуртов Очерского района",
-                "previewSrc": "https://nashural.ru/assets/uploads/DSC_2219-scaled-e1604912660621-1649x700.jpg",
-                "articleHref": "https://nashural.ru/mesta/permskij-kraj/obychai-udmurtov-ocherskogo-rajona-permskij-kraj/ "
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 38,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    57.811595,
-                    54.701424
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Петр Константинович Чудинов",
-                "previewSrc": "https://nashural.ru/assets/uploads/chu-1-e1587539393508.jpg",
-                "articleHref": "https://nashural.ru/interesnoe/petr-konstantinovich-chudinov-tot-kto-vykopal-tselyj-paleontologicheskij-muzej/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 39,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    57.876809,
-                    54.71122
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Павел Александрович Строганов, или «Гражданин Очёр»",
-                "previewSrc": "https://nashural.ru/assets/uploads/ocherski-1-e1587457406360.jpg",
-                "articleHref": "https://nashural.ru/interesnoe/i-ya-izbral-ocher-pavel-aleksandrovich-stroganov-ili-grazhdanin-ocher/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 40,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.413433,
-                    56.706904
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Обычаи коми-пермяков",
-                "previewSrc": "https://nashural.ru/assets/uploads/IMG_20201009_153243-scaled-e1604918041502-2048x675.jpg",
-                "articleHref": "https://nashural.ru/mesta/permskij-kraj/legenda-o-zabroshennom-dome-v-sele-ananino-chernushinskij-rajon-2/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 41,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.793789,
-                    56.136738
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Николай Никифорович Новокрещённых",
-                "previewSrc": "https://nashural.ru/assets/uploads/no-e1589781323819.jpg",
-                "articleHref": "https://nashural.ru/article/istoriya-urala/lyudi-chyormoza-nikolaj-nikiforovich-novokreshhyonnyh/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 42,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.566486,
-                    55.684065
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Александр Ефимович Теплоухов",
-                "previewSrc": "https://nashural.ru/assets/uploads/IMG_20200905_101501-e1600173100975.jpg",
-                "articleHref": "https://nashural.ru/mesta/permskij-kraj/istoriya-krepostnogo-lesovoda/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 43,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    56.522667,
-                    56.078724
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Лица города: Вячеслав Григорьевич Хлопин",
-                "previewSrc": "https://nashural.ru/assets/uploads/hlop-e1586247168227.jpg",
-                "articleHref": "https://nashural.ru/culture/ural-characters/litsa-goroda-v-g-hlopin/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 44,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    56.286436,
-                    70.449003
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Мастер Николай Портнягин",
-                "previewSrc": "https://nashural.ru/assets/uploads/tn_196860_b773e0446477-e1590061222566.jpg",
-                "articleHref": "https://nashural.ru/culture/ural-characters/hobbi-kotoroe-darit-lyudyam-radost/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 45,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    56.286436,
-                    70.448993
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Никифор Ершаков, командир партизанского отряда",
-                "previewSrc": "https://nashural.ru/assets/uploads/3-Ershakov-N.N.s-plemyannikom-e1591697425204.jpg",
-                "articleHref": "https://nashural.ru/article/istoriya-urala/sudba-krestyanskogo-syna-iz-sela-chelnokovo/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 46,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    56.514086,
-                    66.527349
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Художник Валентин Рубцов",
-                "previewSrc": "https://nashural.ru/assets/uploads/6-61-e1588763323921.jpg",
-                "articleHref": "https://nashural.ru/culture/artists/ego-risunki-snimki-pamyati/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 47,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    56.494777,
-                    66.561774
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Людмила Пермякова",
-                "previewSrc": "https://nashural.ru/assets/uploads/8-52-e1588763932922.jpg",
-                "articleHref": "https://nashural.ru/interesnoe/lyudmila-permyakova-rosla-ya-vmeste-s-gorodom/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 48,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    56.516452,
-                    66.704922
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Взвод Тоболкиных",
-                "previewSrc": "https://nashural.ru/assets/uploads/244063_b7b848129ef1-e1588849080481.jpg",
-                "articleHref": "https://nashural.ru/article/istoriya-urala/vzvod-tobolkinyh-k-75-letiyu-velikoj-pobedy/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 49,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    56.504779,
-                    66.562348
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Купцы Колмаковы",
-                "previewSrc": "https://nashural.ru/assets/uploads/11-59-e1595923425123.jpg",
-                "articleHref": "https://nashural.ru/article/istoriya-urala/kak-sibirskij-krestyanin-osnoval-odnu-iz-samyh-progressivnyh-dinastij-zapadnoj-sibiri/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 50,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    55.643265,
-                    69.239441
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Ермаков Иван Михайлович",
-                "previewSrc": "https://nashural.ru/assets/uploads/1a-Kazanskoe-GLAVNAYA.jpg",
-                "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/reportazh-s-bolshim-uvazheniem-k-selskim-zhitelyam/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 51,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    55.447785,
-                    69.323224
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Герой Советского Союза Вениамин Борисович Кошуков",
-                "previewSrc": "https://nashural.ru/assets/uploads/tn_272887_2cd54feaef58ccf-e1589450239837.png",
-                "articleHref": "https://nashural.ru/culture/ural-characters/boevoj-letchik-rodom-iz-sela-ilinka-k-75-letiyu-velikoj-pobedy/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 52,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    55.656914,
-                    69.215682
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Евгений Гвай",
-                "previewSrc": "https://nashural.ru/assets/uploads/3-Idyot-urok-muzhestva-e1599211567765.jpg",
-                "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/nikto-ne-zabyt-slova-kotorye-bolshe-chem-slova/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 53,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    55.447785,
-                    69.323224
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Матвей Мефодьевич Путилов",
-                "previewSrc": "https://nashural.ru/assets/uploads/i-6-5-e1599472269409.jpg",
-                "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/geroj-svyazist-o-kotorom-my-slyshali-eshhe-v-detstve/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 54,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    55.792634,
-                    69.437368
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Немецкие сибиряки",
-                "previewSrc": "https://nashural.ru/assets/uploads/Glavnaya-fotografiya-scaled-e1604039692884-1629x700.jpg",
-                "articleHref": "https://nashural.ru/culture/ural-characters/nemetskie-sibiryaki-zhizn-naperekor-tragedii/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 55,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    56.049174,
-                    66.587838
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Художник Елена Тумашова",
-                "previewSrc": "https://nashural.ru/assets/uploads/0C5GHeGK-e1605085647282.jpg",
-                "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/hudozhnik-iz-sibirskoj-glubinki/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 56,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    56.868187,
-                    66.517228
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Этнографический ансамбль «Тамаша»",
-                "previewSrc": "https://nashural.ru/assets/uploads/tn_284384_2cdab6a689dd8c9-1-e1598595408571.jpg",
-                "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/yarkoe-zrelishhe-kotoroe-sozdayut-artisty-iz-sibirskogo-sela/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 57,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    56.66569,
-                    66.318683
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Летчик Александр Чагин",
-                "previewSrc": "https://nashural.ru/assets/uploads/1-Letchik-iz-YAlutorovska-e1588853044527.jpg",
-                "articleHref": "https://nashural.ru/article/istoriya-urala/sudba-letchika-aleksandra-chagina-k-75-letiyu-velikoj-pobedy/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 58,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    56.655257,
-                    66.317143
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Памятник кооператору Александру Николаевичу Балакшину",
-                "previewSrc": "https://nashural.ru/assets/uploads/i-7-2-e1598428376654.jpg",
-                "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/chelovek-kotoryj-obespechil-zakazami-shestsot-tysyach-krestyanskih-dvorov/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 59,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    56.640902,
-                    66.271632
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Незрячий музыкант Асадулла",
-                "previewSrc": "https://nashural.ru/assets/uploads/FB_IMG_1598515029091-e1598515232173.jpg",
-                "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/darginets-v-dushe-kotorogo-zvuchat-melodii-iz-raznyh-ugolkov-kavkaza/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 60,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    56.649493,
-                    66.314538
-                ]
-            },
-            "properties": {
-                "group": "bio",
-                "iconCaption": "Фотограф Анатолий Михайлович Мясников",
-                "previewSrc": "https://nashural.ru/assets/uploads/1-131-e1598850825739.jpg",
-                "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/v-redaktsii-gazety-yalutorovskaya-zhizn-ego-nazyvali-prosto-nash-mihalych/"
-            }
-        }
-    ]
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.088548,
+          60.736423
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Бортнов Петр Степанович",
+        "previewSrc": "//nashural.ru/assets/uploads/bpsb1.jpg",
+        "articleHref": "//nashural.ru/culture/artists/saldinskoe-detstvo-uralskogo-hudozhnika-p-s-bortnova-1918-1913-g-g/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.07281,
+          60.715204
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Род Соловьёвых",
+        "previewSrc": "//nashural.ru/assets/uploads/solovyevy.jpg",
+        "articleHref": "//nashural.ru/culture/ural-characters/rod-solovyovyh/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.363164,
+          61.420219
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Феоктистова Галина Николаевна",
+        "previewSrc": "//nashural.ru/assets/uploads/blokada-leningrada-rezh01.jpg",
+        "articleHref": "//nashural.ru/culture/world-war/blokadnyj-leningrad-vospominaniya-zhitelnits-rezha/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.36145,
+          61.395756
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Нестеренко Ольга Васильевна",
+        "previewSrc": "//nashural.ru/assets/uploads/blokada-leningrada-rezh02.jpg",
+        "articleHref": "//nashural.ru/culture/world-war/blokadnyj-leningrad-vospominaniya-zhitelnits-rezha/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.359214,
+          61.398068
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Тамара Русакова",
+        "previewSrc": "//nashural.ru/assets/uploads/rusakova02.jpg",
+        "articleHref": "//nashural.ru/culture/ural-characters/tamara-rusakova/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.896832,
+          59.946784
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Захарченко Игорь",
+        "previewSrc": "//o.nashural.ru/ural_characters/zaharchenko/2.jpg",
+        "articleHref": "//nashural.ru/culture/ural-characters/zaharchenko/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.966692,
+          59.81195
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "«Пугачевский полковник» Дементий Верхоланцев",
+        "previewSrc": "//nashural.ru/assets/uploads/b00001865.jpg",
+        "articleHref": "//nashural.ru/culture/ural-characters/pugachevskij-polkovnik-dementij-verholantsev/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.462297,
+          57.601422
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Якимов Евсей Дмитриевич",
+        "previewSrc": "//nashural.ru/assets/uploads/yakimov.jpg",
+        "articleHref": "//nashural.ru/culture/artists/yakimov-evsey/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.620887,
+          57.766103
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Алевтина Игнатьевна Трофимова",
+        "previewSrc": "//nashural.ru/assets/uploads/trofimova-logo.jpg",
+        "articleHref": "//nashural.ru/culture/artists/uskolzayushhaya-krasota/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.410062,
+          58.133674
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Татьяна Мешавкина",
+        "previewSrc": "//nashural.ru/assets/uploads/meshavkina.jpg",
+        "articleHref": "//nashural.ru/culture/ural-characters/tatyana-meshavkina/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.325389,
+          58.587719
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Народный ансамбль «Ныжыл сем»",
+        "previewSrc": "//nashural.ru/assets/uploads/mary-arti02.jpg",
+        "articleHref": "//nashural.ru/culture/ural-characters/narodnyj-ansambl-nyzhyl-sem-i-vyshivka-so-smyslom/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.428412,
+          58.552679
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Сергей Леонтьев",
+        "previewSrc": "//nashural.ru/assets/uploads/arty-pechniky01.jpg",
+        "articleHref": "//nashural.ru/culture/ural-characters/russkaya-pech-i-artinskie-pechniki/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.427118,
+          58.513073
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Петр Другов",
+        "previewSrc": "//nashural.ru/assets/uploads/arty-pechniky02.jpg",
+        "articleHref": "//nashural.ru/culture/ural-characters/russkaya-pech-i-artinskie-pechniki/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.421207,
+          58.549814
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Художник и поэт Татьяна Кулешова",
+        "previewSrc": "//nashural.ru/assets/uploads/tatiana-kuleshova07.jpg",
+        "articleHref": "//nashural.ru/culture/artists/tatyana-kuleshova/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.451179,
+          58.554567
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Милая Пристань: семья Шевалдиных",
+        "previewSrc": "//nashural.ru/assets/uploads/milaya-pristan01.jpg",
+        "articleHref": "//nashural.ru/culture/ural-characters/milaya-pristan-semya-shevaldinyh/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.849994,
+          59.052052
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Александр Русинов",
+        "previewSrc": "//nashural.ru/assets/uploads/Aleksandr-Ivanovich-Rusinov-e1551353633648.jpg",
+        "articleHref": "//nashural.ru/culture/ural-characters/aleksandr-rusinov/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.703291,
+          58.81749
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Патриот из Соснового Бора: Валентин Семенович Волков",
+        "previewSrc": "//nashural.ru/assets/uploads/sosnoviy-bor02.jpg",
+        "articleHref": "//nashural.ru/article/istoriya-urala/patriot-iz-sosnovogo-bora-valentin-semenovich-volkov/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.818357,
+          58.611597
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Летчик и камнерез: Уткин Александр Васильевич",
+        "previewSrc": "//nashural.ru/assets/uploads/alexander-utkin01.jpg",
+        "articleHref": "//nashural.ru/culture/ural-characters/utkin-aleksandr/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.837644,
+          62.732549
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Камышловские авиаторы",
+        "previewSrc": "//nashural.ru/assets/uploads/avia-kamyshlov01.jpg",
+        "articleHref": "//nashural.ru/culture/ural-characters/kamyshlovskie-aviatory/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.841522,
+          62.711435
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Павел Бучельников",
+        "previewSrc": "//nashural.ru/assets/uploads/buchelnikov01.jpg",
+        "articleHref": "//nashural.ru/culture/ural-characters/pavel-buchelnikov/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.816374,
+          62.586767
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Альберт Николаевич Макарян",
+        "previewSrc": "//nashural.ru/assets/uploads/IMG_5856-e1551179858812.jpg",
+        "articleHref": "//nashural.ru/culture/ural-characters/albert-nikolaevich-makaryan/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.377936,
+          59.950626
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Владимир Анатольевич Громковский",
+        "previewSrc": "//nashural.ru/assets/uploads/gromkovskij.jpg",
+        "articleHref": "//nashural.ru/culture/ural-characters/vladimir-gromkovskij/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.375432,
+          59.928997
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Михаил Григорьевич Алексеев",
+        "previewSrc": "//nashural.ru/assets/uploads/Alekseev.jpg",
+        "articleHref": "//nashural.ru/culture/ural-characters/mihail-alekseev/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.372001,
+          59.947021
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Александр Иванович Винокуров",
+        "previewSrc": "//nashural.ru/assets/uploads/vinokurov.jpg",
+        "articleHref": "//nashural.ru/culture/ural-characters/aleksandr-vinokurov/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.638501,
+          57.772992
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Юрий Дружинин",
+        "previewSrc": "//nashural.ru/assets/uploads/IMG_7921-e1551182239789.jpg",
+        "articleHref": "//nashural.ru/culture/ural-characters/yurij-druzhinin/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.071825,
+          60.709305
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Нина Степановна Гусева",
+        "previewSrc": "//nashural.ru/assets/uploads/nsalda-babushka10.jpg",
+        "articleHref": "//nashural.ru/culture/ural-characters/nizhnesaldintsy-v-gody-velikoj-otechestvennoj-vojny/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.480871497289,
+          58.456390991945
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Художник-камнерез Юрий Шевцов",
+        "previewSrc": "https://nashural.ru/assets/uploads/8FR8leXD6GE-e1592386883302.jpg",
+        "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/lyubite-florentijskuyu-mozaiku-togda-edem-v-gaj/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.481612697908,
+          57.369500773838
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Тренер по борьбе самбо и дзюдо Рафаиль Баширов",
+        "previewSrc": "https://nashural.ru/assets/uploads/DSC03439-e1599025044554.jpg",
+        "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/pedagog-sportsmen-i-pochetnyj-zhitel-kuvandyka/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 29,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.457692,
+          57.575587
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Актер Алексей Манцыгин",
+        "previewSrc": "https://nashural.ru/assets/uploads/Aleksej-Mantsygin-e1589777420935.jpg",
+        "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/mednogorsk-gorod-gde-rozhdayutsya-zvezdy/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 30,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.458014,
+          57.575566
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Урал Япанов",
+        "previewSrc": "https://nashural.ru/assets/uploads/0-1.jpg",
+        "articleHref": "https://nashural.ru/projects/malye-goroda/dostoprimechatelnosti-mednogorska/ural-yapanov-master-rezby-po-derevu/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 31,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.155043,
+          54.996973
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Фотограф Олег Грачев",
+        "previewSrc": "https://nashural.ru/assets/uploads/47052454_627346984355575_3855502802004475904_n.jpg",
+        "articleHref": "https://nashural.ru/culture/photographers/oleg-grachev-fotograf-volshebnik-iz-sol-iletska/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 32,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.030667,
+          59.876701
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Народный вокальный казахский ансамбль «Сагыныш»",
+        "previewSrc": "https://nashural.ru/assets/uploads/Nats.-kollektiv-e1608718650879.jpg",
+        "articleHref": "https://nashural.ru/projects/malye-goroda/dostoprimechatelnosti-yasnogo/esli-schastliv-sam-schastem-podelis-s-drugim/ "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 33,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.030772,
+          59.876786
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Таксидермист Екатерина Юрьевна Вилкина",
+        "previewSrc": "https://nashural.ru/assets/uploads/1-144.jpg",
+        "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/taksidermist-iz-goroda-yasnogo/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 34,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.218544,
+          57.438684
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Всеволодо-Вильва",
+        "previewSrc": "https://nashural.ru/assets/uploads/vs.jpg",
+        "articleHref": "https://nashural.ru/interesnoe/legenda-ob-uralskom-robin-gude-i-blagorodnom-startse-kotoryj-vehi-prodaval/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 35,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.218544,
+          57.438684
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Всеволодо-Вильва",
+        "previewSrc": "https://nashural.ru/assets/uploads/Vsevolodo-Vilvenskii-zavod-v-1920-godu-e1586861934498.jpg",
+        "articleHref": "https://nashural.ru/interesnoe/lyudi-kotorye-postroili-vsevolodo-vilvu/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 36,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.009368,
+          54.654316
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Николай Кузнецов",
+        "previewSrc": "https://nashural.ru/assets/uploads/dom-kuznetsova-1-1-e1585751672130.jpg",
+        "articleHref": "https://nashural.ru/mesta/permskij-kraj/kudymkarskie-stranitsy-zhizni-razvedchika-nikolaya-kuznetsova/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 37,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.885263,
+          54.716096
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Обычаи удмуртов Очерского района",
+        "previewSrc": "https://nashural.ru/assets/uploads/DSC_2219-scaled-e1604912660621-1649x700.jpg",
+        "articleHref": "https://nashural.ru/mesta/permskij-kraj/obychai-udmurtov-ocherskogo-rajona-permskij-kraj/ "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 38,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.811595,
+          54.701424
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Петр Константинович Чудинов",
+        "previewSrc": "https://nashural.ru/assets/uploads/chu-1-e1587539393508.jpg",
+        "articleHref": "https://nashural.ru/interesnoe/petr-konstantinovich-chudinov-tot-kto-vykopal-tselyj-paleontologicheskij-muzej/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 39,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.876809,
+          54.71122
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Павел Александрович Строганов, или «Гражданин Очёр»",
+        "previewSrc": "https://nashural.ru/assets/uploads/ocherski-1-e1587457406360.jpg",
+        "articleHref": "https://nashural.ru/interesnoe/i-ya-izbral-ocher-pavel-aleksandrovich-stroganov-ili-grazhdanin-ocher/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 40,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.413433,
+          56.706904
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Обычаи коми-пермяков",
+        "previewSrc": "https://nashural.ru/assets/uploads/IMG_20201009_153243-scaled-e1604918041502-2048x675.jpg",
+        "articleHref": "https://nashural.ru/mesta/permskij-kraj/legenda-o-zabroshennom-dome-v-sele-ananino-chernushinskij-rajon-2/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 41,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.793789,
+          56.136738
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Николай Никифорович Новокрещённых",
+        "previewSrc": "https://nashural.ru/assets/uploads/no-e1589781323819.jpg",
+        "articleHref": "https://nashural.ru/article/istoriya-urala/lyudi-chyormoza-nikolaj-nikiforovich-novokreshhyonnyh/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 42,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.566486,
+          55.684065
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Александр Ефимович Теплоухов",
+        "previewSrc": "https://nashural.ru/assets/uploads/IMG_20200905_101501-e1600173100975.jpg",
+        "articleHref": "https://nashural.ru/mesta/permskij-kraj/istoriya-krepostnogo-lesovoda/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 43,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.522667,
+          56.078724
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Лица города: Вячеслав Григорьевич Хлопин",
+        "previewSrc": "https://nashural.ru/assets/uploads/hlop-e1586247168227.jpg",
+        "articleHref": "https://nashural.ru/culture/ural-characters/litsa-goroda-v-g-hlopin/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 44,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.286436,
+          70.449003
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Мастер Николай Портнягин",
+        "previewSrc": "https://nashural.ru/assets/uploads/tn_196860_b773e0446477-e1590061222566.jpg",
+        "articleHref": "https://nashural.ru/culture/ural-characters/hobbi-kotoroe-darit-lyudyam-radost/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 45,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.286436,
+          70.448993
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Никифор Ершаков, командир партизанского отряда",
+        "previewSrc": "https://nashural.ru/assets/uploads/3-Ershakov-N.N.s-plemyannikom-e1591697425204.jpg",
+        "articleHref": "https://nashural.ru/article/istoriya-urala/sudba-krestyanskogo-syna-iz-sela-chelnokovo/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 46,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.514086,
+          66.527349
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Художник Валентин Рубцов",
+        "previewSrc": "https://nashural.ru/assets/uploads/6-61-e1588763323921.jpg",
+        "articleHref": "https://nashural.ru/culture/artists/ego-risunki-snimki-pamyati/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 47,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.494777,
+          66.561774
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Людмила Пермякова",
+        "previewSrc": "https://nashural.ru/assets/uploads/8-52-e1588763932922.jpg",
+        "articleHref": "https://nashural.ru/interesnoe/lyudmila-permyakova-rosla-ya-vmeste-s-gorodom/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 48,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.516452,
+          66.704922
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Взвод Тоболкиных",
+        "previewSrc": "https://nashural.ru/assets/uploads/244063_b7b848129ef1-e1588849080481.jpg",
+        "articleHref": "https://nashural.ru/article/istoriya-urala/vzvod-tobolkinyh-k-75-letiyu-velikoj-pobedy/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 49,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.504779,
+          66.562348
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Купцы Колмаковы",
+        "previewSrc": "https://nashural.ru/assets/uploads/11-59-e1595923425123.jpg",
+        "articleHref": "https://nashural.ru/article/istoriya-urala/kak-sibirskij-krestyanin-osnoval-odnu-iz-samyh-progressivnyh-dinastij-zapadnoj-sibiri/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 50,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.643265,
+          69.239441
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Ермаков Иван Михайлович",
+        "previewSrc": "https://nashural.ru/assets/uploads/1a-Kazanskoe-GLAVNAYA.jpg",
+        "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/reportazh-s-bolshim-uvazheniem-k-selskim-zhitelyam/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 51,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.447785,
+          69.323224
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Герой Советского Союза Вениамин Борисович Кошуков",
+        "previewSrc": "https://nashural.ru/assets/uploads/tn_272887_2cd54feaef58ccf-e1589450239837.png",
+        "articleHref": "https://nashural.ru/culture/ural-characters/boevoj-letchik-rodom-iz-sela-ilinka-k-75-letiyu-velikoj-pobedy/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.656914,
+          69.215682
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Евгений Гвай",
+        "previewSrc": "https://nashural.ru/assets/uploads/3-Idyot-urok-muzhestva-e1599211567765.jpg",
+        "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/nikto-ne-zabyt-slova-kotorye-bolshe-chem-slova/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 53,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.447785,
+          69.323224
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Матвей Мефодьевич Путилов",
+        "previewSrc": "https://nashural.ru/assets/uploads/i-6-5-e1599472269409.jpg",
+        "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/geroj-svyazist-o-kotorom-my-slyshali-eshhe-v-detstve/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 54,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.792634,
+          69.437368
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Немецкие сибиряки",
+        "previewSrc": "https://nashural.ru/assets/uploads/Glavnaya-fotografiya-scaled-e1604039692884-1629x700.jpg",
+        "articleHref": "https://nashural.ru/culture/ural-characters/nemetskie-sibiryaki-zhizn-naperekor-tragedii/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.049174,
+          66.587838
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Художник Елена Тумашова",
+        "previewSrc": "https://nashural.ru/assets/uploads/0C5GHeGK-e1605085647282.jpg",
+        "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/hudozhnik-iz-sibirskoj-glubinki/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 56,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.868187,
+          66.517228
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Этнографический ансамбль «Тамаша»",
+        "previewSrc": "https://nashural.ru/assets/uploads/tn_284384_2cdab6a689dd8c9-1-e1598595408571.jpg",
+        "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/yarkoe-zrelishhe-kotoroe-sozdayut-artisty-iz-sibirskogo-sela/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 57,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.66569,
+          66.318683
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Летчик Александр Чагин",
+        "previewSrc": "https://nashural.ru/assets/uploads/1-Letchik-iz-YAlutorovska-e1588853044527.jpg",
+        "articleHref": "https://nashural.ru/article/istoriya-urala/sudba-letchika-aleksandra-chagina-k-75-letiyu-velikoj-pobedy/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 58,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.655257,
+          66.317143
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Памятник кооператору Александру Николаевичу Балакшину",
+        "previewSrc": "https://nashural.ru/assets/uploads/i-7-2-e1598428376654.jpg",
+        "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/chelovek-kotoryj-obespechil-zakazami-shestsot-tysyach-krestyanskih-dvorov/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 59,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.640902,
+          66.271632
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Незрячий музыкант Асадулла",
+        "previewSrc": "https://nashural.ru/assets/uploads/FB_IMG_1598515029091-e1598515232173.jpg",
+        "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/darginets-v-dushe-kotorogo-zvuchat-melodii-iz-raznyh-ugolkov-kavkaza/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 60,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.649493,
+          66.314538
+        ]
+      },
+      "properties": {
+        "group": "bio",
+        "iconCaption": "Фотограф Анатолий Михайлович Мясников",
+        "previewSrc": "https://nashural.ru/assets/uploads/1-131-e1598850825739.jpg",
+        "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/v-redaktsii-gazety-yalutorovskaya-zhizn-ego-nazyvali-prosto-nash-mihalych/"
+      }
+    }
+  ]
 }

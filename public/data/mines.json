@@ -1,809 +1,809 @@
 {
-    "type": "FeatureCollection",
-    "metadata": {
-        "name": "Промышленный туризм",
-        "creator": "YChebotaev's YMapsML to GeoJSON converter",
-        "id": "mines"
+  "type": "FeatureCollection",
+  "metadata": {
+    "name": "Промышленный туризм",
+    "creator": "YChebotaev's YMapsML to GeoJSON converter",
+    "id": "mines"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 0,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.033889,
+          60.5
+        ]
+      },
+      "properties": {
+        "group": "mines",
+        "iconCaption": "«Титановая долина»",
+        "previewSrc": "//nashural.ru/assets/uploads/DSC_5558-e1551381755233.jpg",
+        "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/osobaya-ekonomicheskaya-zona-titanovaya-dolina-promyshlennyj-turizm/"
+      }
     },
-    "features": [
-        {
-            "type": "Feature",
-            "id": 0,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    60.5,
-                    58.033889
-                ]
-            },
-            "properties": {
-                "group": "mines",
-                "iconCaption": "«Титановая долина»",
-                "previewSrc": "//nashural.ru/assets/uploads/DSC_5558-e1551381755233.jpg",
-                "articleHref": "//nashural.ru/mesta/sverdlovskaya-oblast/osobaya-ekonomicheskaya-zona-titanovaya-dolina-promyshlennyj-turizm/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 1,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    60.720058,
-                    58.073292
-                ]
-            },
-            "properties": {
-                "group": "mines",
-                "iconCaption": "История Нижнесалдинского металлургического завода",
-                "previewSrc": "//nashural.ru/assets/uploads/mk-nizhniya-salda10.jpg",
-                "articleHref": "//nashural.ru/article/istoriya-urala/istoriya-nizhnesaldinskogo-metallurgicheskogo-zavoda-zhizn-zavoda-posle-revolyutsii/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 2,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.533553,
-                    56.41909
-                ]
-            },
-            "properties": {
-                "group": "mines",
-                "iconCaption": "Артинский завод",
-                "previewSrc": "//nashural.ru/assets/uploads/artynskaya-kosa03.jpg",
-                "articleHref": "//nashural.ru/culture/podarki-s-urala/artinskaya-kosa-prazdnik-kosarya/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 3,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    62.713177,
-                    56.83584
-                ]
-            },
-            "properties": {
-                "group": "mines",
-                "iconCaption": "Завод «Лесхозмаш»",
-                "previewSrc": "//nashural.ru/assets/uploads/zavod-leshozmash05.jpg",
-                "articleHref": "//nashural.ru/article/istoriya-urala/zavod-leshozmash/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 4,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    76.5861165,
-                    61.0940072261
-                ]
-            },
-            "properties": {
-                "group": "mines",
-                "iconCaption": "Нефтяное месторождение «Самотлор»",
-                "previewSrc": "//o.nashural.ru/mesta-reg/hmao-yanao/hmao006.jpg",
-                "articleHref": "//nashural.ru/Goroda_i_sela/samotlor.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 5,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.637998457519,
-                    52.694975218131
-                ]
-            },
-            "properties": {
-                "group": "mines",
-                "iconCaption": "Сибайский карьер",
-                "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya062.jpg",
-                "articleHref": "//nashural.ru/Goroda_i_sela/sibai.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 6,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    57.532841,
-                    56.491603
-                ]
-            },
-            "properties": {
-                "group": "mines",
-                "iconCaption": "Пудлинговый карьер",
-                "previewSrc": "//nashural.ru/assets/uploads/okrestnosty-krasnoufimska11.jpg",
-                "articleHref": "//nashural.ru/article/travel/viaduki-krasnoufimska-i-pudlingovyj-karer/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 7,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    53.577706941895,
-                    63.436575547569
-                ]
-            },
-            "properties": {
-                "group": "mines",
-                "iconCaption": "Ярегские нефтяные шахты",
-                "previewSrc": "//o.nashural.ru/mesta-reg/komi/komi018.jpg",
-                "articleHref": "//nashural.ru/Goroda_i_sela/yaregskie-nefteshahti.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 8,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    61.494197617046,
-                    57.019621001294
-                ]
-            },
-            "properties": {
-                "group": "mines",
-                "iconCaption": "Асбестовский карьер",
-                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk010.jpg",
-                "articleHref": "//nashural.ru/Goroda_i_sela/asbest.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 9,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    60.774658,
-                    56.905504067792
-                ]
-            },
-            "properties": {
-                "group": "mines",
-                "iconCaption": "Березовский рудник: шахта «Южная»",
-                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk015.jpg",
-                "articleHref": "//nashural.ru/Mesta/berezovskiy-rudnik-shahta-yuzhnaya.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 10,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    61.4102835,
-                    57.115021257518
-                ]
-            },
-            "properties": {
-                "group": "mines",
-                "iconCaption": "Малышевское месторождение",
-                "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk069.jpg",
-                "articleHref": "//nashural.ru/Krasota/puteshestvie-malishevo.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 11,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    61.421558420654,
-                    54.909898057432
-                ]
-            },
-            "properties": {
-                "group": "mines",
-                "iconCaption": "Коркинский разрез",
-                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab026.jpg",
-                "articleHref": "//nashural.ru/Mesta/korkinskiy-razrez.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 12,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    60.306389,
-                    56.125556
-                ]
-            },
-            "properties": {
-                "group": "mines",
-                "iconCaption": "Черемшанские карьеры",
-                "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab076.jpg",
-                "articleHref": "//nashural.ru/Mesta/cheremshanskie-karyeri.htm"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 13,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    53.654972,
-                    52.435759
-                ]
-            },
-            "properties": {
-                "group": "mines",
-                "iconCaption": "НПУ «Бугурусланнефть»",
-                "previewSrc": "https://nashural.ru/assets/uploads/DSC_4300-scaled-e1596436985639-1830x700.jpg",
-                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/neftyanye-lidery-orenburzhya/  "
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 14,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    51.480690565318,
-                    58.456636461303
-                ]
-            },
-            "properties": {
-                "group": "mines",
-                "iconCaption": "Гайский горно-обогатительный комбинат ",
-                "previewSrc": "https://nashural.ru/assets/uploads/shakhta-_novaya_--e1592916792246.jpg",
-                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/kak-zazhigalis-gajskie-zvezdy-chast-2/ "
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 15,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    51.32201,
-                    56.90718
-                ]
-            },
-            "properties": {
-                "group": "mines",
-                "iconCaption": "Рудники у Кзыладырского карстового поля",
-                "previewSrc": "https://nashural.ru/assets/uploads/20200815_174907-e1598247037952.jpg",
-                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/tajny-orenburgskih-stepej/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 16,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    51.453464536655,
-                    57.665488398163
-                ]
-            },
-            "properties": {
-                "group": "mines",
-                "iconCaption": "Блявинский карьер",
-                "previewSrc": "https://nashural.ru/assets/uploads/karer.-e1588152116449.jpg",
-                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/istoriya-samogo-starogo-mednogo-karera-orenburzhya/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 17,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    51.441698,
-                    57.569558
-                ]
-            },
-            "properties": {
-                "group": "mines",
-                "iconCaption": "Медногорский медно-серный комбинат",
-                "previewSrc": "https://nashural.ru/assets/uploads/tssk_2017-e1589433698830.jpg",
-                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/geroj-nashego-vremeni-zhiznennaya-istoriya-direktora-mednogorskogo-medno-sernogo-kombinata/   "
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 18,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    51.035157,
-                    59.874782
-                ]
-            },
-            "properties": {
-                "group": "mines",
-                "iconCaption": "Комбинат «Оренбургские минералы»",
-                "previewSrc": "https://nashural.ru/assets/uploads/4XvngKFrfj0-e1608795059349-1647x700.jpg",
-                "articleHref": "https://nashural.ru/projects/malye-goroda/dostoprimechatelnosti-yasnogo/gde-proizrastaet-gornyj-len/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 19,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    51.156041,
-                    60.136223
-                ]
-            },
-            "properties": {
-                "group": "mines",
-                "iconCaption": "Кумакский прииск",
-                "previewSrc": "https://nashural.ru/assets/uploads/Terrikon-shahty-Novokapitilnoj-4-e1601278149632.jpg",
-                "articleHref": "https://nashural.ru/interesnoe/legenda-o-zarytom-belogvardejtsami-zolote-i-segodnya-ostaetsya-privlekatelnoj/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 20,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    51.094392632096,
-                    59.842368511641
-                ]
-            },
-            "properties": {
-                "group": "mines",
-                "iconCaption": "Пусковая база «Ясный»",
-                "previewSrc": "https://nashural.ru/assets/uploads/Launch_from_Yasny-e1597815782403.jpg",
-                "articleHref": "https://nashural.ru/interesnoe/kosmicheskaya-gavan-orenburzhya-a-vy-znali-chto-v-yasnom-est-kosmodrom/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 21,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    50.982668301541,
-                    59.92331826323
-                ]
-            },
-            "properties": {
-                "group": "mines",
-                "iconCaption": "Асбестовый карьер «Ясный»",
-                "previewSrc": "https://nashural.ru/assets/uploads/OGwM1CWZwKA-e1609131551970-2048x1014.jpg",
-                "articleHref": "https://nashural.ru/projects/malye-goroda/dostoprimechatelnosti-yasnogo/gorod-yasnyj-adres-orenburgskie-mineraly/ "
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 22,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    50.904131,
-                    59.838292
-                ]
-            },
-            "properties": {
-                "group": "mines",
-                "iconCaption": "Еленовский рудник",
-                "previewSrc": "https://nashural.ru/assets/uploads/Elenovskij-karer-e1601280081166-1648x700.jpg",
-                "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/malahit-i-turmalinovoe-solntse-elenovskogo-karera/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 23,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.337728,
-                    57.250492
-                ]
-            },
-            "properties": {
-                "group": "mines",
-                "iconCaption": "Яйвинская ГРЭС",
-                "previewSrc": "https://nashural.ru/assets/uploads/VLpKlIzaAX4-e1585121248765.jpg",
-                "articleHref": "https://nashural.ru/interesnoe/yajvinskaya-gres-svet-i-teplo-permskogo-kraya/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 24,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.140915,
-                    57.176666
-                ]
-            },
-            "properties": {
-                "group": "mines",
-                "iconCaption": "Рассолоподъемные столбы Яйвинского острожка",
-                "previewSrc": "https://nashural.ru/assets/uploads/yai-vinski-e1585193057169.jpg",
-                "articleHref": "https://nashural.ru/mesta/permskij-kraj/drevnie-pamyatniki-soledobychi-v-prikame-rassolopodemnye-truby-yajvinskogo-ostrozhka/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 25,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.342454,
-                    57.241801
-                ]
-            },
-            "properties": {
-                "group": "mines",
-                "iconCaption": "Рыбное хозяйство «Яйвинское»",
-                "previewSrc": "https://nashural.ru/assets/uploads/golubye-ozera-aleksandrovska02-1-e1584015430956.jpg",
-                "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-aleksandrovske-stolovye-kafe-restorany/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 26,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.07922,
-                    54.654677
-                ]
-            },
-            "properties": {
-                "group": "mines",
-                "iconCaption": "Железнодорожное урочище",
-                "previewSrc": "https://nashural.ru/assets/uploads/foto-zheleznodorozhnogo-uchilishha-e1585225402295.jpg",
-                "articleHref": "https://nashural.ru/mesta/permskij-kraj/g-vereshhagino-ckvoz-vremya-i-sudby/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 27,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.07722,
-                    54.663131
-                ]
-            },
-            "properties": {
-                "group": "mines",
-                "iconCaption": "Трикотажная фабрика",
-                "previewSrc": "https://nashural.ru/assets/uploads/21-25-e1586937935200.jpg",
-                "articleHref": "https://nashural.ru/mesta/permskij-kraj/promyshlennyj-turizm-v-vereshhagino-poseshhaem-trikotazhnuyu-fabriku/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 28,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.103982,
-                    54.907396
-                ]
-            },
-            "properties": {
-                "group": "mines",
-                "iconCaption": "Пошивочная мастерская",
-                "previewSrc": "https://nashural.ru/assets/uploads/b09fd5bf46d77f139f377b5f5898f72c-e1587108574457.jpg",
-                "articleHref": "https://nashural.ru/mesta/permskij-kraj/dostoprimechatelnosti-g-vereshhagino-istoriya-poshivochnoj-masterskoj/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 29,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.078416,
-                    54.654591
-                ]
-            },
-            "properties": {
-                "group": "mines",
-                "iconCaption": "Станция Верещагино",
-                "previewSrc": "https://nashural.ru/assets/uploads/992-e1587368995892.jpg",
-                "articleHref": "https://nashural.ru/mesta/permskij-kraj/istoriya-stantsii-vereshhagino-i-ego-rol-v-gody-velikoj-otechestvennoj/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 30,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.834523,
-                    57.792555
-                ]
-            },
-            "properties": {
-                "group": "mines",
-                "iconCaption": "Широковская ГЭС",
-                "previewSrc": "https://nashural.ru/assets/uploads/hhrSZoVWRkk-e1600421815356.jpg",
-                "articleHref": "https://nashural.ru/mesta/permskij-kraj/shirokovskoe-vodohranilishhe/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 31,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.866141,
-                    57.598917
-                ]
-            },
-            "properties": {
-                "group": "mines",
-                "iconCaption": "Канатная дорога в Губахе",
-                "previewSrc": "https://nashural.ru/assets/uploads/Io-i1xBV8iE-e1589956963445.jpg",
-                "articleHref": "https://nashural.ru/mesta/permskij-kraj/kanatnaya-doroga-v-gubahe-istoriya-kak-dobratsya-i-foto/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 32,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    60.36629,
-                    58.864418
-                ]
-            },
-            "properties": {
-                "group": "mines",
-                "iconCaption": "Странная история Кутимского завода",
-                "previewSrc": "https://nashural.ru/assets/uploads/i_118-e1584365160414.jpg",
-                "articleHref": "https://nashural.ru/mesta/permskij-kraj/strannaya-istoriya-kutimskogo-zavoda/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 33,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    60.401241,
-                    57.077848
-                ]
-            },
-            "properties": {
-                "group": "mines",
-                "iconCaption": "Вишерский целлюлозно-бумажный комбинат",
-                "previewSrc": "https://nashural.ru/assets/uploads/kombinat-e1587559628244.jpg",
-                "articleHref": "https://nashural.ru/mesta/permskij-kraj/istoriya-stroitelstva-tsellyulozno-bumazhnogo-kombinata-v-krasnovisherske/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 34,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.083013,
-                    56.080118
-                ]
-            },
-            "properties": {
-                "group": "mines",
-                "iconCaption": "Заводская плотина",
-                "previewSrc": "https://nashural.ru/assets/uploads/DSC_3895-scaled-e1603882614923-2048x911.jpg",
-                "articleHref": "https://nashural.ru/mesta/permskij-kraj/pozhva/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 35,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.084568,
-                    56.080539
-                ]
-            },
-            "properties": {
-                "group": "mines",
-                "iconCaption": "Цеха доменные",
-                "previewSrc": "https://nashural.ru/assets/uploads/DSC_3895-scaled-e1603882614923-2048x911.jpg",
-                "articleHref": "https://nashural.ru/mesta/permskij-kraj/pozhva/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 36,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.087088,
-                    56.082883
-                ]
-            },
-            "properties": {
-                "group": "mines",
-                "iconCaption": "Свято-Троицкая церковь",
-                "previewSrc": "https://nashural.ru/assets/uploads/DSC_3895-scaled-e1603882614923-2048x911.jpg",
-                "articleHref": "https://nashural.ru/mesta/permskij-kraj/pozhva/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 37,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.084578,
-                    56.080644
-                ]
-            },
-            "properties": {
-                "group": "mines",
-                "iconCaption": "Двухклассное мужское училище",
-                "previewSrc": "https://nashural.ru/assets/uploads/DSC_3895-scaled-e1603882614923-2048x911.jpg",
-                "articleHref": "https://nashural.ru/mesta/permskij-kraj/pozhva/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 38,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.086038,
-                    56.081572
-                ]
-            },
-            "properties": {
-                "group": "mines",
-                "iconCaption": "Заводской музей",
-                "previewSrc": "https://nashural.ru/assets/uploads/DSC_3895-scaled-e1603882614923-2048x911.jpg",
-                "articleHref": "https://nashural.ru/mesta/permskij-kraj/pozhva/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 39,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.438056,
-                    56.933056
-                ]
-            },
-            "properties": {
-                "group": "mines",
-                "iconCaption": "Четвёртый Березниковский калийный завод",
-                "previewSrc": "https://nashural.ru/assets/uploads/uralkaliy-logo.jpg",
-                "articleHref": "https://nashural.ru/mesta/permskij-kraj/sol-zemli-permskoj-ili-430-metrov-pod-zemlej/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 40,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    56.390614,
-                    56.105154
-                ]
-            },
-            "properties": {
-                "group": "mines",
-                "iconCaption": "Кузница счастья",
-                "previewSrc": "https://nashural.ru/assets/uploads/DSC_5231-scaled-e1607055764493-2048x952.jpg",
-                "articleHref": "https://nashural.ru/mesta/permskij-kraj/kuznitsa-schastya-v-chernushke-mechta-kotoruyu-osushhestvlyali-vsej-derevnej/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 41,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.3231,
-                    57.805668
-                ]
-            },
-            "properties": {
-                "group": "mines",
-                "iconCaption": "Чусовской карьер",
-                "previewSrc": "https://nashural.ru/assets/uploads/DSC_3090-scaled-e1603428235758-2048x916.jpg",
-                "articleHref": "https://nashural.ru/mesta/permskij-kraj/peschanye-otvalniki-v-gorode-chusovom-udivitelnaya-vozmozhnost-zanyatsya-promyshlennym-turizmom-i-ne-byt-zatoptannym/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 42,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    56.30357,
-                    70.408528
-                ]
-            },
-            "properties": {
-                "group": "mines",
-                "iconCaption": "Сельхоз-предприятие «ВосходАгро»",
-                "previewSrc": "https://nashural.ru/assets/uploads/1517573875_1331700574_commonrussianpeople_18-e1591187645103.jpg",
-                "articleHref": "https://nashural.ru/article/istoriya-urala/abatskoe-maslo-istoriya-rozhdeniya-razvitiya-i-uvyadaniya-proizvodstva/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 43,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    56.494782,
-                    66.561751
-                ]
-            },
-            "properties": {
-                "group": "mines",
-                "iconCaption": "Заводоуковский машиностроительный завод",
-                "previewSrc": "https://nashural.ru/assets/uploads/i-17-e1601567332354.jpg",
-                "articleHref": "https://nashural.ru/article/istoriya-urala/iz-soobrazhenij-sekretnosti/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 44,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    56.492742,
-                    66.548731
-                ]
-            },
-            "properties": {
-                "group": "mines",
-                "iconCaption": "Спиртовый завод в Падуне",
-                "previewSrc": "https://nashural.ru/assets/uploads/DSC_4175-scaled-e1607526021219-1708x700.jpg",
-                "articleHref": "https://nashural.ru/projects/malye-goroda/dostoprimechatelnosti-zavodoukovska/vechno-zelenyj-sibirskij-gorod-zavodoukovsk/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 45,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    55.774955,
-                    69.31546
-                ]
-            },
-            "properties": {
-                "group": "mines",
-                "iconCaption": "Агрокомплекс Маяк в Огнёво",
-                "previewSrc": "https://nashural.ru/assets/uploads/1a-Kazanskoe-GLAVNAYA.jpg",
-                "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/reportazh-s-bolshim-uvazheniem-k-selskim-zhitelyam/"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 46,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    55.639241,
-                    69.221103
-                ]
-            },
-            "properties": {
-                "group": "mines",
-                "iconCaption": "Завод «Казанская рыба»",
-                "previewSrc": "https://nashural.ru/assets/uploads/1a-Kazanskoe-GLAVNAYA.jpg",
-                "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/reportazh-s-bolshim-uvazheniem-k-selskim-zhitelyam/"
-            }
-        }
-    ]
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.073292,
+          60.720058
+        ]
+      },
+      "properties": {
+        "group": "mines",
+        "iconCaption": "История Нижнесалдинского металлургического завода",
+        "previewSrc": "//nashural.ru/assets/uploads/mk-nizhniya-salda10.jpg",
+        "articleHref": "//nashural.ru/article/istoriya-urala/istoriya-nizhnesaldinskogo-metallurgicheskogo-zavoda-zhizn-zavoda-posle-revolyutsii/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.41909,
+          58.533553
+        ]
+      },
+      "properties": {
+        "group": "mines",
+        "iconCaption": "Артинский завод",
+        "previewSrc": "//nashural.ru/assets/uploads/artynskaya-kosa03.jpg",
+        "articleHref": "//nashural.ru/culture/podarki-s-urala/artinskaya-kosa-prazdnik-kosarya/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.83584,
+          62.713177
+        ]
+      },
+      "properties": {
+        "group": "mines",
+        "iconCaption": "Завод «Лесхозмаш»",
+        "previewSrc": "//nashural.ru/assets/uploads/zavod-leshozmash05.jpg",
+        "articleHref": "//nashural.ru/article/istoriya-urala/zavod-leshozmash/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          61.094007226100324,
+          76.58611649999997
+        ]
+      },
+      "properties": {
+        "group": "mines",
+        "iconCaption": "Нефтяное месторождение «Самотлор»",
+        "previewSrc": "//o.nashural.ru/mesta-reg/hmao-yanao/hmao006.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/samotlor.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.69497521813065,
+          58.63799845751942
+        ]
+      },
+      "properties": {
+        "group": "mines",
+        "iconCaption": "Сибайский карьер",
+        "previewSrc": "//o.nashural.ru/mesta-reg/bashkiriya/bashkiriya062.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/sibai.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.491603,
+          57.532841
+        ]
+      },
+      "properties": {
+        "group": "mines",
+        "iconCaption": "Пудлинговый карьер",
+        "previewSrc": "//nashural.ru/assets/uploads/okrestnosty-krasnoufimska11.jpg",
+        "articleHref": "//nashural.ru/article/travel/viaduki-krasnoufimska-i-pudlingovyj-karer/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.43657554756935,
+          53.57770694189451
+        ]
+      },
+      "properties": {
+        "group": "mines",
+        "iconCaption": "Ярегские нефтяные шахты",
+        "previewSrc": "//o.nashural.ru/mesta-reg/komi/komi018.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/yaregskie-nefteshahti.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.01962100129383,
+          61.49419761704641
+        ]
+      },
+      "properties": {
+        "group": "mines",
+        "iconCaption": "Асбестовский карьер",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk010.jpg",
+        "articleHref": "//nashural.ru/Goroda_i_sela/asbest.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.90550406779177,
+          60.77465799999993
+        ]
+      },
+      "properties": {
+        "group": "mines",
+        "iconCaption": "Березовский рудник: шахта «Южная»",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk015.jpg",
+        "articleHref": "//nashural.ru/Mesta/berezovskiy-rudnik-shahta-yuzhnaya.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.115021257518364,
+          61.41028349999996
+        ]
+      },
+      "properties": {
+        "group": "mines",
+        "iconCaption": "Малышевское месторождение",
+        "previewSrc": "//o.nashural.ru/mesta-reg/sverdl-obl/sverdlovsk069.jpg",
+        "articleHref": "//nashural.ru/Krasota/puteshestvie-malishevo.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.90989805743157,
+          61.42155842065421
+        ]
+      },
+      "properties": {
+        "group": "mines",
+        "iconCaption": "Коркинский разрез",
+        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab026.jpg",
+        "articleHref": "//nashural.ru/Mesta/korkinskiy-razrez.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.125556,
+          60.306389
+        ]
+      },
+      "properties": {
+        "group": "mines",
+        "iconCaption": "Черемшанские карьеры",
+        "previewSrc": "//o.nashural.ru/mesta-reg/chel-obl/chelyab076.jpg",
+        "articleHref": "//nashural.ru/Mesta/cheremshanskie-karyeri.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.654972,
+          52.435759
+        ]
+      },
+      "properties": {
+        "group": "mines",
+        "iconCaption": "НПУ «Бугурусланнефть»",
+        "previewSrc": "https://nashural.ru/assets/uploads/DSC_4300-scaled-e1596436985639-1830x700.jpg",
+        "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/neftyanye-lidery-orenburzhya/  "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.480690565318,
+          58.456636461303
+        ]
+      },
+      "properties": {
+        "group": "mines",
+        "iconCaption": "Гайский горно-обогатительный комбинат ",
+        "previewSrc": "https://nashural.ru/assets/uploads/shakhta-_novaya_--e1592916792246.jpg",
+        "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/kak-zazhigalis-gajskie-zvezdy-chast-2/ "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.32201,
+          56.90718
+        ]
+      },
+      "properties": {
+        "group": "mines",
+        "iconCaption": "Рудники у Кзыладырского карстового поля",
+        "previewSrc": "https://nashural.ru/assets/uploads/20200815_174907-e1598247037952.jpg",
+        "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/tajny-orenburgskih-stepej/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.453464536655,
+          57.665488398163
+        ]
+      },
+      "properties": {
+        "group": "mines",
+        "iconCaption": "Блявинский карьер",
+        "previewSrc": "https://nashural.ru/assets/uploads/karer.-e1588152116449.jpg",
+        "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/istoriya-samogo-starogo-mednogo-karera-orenburzhya/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.441698,
+          57.569558
+        ]
+      },
+      "properties": {
+        "group": "mines",
+        "iconCaption": "Медногорский медно-серный комбинат",
+        "previewSrc": "https://nashural.ru/assets/uploads/tssk_2017-e1589433698830.jpg",
+        "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/geroj-nashego-vremeni-zhiznennaya-istoriya-direktora-mednogorskogo-medno-sernogo-kombinata/   "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.035157,
+          59.874782
+        ]
+      },
+      "properties": {
+        "group": "mines",
+        "iconCaption": "Комбинат «Оренбургские минералы»",
+        "previewSrc": "https://nashural.ru/assets/uploads/4XvngKFrfj0-e1608795059349-1647x700.jpg",
+        "articleHref": "https://nashural.ru/projects/malye-goroda/dostoprimechatelnosti-yasnogo/gde-proizrastaet-gornyj-len/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.156041,
+          60.136223
+        ]
+      },
+      "properties": {
+        "group": "mines",
+        "iconCaption": "Кумакский прииск",
+        "previewSrc": "https://nashural.ru/assets/uploads/Terrikon-shahty-Novokapitilnoj-4-e1601278149632.jpg",
+        "articleHref": "https://nashural.ru/interesnoe/legenda-o-zarytom-belogvardejtsami-zolote-i-segodnya-ostaetsya-privlekatelnoj/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.094392632096,
+          59.842368511641
+        ]
+      },
+      "properties": {
+        "group": "mines",
+        "iconCaption": "Пусковая база «Ясный»",
+        "previewSrc": "https://nashural.ru/assets/uploads/Launch_from_Yasny-e1597815782403.jpg",
+        "articleHref": "https://nashural.ru/interesnoe/kosmicheskaya-gavan-orenburzhya-a-vy-znali-chto-v-yasnom-est-kosmodrom/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.982668301541,
+          59.92331826323
+        ]
+      },
+      "properties": {
+        "group": "mines",
+        "iconCaption": "Асбестовый карьер «Ясный»",
+        "previewSrc": "https://nashural.ru/assets/uploads/OGwM1CWZwKA-e1609131551970-2048x1014.jpg",
+        "articleHref": "https://nashural.ru/projects/malye-goroda/dostoprimechatelnosti-yasnogo/gorod-yasnyj-adres-orenburgskie-mineraly/ "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.904131,
+          59.838292
+        ]
+      },
+      "properties": {
+        "group": "mines",
+        "iconCaption": "Еленовский рудник",
+        "previewSrc": "https://nashural.ru/assets/uploads/Elenovskij-karer-e1601280081166-1648x700.jpg",
+        "articleHref": "https://nashural.ru/mesta/orenburgskaya-oblast/malahit-i-turmalinovoe-solntse-elenovskogo-karera/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.337728,
+          57.250492
+        ]
+      },
+      "properties": {
+        "group": "mines",
+        "iconCaption": "Яйвинская ГРЭС",
+        "previewSrc": "https://nashural.ru/assets/uploads/VLpKlIzaAX4-e1585121248765.jpg",
+        "articleHref": "https://nashural.ru/interesnoe/yajvinskaya-gres-svet-i-teplo-permskogo-kraya/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.140915,
+          57.176666
+        ]
+      },
+      "properties": {
+        "group": "mines",
+        "iconCaption": "Рассолоподъемные столбы Яйвинского острожка",
+        "previewSrc": "https://nashural.ru/assets/uploads/yai-vinski-e1585193057169.jpg",
+        "articleHref": "https://nashural.ru/mesta/permskij-kraj/drevnie-pamyatniki-soledobychi-v-prikame-rassolopodemnye-truby-yajvinskogo-ostrozhka/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.342454,
+          57.241801
+        ]
+      },
+      "properties": {
+        "group": "mines",
+        "iconCaption": "Рыбное хозяйство «Яйвинское»",
+        "previewSrc": "https://nashural.ru/assets/uploads/golubye-ozera-aleksandrovska02-1-e1584015430956.jpg",
+        "articleHref": "https://nashural.ru/katalog-mest-otdyha-na-urale/gde-poest-v-aleksandrovske-stolovye-kafe-restorany/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.07922,
+          54.654677
+        ]
+      },
+      "properties": {
+        "group": "mines",
+        "iconCaption": "Железнодорожное урочище",
+        "previewSrc": "https://nashural.ru/assets/uploads/foto-zheleznodorozhnogo-uchilishha-e1585225402295.jpg",
+        "articleHref": "https://nashural.ru/mesta/permskij-kraj/g-vereshhagino-ckvoz-vremya-i-sudby/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.07722,
+          54.663131
+        ]
+      },
+      "properties": {
+        "group": "mines",
+        "iconCaption": "Трикотажная фабрика",
+        "previewSrc": "https://nashural.ru/assets/uploads/21-25-e1586937935200.jpg",
+        "articleHref": "https://nashural.ru/mesta/permskij-kraj/promyshlennyj-turizm-v-vereshhagino-poseshhaem-trikotazhnuyu-fabriku/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.103982,
+          54.907396
+        ]
+      },
+      "properties": {
+        "group": "mines",
+        "iconCaption": "Пошивочная мастерская",
+        "previewSrc": "https://nashural.ru/assets/uploads/b09fd5bf46d77f139f377b5f5898f72c-e1587108574457.jpg",
+        "articleHref": "https://nashural.ru/mesta/permskij-kraj/dostoprimechatelnosti-g-vereshhagino-istoriya-poshivochnoj-masterskoj/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 29,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.078416,
+          54.654591
+        ]
+      },
+      "properties": {
+        "group": "mines",
+        "iconCaption": "Станция Верещагино",
+        "previewSrc": "https://nashural.ru/assets/uploads/992-e1587368995892.jpg",
+        "articleHref": "https://nashural.ru/mesta/permskij-kraj/istoriya-stantsii-vereshhagino-i-ego-rol-v-gody-velikoj-otechestvennoj/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 30,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.834523,
+          57.792555
+        ]
+      },
+      "properties": {
+        "group": "mines",
+        "iconCaption": "Широковская ГЭС",
+        "previewSrc": "https://nashural.ru/assets/uploads/hhrSZoVWRkk-e1600421815356.jpg",
+        "articleHref": "https://nashural.ru/mesta/permskij-kraj/shirokovskoe-vodohranilishhe/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 31,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.866141,
+          57.598917
+        ]
+      },
+      "properties": {
+        "group": "mines",
+        "iconCaption": "Канатная дорога в Губахе",
+        "previewSrc": "https://nashural.ru/assets/uploads/Io-i1xBV8iE-e1589956963445.jpg",
+        "articleHref": "https://nashural.ru/mesta/permskij-kraj/kanatnaya-doroga-v-gubahe-istoriya-kak-dobratsya-i-foto/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 32,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.36629,
+          58.864418
+        ]
+      },
+      "properties": {
+        "group": "mines",
+        "iconCaption": "Странная история Кутимского завода",
+        "previewSrc": "https://nashural.ru/assets/uploads/i_118-e1584365160414.jpg",
+        "articleHref": "https://nashural.ru/mesta/permskij-kraj/strannaya-istoriya-kutimskogo-zavoda/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 33,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.401241,
+          57.077848
+        ]
+      },
+      "properties": {
+        "group": "mines",
+        "iconCaption": "Вишерский целлюлозно-бумажный комбинат",
+        "previewSrc": "https://nashural.ru/assets/uploads/kombinat-e1587559628244.jpg",
+        "articleHref": "https://nashural.ru/mesta/permskij-kraj/istoriya-stroitelstva-tsellyulozno-bumazhnogo-kombinata-v-krasnovisherske/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 34,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.083013,
+          56.080118
+        ]
+      },
+      "properties": {
+        "group": "mines",
+        "iconCaption": "Заводская плотина",
+        "previewSrc": "https://nashural.ru/assets/uploads/DSC_3895-scaled-e1603882614923-2048x911.jpg",
+        "articleHref": "https://nashural.ru/mesta/permskij-kraj/pozhva/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 35,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.084568,
+          56.080539
+        ]
+      },
+      "properties": {
+        "group": "mines",
+        "iconCaption": "Цеха доменные",
+        "previewSrc": "https://nashural.ru/assets/uploads/DSC_3895-scaled-e1603882614923-2048x911.jpg",
+        "articleHref": "https://nashural.ru/mesta/permskij-kraj/pozhva/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 36,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.087088,
+          56.082883
+        ]
+      },
+      "properties": {
+        "group": "mines",
+        "iconCaption": "Свято-Троицкая церковь",
+        "previewSrc": "https://nashural.ru/assets/uploads/DSC_3895-scaled-e1603882614923-2048x911.jpg",
+        "articleHref": "https://nashural.ru/mesta/permskij-kraj/pozhva/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 37,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.084578,
+          56.080644
+        ]
+      },
+      "properties": {
+        "group": "mines",
+        "iconCaption": "Двухклассное мужское училище",
+        "previewSrc": "https://nashural.ru/assets/uploads/DSC_3895-scaled-e1603882614923-2048x911.jpg",
+        "articleHref": "https://nashural.ru/mesta/permskij-kraj/pozhva/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 38,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.086038,
+          56.081572
+        ]
+      },
+      "properties": {
+        "group": "mines",
+        "iconCaption": "Заводской музей",
+        "previewSrc": "https://nashural.ru/assets/uploads/DSC_3895-scaled-e1603882614923-2048x911.jpg",
+        "articleHref": "https://nashural.ru/mesta/permskij-kraj/pozhva/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 39,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.438056,
+          56.933056
+        ]
+      },
+      "properties": {
+        "group": "mines",
+        "iconCaption": "Четвёртый Березниковский калийный завод",
+        "previewSrc": "https://nashural.ru/assets/uploads/uralkaliy-logo.jpg",
+        "articleHref": "https://nashural.ru/mesta/permskij-kraj/sol-zemli-permskoj-ili-430-metrov-pod-zemlej/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 40,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.390614,
+          56.105154
+        ]
+      },
+      "properties": {
+        "group": "mines",
+        "iconCaption": "Кузница счастья",
+        "previewSrc": "https://nashural.ru/assets/uploads/DSC_5231-scaled-e1607055764493-2048x952.jpg",
+        "articleHref": "https://nashural.ru/mesta/permskij-kraj/kuznitsa-schastya-v-chernushke-mechta-kotoruyu-osushhestvlyali-vsej-derevnej/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 41,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.3231,
+          57.805668
+        ]
+      },
+      "properties": {
+        "group": "mines",
+        "iconCaption": "Чусовской карьер",
+        "previewSrc": "https://nashural.ru/assets/uploads/DSC_3090-scaled-e1603428235758-2048x916.jpg",
+        "articleHref": "https://nashural.ru/mesta/permskij-kraj/peschanye-otvalniki-v-gorode-chusovom-udivitelnaya-vozmozhnost-zanyatsya-promyshlennym-turizmom-i-ne-byt-zatoptannym/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 42,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.30357,
+          70.408528
+        ]
+      },
+      "properties": {
+        "group": "mines",
+        "iconCaption": "Сельхоз-предприятие «ВосходАгро»",
+        "previewSrc": "https://nashural.ru/assets/uploads/1517573875_1331700574_commonrussianpeople_18-e1591187645103.jpg",
+        "articleHref": "https://nashural.ru/article/istoriya-urala/abatskoe-maslo-istoriya-rozhdeniya-razvitiya-i-uvyadaniya-proizvodstva/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 43,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.494782,
+          66.561751
+        ]
+      },
+      "properties": {
+        "group": "mines",
+        "iconCaption": "Заводоуковский машиностроительный завод",
+        "previewSrc": "https://nashural.ru/assets/uploads/i-17-e1601567332354.jpg",
+        "articleHref": "https://nashural.ru/article/istoriya-urala/iz-soobrazhenij-sekretnosti/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 44,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.492742,
+          66.548731
+        ]
+      },
+      "properties": {
+        "group": "mines",
+        "iconCaption": "Спиртовый завод в Падуне",
+        "previewSrc": "https://nashural.ru/assets/uploads/DSC_4175-scaled-e1607526021219-1708x700.jpg",
+        "articleHref": "https://nashural.ru/projects/malye-goroda/dostoprimechatelnosti-zavodoukovska/vechno-zelenyj-sibirskij-gorod-zavodoukovsk/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 45,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.774955,
+          69.31546
+        ]
+      },
+      "properties": {
+        "group": "mines",
+        "iconCaption": "Агрокомплекс Маяк в Огнёво",
+        "previewSrc": "https://nashural.ru/assets/uploads/1a-Kazanskoe-GLAVNAYA.jpg",
+        "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/reportazh-s-bolshim-uvazheniem-k-selskim-zhitelyam/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 46,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.639241,
+          69.221103
+        ]
+      },
+      "properties": {
+        "group": "mines",
+        "iconCaption": "Завод «Казанская рыба»",
+        "previewSrc": "https://nashural.ru/assets/uploads/1a-Kazanskoe-GLAVNAYA.jpg",
+        "articleHref": "https://nashural.ru/mesta/tyumenskaya-oblast/reportazh-s-bolshim-uvazheniem-k-selskim-zhitelyam/"
+      }
+    }
+  ]
 }
