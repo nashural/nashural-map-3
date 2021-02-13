@@ -8,6 +8,7 @@ import {
 } from '../typings'
 import { CustomProperties, GeoJSON, GeoJSONFeature, Group } from '../../typings'
 import { PayloadAction, createAsyncThunk, createSlice } from '@reduxjs/toolkit'
+import { getFeaturesURL, getGroupsURL } from '../../api/urls'
 
 const isFeaturesSame = (featureA: GeoJSONFeature, featureB: GeoJSONFeature): boolean => {
   return (featureA.id === featureB.id) && ((featureA.properties as CustomProperties).group === (featureB.properties as CustomProperties).group)
@@ -54,7 +55,8 @@ export const selectGroupById = (groupId: string) => (state: RootState) => {
 export const fetchGroups = createAsyncThunk(
   'fetch-groups',
   async () => {
-    const resp = await fetch(`${process.env.PUBLIC_URL || ''}/data/groups.json?nonce=${process.env.REACT_APP_NONCE}`)
+    const url = getGroupsURL()
+    const resp = await fetch(url.toString())
     const data = await resp.json()
     return data.groups as Group[]
   }
@@ -62,8 +64,9 @@ export const fetchGroups = createAsyncThunk(
 
 export const fetchGroupById = createAsyncThunk(
   'fetch-group-by-id',
-  async (id: string) => {
-    const resp = await fetch(`${process.env.PUBLIC_URL || ''}/data/${id}.json?nonce=${process.env.REACT_APP_NONCE}`)
+  async (groupId: string) => {
+    const url = getFeaturesURL(groupId)
+    const resp = await fetch(url.toString())
     return await resp.json() as GeoJSON
   }
 )
@@ -71,12 +74,14 @@ export const fetchGroupById = createAsyncThunk(
 export const fetchAndSelectAllGroups = createAsyncThunk(
   'featch-and-select-all-groups',
   async () => {
-    let resp = await fetch(`${process.env.PUBLIC_URL || ''}/data/groups.json?nonce=${process.env.REACT_APP_NONCE}`)
+    const groupsUrl = getGroupsURL()
+    let resp = await fetch(groupsUrl.toString())
     const data = await resp.json()
     const groups: Group[] = data.groups
     const groupedFeatures: Record<string, GeoJSON> = {}
     for (let group of data.groups) {
-      resp = await fetch(`${process.env.PUBLIC_URL || ''}/data/${group.id}.json?nonce=${process.env.REACT_APP_NONCE}`)
+      const url = getFeaturesURL(group.id)
+      resp = await fetch(url.toString())
       groupedFeatures[group.id] = await resp.json()
     }
     return {

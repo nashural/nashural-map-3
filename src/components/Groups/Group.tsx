@@ -9,10 +9,12 @@ import {
 
 import { Badge } from "./Badge";
 import { GroupProps } from "./typings";
+import { getGroupIconURL } from '../../api/urls';
 import { useDispatch } from "../../hooks/useDispatch";
 import { useSelector } from "react-redux";
 
-export const Group: FC<GroupProps> = ({ id, name, count, iconHref }) => {
+export const Group: FC<GroupProps> = (group) => {
+  const { id, name, count } = group
   const dispatch = useDispatch();
   const active = useSelector(isGroupSelectedById(id));
 
@@ -36,10 +38,7 @@ export const Group: FC<GroupProps> = ({ id, name, count, iconHref }) => {
       id={id}
       className={`Group ${active ? "active" : ""}`}
       style={{
-        backgroundImage: `URL(${iconHref.replace(
-          "/map",
-          process.env.PUBLIC_URL || ""
-        )})`,
+        backgroundImage: `URL("${getGroupIconURL(group)}")`,
       }}
       onClick={handleClick}
     >

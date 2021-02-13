@@ -31,9 +31,7 @@ export const Groups: FC<GroupsProps> = () => {
       {({ desktop, mobile }) => {
         return (
           <div
-            className={`Groups ${mobile ? "mobile" : ""} ${
-              desktop ? "desktop" : ""
-            }`}
+            className={`Groups ${mobile ? "mobile" : ""} ${desktop ? "desktop" : ""}`}
           >
             <GroupsSearch />
             {enabled ? <SearchResult /> : <GroupsList />}
