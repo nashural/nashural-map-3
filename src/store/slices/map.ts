@@ -28,6 +28,9 @@ const createInitialMapState = (): MapState => {
 
   if (url.searchParams.has('inline')) {
     isInline = url.searchParams.get('inline') === 'true'
+  } else
+  if (window.location !== window.parent.location) {
+    isInline = true
   }
 
   if (Number.isNaN(lat) || Number.isNaN(lon) || Number.isNaN(zoom)) {
