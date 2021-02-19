@@ -30,4 +30,4 @@ jobs:
         username: nashur_0
         password: ${{ secrets.ftp_password }}
         local-dir: ./build/
-        server-dir: /public_html/map/
+        server-dir: /map/
