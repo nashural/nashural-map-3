@@ -1,4 +1,6 @@
-.Groups {
+.Groups {}
+
+.Groups-wrapper {
   overflow-y: scroll;
 }
 
@@ -27,15 +29,33 @@ a.Group.active {
 }
 
 .Groups-search {
-  padding: 0.5rem;
+  display: flex;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.Groups-search:focus-within {
+  
 }
 
 .Groups-search__input {
   box-sizing: border-box;
   width: 100%;
-  padding: 0.2rem;
-  border: 1px solid #0274a0;
+  border: none;
   font-size: 1.1rem;
+}
+
+.Groups-search__clear-btn {
+  border: none;
+  background: transparent;
+  padding: 0.3rem;
+}
+
+.Groups-search__search-btn {
+  border: 1px solid #ffffff;
+  background: #0074a0;
+  color: #ffffff;
+  padding: 0.3rem;
 }
 
 .GroupSearchResult {
@@ -55,5 +75,14 @@ a.Group.active {
 .GroupSearchResult-feature.active,
 .GroupSearchResult-feature:hover {
   color: #ffffff;
+  background-color: #0274a0;
+}
+
+.GroupsHeader {
+  display: flex;
+  align-items: center;
+  height: var(--header-height);
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
   background-color: #0274a0;
 }

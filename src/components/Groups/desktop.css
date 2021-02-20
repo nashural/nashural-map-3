@@ -1,3 +1,10 @@
 .Groups.desktop {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
   grid-area: groups;
+}
+
+.GroupsHeader {
+  height: 56px;
 }

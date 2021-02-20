@@ -5,9 +5,9 @@ import "./mobile.css";
 import { DESKTOP, MOBILE } from "../../constants/mediaQueries";
 import React, { FC, useEffect } from "react";
 
+import { GroupsHeader } from "./GroupsHeader"
 import { GroupsList } from "./GroupsList";
 import { GroupsProps } from "./typings.d";
-import { GroupsSearch } from "./GroupsSearch";
 import Media from "react-media";
 import { SearchResult } from "./SearchResult";
 import { enabledSelector } from "../../store/slices/search";
@@ -33,8 +33,10 @@ export const Groups: FC<GroupsProps> = () => {
           <div
             className={`Groups ${mobile ? "mobile" : ""} ${desktop ? "desktop" : ""}`}
           >
-            <GroupsSearch />
-            {enabled ? <SearchResult /> : <GroupsList />}
+            <GroupsHeader />
+            <div className="Groups-wrapper">
+              {enabled ? <SearchResult /> : <GroupsList />}
+            </div>
           </div>
         );
       }}

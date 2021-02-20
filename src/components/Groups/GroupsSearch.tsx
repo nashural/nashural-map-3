@@ -20,6 +20,24 @@ export const GroupsSearch: FC<GroupsSearchProps> = () => {
     [dispatch]
   );
 
+  const handleClear = useCallback(
+    () => {
+      dispatch(
+        performSearch({ query: '' })
+      )
+    },
+    [dispatch]
+  )
+
+  const handleSearch = useCallback(
+    () => {
+      dispatch(
+        performSearch({ query })
+      )
+    },
+    [dispatch, query]
+  )
+
   return (
     <div className="Groups-search">
       <input
@@ -29,6 +47,18 @@ export const GroupsSearch: FC<GroupsSearchProps> = () => {
         placeholder="Найти место..."
         onChange={handleQueryChange}
       />
+      <button
+        className="Groups-search__clear-btn"
+        onClick={handleClear}
+      >
+        <i className="fa fa-times"></i>
+      </button>
+      <button
+        className="Groups-search__search-btn"
+        onClick={handleSearch}
+      >
+        <i className="fa fa-search"></i>
+      </button>
     </div>
   );
 };

@@ -27,3 +27,7 @@ export interface GroupSearchResultProps {
 export interface SearchResultFeatureProps {
   feature: GeoJSONFeature
 }
+
+export interface GroupsHeaderProps {
+  
+}
