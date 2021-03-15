@@ -236,6 +236,7 @@ LocationTool.MapView.prototype = {
 LocationTool.DOMView = function () {
   this._element = $('form')
   this._mapIframe = new MapIframe()
+  this._mapShortcode = new MapShortcode()
   this._onChangePlaceName = this._onChangePlaceName.bind(this)
   this._placeName = $('#placeName')
   this._placeName.on('change', this._onChangePlaceName)
@@ -258,7 +259,9 @@ LocationTool.DOMView.prototype = {
   render: function (data) {
     $.each(data, $.proxy(this._setData, this))
     this._mapIframe.setData(data)
+    this._mapShortcode.setData(data)
     this._mapIframe.render()
+    this._mapShortcode.render()
   },
   /**
    * Очистка DOM-отображения.
@@ -271,6 +274,7 @@ LocationTool.DOMView.prototype = {
     this._placeName.clear()
     this._placeName.off('change', this._onChangePlaceName)
     this._mapIframe.clear()
+    this._mapShortcode.clear()
   },
   /**
    * Форматируем координату до 6-ти точек после запятой.
@@ -300,7 +304,9 @@ LocationTool.DOMView.prototype = {
   },
   _onChangePlaceName (e) {
     this._mapIframe.setPlaceName($('#placeName').val())
+    this._mapShortcode.setPlaceName($('#placeName').val())
     this._mapIframe.render()
+    this._mapShortcode.render()
   }
 }
 
@@ -326,6 +332,35 @@ MapIframe.prototype = {
       : ''
     this._$el.val(
       `<iframe src="/map.php?lat=${lat}&lon=${lon}&zoom=${zoom}${placePart}" width="100%" height="600" frameborder="0" align="center"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span><span style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" data-mce-type="bookmark" class="mce_SELRES_start">﻿</span><span style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" data-mce-type="bookmark" class="mce_SELRES_start">﻿</span><span style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" data-mce-type="bookmark" class="mce_SELRES_start">﻿</span><span style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" data-mce-type="bookmark" class="mce_SELRES_start">﻿</span>Ваш браузер не поддерживает плавающие фреймы!</iframe>`
+    )
+  },
+  clear () {
+    this._$el.clear()
+  }
+}
+
+function MapShortcode () {
+  this._$el = $('#mapShortcode')
+  this._data = {}
+}
+
+MapShortcode.prototype = {
+  constructor: MapShortcode,
+  setData (data) {
+    Object.assign(this._data, data)
+  },
+  setPlaceName (placeName) {
+    this._data.place = placeName
+  },
+  render () {
+    var lat = this._data.mapCenter[0]
+    var lon = this._data.mapCenter[1]
+    var zoom = this._data.mapZoom
+    var placePart = this._data.place
+      ? `place="${encodeURIComponent(this._data.place)}"`
+      : ''
+    this._$el.val(
+      `[sc name="nashural-map" lat="${lat}" lon="${lon}" zoom="${zoom}" ${placePart}]`
     )
   },
   clear () {
